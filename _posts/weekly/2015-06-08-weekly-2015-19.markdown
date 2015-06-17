@@ -12,7 +12,7 @@ categories: weekly
 * [移动web问题小结](http://www.alloyteam.com/2015/06/yi-dong-web-wen-ti-xiao-jie/)，挺有用的小细节。
 
 **后端技术，操作系统、虚拟化、存储、网络、桌面领域**
-{::preview end /}
+<!--preview-end-->
 
 * [NEW RDS deployment model: Personal Session Desktops!](http://microsoftplatform.blogspot.nl/2015/06/new-rds-deployment-model-personal.html)Windows Server 2016 RDS新增桌面类型**Personal Session Desktops**，基本就是直接用Server版当桌面用，这跟之前有什么区别（本以为能用容器技术实现一个Virtual Desktop和Session Host中间的模式）？于是，一帮人都在评论微软的授权问题，Brain Madden也在[抱怨微软桌面访问授权之折腾](http://www.brianmadden.com/blogs/brianmadden/archive/2015/06/10/server-os-based-vdi-is-an-official-quot-feature-quot-of-windows-server-2016-apparently-microsoft-plans-to-continue-screwing-us-for-years-to-come.aspx)。
 * 专为教育行业打造，[**升腾“云教室”方案发布**](http://server.zdnet.com.cn/server/2015/0612/3055049.shtml)，“升腾对各大虚拟化平台都有着良好的兼容性，包括XEN、ESX、KVM等，而在虚拟化层之上就是升腾**自己研发的云桌面工作负载引擎**，负责资源控制、访问控制、桌面控制、管理控制，也就是前文提到过的集中的后台管理工作”。“该解决方案还能兼容最主流的教学软件和应用软件，满足所有个性化教学的需求。值得一提的是，该款“云教室”解决方案支持**720P高清视频的流畅播放**，且对视频源及播放器无限制”。官方[原文](http://en.centerm.com/About/NewsDetail.aspx?ItemID=935)，还没搜到这**CenDesktop**的详细介绍。另外一个新闻，[关于要求停止侵犯升腾资讯外设映射（SEP）等专利技术行为的通知](http://en.centerm.com/About/NewsDetail.aspx?ItemID=889)。

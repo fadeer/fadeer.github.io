@@ -13,7 +13,7 @@ categories: weekly
 * [Web性能API——帮你分析Web前端性能](http://www.infoq.com/cn/news/2015/06/web-performance-api)。
 
 **后端技术，操作系统、虚拟化、存储、网络、桌面领域**
-{::preview end /}
+<!--preview-end-->
 
 * [Hyperconverged with Windows Server 2016](http://www.hyper-v.nu/archives/dvanderpeijl/2015/06/hyperconverged-with-windows-server-2016)，微软的超融合方案，**Storage Spaces Direct，把多个Server上的本地磁盘池化，连成一个大的虚拟磁盘**。这值得一试啊，以前的Storage Pool层次太多了，两篇详细点儿的：[Testing Storage Spaces Direct](http://blogs.msdn.com/b/clustering/archive/2015/05/27/10617612.aspx)，[Windows Server 2016 with Storage Spaces Direct](https://robertsmit.wordpress.com/2015/05/12/windows-server-2016-with-storage-spaces-direct-building-sofs-with-storage-spaces-direct-winserv-win2016-s2d-howtopics/)，[Storage Spaces Direct in Windows Server Technical Preview](https://msdn.microsoft.com/en-us/library/mt126109.aspx?f=255&MSPPError=-2147217396)。基本结构就是HP VSA那种，“分布式存储”的访问接口就是SMB3，如果供给Hyper-V用，可以是单机，但是存储层的Cluster可能还免不了。
 * 微软最近确实开明了不少啊，[Windows将原生支持SSH](http://www.solidot.org/story?sid=44294)。
