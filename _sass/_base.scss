@@ -15,7 +15,7 @@ dl, dd, ol, ul, figure {
  */
 body {
     font-family: $base-font-family;
-    font-size: $small-font-size;
+    font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
@@ -68,7 +68,7 @@ ul, ol {
 }
 
 li {
-	margin-bottom:4px;
+	margin-bottom:5px;
     > ul,
     > ol {
          margin-bottom: 0;
@@ -94,12 +94,12 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        /*color: darken($brand-color, 15%);*/
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        /*color: $text-color;
+        text-decoration: underline;*/
     }
 }
 
@@ -159,8 +159,10 @@ pre {
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    /*padding-right: $spacing-unit;
+    padding-left: $spacing-unit;*/
+    padding-right: 10px;
+    padding-left: 10px;
     @extend %clearfix;
 
     @include media-query($on-laptop) {

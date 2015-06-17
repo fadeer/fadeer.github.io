@@ -12,15 +12,19 @@
 
 .site-title {
     font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
+    line-height: 48px;
+    /*letter-spacing: -1px;*/
     float: left;
+    margin: 0 15px;
 
     &,
     &:visited {
         color: $grey-color-light;
     }
+}
+
+.site-index {
+    float: right;
 }
 
 .site-nav {
@@ -236,7 +240,22 @@
 }
 
 .mNav {
-	background-color: #666;
+	background-color: #444;
 	box-shadow: 0 2px 20px rgba(0,0,0,0.5);
  	margin-top: 10px;
 }
+
+.area {
+	background-color: #fefefe;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+	padding: 20px 20px;
+	margin-bottom: 20px;
+}
+
+.person {
+	height:48px;
+	width:48px;
+	display:inline-block;
+	float: left;
+}
+

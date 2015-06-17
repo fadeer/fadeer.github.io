@@ -12,7 +12,7 @@ categories: weekly
 * [个人博客 Nginx 配置之安全篇](https://www.imququ.com/post/my-nginx-conf-for-security.html)。
 
 **后端技术，操作系统、虚拟化、存储、网络、桌面领域**
-
+<!--break-->
 * [陈年老坑之 URL Encoding](http://blog.jamespan.me/2015/05/17/url-encoding/)。
 * [超融合架构如何抹平物理硬件差异？](https://www.ustack.com/blog/moping/)UnitedStack正式提及的超融合架构，这是要再向私有云扩展？[演讲PDF](https://www.ustack.com/wp-content/uploads/2015/05/20150507-%E8%B6%85%E8%9E%8D%E5%90%88%E6%9E%B6%E6%9E%84%E2%80%94%E2%80%94%E6%89%93%E9%80%A0%E8%AE%A1%E7%AE%97%E3%80%81%E5%AD%98%E5%82%A8%E3%80%81%E7%BD%91%E7%BB%9C%E4%B8%89%E4%BD%8D%E4%B8%80%E4%BD%93%E7%9A%84IT%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD-%E5%8C%97%E4%BA%AC3W%E5%92%96%E5%95%A1.pdf)，看看技术栈的选择。
 * [Cloudbase Solutions and Canonical partner to deliver Windows Hyper-V support to BootStack managed OpenStack clouds](http://www.cloudbase.it/bootstack-hyperv/)，关键字是BootStack、Hyper-V、Keystone、Active Directory、Open vSwitch。

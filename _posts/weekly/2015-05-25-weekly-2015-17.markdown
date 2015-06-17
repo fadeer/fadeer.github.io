@@ -8,6 +8,7 @@ categories: weekly
 
 * I/O 2015：[去年大谈特谈的 Material Design 怎么不见了？](http://www.ifanr.com/526852)“设计规范应该作为一本 Guideline，像一套百变积木一样，供设计师和开发者选择性使用，设计规范的合理使用可以保证 App 在与整个系统和谐统一，同事也汇总了很多前人的经验，帮助大家躲过很多不必要的坑。科学适当的参考设计规范结合自身产品特点设计和开发才是正确的使用方法。”多看例子，多琢磨自己产品特点：[谷歌IO 2015大会6款最佳Material Design设计特色应用](http://www.cnbeta.com/articles/398183.htm)，[AVIARY设计师的MATERIAL DESIGN改版实战](http://www.uisdc.com/the-journey-to-material)。
 * [及格的产品vs优秀的产品](http://www.ikent.me/blog/5001)，“**产品经理对设计的认知变化，远远赶不上用户越来越懒越来越追求快的心智模型变化！**”一旦用户再别处懒过一次还成功了，...从产品设计的角度来讲，「输入支付密码」环节需要确认按钮吗？[作为当年设计这个界面的人之一，我来答一下](http://www.zhihu.com/question/30722261)。
+<!--break-->
 * [何谓domReady](http://www.cnblogs.com/rubylouvre/p/4536334.html)，“因此获得 所有标签都转换为DOM节点的时机就非常重要”。
 * [我是怎么从顾虑到热爱ReactJS的](http://ourjs.com/detail/5567c046d11a73aa4d000003)，与AngularJS经典MVC数据绑定的对比。
 * [如何用canvas画图表（1）扇形图和环形图](http://www.alloyteam.com/2015/05/ru-he-yong-canvas-hua-tu-biao-1-shan-xing-tu-he-huan-xing-tu/)。

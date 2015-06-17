@@ -4,21 +4,22 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
     {% for post in site.posts limit:5 %}
-      <li>
-
+    <div class="area"> 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
 
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-      </li>
+	<article class="post-content">
+           {{ post.content | split:'<!--break-->' | first }}<br><br><br>
+	   {% if post.content contains '<!--break-->' %}
+	      <a href="{{ post.url }}">阅读全文...</a>
+	   {% endif %}
+	  </article>
+    </div>
     {% endfor %}
-  </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 

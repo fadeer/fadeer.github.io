@@ -10,7 +10,7 @@ categories: weekly
 * [7个方法帮你精准判断一个LOGO的好坏](http://www.uisdc.com/7-step-logo-design-test)。
 * [苹果为何抛弃了最受欢迎的字体？](http://www.leiphone.com/news/201506/BgXiQk2GIDmJ3Hsd.html)Google的Roboto看着确实挺舒服的。
 * [移动web问题小结](http://www.alloyteam.com/2015/06/yi-dong-web-wen-ti-xiao-jie/)，挺有用的小细节。
-
+<!--break-->
 **后端技术，操作系统、虚拟化、存储、网络、桌面领域**
 
 * [NEW RDS deployment model: Personal Session Desktops!](http://microsoftplatform.blogspot.nl/2015/06/new-rds-deployment-model-personal.html)Windows Server 2016 RDS新增桌面类型**Personal Session Desktops**，基本就是直接用Server版当桌面用，这跟之前有什么区别（本以为能用容器技术实现一个Virtual Desktop和Session Host中间的模式）？于是，一帮人都在评论微软的授权问题，Brain Madden也在[抱怨微软桌面访问授权之折腾](http://www.brianmadden.com/blogs/brianmadden/archive/2015/06/10/server-os-based-vdi-is-an-official-quot-feature-quot-of-windows-server-2016-apparently-microsoft-plans-to-continue-screwing-us-for-years-to-come.aspx)。
