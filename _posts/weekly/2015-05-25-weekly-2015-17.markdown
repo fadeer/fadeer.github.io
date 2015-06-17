@@ -8,7 +8,6 @@ categories: weekly
 
 * I/O 2015：[去年大谈特谈的 Material Design 怎么不见了？](http://www.ifanr.com/526852)“设计规范应该作为一本 Guideline，像一套百变积木一样，供设计师和开发者选择性使用，设计规范的合理使用可以保证 App 在与整个系统和谐统一，同事也汇总了很多前人的经验，帮助大家躲过很多不必要的坑。科学适当的参考设计规范结合自身产品特点设计和开发才是正确的使用方法。”多看例子，多琢磨自己产品特点：[谷歌IO 2015大会6款最佳Material Design设计特色应用](http://www.cnbeta.com/articles/398183.htm)，[AVIARY设计师的MATERIAL DESIGN改版实战](http://www.uisdc.com/the-journey-to-material)。
 * [及格的产品vs优秀的产品](http://www.ikent.me/blog/5001)，“**产品经理对设计的认知变化，远远赶不上用户越来越懒越来越追求快的心智模型变化！**”一旦用户再别处懒过一次还成功了，...从产品设计的角度来讲，「输入支付密码」环节需要确认按钮吗？[作为当年设计这个界面的人之一，我来答一下](http://www.zhihu.com/question/30722261)。
-<!--break-->
 * [何谓domReady](http://www.cnblogs.com/rubylouvre/p/4536334.html)，“因此获得 所有标签都转换为DOM节点的时机就非常重要”。
 * [我是怎么从顾虑到热爱ReactJS的](http://ourjs.com/detail/5567c046d11a73aa4d000003)，与AngularJS经典MVC数据绑定的对比。
 * [如何用canvas画图表（1）扇形图和环形图](http://www.alloyteam.com/2015/05/ru-he-yong-canvas-hua-tu-biao-1-shan-xing-tu-he-huan-xing-tu/)。
@@ -16,6 +15,7 @@ categories: weekly
 * 这两天[携程出事儿](http://www.leiphone.com/news/201505/IT7G6BAn8e1gZXGc.html)了，所以得来几篇关于运维安全的文章：[安全基础教育-堡垒是从内部攻破的](http://www.cnblogs.com/zhengyun_ustc/p/sec01.html)；[小伙伴们手滑集](http://www.cnblogs.com/zhengyun_ustc/p/slip.html)，“某年研发部所有电脑硬盘被偷，95%+的产品都丢了源代码，为了维护一个已经上线的产品不得已，挂 HttpHandler 来处理”；[华为内部的Web安全原则](http://mp.weixin.qq.com/s?__biz=MzAxMjAwMjUxNQ==&mid=207881605&idx=1&sn=2fce890233828adaa90364e3c8633f4a&scene=1&key=c468684b929d2be2e72bdeea4c902b28ce440293159aa6e868c80f0ada82f7b7bee8ee2381d94cf812e107e0c39ff9e4&ascene=0&uin=Mjc5MDYwMDk0MA%3D%3D&devicetype=iMac+MacBookPro11,1+OSX+OSX+10.10.3+build(14D136)&version=11020012&pass_ticket=9IxyMgqyWjsfSKw4iuGCYskt5Jd1skh5b23Jv4vjt3udF9Tx2vAI0uc2Hmk7sHqW)。
 
 **后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+{::preview end /}
 
 * Azure Stack相关两篇：[当Azure遇上Docker](http://maomaostyle.blog.51cto.com/2220531/1654994)，[Windows Nano Server测试和Azure Stack揭秘](http://markwin.blog.51cto.com/148406/1654636)，这个管理界面的设计沿自Azure Web的，但是也有不少改进，值得参考。
 * [闲聊Openstack中国的商业模式](http://www.chenshake.com/chat-openstack-business-model-in-china/)，确实**谈了很多现实的问题**。“当你把Openstack已经做的和vmware差不多的情况下，客户就会提出更多的问题，每个问题都会让你无比的恶心：... 11.能支持VDI吗，最好可以搞定U盘重定向”。
