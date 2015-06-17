@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "每周技术文章 2015.12"
+date:   2015-03-29 12:00:00
+categories: weekly
+---
+**前端技术，界面、交互、安全**
+
+* [可视化设计之迷失扁平化](http://techgogogo.com/2015/04/可视化设计之迷失扁平化/)，对扁平化设计“一统江湖”的思考，[评论](http://www.huxiu.com/article/112177/1.html?f=wangzhan#odby)有亮点。
+* [React 入门实例教程](http://www.ruanyifeng.com/blog/2015/03/react.html)。
+* [中文互联网终于有排版规范](http://www.ifanr.com/507006?utm_source=rss&utm_medium=rss&utm_campaign=)，W3C 的《中文排版规范》**对于中文网络世界有着重要的意义。它可为将来的创业者、产品开发人员提供一份权威性的参考性文件，保证中文网页、中文 App 基本的美感**。[《中文排版需求》](http://www.w3.org/International/docs/chinese-layout/zh/)。
+* [中国对GitHub发动的是Man-on-the-side攻击](http://www.solidot.org/story?sid=43530)，评论有很多亮点。
+
+**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+
+* [3.28 OpenStack技术论坛](http://www.openstack.cn/p3312.html)，Intel的讲Nova；EasyStack的讲Neutron；中兴讲自动化部署与高可用；京东讲Docker实践。有下载。
+* [Node.js十大常见的开发者错误](http://www.alloyteam.com/2015/04/translate-top-10-common-nodejs-developer-mistakes/)，不明觉厉，**监控服务得用上**。
+* [Here's the most brilliant diagram to explain the landscape of desktop virt, mobility, and devices](http://www.brianmadden.com/blogs/brianmadden/archive/2015/04/08/here-s-the-most-brilliant-diagram-to-explain-the-landscape-of-desktop-virt-mobility-and-devices.aspx)，可以**填填看，iDES覆盖了那些范围**。
+* node-webkit在树莓派上跑的话题[还在讨论](https://github.com/nwjs/nw.js/issues/193)，有编译好、可用的版本但是还不够新。再去看AppJS，基本[停止开发](https://github.com/appjs/appjs/blob/master/README.md)了，Issue区都关了。开发重点要迁移到[DeskShell](https://github.com/sihorton/appjs-deskshell/)?**Client Utility的界面是不是可以考虑用Node-Webkit更新一下**，新版0.12（Mar 5, 2015）已经支持到“IO.js v1.2.0, Chromium 41.0.2272.76”了，开发很积极啊。
+* [微软公开宣布Windows Docker和Nano Server啦](http://mp.weixin.qq.com/s?__biz=MzA3NTM1MzE4Nw==&mid=203833166&idx=1&sn=c87aa6cdd303de7a3241986d7f8dbd18#rd)，**Nano Server**，面向“云服务应用”的Windows运行环境，显然跟Linux Docker的主要场景是一致的。**去掉了GUI支持，所以桌面应用就别想了**。更重要的话题是Container的管理。
+* [IPsec PPTP L2TP 的差異](http://life.different.idv.tw/scottwu/37.htm)。
+* 青云案例，[通过「足记」紧急技术支持过程看设计和运营一款优秀的移动社交App应该注意哪些技术问题](http://mp.weixin.qq.com/s?__biz=MjM5NDcyNzkwMw==&mid=203515922&idx=1&sn=77a3ea14304daa6e24b62f548f396deb&scene=5#rd)。
+* [青云QingCloud云桌面功能上线](https://log.qingcloud.com/?p=763)，针对每副画面自动选择压缩模式，提供清晰的显示效果的同时减少网络流量。语音旁路解决方案，VOIP 语音达到电信级语音质量。支持 usb 等广泛外设，良好的软件兼容性，全面支持主流应用软件。[官方文档](https://docs.qingcloud.com/guide/cloud_desktop.html)。
+* [云游戏先驱Onlive本月关闭：盘点现有云游戏服务](http://www.wpdang.com/archives/134790.html)，大玩家的云游戏服务还都在初期，什么时候正式啊。
+* [环信CTO：解析即时通讯云平台技术难点](http://www.infoq.com/cn/news/2015/04/easemob-im-platform?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global)。
+
+**硬件设备，ARM、终端、移动、智能设备**
+
+* [React Native通信机制详解](http://blog.cnbang.net/tech/2698/)，“先不说这个框架后续是否能得到大众认可，单从源码来说，这个框架源码里有非常多的设计思想和实现方式值得学习，本篇先来看看它最基础的JavaScript-ObjectC通信机制”。
+* [Google的RK3288电视棒](http://www.ifanr.com/507311?utm_source=rss&utm_medium=rss&utm_campaign=)，跑ChromeOS的。
+* [2014中国移动应用性能管理白皮书](http://vdisk.weibo.com/s/FcZ6ha4dwayyS)，提到的几个方面都是影响用户体验的；3、4G网络响应速度方面，天津电信很突出啊，联通平平，这个移动...，不过，响应是不是跟用户数成反比呀，哈哈。
+* [Apple Watch两个月开发的一些收获总结](http://www.infoq.com/cn/articles/watch-app-development?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global)，突然想，斯坦福的大爷，明年该讲两节Watch课了？
+
+**市场、产品、项目**
+
+* 马化腾说：[腾讯兵法教你做一款高口碑的产品](http://www.woshipm.com/pd/146742.html)，Pony是腾讯的首席体验官、首席产品经理。本文是Pony在腾讯峰会时的分享。以QQ影讯和QQ邮箱为例子，详细的分享了产品经理在产品设计、运营和交互工作时如何去找准产品的核心功能点，打造优秀产品。
+* [与传统工作方式说再见吧](http://techcrunch.cn/2015/04/01/a-farewell-to-jobs)。“当你们能被轻而易举地代替时，那么严格地说，你们就贬值了；现在，科技正在用一种越来越没有摩擦的劳动力来取代原有的劳动力。” 如何成为难以被替代的程序员，这里有秘籍。
+* 解密小米（原文刊载于3月30日《财经》）：[一、意外的“失败”](http://songwei.baijia.baidu.com/article/51793)，[二、雷军的管理师承](http://songwei.baijia.baidu.com/article/51977)，后三个稍后会贴出，三、独特的供应链，四、帝国的隐秘，五、雷军的手。不过看起来也有点儿虚，再转个其他人的，[小米的两个大词](http://weiwuhui.com/6569.html)。
+* 来自**中央党校-中国干部学习网**高大上的APP，[学习中国](http://www.appinn.com/xue-xi-zhong-guo/)，这是一款**针对某一领域知识进行专业化学习**的应用软件。“本系统展示的内容是习近平同志十八大以来的系列重要讲话和相关知识。”“网民可以选择自己喜欢的方式、利用碎片化时间随时学习习近平同志的重要讲话，领会其重要精神。” [App Store](https://itunes.apple.com/cn/app/xue-xi-zhong-guo/id951627664?mt=8)
+
+**团队建设**
+
+* **知道创宇研发技能表**[v2.2](http://blog.knownsec.com/Knownsec_RD_Checklist/v2.2.html)，“知道创宇是国内Geek十足且普遍被认为特别有前途的互联网安全公司”。通用技能可能是比专业技能更重要的部分。
+* 伊光旭，颠覆式创新研习社，[关于效率](http://www.woshipm.com/pmd/145600.html)，随便看看吧。
+* [设计师必须向产品经理学习的四个技能点](http://www.uisdc.com/designer-learn-from-pm)，必须要能针对问题提出周延的框架，简洁、直接地沟通，化整为零，让计划可行，最佳化你的大局观。
+
+**图书**
+
+* [《从0到1：开启商业与未来的秘密》](http://www.duokan.com/book/86524)，没买可以先看个[读书笔记](http://blog.devtang.com/blog/2015/04/04/from-0-to-1-book-summary/)了解个大概。“**用科学的方法寻找 “反主流” 的观点和商业机会；独立思考，不随大众，也不刻意抵制潮流；努力形成垄断；保持清醒的竞争；要做精益创业，但更需要有长期规划；市场和运营人员的工作难度是高于开发团队的。**”
+

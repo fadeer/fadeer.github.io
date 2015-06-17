@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "每周技术文章 2015.8"
+date:   2015-02-28 12:00:00
+categories: weekly
+---
+**前端技术，界面、交互、安全**
+
+* [关于前端开发的20篇文档与指南](http://www.cnblogs.com/rubylouvre/p/4307984.html)，相信在2015年很多这个行业的人都会有这样的两种感受：**真的不知所措，这个行业到底有多少东西需要去学习**；**渴望更多，并迫不及待的为接下来的学习寻求一些思想方向**。所以本文整理一些有用的信息，希望可以帮助相关领域的前端开发人员。
+* Feedly移动版设计，[Material Design的一次设计探索](http://www.aliued.cn/2015/03/04/material-design的一次设计探索.html)。
+
+**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+
+* [活动目录安全底层深入分析](http://mp.weixin.qq.com/s?__biz=MzA3NTM1MzE4Nw==&mid=203017994&idx=1&sn=916c5c78774647e31f079563f62eeb69#rd)，说了两个事儿，委派内部原理 和 服务SID。
+* [沃尔玛部署超大规模生产级OpenStack环境](http://www.openstack.cn/p3220.html)，超10万个cpu core（近万台服务器），在去年的节日期间，Walmart.com在美国的整个生产流量是跑在OpenStack环境下的。
+* [产品经理们是如何越过 iOS 沙盒机制的？](http://www.leiphone.com/news/201503/ta8xRgnFPN2b0sj4.html)，这也是迫不得已啊。
+* [关于VHD文件的碎片检查和整理](http://blogs.msdn.com/b/virtual_pc_guy/archive/2015/03/04/checking-and-correcting-virtual-hard-disk-fragmentation.aspx)，命令就这样“get-vm "VM Name" | Get-VMHardDiskDrive | get-vhd | Select path, FragmentationPercentage”，这个碎片说的是，动态扩展的VHD文件，在物理磁盘上分布的不连续。
+* [HTTP 资源的同步](http://jaseywang.me/2015/03/07/http-资源的同步/)，lftp，貌似有点儿用。
+* [Scale-Out File Server – Symmetric and Asymmetric storage](http://www.hyper-v.nu/archives/dvanderpeijl/2015/03/scale-out-file-server-symmetric-and-asymmetric-storage/#utm_source=feed&utm_medium=feed&utm_campaign=feed)。
+
+**硬件设备，ARM、终端、移动、智能设备**
+
+* [Android性能优化典范](http://www.techug.com/android-performance-patterns)，“2015年伊始，Google发布了关于Android性能优化典范的专题[YouTube](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE)，一共16个短视频，每个3-5分钟，帮助开发者创建更快更优秀的Android App。课程专题不仅仅介绍了Android系统中有关性能问题的底层工作原理，同时也介绍了如何通过工具来找出性能问题以及提升性能的建议。主要从三个方面展开，Android的渲染机制，内存与GC，电量优化。”
+
+**市场、产品、项目**
+
+* [Suse推出基于Ceph的SUSE Enterprise Storage](http://www.infoq.com/cn/news/2015/03/suse-ceph-enterprise-storage)，该产品基于Ceph的Firefly版本，是Ceph的商业支持版本，具有缓存和分层、自动精简配置、写时复制和纠删码等功能。
+* [2014开源软件发展调查报告发布](http://www.infoq.com/cn/news/2015/02/2014-open-source-report)，完整报告见[slideshare](http://www.slideshare.net/blackducksoftware/2014-future-of-open-source-survey-results)，这是全球的，再来看看[中国的开源浪潮](http://www.infoq.com/cn/news/2015/02/china-open-source)。
+* [SDN+白盒 是赌博还是革命](http://net.zdnet.com.cn/network_security_zone/2015/0228/3047068.shtml)，“第一：在现阶段，掌握交换机硬件比掌握控制器有更大的话语权。第二：只有将控制器和交换机软件进行整体设计和施工才能让SDN真正落地。”
+* [这篇文章](http://www.brianmadden.com/blogs/gabeknuth/archive/2015/03/06/is-xenclient-next-on-the-chopping-block-for-citrix.aspx)，讨论了XenClient的现状和未来，Citrix这个客户端虚拟化方案推出了也很久了，总体看来，应用的场景还是不够多。但是评论也有支持者啊，对于企业IT，把桌面管理都统一到虚拟机，倒是另一个极端了，哈哈。
+* [PC进化的下一步，是消灭你桌上的实体电脑](http://www.36kr.com/p/220239.html)，这也太标题党了，其实就是ThinClient+远程桌面代替电脑。
+
+**团队建设**
+
+* [怎样尊重一个程序员](http://www.jianshu.com/p/b588d62daaa0)，什么是不变的呢？
+* 高效运维最佳实践，[2.员工的四大误区及解决之道](http://www.infoq.com/cn/articles/effective-ops-part-02?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global)。
+

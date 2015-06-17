@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "每周技术文章 2015.19"
+date:   2015-06-08 12:00:00
+categories: weekly
+---
+**前端技术，界面、交互、安全**
+
+* [聊聊界面中常用的对齐形式](http://www.uisdc.com/ui-common-alignment-mode)。
+* [7个方法帮你精准判断一个LOGO的好坏](http://www.uisdc.com/7-step-logo-design-test)。
+* [苹果为何抛弃了最受欢迎的字体？](http://www.leiphone.com/news/201506/BgXiQk2GIDmJ3Hsd.html)Google的Roboto看着确实挺舒服的。
+* [移动web问题小结](http://www.alloyteam.com/2015/06/yi-dong-web-wen-ti-xiao-jie/)，挺有用的小细节。
+
+**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+
+* [NEW RDS deployment model: Personal Session Desktops!](http://microsoftplatform.blogspot.nl/2015/06/new-rds-deployment-model-personal.html)Windows Server 2016 RDS新增桌面类型**Personal Session Desktops**，基本就是直接用Server版当桌面用，这跟之前有什么区别（本以为能用容器技术实现一个Virtual Desktop和Session Host中间的模式）？于是，一帮人都在评论微软的授权问题，Brain Madden也在[抱怨微软桌面访问授权之折腾](http://www.brianmadden.com/blogs/brianmadden/archive/2015/06/10/server-os-based-vdi-is-an-official-quot-feature-quot-of-windows-server-2016-apparently-microsoft-plans-to-continue-screwing-us-for-years-to-come.aspx)。
+* 专为教育行业打造，[**升腾“云教室”方案发布**](http://server.zdnet.com.cn/server/2015/0612/3055049.shtml)，“升腾对各大虚拟化平台都有着良好的兼容性，包括XEN、ESX、KVM等，而在虚拟化层之上就是升腾**自己研发的云桌面工作负载引擎**，负责资源控制、访问控制、桌面控制、管理控制，也就是前文提到过的集中的后台管理工作”。“该解决方案还能兼容最主流的教学软件和应用软件，满足所有个性化教学的需求。值得一提的是，该款“云教室”解决方案支持**720P高清视频的流畅播放**，且对视频源及播放器无限制”。官方[原文](http://en.centerm.com/About/NewsDetail.aspx?ItemID=935)，还没搜到这**CenDesktop**的详细介绍。另外一个新闻，[关于要求停止侵犯升腾资讯外设映射（SEP）等专利技术行为的通知](http://en.centerm.com/About/NewsDetail.aspx?ItemID=889)。
+* 骗钱的又来了，[2015-2020年中国IT咨询行业现状研究分析及市场前景预测报告](http://www.cir.cn/R_QiTaHangYe/27/ITZiXunDeFaZhanQuShi.html)，**优惠价7020元**。
+* [Windows Nano Server疑难逐个数](http://mp.weixin.qq.com/s?__biz=MzA3NTM1MzE4Nw==&mid=206158396&idx=1&sn=46cc3f57e34fdad72c1ac2b8309c625e#rd)，基础知识，新鲜的是介绍了如何初装一个nano server。
+* [源码解读ODL与OpenFlow交换机建立过程](http://www.sdnlab.com/12035.html)。
+* [Google为什么要把最重要的秘密开源？](http://36kr.com/p/533781.html)这说的是Kubernetes，它没有Borg或者Borg的继任者Omega那么复杂。从目前情况来看，它不能管理那么多台机器。“我们仍在朝着接近Borg同等规模努力，”Beda说：“Kubernetes初期关注的焦点是核心概念要对。”
+* 又更进一步了，[Nutanix Xtreme Computing Platform (XCP) & Acropolis Hypervisor](http://myvirtualcloud.net/?p=7086)，包装了KVM作为方案默认的Hypervisor。另外，Nutanix[社区版可以免费获取了](http://myvirtualcloud.net/?p=7135)，最多支持4节点，数据复制双份。
+* [高效的 Linux 限流神器 **Trickle**](http://blog.eood.cn/linux-trickle?dba)，OS Agent下载软件包应该能用上。
+* [Inside NGINX: How We Designed for Performance & Scale](http://nginx.com/blog/inside-nginx-how-we-designed-for-performance-scale/)，[译文](http://ifeve.com/inside-nginx-how-we-designed-for-performance-scale/)。
+* [PowerShell 2.0将pscustomobject转换成Json字符串](http://www.pstips.net/convert-pscustomobject-to-json.html)，补足2.0时没有ConvertTo-Json的限制，其实ConvertTo-Json遇到导入对象时，会输出一个很大的串，反倒不如这个简单的省心。
+* [Power Shell Robocopy Backup](https://gallery.technet.microsoft.com/scriptcenter/Power-Shell-Robocpy-Backup-ce1c198b)，“This script was created to help you to make file server backups.It **keeps all ACL permissions, timestamp and the structure folders** using powershell with robocopy”。看着很有用哈，其实核心内容也就一行，“robocopy $Source $Destination\\$Folder *.* /mir /sec”。
+* [如何拯救一台glibc被干掉的Linux服务器?](http://zhuanlan.zhihu.com/iobject/20062978)，这个很有想法，哈哈。
+
+**硬件设备，ARM、终端、移动、智能设备**
+
+* [开发者所需要知道的 iOS 9 SDK 新特性](http://onevcat.com/2015/06/ios9-sdk/)。
+* [5个应该跳过的APPLE WATCH设计模式](http://www.uisdc.com/avoid-5-apple-watch-patterns)。
+
+**市场、产品、项目**
+
+* [好产品六字法则——刚需、痛点、高频](http://www.woshipm.com/pd/162009.html)，我总觉着，目前最好的产品，就是移动电源。
+* [微信订阅号配置及运营手册](http://www.woshipm.com/operate/163194.html)，学学，什么《你所不知道的运营微信订阅号128大技巧》。
+* [搜索引擎营销推广技巧](http://www.williamlong.info/archives/4265.html)
+* 补一篇上周的，[Openstack国内商业模式搞笑版](http://www.chenshake.com/openstack-domestic-business-model-funny-version/)，感觉还是**培训咨询**模式比较健康啊。
+
+**团队建设**
+
+* [充滿工程師思維的 Google，是怎麼終於為自己注入設計精神？](http://www.inside.com.tw/2015/06/11/how-google-finally-got-design)光快是不行了，好看好用也是必须的。 
+* [编程语言与思维：科技公司如何自我重构？](http://www.techug.com/how-to-refactor-tech-company)“软件创业公司能够做到这一点调整，或许能够帮助解释为什么他们如此强大。计算机不端扩张的触及领域也是如此。这些软件公司同样具有独特的能力，重新构建自我。随着变化和发展，它们能够做的不仅仅是组织机构调整，因为它们基于代码设计，所以能够实现更加巨大的变化。它们能够重编自身，它们的文化，以及它们思考的方式。”这个结论看着挺激动的，但是要求也很高啊。
+* 关于产品经理，[5点总结](http://www.woshipm.com/pmd/142279.html)，[掉过的坑](http://www.woshipm.com/pmd/161385.html)。重点是后面这个，**思考问题的全面性，产出物的一致性，需求PK的逻辑性**，做功能设计，心里也要有这样的要求。
+* [小黄鸭调试法](http://www.techug.com/debugger)，每个人都要找到自己学习的方法，这是一种。
+* [极限与现实](http://blog.lofyer.org/%E6%9E%81%E9%99%90%E4%B8%8E%E7%8E%B0%E5%AE%9E/)，鸡汤，“够不够格只是于自己来看，从来没有资历问题，只是上与不上的问题。上了，你就有，不上，你就没有”。
+
+**图书**
+
+* [《领导力与新科学》](http://book.douban.com/subject/3349621/)，一篇读后感，[世界其实是混沌的](http://www.ikent.me/blog/5011)，“使命与价值观是驱动企业胜利的法宝，阿里巴巴就是这样的；参与感是产品设计的制胜法宝，小米就是这样的；允许员工自主决策是企业突飞猛进的法宝，内部创业与小组式产品研发就是这样的”。
+
+

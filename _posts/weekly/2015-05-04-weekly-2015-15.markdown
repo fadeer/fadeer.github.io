@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "每周技术文章 2015.15"
+date:   2015-05-04 12:00:00
+categories: weekly
+---
+**前端技术，界面、交互、安全**
+
+* [设计师需知的LOADING进度条动效形式](http://www.uisdc.com/common-loading-animation-design)。
+* [网页性能之Html Css Javascript](http://www.alloyteam.com/2015/05/wang-ye-xing-neng-zhi-html-css-javascript/)，**结论**：在head里面尽量不要引入javascript；如果要引入js 尽量将js内嵌；把内嵌js放在所有css的前面。
+* 《[设计师要懂心理学](http://book.douban.com/subject/23708491/)》的一个读书笔记，[18条交互设计和心理学之间的奇妙联系](http://www.woshipm.com/ucd/153105.html)。人，设计如此。
+* [视觉设计师的五项技能修炼方法](http://www.uisdc.com/5-visual-design-in-practice)，练习草绘、严格使用网格、练习留白、练习字体组合表达内容、练习色彩搭配。
+* [革命年代的字型：俪宋](http://www.typeisbeautiful.com/2015/05/9298/)，Type is Beautiful 今起与 Justfont 内容合作，将定期刊登 Justfont 精品文章，意在将优质内容推荐给更多的读者。本文为第一期，讲述桌面出版早期的传奇字体「俪宋」的故事。
+* [2015-2016交互体验趋势](http://mux.baidu.com/?p=8242)，有点儿虚，凑合看看吧。
+* [再见Metro，Windows 10通用应用设计趋势分析](http://isux.tencent.com/windows-10-design-trend.html)，好像还没看到Windows 10的交互规范，估计也快了。
+* [关于社会工程学攻击的一次探索](http://security.zdnet.com.cn/security_zone/2015/0507/3052095.shtml)，系统最大漏洞之一，人。
+
+**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+
+* **人们为什么使用VDI？**[原因只有一个](http://www.brianmadden.com/blogs/brianmadden/archive/2015/05/06/why-do-people-use-vdi-one-reason.aspx)，用户只是希望能够**用他手头的设备，来使用工作必须的程序**。
+* [中企通信发布DaaS桌面云解决方案](http://cio.zdnet.com.cn/cio/2015/0514/3052647.shtml)，它自家的虚拟机服务，然后包装VMware Horizon（私有桌面云）的业务啊。看来Vmware自家的DaaS服务方案还没进中国。
+* Citrix开大会了，Citrix Synergy 2015，这会上才能**看出桌面服务领域的发展**来，各家也会有新产品发布。比如：[ZDNet现场直播新闻](http://server.zdnet.com.cn/server/2015/0507/3052138.shtml)，[Dell Unveils Desktop Virtualization Solution Designed for Citrix and Tailored to the Needs of Small and Medium Enterprises](http://vmblog.com/archive/2015/05/12/dell-unveils-desktop-virtualization-solution-designed-for-citrix-and-tailored-to-the-needs-of-small-and-medium-enterprises.aspx#.VVWsNfmqqE0)，
+* [Scheme 初步](http://onevcat.com/2015/05/scheme/)。
+* [Powershell 所需状态配置 (DSC)开课了](http://www.pstips.net/powershell-dsc-open-lesson.html)，在[微软虚拟学院](http://www.pstips.net/goto/http://www.microsoftvirtualacademy.com/training-courses/getting-started-with-powershell-desired-state-configuration-dsc-cn)里。另外，PowerShell DSC for Linux也[Release了](http://blogs.msdn.com/b/powershell/archive/2015/05/06/powershell-dsc-for-linux-is-now-available.aspx)。
+* ECMAScript6 异步编程后两节，[co 函数库的含义和用法](http://www.ruanyifeng.com/blog/2015/05/co.html)，[async 函数的含义和用法](http://www.ruanyifeng.com/blog/2015/05/async.html)。
+* [Kubernetes 的另一面](http://www.wzxue.com/kubernetes/)，以前大概看过**Kubernetes**，看来之前还是想简单了。
+* [在Linux进行IO的正确姿势](http://www.ideawu.net/blog/archives/880.html)，得回顾一下freerdp里EAGAIN怎么处理的了。
+* Ceph两篇，[Ceph中的序列化](https://www.ustack.com/blog/cephxuliehua/)，[Ceph中Bufferlist的设计与使用](https://www.ustack.com/blog/bufferlist/)。
+* 微软又开大会了Ignite（[Channel 9 入口](http://channel9.msdn.com/Events/Ignite/2015)），包括之前的Build大会，**Container和HyperV技术都是一个重点**，转一些：[Windows Docker第一时间揭秘](http://markwin.blog.51cto.com/148406/1649973)，里面Demo启动了一个Container Windows，并且打开了一个GUI程序，涉及了RDP服务，这个值得琢磨啊；[HyperV相关内容](http://blogs.technet.com/b/virtualization/archive/2015/05/13/hyper-v-content-at-ignite.aspx)；[RDS在Server 2016和Azure RemoteApp的内容](http://blogs.msdn.com/b/rds/archive/2015/05/08/remote-desktop-services-and-azure-remoteapp-at-ignite.aspx)；[Azure Stack的更新](http://www.hyper-v.nu/archives/mscholman/2015/05/azure-stack-whats-new-and-whats-changed)，私有云下的Azure。
+* 解析微服务架构，[（一）单块架构系统以及其面临的挑战](http://www.infoq.com/cn/articles/analysis-the-architecture-of-microservice-part-01)。
+
+**硬件设备，ARM、终端、移动、智能设备**
+
+* [Another raspbian desktop user interface update](https://www.raspberrypi.org/another-raspbian-desktop-user-interface-update/)，树莓派默认桌面小工具更新，无线连接、音量调节、桌面设置。Linux就是这些日常的小工具跟用户往常（Windows、OSX）的习惯不同。
+* [聊聊移动端跨平台开发的各种技术](http://fex.baidu.com/blog/2015/05/cross-mobile/)，感觉不错，后面结论是，“**如果你只会...**”，哈哈。前一阵还有篇，你们折腾去吧，未来就是Native的。
+
+
+**市场、产品、项目**
+
+* 博睿发布[2015年1-4月北京机房（多线）网络质量评测排行榜](http://net.zdnet.com.cn/network_security_zone/2015/0508/3052195.shtml)。
+* [如何写一份体面的设计提案？](http://www.uisdc.com/write-proper-design-proposal)要让客户意识到，他确实有病、得治，我这有能治病的药，大家都是这么吃好的。治病救人，钱不是个事儿，哈哈。
+* [帮你认清好文案的真面目](http://www.uisdc.com/truth-of-the-great-copy)，最优秀的管理层一定是个好文案，好文案要能触动你情绪。想起前一阵《伟大的安妮》漫画文案，也是火了一下的。
+
+
+**团队建设**
+
+* [知乎精选：如何提高团队凝聚力和执行力](http://www.woshipm.com/discuss/152905.html)。
+* [不会画画？那就用Paper来做PPT吧](http://www.pingwest.com/paper-think-kit/)，Paper是iPad上很有名的一个画画应用，目标是简单快速的画画，几个典型的笔触加上一个接近自然的调色板。这次更新的ThinkKIT，一下成为生产力工具了，很是好用，依旧是简洁、快速，上午的邮件里的网络图就是这个画的。
+
+
+**图书**
+
+* [《设计心理学》](http://www.duokan.com/book/66906)。
+
+

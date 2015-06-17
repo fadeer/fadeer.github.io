@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "每周技术文章 2014.2"
+date:   2014-11-22 12:00:00
+categories: weekly
+---
+**前端技术，界面、交互、安全**
+
+* 来看看Windows Azure的网页门户里的Dashboard效果，它叫[Overview](http://blogs.technet.com/b/server-cloud/archive/2014/11/13/azure-operational-insights-preview-now-available.aspx)，文章本身是Operational Insights功能介绍，我看的重点是数据可视化的方式。
+
+
+**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+
+* Photoshop的应用程序虚拟化，叫做[Photoshop Streaming](http://www.leiphone.com/news/201411/lu47d4Nzjz2tejGk.html)，看描述类似RemoteApp的机制，程序运行在服务器上，把画面推到用户端，所以你可以在ARM的Chromebook上跑Photoshop了。这个模式的“问题”是，怎么访问用户文件？目前的方式是通过Google Drive，以后大概也会支持其他网盘。这个应用会在Chrome商店提供，好像目前内测阶段还搜不到，大概需要到官网上[申请](http://edex.adobe.com/projectphotoshopstreaming/)吧。
+* [FreeRDS](https://github.com/FreeRDS/FreeRDS)，FreeRDP Remote Desktop Service，这是FreeRDP的兄弟项目，但是2013年底就不更新了，值得关注的是，vWorkspace Fork一个然后[一直维护到最近](https://github.com/FreeRDS/FreeRDS/network)，不知它[用这干嘛](https://github.com/vworkspace/FreeRDS)。FreeRDS是基于X11和Wayland实现的远程桌面服务，类似于XRDP的效果，但这个看起来整合度更高，参考这个[设计](http://www.hardening-consulting.com/en/posts/20131205an-overview-of-the-freerds-backend-of-weston.html)、[讲解](http://www.x.org/wiki/Events/XDC2014/XDC2014FortFreeRDS/xdc2014-freerds-ng.pdf)和[视频](http://www.x.org/videos/XDC2014/FortFreeRDS.webm)。
+* RDC Man升级了，[2.7](http://www.microsoft.com/en-us/download/details.aspx?id=44989)了，很多细节更新，对于咱们日常管理最有用的是可以[连接HyperV的VM](http://blogs.msdn.com/b/virtual_pc_guy/archive/2014/11/25/using-rdcman-v2-7-to-connect-to-a-vm.aspx)了，多加一个VM ID就行。
+* 之前发过Cloudbase基于一摞NUC搭建的HyperV测试环境，最近玩法儿有升级了，受限于NUC没有带外管理方式，他们用乐高的Mindstorms构建了一个机械按键机构，当然通过MS的控制端对外暴露管理接口，他们管这个项目叫reBot。谁会调用这个开关机的接口呢，这上层业务有两个，一个是Ubuntu的[MAAS](https://maas.ubuntu.com/)（Metal as a Service）；另一个是OpenStack的裸机部署服务[Ironic](https://wiki.openstack.org/wiki/Ironic)，这个小项目会在OpenStack的下一版本Kilo里正式发布。
+* OpenStack在网络方面的发展和跟SDN的支持，UniteStack一篇[博文](https://www.ustack.com/blog/sdn-interview-with-maxiao/)稍微做了总结，这事儿是服务器虚拟化和IaaS的重点之一。另外还有两篇OpenStack巴黎大会的分享，一个是[技术向](https://www.ustack.com/blog/2014-11-openstack-related-updates/)的，比如微服务器、IP硬盘、Ceph成为各家的存储用例、还有OpenStack组件的发展；另一篇是[生态向](https://www.ustack.com/blog/openstack-business-ecosystem/)的，了解一下OpenStack的玩儿家们。
+* 基于OpenStack构建VDI的商业产品，之前看到的是[Virtual Bridges](http://vbridges.com/2014/04/25/virtual-bridges-delivers-enterprise-grade-vdi-solution-based-openstack/)的Bridegpoint的新功能包含了桌面业务。最近，国内厂商成都[信立讯](http://www.xinlixun.cn/)也发布了[基于OpenStack平台的桌面虚拟化xVDI产品](http://www.openstack.cn/p2719.html)，[PDF](http://www.xinlixun.cn/file/file/Datasheet-xVDI-Solution.pdf)方案介绍。人家这是方案啊，所以就不只是VDI的管理了，终端设备和系统可是一应俱全啊。他的RDP客户端叫做“软桌面”，支持Windows、Linux、Mac、ARM Linux，支持这么全，我可以猜测是FreeRDP么？他的终端设备是X400-CT，两款分别是双核和8核的ARM，我可以猜测是CubieTruck和Cubieboard4么？另外他也有个HTTP的RDP代理，呵呵；其他USB设备支持、3D软件看看PDF吧。目前可以申请[2桌面的30试用](http://www.xinlixun.cn/user/buy_xvdi/xVDI-Pack-2/free_use)。
+
+
+**硬件设备，ARM、终端、移动、智能设备**
+
+* 开发板方面，Cubieboard4小批量发货了，型号是[CC-A80](http://cubieboard.org/model/cb4/)，基于全志8核A80，淘宝卖[699](http://item.taobao.com/item.htm?spm=a1z10.1.w4004-6844126609.6.5KrSqt&id=41758392873)，Lubuntu的[固件](http://cubie.cc/forum.php?mod=viewthread&tid=3525&extra=page%3D1)发了两版了，还有些早期，目前HDMI输出只到1080P，讨论4K还很少。Radxa的[Rock2](http://radxa.com/Rock2)似乎硬件还没定版，整合测试阶段？同样使用RK3288的Firefly，[FrameBuffer支持4K](http://developer.t-firefly.com/thread-271-1-1.html)应该可以的，而且社区活跃度还是不错的。看来要使用2560x1080显示器，目前还是Firefly靠谱些。
+
+**市场、项目**
+
+* 桌面IT建设，就iDES接触这几个点来说，IT的管理能力和标准程度也都参差不齐，但是这事儿对于各个企业来讲真是个问题么？有多少企业会选择[桌面IT外包](http://www.leiphone.com/news/201411/KMv6wbyZXdcb6gcJ.html)，这源自联想出的一个[白皮书](http://ms.lenovo.com.cn/down.asp?id=1)，另外还有个[在线版](http://www.twttmob.com/book/)，鼠标左划翻页。虽然更像是[联想IT管理服务](http://database.ctocio.com.cn/308/13102808.shtml)的一个枪文，但是还是了解一下这个市场吧，补充一个[2013年桌面IT外包市场](http://www.novots.com/uploads/soft/140916/1-140916135H6.pdf)的情况，最大前五家合计占比还不到15%，可见桌面IT市场多混乱，门槛多低了。
+
+**团队建设**
+
+* [一个很有借鉴价值的编程故事](http://www.techug.com/a-cautionary-tale-of-learning-to-code)。
+* [PM应该学会的沟通技巧](http://www.woshipm.com/pmd/122108.html)，直线逻辑、中间停顿、条理清晰、看图说话、避开争执。其实在沟通技术问题时也要注意的，建议大家都应该看看，知识传递的成本是很高的。
+* GDG TianJin 2014 DevFest大会，这周六，安卓、前端为主，感兴趣可以去[看看](http://gdgtianjin.com/regdevfest.html)，另外由于场地提供的原因，还有一些可穿戴的内容。
+
+
+
+
+
+
+
+
+
+

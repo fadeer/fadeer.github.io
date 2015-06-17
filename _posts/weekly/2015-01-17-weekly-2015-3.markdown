@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "每周技术文章 2015.3"
+date:   2015-01-17 12:00:00
+categories: weekly
+---
+**前端技术，界面、交互、安全**
+
+* 方正字库**首席字体设计师朱志伟**：[从一笔一划谈字体设计与视觉感受](http://www.36kr.com/p/218829.html)，看起来内容不多，但是老牌字体设计师能参与这样的演讲，很难得了。之前Adobe和Google发布思源黑体时，看到了一段[常州华文的介绍](http://www.zhihu.com/question/24500195/answer/28110462)，可以直观的感受一下字体设计师的工作。
+* [设计师通常如何发现灵感](http://www.woshipm.com/pd/131405.html)？
+* 界面设计，[常用字体规范](http://www.uisdc.com/font-use-of-standard)。
+* [「删除前确认」和「删除后允许撤销」两种处理方式哪个更好？](http://www.woshipm.com/discuss/132615.html)，这个对用户体验影响不小。
+* [AngularJS’ Internals In Depth](http://www.smashingmagazine.com/2015/01/22/angularjs-internals-in-depth/)，来自Smashing Magazine的，应该比较靠谱。
+
+**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+
+* **工作目录**，[work folders](http://technet.microsoft.com/en-us/library/dn265974.aspx)，是Windows Server 2012R2在BYOD方面新特性（TechEd北美2014:PCIT-B322 Deploying and Management Work Folders.pptx），主要作用是在PC上跟移动设备上共享文件，所以这事儿最重要的就是数据安全了。最近微软[发布了iPad上的客户端](http://blogs.technet.com/b/filecab/archive/2015/01/16/work-folders-for-ios-ipad-app-release.aspx)，貌似Android跟WP的客户端还没有呢？
+* [HTTPS, SPDY和 HTTP/2性能的简单对比](http://www.qianduan.net/a-simple-performance-comparison-of-https-spdy-and-http2.html)。
+* [Samba 4 Active Directory controller with Windows 7 roaming profiles + Linux login](http://www.stefanwienert.de/blog/2014/07/02/samba-4-active-directory-controller-with-windows-7-roaming-profiles-plus-linux-login-the-definitive-guide/)
+* Using DSC to deploy Hyper-V converged virtual network，[Introduce](http://www.powershellmagazine.com/2015/01/19/announcing-dsc-resources-to-deploy-hyper-v-converged-virtual-network/)，[Part 1](http://www.powershellmagazine.com/2015/01/20/using-dsc-to-deploy-hyper-v-converged-virtual-network-creating-a-host-team-part-1/)，[Part 2](http://www.powershellmagazine.com/2015/01/21/using-dsc-to-deploy-hyper-v-converged-virtual-network-creating-a-converged-virtual-switch-part-2/)，[Part 3](http://www.powershellmagazine.com/2015/01/22/using-dsc-to-deploy-hyper-v-converged-virtual-network-configuring-host-vm-adapters-part-3/)，PS配置HyperV的虚拟网络，这业务咱也有不是。转这个重点是他用到了PowerShell **Desired State Configuration** (DSC），参考[介绍](http://blogs.technet.com/b/privatecloud/archive/2013/08/30/introducing-powershell-desired-state-configuration-dsc.aspx)，[概览](https://technet.microsoft.com/en-us/library/dn249912.aspx)，这是Server 2012R2、Win 8.1的新功能，利用PowerShell进行集中配置管理，配置目标机器达到目标状态。iDES的Host配置脚本就是要这效果么？iDM对ThinClient的集中管理，不也是要这效果么？
+* [从一个OpenStack的失败案例看Ironic和Neutron组件的现状](http://www.infoq.com/cn/news/2015/01/ironic-neutron-packet)，这类失败经验很有用。
+* [SSD固态盘应用于Ceph集群的典型使用场景](http://www.openstack.cn/p3081.html)，4种使用、配置的方式。
+
+**硬件设备，ARM、终端、移动、智能设备**
+
+* **我是一个鼠标，其实我是一个电脑**，[Mouse-Box](http://www.leiphone.com/news/201501/dXIjJB3tHRnSKsiu.html)，原型阶段，这个重点儿还能接受，就是线缆不能太粗影响移动。还有之前发过的，**我是一个键盘，其实我也是一个电脑**，[oneBoard的一个评测](http://www.mefun.com/article-3629-1.html)，黑轴键盘，ARM板子是模块化可升级的，就是1999可不便宜啊。
+
+**市场、产品、项目**
+
+* 看看热门游戏**《纪念碑谷》**的一些[市场数据](http://techcrunch.cn/2015/01/16/monument-valley-team-reveals-the-cost-and-reward-of-making-a-hit-ios-game/?ncid=rss)，下载超240万，收入600万美元，其中iOS占80%+，发布安卓版本后盗版率达95%；8人开发团队，两个版本合计84周，开发成本140万美元。
+* 一年时间，这个新奇的[豆瓣fm实体音响终于上线KS](http://www.36kr.com/p/218825.html)了，看里面那视频，还不错哦，**Designed in shenzhen**！
+* [移动平台与技术债务](http://www.36kr.com/p/218813.html)，“移动操作系统在开发的时候**都是基于当时的一些假设和折衷进行的**，而**随着时间的变化，那些前提条件变了**，平台也要跟着改变。改变不过来，就意味着死亡”。这个角度很重要，持续作对一件事儿是很难，改变是要谨慎和果断的，这方面微软就是反面教材啊，哈哈。
+* [BT Sync](http://program-think.blogspot.com/2015/01/BitTorrent-Sync.html)，分布式网盘。
+* [360安全卫士for Linux使用结果](http://www.techug.com/360-safe-guard)，**360黑文**，哈哈。不知道分析的是什么版本，打包的事儿好改，系统权限这个恐怕是它惯常做法了。Linux虽然很乱，但是规矩还是有的，不合规矩大家也能看到。对，还有[小米跟GPL这事儿](https://linuxtoy.org/archives/xiaomi-vs-gpl.html)。
+* 看了[这套PPT](http://www.huxiu.com/article/106859/1.html)，你就知道微信是怎么卖公众号与朋友圈广告的啦。
+* 互联网公司的农村[“刷墙大战”](http://www.woshipm.com/it/132278.html)，这跟电梯广告赛的，简单、粗暴、看来管用啊。
+* IDC于2015年1月16日举办了一场小规模的公有云服务市场座谈会。来自阿里云、百度、乐视云、Ucloud、青云、万国数据、首都在线、蓝汛、甲骨文、浪潮软件以及KKR集团的共12位云计算从业人士参与了座谈。[对公有云未来主要的发展趋势，与会各方在如下三点持有较为一致的观点](http://cio.zdnet.com.cn/cio/2015/0122/3044941.shtml)：1. IaaS市场利润日趋降低，未来面临市场整合重组；2. IaaS与通用PaaS将紧密结合；3. 云生态构建成为发展重点。这里面提到的IDC发布《中国公有云服务追踪研究，2014上半年度》，还没找到下载，这有个[粗略解读](http://tech.sina.com.cn/it/2015-01-23/doc-ichmifpx5273236.shtml)。
+
+**团队建设**
+
+* [iPhone使用小技巧](http://www.huxiu.com/article/106487/1.html)。Google离线地图的玩儿法、飞行模式充电、曝光锁定比较有用。
+* [产品经理做的原型和交互设计师做的原型有什么区别](http://www.woshipm.com/pd/131400.html)？在产品经理、交互设计师都没有的情况下，看这路文章就是闲扯淡啊。
+* [程序员如何做出“不难看”的设计](http://www.techug.com/programmer-ugly-design)，这基础知识很有必要。
+* [如何成为一名无坚不摧的开发者](http://www.techug.com/how-to-be-a-good-developer)，如何更**专业**、如何**写出优质的代码**、如何**坚持**，如何**成为一个管理者**。
+* “编程行业这20年，是中国最好的行业，不管你的出身，你的学历，你的背景，你的户口，只要你能干活，你肯学习，你总是可以找到不错的工作，甚至可以拥有傲人的薪水。” 但是，[不要轻易在简历上写我热爱编程，我热爱学习](http://www.techug.com/i-love-programming)。
+* [程序员如何选择技术方向](http://macshuo.com/?p=1271)，“写到这里，冬夜已经黑的不像样子。站在阳台望出去，仿佛看着某个巨大 IDE 的黑色编码主题，我想起了某位大牛的一句话：**我不是懂得多，我只是学的快而已**”。
+
+**图书**
+
+* [海伯利安的陨落](http://www.duokan.com/book/82621)，第二本开始啦。
+

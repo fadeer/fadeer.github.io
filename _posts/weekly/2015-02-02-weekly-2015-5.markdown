@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "每周技术文章 2015.5"
+date:   2015-02-02 12:00:00
+categories: weekly
+---
+**前端技术，界面、交互、安全**
+
+* 高手教你零基础搞定海报设计，[（一）](http://www.uisdc.com/head-first-poster-design-1)。
+* [中文WebFont解决方案](http://isux.tencent.com/font-spider.html)，[Font-Spider(字蛛)](http://font-spider.org/)，设计师的春天来了，但是作为一个设计师，你也得懂Node，要不工具都跑不起来。
+* [Prototyping iOS And Android Apps With Sketch](http://www.smashingmagazine.com/2015/01/30/prototyping-ios-android-apps-sketch-freebie/)。
+* 初探信息可视化的流程+方法，[（上）](http://www.uisdc.com/2015-trends-information-visualization-process-1)，[（下）](http://www.uisdc.com/2015-trends-information-visualization-process-2)。要想用户懂，图多字儿要少。
+
+**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+
+* [20个OpenSSH Server的最佳实践](http://blog.netoearth.com/html/201501/top-20-openssh-server-best-security-practices.htm)，第一条就是把OpenSSH Server卸了，没必要的情况下。严格的Linux管理，应该是如文章所介绍的。
+* [Hyper-V and Wireless networking](http://blogs.msdn.com/b/virtual_pc_guy/archive/2015/02/02/hyper-v-and-wireless-networking.aspx)，基于无线网卡的虚拟网络，多了层桥，但即使如此也不够理想。这个大概是Windows 8、Server 2012时引入的。
+* 华为桌面虚拟化：[Fusion Access使用基础教程](http://edu.51cto.com/index.php?do=lession&id=52463)，51CTO学院的视频，从华为云平台Fusion Compute安装开始，到使用Fusion Access部署出完整的桌面云。**包含Fusion Access各个组件的安装过程、各种虚拟机模板的准备、桌面的发布、更新，详细介绍了不同模板类型的特点，涵盖了Fusion Access的主要内容**。挺全面啊，按说得组织大伙看一遍。
+* VMware进军VDI市场（不好久了么），[收购Windows桌面管理厂商Immidio](http://server.zdnet.com.cn/server/2015/0205/3045934.shtml)，“Immidio基于Windows的Flex +工作区虚拟化产品允许解决方案供应商，根据预先定义的IT策略为最终用户提供“动态地提供”工作区、应用以及配置”。
+* [关于云桌面你可能不知道的五件事](http://server.zdnet.com.cn/server/2015/0203/3045713.shtml)，云桌面（Daas，公有云上的桌面），这也在咱考虑范围之内吧。
+
+**硬件设备，ARM、终端、移动、智能设备**
+
+* 树莓派出二代了，张天超的邮件里看到板子图都忽略了，以为是B+款的。[这篇文章](http://www.36kr.com/p/219380.html)说的比较明白，4核Cortex-A7,、1G、4USB。另见[官方博客](http://www.raspberrypi.org/raspberry-pi-2-on-sale/)，[性能评测](http://www.raspberrypi.org/benchmarking-raspberry-pi-2/)，对比包括BBB，Edison（Atom+Quark）。
+* 还有就是这个Windows on Device能干嘛，上篇文章推荐的[施炯的博客](http://www.cnblogs.com/dearsj001/)可以略知一二：[PWM调光灯](http://www.cnblogs.com/dearsj001/p/WindowsOnDevice_1.html)，[感光灯](http://www.cnblogs.com/dearsj001/p/WindowsOnDevice_2.html)，[火焰报警器](http://www.cnblogs.com/dearsj001/p/WindowsOnDevice_3.html)，[智能风扇](http://www.cnblogs.com/dearsj001/p/WindowsOnDevice_4.html)，都是在英特尔Galileo上搞的。
+* 大爷的新课开始了，[《Developing iOS 8 Apps with Swift》](https://itunes.apple.com/cn/course/developing-ios-8-apps-swift/id961180099)，目前5课了。国内[翻译项目](https://github.com/x140yu/Developing_iOS_8_Apps_With_Swift)也开始了。
+* [Flotilla树莓派让小白也能做硬件开发](http://zhidx.com/p/7010.html)，众筹中，像乐高一样的一堆模块，基于树莓派搭建自己的小设备。
+
+**市场、产品、项目**
+
+* [Nest恒温器：使用两年就收回成本](http://www.leiphone.com/news/201502/Va5hFd6MzFAMPLOv.html)，看来不只是样子货了，250刀，两年就能省出来了。“Nest知道你什么时候出门，它就可以将信息传递给电灯。如果你要出门多日的话，还可以让灯泡模仿人在的时候点亮或者熄灭，以保证屋子安全”。
+
+**团队建设**
+
+* [学无止境，六款 MOOC 慕课应用介绍及横向对比](http://sspai.com/27966)，Coursera，可汗学院，Udacity，学堂在线，慕课网，网易云课堂。
+* [程序员解决问题的60个策略](http://www.techug.com/60-problem-solving-strategies)，60个啊！技巧太多，程序员都不够用了。
+* [手把手教你自制星战千年隼号无人机](http://www.leiphone.com/news/201502/samCfZDYCZUtGkFB.html)，首先，你得有个四轴飞行器。
+* [模块化的乐趣](http://ifeve.com/fun-modules/)，模块间的依赖，如何转换和解除。
+

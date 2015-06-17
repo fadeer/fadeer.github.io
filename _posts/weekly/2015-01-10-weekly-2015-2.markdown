@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "每周技术文章 2015.2"
+date:   2015-01-10 12:00:00
+categories: weekly
+---
+**前端技术，界面、交互、安全**
+
+* [为设计师量身打造的DPI指南](http://www.woshipm.com/ucd/130275.html)，这事儿以前主要在高分辨率移动屏幕上多，随着4K显示器普及，电脑上也得考虑了。当然很多支持移动浏览的页面已经考虑了。有人说高分辨率也是“扁平化”的一个推动力，靠谱啊，呵呵。
+* 移动可用性测试系列：[1.移动可用性测试流程和常见问题](http://isux.tencent.com/mobile-usability-testing-one.html)，[2.移动情境和移动设备选择](http://isux.tencent.com/mobile-usability-testing-two.html)，3.移动现场测试方法和工具，4.移动远程测试探索。
+* Web API的设计是个问题。如何定义一个拿得出手的API，不只RESTFul这么简单了，先看个[理论的](http://www.infoq.com/cn/articles/web-api-design-methodology)。
+* [Gilgamesh](http://sskyy.github.io/Gilgamesh/) is a collection of useful plugins and extensions of AngularJS，不明觉厉。
+
+**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+
+* [双人限注德州扑克已被程序破解](http://jandan.net/2015/01/14/poker-computer-program.html)，研究成果在很多方面都令人惊讶，其中最大的成就就是这个叫做“虚拟条件反悔最小化”("counterfactual regret minimization")的算法。在扑克人工智能领域，虚拟条件反悔最小化(以下将简称为 CRM )指的是电脑程序通过评估分析之前犯的错误而重新校准游戏策略的能力。德州扑克中的重要技巧，也是 CRM 中在最优化游戏策略时用到的一招就是诈唬(Bluffing)。
+* [架构难题是怎么解决的?](http://www.weibo.com/1577826897/BFeh9u2ud?type=comment)
+* [将国产Windows应用移植到Linux](http://www.solidot.org/story?sid=42671)，中国Linux发行版deepin宣布携手美国CrossOver公司，向广大Linux用户征集Windows应用优先移植名单。deepin宣布将在本年内，完成Windows下最为常用的50款应用的移植工作。
+* Citrix出了个蓝牙鼠标[X1 Mouse](http://www.citrix.com/go/citrix-mouse.html)，主要是给iPad下Citrix Receiver使用远程桌面用的，可以试用，还在[征集案例](http://discussions.citrix.com/topic/359584-x1-mouse-giveaway/?_ga=1.74882843.841615784.1408677405)。这个[评论](http://www.brianmadden.com/blogs/brianmadden/archive/2015/01/15/citrix-is-creating-a-mouse-and-it-s-awesome.aspx)看着比较乐观。
+* 混合云下，目录服务是个事儿，看这篇[权衡微软和AWS云目录服务](http://server.zdnet.com.cn/server/2015/0114/3044288.shtml)，稍微了解一下。AWS的Simple AD是基于Samba 4做的。
+* VMware新年展望：[2015年云计算三大趋势](http://server.zdnet.com.cn/server/2015/0115/3044378.shtml)，“VMware今年在相关领域接连发布重要公告，其中包括与中国电信合作发布天翼混合云服务，与浪潮面向中国市场发布首个超融合基础架构产品EVO:RAIL，与联想推出共建联合实验室后的首款桌面虚拟化产品”。
+* [从运维角度看CoreOS](https://www.ustack.com/blog/coreos/)，分析了一下CoreOS的构成和日常管理机制。Systemd、包管理、Fleet集群管理是加分项，“最新版稳定内核”有隐忧，这终究不如常见发行版内核验证的充分。后续文章会讲一些运维实践。
+* [如何高效地将SQL数据映射到NoSQL存储系统中](http://www.infoq.com/cn/articles/map-sql-nosql)，FoundationDB？Sql、NoSql，分久必合了。
+* 回顾2014年Linux界发生的[好事、坏事和丑事](http://www.techug.com/biggest-linux-stories-2014)。
+* 很久没关注Xen Project了，看看最新4.5版本的信息，[Less is More in the New Xen Project 4.5 Release](https://blog.xenproject.org/2015/01/15/less-is-more-in-the-new-xen-project-4-5-release/)。
+
+**硬件设备，ARM、终端、移动、智能设备**
+
+* 在CES2015期间，[有两款Linux友好的迷你PC十分有趣](https://linuxtoy.org/archives/minipc-computer-stick-and-fitlet.html)：[Intel 高调推出即插即用型 PC Computer Stick](http://www.intel.com/content/www/us/en/compute-stick/intel-compute-stick.html)，尺寸像是一个超大号的 Chromecast 电视棒；[TrimSlice 的制造商 CompuLab 带来了基于 AMD SoC 的迷你 PC Fitlet](http://www.fit-pc.com/web/products/fitlet/)，叫板 NUC。
+
+**市场、产品、项目**
+
+* [Chrome Remote Desktop推出iOS版本](http://www.pingwest.com/chrome-remote-desktop-ios/)，Chrome刚出时评估过，还是倾向于协助的。“Chrome Remote Desktop还属于轻度远程应用，不能指望他替代例如TeamViewer这种专业的收费远程软件，但是用它来发起远程协助或者控制自己的电脑，方便程度足以让用户抛弃其他的应用了。”
+* 一个角度，**我的互联网地产论**：[（一）阿里、腾讯和万达一样，它们都是房地产公司](http://www.pingwest.com/internet-and-real-estate/)，[（二）为什么账户体系那么重要？](http://www.pingwest.com/internet-and-real-estate-2/)，[（三）摆脱定见，寻找移动互联网的原生机会](http://www.pingwest.com/internet-and-real-estate-3/)，[（四）：交易和经济价值产生于线上而非线下](http://www.pingwest.com/internet-and-real-estate-4/)，[（五）（完结篇）](http://www.pingwest.com/internet-and-real-estate-5/)，
+* **霍金简史**：[英特尔如何让他发声](http://www.leiphone.com/news/201501/Axq8grdarUb6iZ84.html)，不容易啊。
+* 1月14日李开复[《数位革命：创新创业的黄金时代》](http://www.huxiu.com/article/106278/1.html)的公开演讲，几个变化很有趣，“模式的变革大于产品的变革”，“人类总会高估这一两年做什么，而是低估了5年之后发生什么”，“如果你想把握未来，多和年轻人接触”。
+* 云计算市场：[霸主争夺战已经打响](http://server.zdnet.com.cn/server/2015/0116/3044448.shtml)，“企业将会更容易接受大部分云服务都是很复杂的这一事实，并使用许多不同模型和品牌的公有和私有云。大部分企业将变成类似于云服务经纪人的角色”。
+
+**团队建设**
+
+* 三种软件工程师——[编码员、程序师和架构师](http://www.techug.com/3-kind-of-software-engineer)，三种特点及思维模式。有趣的是这文章后面还引了一个回应，不过扯远了。**我关心的是**，如何能识别一个工程师目前是哪一种的？会发展成为那种？我能够做些什么？
+* [Git两分钟指南](http://www.techug.com/two-minites-git-guide)
+
+**图书**
+
+* [《云计算架构技术与实践》](http://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/B00N8F4TOC)，华为公司云计算首席架构师顾炯炯所著。**顾炯炯**，华为公司云计算首席架构师，主导完成华为公司云计算操作系统(FusionSphere)和融合架构一体机(FusionCube)的技术规划与架构设计，支撑华为公司的ICT战略转型、云计算数据中心及电信云化解决方案，完成浙江移动、上海联通、上海健康云、新加坡StarHub、华为桌面云及数据仓库等数百个云计算项目的商用落地。这有个[评论](http://server.zdnet.com.cn/server/2015/0115/3044436.shtml)，这有个[连载](http://blog.csdn.net/cloud_architect?viewmode=contents)。
+* [《妈妈的柴火灶》](http://www.duokan.com/book/13337)，刚看到冬瓜，萝卜羊肉周末可以尝试一下。
+

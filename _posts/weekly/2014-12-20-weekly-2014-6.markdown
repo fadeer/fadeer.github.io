@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "每周技术文章 2014.6"
+date:   2014-12-20 12:00:00
+categories: weekly
+---
+**前端技术，界面、交互、安全**
+
+* [前端工程之模块化](http://fex.baidu.com/blog/2014/03/fis-module/)，看起来有不少实践的内容，特别前端模块化框架可以有更精简的选择，就看咱需要用多少。
+* [性能、UX、跨平台：移动Web应用UI框架大比拼](http://haha.iczerd.com/weixin712#0-tsina-1-7244-397232819ff9a47a7b7e80a40613cfe1)，表现层的，而且都是考虑跟AngularJS兼容的，倾向于移动应用的。
+* 大量12306用户帐号密码泄漏了，[到底是咋回事？](http://www.geekpark.net/topics/212023)经过分析是[撞库攻击](http://security.zdnet.com.cn/security_zone/2014/1225/3042887.shtml)，甚至泄密者[已经被抓](http://www.ithome.com/html/it/119791.htm)，至于信不信就是另一回事儿了。另外，12306相关网站的安全性也是受人持续关注的，[漏洞还是有的](http://security.zdnet.com.cn/security_zone/2014/1225/3042923.shtml)。
+
+**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+
+* 12.21 OpenStack技术论坛[总结](http://www.openstack.cn/p2939.html)，基本都是SDN方向的，最后有四篇PPT下载。另外还有个OpenStack存储技术研讨会的[预告](http://www.openstack.cn/p2930.html)，比如HP Helion VSA。
+* 汉柏科技，[携融合系统 打造行业专属云](http://server.zdnet.com.cn/server/2014/1124/3039932.shtml)，重点是他的[Power Cube云立方](http://www.opzoon.com/cn/page-1417.html)，很像英业达的啊。
+
+**硬件设备，ARM、终端、移动、智能设备**
+
+
+**市场、项目**
+
+* [产品经理「不啰嗦」和「说清楚」](http://www.woshipm.com/pmd/126609.html)，产品经理如何写文案，有效的文案。
+* 如何正确地“勾引”用户？[只需四步](http://www.leiphone.com/news/201412/awzLHTj3dWnW2o6z.html)，触发、行动、奖励、投资。
+
+**团队建设**
+
+* [技术团队的情绪与效率](http://www.techug.com/tech-team-emotion-and-productivity)
+* [程序员在编程中遇到的奇葩弱智问题](http://www.techug.com/stupid-problem)，这事儿常有啊。
+* [推荐几款我一直在用的chrome插件(上)](http://www.jianshu.com/p/68c9105a9da6)和[(下)](http://www.jianshu.com/p/7ff945a11572)，Lastpass、网页跟踪器列表、Github目录树、图片OCR看着还不错。
+* 貌似[慕课网](http://www.imooc.com/)最近很火？
+
+

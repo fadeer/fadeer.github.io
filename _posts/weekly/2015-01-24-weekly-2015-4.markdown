@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "每周技术文章 2015.4"
+date:   2015-01-24 12:00:00
+categories: weekly
+---
+**前端技术，界面、交互、安全**
+
+* [移动H5前端性能优化指南](http://isux.tencent.com/h5-performance.html)，细节很多，值得参考。
+* [彻底了解"无限滚动"](http://www.woshipm.com/pd/132888.html)，又是一个交互细节，老文翻译，Twitter的信息加载，考虑了继续翻之前没看完的，和提示新增的。
+* [2015前端框架何去何从](http://www.cnblogs.com/sskyy/p/4264371.html)，“这篇文章将从 AngularJS ReactJS Polymer 这几个流行的框架入手，分析前端框架在这几年发展中的关键技术点，作为2015前端技术选型的参考”。
+* [MVC，MVP 和 MVVM 的图示](http://www.ruanyifeng.com/blog/2015/02/mvcmvp_mvvm.html)
+* [WEB APP与原生APP有哪些交互设计区别？](http://www.woshipm.com/pd/135197.html)
+
+**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+
+* [Linux系统与windows系统文件同步](http://ilanni.blog.51cto.com/526870/1606027)，Windows下基于rsync做了个服务。
+* [网络流量监控技术概述](http://yeasy.blogspot.hk/2015/01/blog-post_25.html)，监控指标、测量手段、流量抓取统计协议、采集分析工具。真是概述、当索引看即可。
+* [C10K问题引发的技术变革](http://yeasy.blogspot.hk/2015/01/c10k.html)，就是服务端10K并发的问题，讨论到了**epoll**；然后是10M并发，讨论到了**协程**。协程这事儿值得看看，让我想起酷壳上两篇文章：[一个“蝇量级” C 语言协程库 protothreads](http://coolshell.cn/articles/10975.html)，[State Threads 回调终结者](http://coolshell.cn/articles/12012.html)。
+* [为什么不能用memcached存储Session](http://www.infoq.com/cn/news/2015/01/memcached-store-session)，了解了缓存数据机制就知道为嘛不能了。
+* [Ben Armstrong谈HyperV新特性](http://blogs.msdn.com/b/virtual_pc_guy/archive/2015/01/30/me-chatting-about-hyper-v-in-windows-10-technical-preview-1.aspx)，Channel9上的视频。
+* [Cloud-hosted Exchange with RDSH/VDI Outlook is a performance nightmare. Are there any solutions?](http://www.brianmadden.com/blogs/brianmadden/archive/2015/01/29/cloud-hosted-exchange-with-rdsh-vdi-outlook-is-a-performance-nightmare-are-there-any-solutions.aspx)，Outlook造成的压力真那么大？还有常提及的打印缓存的压力。这方面咱收集的数据很少。
+
+**硬件设备，ARM、终端、移动、智能设备**
+
+* [谈谈 React Native](http://blog.devtang.com/blog/2015/02/01/talk-about-react-native/)，Facebook新推出的，用Javascript写原生的APP（Android、iOS），一方面可以跟PhoneGap比较一下，另一方面也可以跟网页上的ReactJS比较一下。文章里主要讨论的是为什么又多了个框架，哈哈。
+
+**市场、产品、项目**
+
+* [分支机构IT整合：融合基础架构渐成共识](http://net.zdnet.com.cn/network_security_zone/2015/0127/3045257.shtml)，更大型IT的事儿，只不过这例子里有VDI。“总结一下SteelFusion具体的应用场景：1.分支机构的存储集中，2.分布式VDI部署，3.分支机构IT设施的快速部署与即时恢复，4.分支机构的IT交付服务”。
+* [云服务产业信用体系建设持续加力](http://www.jifang360.com/news/2015130/n713665150.html)，32个云服务通过第三批**可信云服务认证，认证总数达67个**，这也是国内云计算一线的玩家了。“从用户角度来看，**越来越多的用户要求云服务商通过认证**，据参评云服务商反应有超过20％的用户要求应标云服务通过可信云服务认证”。“可信云服务1.0 Plus 增加了云缓存服务、在线应用服务、负载均衡服务（本地/全局）和云分发服务五大类服务”。“除游戏客户外，国内客户仍采用包年包月的付费方式，这从侧面反映了国内用户受传统思维影响仍偏爱套餐模式”。
+* [一个产品经理眼中的智能家居市场](http://www.woshipm.com/it/134750.html)。
+* 拥抱变化——[如何用好云计算平台](https://www.ustack.com/blog/embracing-cloud/)，“近年来云计算技术发展迅速，特别是提供虚拟机和虚拟网络的IAAS云平台，已经不是企业考虑用不用的问题了，而是从性价比上必须用云平台。如果你坚持用IDC加采购硬件的方式部署系统，那就是选择多花钱和多受累，而且你可能连个会打网线的小弟都招不到”。UnitedStack的一篇枪文，要卖好产品，就得先教育好用户。
+
+**团队建设**
+
+* [有人向我反馈了一个bug](http://www.techug.com/when_someone_gives_you_a_bug)，哈哈。
+* [老代码中的那些坑](http://www.techug.com/wtf-in-old-code)，这是对艺术的侮辱。
+* [让年轻程序员少走弯路的14个忠告](http://www.techug.com/what-i-wish-i-knew-when-i-started-my-career-as-a-software-developer)，纯鸡汤。“2.在事业上勇往直前，**自己为自己负责**”；“4.不要去征求“同意”，除非不这么做会有无法承担的后果”；“了解**CS666**，哪怕你忘了它，不愿意学习它，但是**它永远与你同在**”；“11.锻炼”；“13.透过现象**发现核心技术的发展趋势**。”；“14.最后，**尽可能多地学习。这很难，但是请坚持**”。
+* [用户思维的核心是要求**每个员工都能成为产品经理**](http://www.woshipm.com/pmd/134778.html)，虽然文章讨论的是李宁，但是谁都有下游不是？
+
+**图书**
+
+* [《Android编程权威指南》](http://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/B00J4DXWDG)，[百度网盘](http://pan.baidu.com/wap/link?uk=1544892837&shareid=3659231680&third=0)，因为跟着老王他们学这个，别的都耽误了，呵呵。
+

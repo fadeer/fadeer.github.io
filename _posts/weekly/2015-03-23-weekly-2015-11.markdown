@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "每周技术文章 2015.11"
+date:   2015-03-23 12:00:00
+categories: weekly
+---
+**前端技术，界面、交互、安全**
+
+* [APP规范实例-详细的UI设计方法](http://www.woshipm.com/pd/144134.html)，这是UI设计至少要考虑和定义的东西。
+* [2015 年移动设备界面设计趋势](http://www.woshipm.com/discuss/144482.html)，内容挺丰富。
+* [如何从设计思维对接到业务思维？](http://www.uisdc.com/from-design-to-business)早些年，我主张设计师要学会说服业务方，当时我的领导认为这个观点不对，要“沟通”而不是“说服”。
+* [Apple Watch平台认知与产品设计](http://isux.tencent.com/apple-watch-understanding-device-platform-and-product-design.html)，来自腾讯的交互思考。
+* [机器不联网？利用发热来偷数据](http://36kr.com/p/220954.html)，攻击者可透过这种方式偷偷从气隙系统窃走密码或密钥，整个过程只需要机器发热以及计算机内置的热传感器。看起来，无风扇在安全方面也能有贡献。亮点是“目前尚未有迹象表明NSA利用了这种热传递的技术”。
+
+**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+
+* [Ericom Connect v7新版本](http://www.brianmadden.com/blogs/brianmadden/archive/2015/03/25/ericom-connect-v7-a-ground-up-rewrite-of-their-desktop-virtualization-product-that-seems-more-modern-than-citrix-or-vmware.aspx)，a ground-up rewrite of their desktop virtualization product that seems more modern than Citrix or VMware!有可学的地方。
+* [FREE Whitepaper](http://www.savision.com/resources/white-paper/free-whitepaper-hyper-v-performance-considerations-planning-remediation)，'Hyper-V Performance Considerations - Planning & Remediation' by Paul Schnackenburg，稍微看看，有点儿简单，[PDF](http://www.savision.com/system/files/uploads/Hyper-V_Performance_Considerations_-_Planning_and_Remediation.pdf)。
+* [Use PowerShell to Explore Old Windows VHDs](http://blogs.technet.com/b/heyscriptingguy/archive/2015/03/25/use-powershell-to-explore-old-windows-vhds.aspx)，可以考虑逐步把PowerShell脚本里调用的额外的系统命令比如diskpart用PS命令替代。
+
+**硬件设备，ARM、终端、移动、智能设备**
+
+* 我看着是个键盘，其实是台主机出[评测](http://www.igao7.com/news/201503/Ckv9bbxGumtQcEMe.html)了，这是1988的Pro+型号，RK3288芯片。键盘不错，虽然很重，交互兼容性和软件兼容性是个问题。
+* [RASPI-LTSP IS NOW PINET: EASILY MANAGE A RASPBERRY PI CLASSROOM](http://www.raspberrypi.org/raspi-ltsp-is-now-pinet/)，基于树莓派的教室方案，大概的：网络身份认证，系统镜像管理和网络启动，共享资源，学生数据自动备份。一些细节值得咱项目借鉴。
+* [借助 Launch Center Pro 快速在高德 / 百度地图中查路线](http://sspai.com/28589)。
+* [跨平台开发时代的 (再次) 到来？](http://onevcat.com/2015/03/cross-platform/)这篇分析的不错，另外也提到了React Native的正式[发布](http://facebook.github.io/react-native/)和[代码开源](https://github.com/facebook/react-native)。
+* [折腾：树莓派2 安装 OpenELEC](https://linuxtoy.org/archives/how-to-install-openelec-on-raspberrypi2.html)，这HDMI CEC有意思啊。
+* 关注的这几个国内开发板团队，还是FireFly这个比较突出，RK3288板子论坛讨论的比较热闹。新产品方面，前一阵发布了[智能路由器平台FireWRT](http://www.t-firefly.com/zh/firelink/firewrt/)，最近又来了个[智能设备平台FireBLE](http://www.t-firefly.com/zh/firesmart/fireble/)，蓝牙通信、主从设别、OTA升级，什么的。
+
+
+**市场、产品、项目**
+
+* [89页PPT详解微信O2O行业解决方案](http://djt.qq.com/article/view/1306)，学习一下微信怎么用，好多不知道的啊。
+
+**团队建设**
+
+* [直觉不是天生的，它自来于大量的理性训练](http://www.woshipm.com/pmd/144079.html)。题外话是，摇一摇可能很自然（我还没细细想过），但是要憋着想让我总在那儿摇，这就值得讨论了。
+
+
+

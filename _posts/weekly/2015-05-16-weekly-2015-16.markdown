@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "每周技术文章 2015.16"
+date:   2015-05-16 12:00:00
+categories: weekly
+---
+**前端技术，界面、交互、安全**
+
+* [浅谈flexbox的弹性盒子布局](http://www.alloyteam.com/2015/05/xi-shuo-flexbox-dan-xing-he-zi-bu-ju/)，新规范支持，以前PC版的坑是IE，现在移动版的坑是老版android？
+* [交互让步于空间：汉堡菜单折射的设计趋势](http://www.wpdang.com/archives/137887.html)，取舍很难啊。比如Facebook的客户端也是总在折腾，[看得见才有用！聊聊移动APP导航设计的改版实战](http://www.uisdc.com/app-navigation-design-practice)，不但要让用户看到，最好上面时不时还有个红点儿。
+* [服务器被黑给我上了一课](http://www.jianshu.com/p/97b9dc47b88c)，现场PK，这遇上的也就是黑客技术爱好者吧。
+* [个人博客 Nginx 配置之安全篇](https://www.imququ.com/post/my-nginx-conf-for-security.html)。
+
+**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+
+* [陈年老坑之 URL Encoding](http://blog.jamespan.me/2015/05/17/url-encoding/)。
+* [超融合架构如何抹平物理硬件差异？](https://www.ustack.com/blog/moping/)UnitedStack正式提及的超融合架构，这是要再向私有云扩展？[演讲PDF](https://www.ustack.com/wp-content/uploads/2015/05/20150507-%E8%B6%85%E8%9E%8D%E5%90%88%E6%9E%B6%E6%9E%84%E2%80%94%E2%80%94%E6%89%93%E9%80%A0%E8%AE%A1%E7%AE%97%E3%80%81%E5%AD%98%E5%82%A8%E3%80%81%E7%BD%91%E7%BB%9C%E4%B8%89%E4%BD%8D%E4%B8%80%E4%BD%93%E7%9A%84IT%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD-%E5%8C%97%E4%BA%AC3W%E5%92%96%E5%95%A1.pdf)，看看技术栈的选择。
+* [Cloudbase Solutions and Canonical partner to deliver Windows Hyper-V support to BootStack managed OpenStack clouds](http://www.cloudbase.it/bootstack-hyperv/)，关键字是BootStack、Hyper-V、Keystone、Active Directory、Open vSwitch。
+* [微软开源WCF](http://www.solidot.org/story?sid=44152)，微软宣布在MIT许可证下开源Windows Communication Foundation （WCF）客户端库，代码[托管在Github](https://github.com/dotnet/wcf)上。。这事儿早干啊，没赶上。
+* [浏览器加载 CommonJS 模块的原理与实现](http://www.ruanyifeng.com/blog/2015/05/commonjs-in-browser.html)，[require() 源码解读](http://www.ruanyifeng.com/blog/2015/05/require.html)。
+* [How MySQL Is Able To Scale To 200 Million QPS - MySQL Cluster](http://highscalability.com/blog/2015/5/18/how-mysql-is-able-to-scale-to-200-million-qps-mysql-cluster.html)。
+* [来自中国的神秘下载](http://www.solidot.org/story?sid=44119)，一位软件开发者抱怨，自2013年3月起，来自中国的IP地址循环下载他的软件但根本不安装也不运行。他调查了一个每天下载20次的IP 211.136.10.56，发现它是中国移动的一个爬虫。一些人推测原因可能是中移动某位用户下载了他的软件，这一活动被记录了下来，为了节省流量，中移动的缓存服务器开始访问下载地址，但由于不合理的缓存设置导致爬虫频繁下载软件。
+
+**团队建设**
+
+* [运动除了对身体有益，还有什么其它的好处？](http://www.read.org.cn/html/2436-yun-dong-chu-liao-dui-shen-ti-yi-huan-shi-qi-ta-de-hao-chu.html)这是[《运动改造大脑》](http://book.douban.com/subject/25755874/)的概要。
+* [思维的误区：幸存者偏见](http://program-think.blogspot.com/2015/05/Survivorship-Bias.html)。
+
+**图书**
+
+* [《穷查理宝典》](http://www.duokan.com/book/52404)，每天起床的时候，争取变得比你从前更聪明一点。认真地、出色地完成你的任务。慢慢地，你会有所进步，但这种进步不一定很快。但你这样能够为快速进步打好基础……每天慢慢向前挪一点。到最后——如果你足够长寿的话——大多数人得到了他们应得的东西。
+

@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "每周技术文章 2014.4"
+date:   2014-12-06 12:00:00
+categories: weekly
+---
+**前端技术，界面、交互、安全**
+
+* [谈响应式web设计代码实现](http://isux.tencent.com/code-of-response-web-design.html)，很多细节脑补不完整，先留着备忘。
+
+**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+
+* OpenStack巴黎大会，TryStack上[这篇](http://trystack.cn/uncategorized/openstack-summit-2014-%E5%B7%B4%E9%BB%8E%E7%AB%99%E5%85%A8%E8%AE%B0%E5%BD%95/)似乎比UnitedStack的分享更详细一些。里面提到了之前没太关注的OpenStack发行版，比如HP的Helion，大概华为以后也会发布自己的；这就像RHEL对于Linux，厂商把开源项目包装成产品，好提供有质量的服务和绑定用户。TryStack是九州云的一个技术分享网站，OpenStack[半月扯](http://trystack.cn/news/openstack%E5%8D%8A%E6%9C%88%E6%89%AF-12%E6%9C%88%E4%B8%8B/)系列也值得看看，比如这期提到的OpenStack[中国案例](http://www.openstack.org/user-stories/)。
+* [Ubuntu Core](https://wiki.ubuntu.com/Core)是Ubuntu的一个最小运行环境，李鸿明**定制ClientOS**也是以这个为基础的。之前在Docker生态里提及的CoreOS，就是提供了一个最小的Linux运行环境，但这是一个新兴的发型版啊，这事儿如果Ubuntu来做，那用户会觉得更靠谱一些吧。于是Ubuntu为了更好的支持类Docker的用法，发布了套新的发行版**Snappy Ubuntu Core**，结构就是Core(Ubuntu) + Framework(基础软件包) + APP(用户程序)，每层都是只读的，使用snappy工具进行**更新和回滚**（对，[apt-get已经不在了](http://www.36kr.com/p/217714.html)），这玩儿法咱们也讨论过不是？更多信息参考[Snappy页面](http://www.ubuntu.com/cloud/tools/snappy)，[文件系统结构](http://developer.ubuntu.com/snappy/filesystem-layout/)，[应用打包](http://developer.ubuntu.com/snappy/packaging-format-for-apps/)。
+* Dell的[vWorkspace 8.5发布](http://www.dell.com/learn/us/en/uscorp1/press-releases/2014-12-2-dell-wyse-cloud-client-computing-desktop-virtualization)了，现在这全称是**Wyse vWorkspace 8.5 desktop virtualization**了，好像8.0时还不是，大概是因为8.5里把Wyse Streaming Manager (WSM)整合进来了。DELL终于要把自己的桌面方案集中一下了，vWorkspace相关宣传也都归在Wyse品牌下了。Brain Madden对这事儿也有所[评论](http://www.brianmadden.com/blogs/brianmadden/archive/2014/12/08/dell-releases-quot-wyse-quot-vworkspace-8-5-with-html5-clients-and-enterprise-scale.aspx)。另外一个重点是**vWorkspace connector for HTML5**，这个除了支持移动端，另外一个场景就是Chrombook，这设备Dell也是有不少的。
+* 最近Virtual Bridge发布的VDI产品更新的[VERDE 7.2](http://vmblog.com/archive/2014/12/09/virtual-bridges-provides-html5-based-clientless-remote-access-with-the-release-of-verde-7-2.aspx)也是包含了**使用HTML5访问桌面**的支持，这feature现在成标配了；当然，作为商业产品，功能的完整度和细节值得我们参考。
+* [重现Mark Russinovich的Azure Docker演示](http://itecn.net/blogs/ahpeng/archive/2014/12/06/azuredocker.aspx)，这篇文章里提到了两个演示：一个是一条命令利用Windows和Azure，几秒钟就启动一个可用的博客；另外一个是盆盆把这个实验做了下扩展，用发微信来发起这个过程。文章仔细分析了这个过程的步骤，我借这例子来提个架构方面的话题，**Orchestrator+API**，API表示切割和重用，Orchestrator表示灵活的业务。然后我们再来看[AWS Lambda](http://www.infoq.com/cn/news/2014/11/aws-lambda-summary)，这基本上是Orchestrator的一个抽象，另外可以参考UnitedStack的一个[讨论](https://www.ustack.com/blog/happyfriday-2014-12-5/)。
+* 这是个“谁谁谁不高兴”的例子，[Node.js也分裂，核心开发者创建分支io.js](http://www.infoq.com/cn/news/2014/12/node.js-split-branch-iojs)，开源社区不靠谱是吧。然后就一堆人开始张罗着给新项目[做Logo](https://github.com/iojs/io.js/issues/37)了，这起哄劲儿啊。
+
+
+**硬件设备，ARM、终端、移动、智能设备**
+
+* [PC Partner 迷你PC采用Tegra K1片上系统](http://www.cnbeta.com/articles/351753.htm)，小盒子看着还挺好，关键是**内建一个串口**。
+* [Firefox要支持iOS了](http://sspai.com/27607)，跟Chrome、Opera的差不多，谁在iOS上做“浏览器”都要踏实做壳，但是为了统一体验，不死心也得做啊。但这事儿的重点是怎么实现，Mozilla在Github上开了个[Firefox-ios](https://github.com/mozilla/firefox-ios)项目，项目[11月初开始](https://github.com/mozilla/firefox-ios/graphs/contributors)的，已经100多次提交300多次Fork了，只是官方尚未承认。亮点是这几乎是一个全部**用Swift编写的项目**，有可能是目前用Swift编写工程最复杂的一个，值得关注。
+* [深圳2014，开源硬件这一年](http://www.leiphone.com/news/201412/rolrdaoZEXDT9OHC.html)。
+
+
+**市场、项目**
+
+* [CoreOS与Docker分道扬镳，推出自己的容器引擎Rocket](http://www.infoq.com/cn/news/2014/12/coreos-docker-rocket)，题目有点儿唬人，放在这里是因为这不是个“谁谁谁不高兴”的问题，而是商业利益的问题。另外一篇译文[为什么CoreOS和Docker的分手是命中注定的](http://www.openstack.cn/p2820.html)，说明了这个问题，谁都不想被工具化、管道化，哪个公司要健康都得赚钱。
+* 订阅的硬塞的看到一篇文章，[想改變資策會？先從加入資策會做起！](http://www.inside.com.tw/2014/12/07/%e2%80%aachaneg-iii-join-iii)，评论有亮点，哈哈。
+* 来看看[浪潮的云计算策略](http://server.zdnet.com.cn/server/2014/1208/3041110.shtml)。
+
+**团队建设**
+
+* [关于工作压力的思考](http://zhuanlan.zhihu.com/youwenwen/19888194)，值得看看，“工作压力增大一般是好事”。
+* [工程师的自我突破](https://www.ustack.com/blog/about-engineer-2/)，希望不只是鸡汤，态度决定一切。
+
+
+
