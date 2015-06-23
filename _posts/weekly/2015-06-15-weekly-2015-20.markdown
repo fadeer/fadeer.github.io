@@ -1,0 +1,45 @@
+﻿---
+layout: post
+title:  "每周技术文章 2015-19"
+date:   2015-06-15 12:00:00
+categories: weekly
+---
+**前端技术，界面、交互、安全**
+
+* [超实用的网页动画终极指南](http://www.uisdc.com/ultimate-guide-to-web-animation)，“从网页动画的简史、种类到实现都有特别细致的讲述，附大量原生教程，帮你彻彻底底掌握这个点”。
+* [来看看将成为明日主流的7大网页设计趋势](http://www.uisdc.com/7-future-web-design-trends)。
+* [如何设计示范性用户体验](http://www.woshipm.com/pd/165402.html)，“一个网站或产品的成功依赖于用户如何去理解它。用户在与之交互时就能感受到它的可用性和实用性，在几秒之内就能感受这款产品的好坏”，觉着你的产品好用，是个不错的开始。
+* [css3实现的switch开关按钮](http://www.css88.com/archives/5693)
+* [利用JSONP进行水坑攻击](http://www.infoq.com/cn/articles/JSONP-attack)，了解一下。
+* [理想的应用框架](http://www.cnblogs.com/sskyy/p/4592353.html)，长文，很多思考值得借鉴。
+
+**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+<!--preview-end-->
+
+* Sentry 是一个错误记录和聚合的平台，[实战Sentry](http://huoding.com/2015/06/19/450)，看着不错啊，可以考虑用起来。
+* [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)，常用Linux的，这个要过一遍，很多日常会用到的。这里提到的解析json的jq，也可以参考[这篇](http://wsgzao.github.io/post/bash-json/)。
+* [谈谈新浪微博背后的那些算法](http://www.techug.com/microblog-arithmetic)。
+* 讨论了10年的[《ECMAScript国际标准（第6版）》](http://www.ecma-international.org/ecma-262/6.0/)正式通过了，“标志JavaScript在诞生20年后，开始升级为企业级大型应用的开发语言”。
+* 来自Ben Armstrong的脚本：[Image Factory for Hyper-V](http://blogs.msdn.com/b/virtual_pc_guy/archive/2015/06/16/script-image-factory-for-hyper-v.aspx)。针对新一代的Windows，我们能有更方便的方式来完成初始VM的准备，包括系统、包括必要的更新。
+* [运维自动化之殇](http://www.infoq.com/cn/articles/effective-ops-part-05)。
+
+**硬件设备，ARM、终端、移动、智能设备**
+
+* [亲历 WWDC 的开发者，让你看看 WWDC 的真正干货](http://www.ifanr.com/532189)
+* WWDC15 Session笔记：[iOS 9 多任务分屏要点](http://onevcat.com/2015/06/multitasking/)
+
+**市场、产品、项目**
+
+* [产品设计怎么做头脑风暴？](http://www.uisdc.com/brainstorm-in-product-design) “确定问题的关键词，尽量找不同的角色来参与，不批评不点评，维度分析，留作记录”。
+* [运营工作的方法和提升技巧](http://www.woshipm.com/operate/165835.html)，
+* [A new window into our world with real-time trends](http://googleblog.blogspot.hk/2015/06/a-new-window-into-our-world-with-real.html)，谷歌趋势更新了。
+
+**团队建设**
+
+* Git 10 周年访谈：[Linus 讲述背后故事](http://www.techug.com/linus)，了解一下Git是怎么来的。然后再学几个有用的命令，[如何在Git中撤销一切](http://www.jointforce.com/jfperiodical/article/show/796?m=d03)。
+* [更快学会任何东西的终极指南](http://36kr.com/p/533829.html)，“以专家为榜样，不必自己重新探索；解构技能，找出实现80%效果的那20%；不要一心二用；练习练习再练习，然后获得即时反馈；坚持，不要在低谷期放弃”。
+* [全栈工程师？给把瑞士军刀你去砍鬼子好不好！？](http://wwww.huxiu.com/article/117854/1.html) “如果你能让你的团队成员们各自专注在自己所长的领域，同时又对合作团队的领域有所理解以获得足够的同理心的话，那你已经拥有了一帮有着各自的必杀技，而又能通力合作的团队了”，这确实是更好的状态。
+* 鸡汤，[你不能践行的道理，都不算懂的道理](http://mp.weixin.qq.com/s?__biz=MzA4MjIyNDYzMQ==&mid=206767728&idx=1&sn=25b2a4ed23f96bdf30cd5ee7e759dbaf#rd)。有问题么？没有。好的...那再来一段，[二十岁以后意识到这些说法很可笑](http://jandan.net/2015/06/17/false-in-our-20s.html)，“我年轻时以为金钱是世界上最重要的东西，等到老了才知道，原来真的是这样”。
+* [成功学批判——简述其危害性及各种谬误](http://program-think.blogspot.com/2015/06/The-Mythical-Theories-of-Success.html)。
+
+
