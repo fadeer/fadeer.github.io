@@ -1,7 +1,7 @@
 # Site settings
-title: Blog
-t_archive: Archive
-t_about: About
+title: Fadeer的日志
+t_archive: 归档
+t_about: 关于
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
