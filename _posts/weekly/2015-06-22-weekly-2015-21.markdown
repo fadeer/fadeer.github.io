@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "每周技术文章 2015.21"
+date:   2015-06-22 12:00:00
+categories: weekly
+---
+**前端技术，界面、交互、安全**
+
+* [实战后才能发现的10个APPLE WATCH设计技巧](http://www.uisdc.com/10-apple-watch-design-skills)，“我们需要知道不恰当的功能设计致使用户必须保持抬腕15秒所产生的挫败感有多糟，我们需要知道在每天的真实情境当中哪些功能和信息是用户在Watch上真正需要的，我们还需要知道以怎样的形式组织信息才能真正做到‘抬腕一瞥即可获取’ ”。
+* [浅议内滚动布局](http://isux.tencent.com/inner-scroll-layout.html)，iDES的管理页面，可能也会向这个方向演变。
+* [时间感知对交互设计的影响](http://colachan.com/post/3442)。
+* [DIV 是给弱者准备的](http://www.techug.com/div-is-for-the-weak)，这也太激进了，哈哈。“老实讲，网页除了列表嵌套列表，就没有什么了”，值得琢磨。
+* [Google 提供免費 Material icons 向量圖示集，可自由用於個人或商業專案](https://free.com.tw/google-material-icons/)，有图标字体，这个下版设计考虑用上。[Google页面](http://google.github.io/material-design-icons/)，[Github页面](https://github.com/google/material-design-icons/)，[font下载](http://zavoloklom.github.io/material-design-iconic-font/icons.html)。
+* [海外客户设计交付体验与思考](http://www.uisdc.com/design-delivery-ux-thought)，专业、文化、形象三方面，**专业是建立信任的第一步，信任是顺利合作的第一步**。其实，每次面对一个新客户，都要有个适配的过程，都要认真对待。
+
+**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+<!--preview-end-->
+
+* [青云QingCloud推出移动控制台 随时随地管理云端资源](https://log.qingcloud.com/?p=970)，不错啊，正式的APP客户端，显然会比页面效率更高，当然最大的好处还是消息推送。IOS版[介绍](https://log.qingcloud.com/?p=847)和[下载](https://appsto.re/cn/MbqP5.i)。
+* 阿里云香港机房故障了，是IDC供电问题，[官方恢复公告](http://blog.aliyun.com/2751?spm=0.0.0.0.63lLNE)，但是这事件处理跟之前青云的相比，就粗糙很多了。转两篇评论：[从香港宕机事件，看企业如何选择云服务](http://toutiao.com/a4612091455/)，[香港沦陷，阿里云该赔吗？](http://www.i2yun.com/index.php?m=content&c=index&a=show&catid=10&id=52)，看来多云服务供应商构建高可用，自己还是得来。
+* [GPUs in VDI need to stop being "optional"](http://www.brianmadden.com/blogs/brianmadden/archive/2015/06/24/gpus-in-vdi-need-to-stop-being-quot-optional-quot.aspx)，GPU应该成为VDI的默认配置，多出来的成本可以被CPU、内存、VM密度抵消掉，Windows包括很多桌面应用比如浏览器都默认可以利用上GPU了，用户原先在PC上的体验，可以更多的保留下来。评论很多。
+* Sony“远程桌面玩游戏”服务PS Now的一个[评测](http://www.techbang.com/posts/23760-exploring-the-cloud-game-mechanic-ps-now-compactor)，不知微软那么怎么样了。
+* [锐捷网络云课堂2.0](http://net.zdnet.com.cn/network_security_zone/2015/0626/3056133.shtml)，“采用集中管理的方式，将考试系统切换、软件环境更新、机房日常维护等时间至少缩短了90%。另外，普通计算机教室更新一次教学场景用时4小时，云课堂只需120秒轻松完成镜像切换。”“如今，锐捷网络云课堂在3000间计算机教室为近2500家学校服务，引导了教学新模式！”
+* [Facebook发布《固态硬盘失效率报告》](http://www.cnbeta.com/articles/405179.htm)。
+* [解决恼人的 Windows Update 更新失败正在还原更改](http://blogs.itecn.net/blogs/alexis/archive/2015/06/25/Solutions-of-fixing-Windows-Update-Failure-with-Reverting-Changes.aspx)。
+* [关于Ceph现状与未来的一些思考](http://www.infoq.com/cn/articles/some-thinking-about-the-present-situation-and-future-of-ceph)，之前4月份贴在UStack的博客上，后来没了，最近InfoQ转了，可以再看看。
+* [DHCP服务介绍及Linux下DHCP服务的管理配置](http://richier.blog.51cto.com/1447532/1665128)，基础知识。
+* [Learn javascript in one picture](https://github.com/coodict/javascript-in-one-pic)，[大图杀猫](https://raw.githubusercontent.com/coodict/javascript-in-one-pic/master/js%20in%20one%20pic.png)啊。
+* [使用PowerShell管理NTFS权限](http://www.pstips.net/manage-ntfs-permission.html)，项目用得上。
+* Docker开大会了，转灵雀云博客上几篇，“Docker的Solomon和CoreOS 的Alex最终握手的一幕让人动容。我在今天keynotes上最大的感受就是Docker将变得更开放，将拥抱更多的厂商共建生态系统。对行业而言，这是一件幸事，未来，让我们拭目以待吧。” [程序员改变世界](http://www.alauda.cn/2015/06/23/%E7%A8%8B%E5%BA%8F%E5%91%98%E6%94%B9%E5%8F%98%E4%B8%96%E7%95%8C%EF%BC%8Cdockercon-2015%E7%9B%B4%E6%92%AD%E7%8E%B0%E5%9C%BA/)，[Docker in Production](http://www.alauda.cn/2015/06/24/docker-in-production%EF%BC%9Adockercon-2015%E7%9B%B4%E6%92%AD%EF%BC%88%E4%BA%8C%EF%BC%89/)，[DockerCon回顾（一）：Docker、CoreOS握手言和，共同制定容器标准](http://www.alauda.cn/2015/06/23/961/)，[DockerCon回顾（二）: Ready for Production？](http://www.alauda.cn/2015/06/24/dockercon%E5%9B%9E%E9%A1%BE%EF%BC%88%E4%BA%8C%EF%BC%89-ready-for-production%EF%BC%9F/)。
+* [New Links for Windows Server, Hyper-V, Azure / May - June 2015](http://blog.vttechnology.com/2015/06/new-links-for-windows-server-hyper-v.html)，真多，得空慢慢看。
+
+**硬件设备，ARM、终端、移动、智能设备**
+
+* Windows 10 IoT 支持 Raspberry Pi 2 的[相关文章合集](https://channel9.msdn.com/coding4fun/blog/Yummm-Pie-Windows-10-IoT-Raspberry-Pi-Link-Round-up)。
+* [关于北斗卫星导航系统与GPS](http://www.leiphone.com/news/201506/ge4i8ZsCTIW3hvGq.html)，了解一下。
+
+**市场、产品、项目**
+
+* [前Facebook工程师深度解读互联网女皇2015互联网趋势报告](http://wwww.huxiu.com/article/118440/1.html)，原文太干，先看看解读。
+
+**团队建设**
+
+* [Git配置和常用命令](http://hunng.com/2014/04/25/git-configs-and-cammands/)。
+* [整理了一个 C 和 C++ 开源库的清单（含示例代码）](http://program-think.blogspot.com/2015/06/GitHub-C-Cpp-Open-Source-Libraries.html)，我都快忘了这博客还是个编程相关的，呵呵。[Github页](https://github.com/programthink/opensource)，[C/C++ 开源库及示例代码](https://github.com/programthink/opensource/blob/master/libs/cpp.wiki)，这个真的有用，用用、学学别人思路有好处，“别每天晚上给孩子编故事了，好歹买两本书看看吧”。
+* [Vim入门教程](http://www.techug.com/vim)。
+* [我们过去几年做对了哪些事](http://www.cnblogs.com/zhengyun_ustc/p/rightThings.html)，提到的问题都很现实，学习。**问题和事故都是财富；挤出人力做预研课题；减少痛苦和抱怨——持续集成；QA一票否决；关键业务逻辑收敛到业务中心；技术分享和职场培训并行**。“别人听不懂，多半是因为你讲不清楚，你讲不清楚，往往是因为你本来就没想明白没听懂”；“什么是核心技能？谈商务，公众演讲，出方案，画原型，写代码，部署，维护，培训员工……”。
+
+
+
+
