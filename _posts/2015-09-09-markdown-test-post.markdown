@@ -17,6 +17,7 @@ categories: jekyll markdown
 * 第四项，内容，[外部链接](http://www.google.com)。
 
 常见的语法高亮，比如Javascript、Bash、Java。
+<!--preview-end-->
 
 {% highlight javascript %}
 function start(){
