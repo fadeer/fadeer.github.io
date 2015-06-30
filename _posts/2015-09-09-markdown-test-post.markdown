@@ -66,6 +66,8 @@ public static void main( String[] args ){
 }
 {% endhighlight %}
 
+也可以在文字间加代码，比如`/etc/network/interfaces`这样。
+
 这种把正文内容和引用的原始链接分开的方式不错，[参考1][链接1]和[参考2][链接2]，这样正文就不会被过长的[链接3]打断了。
 
 <!-- 下面就是原始的链接，不会直接出现在正文里 -->

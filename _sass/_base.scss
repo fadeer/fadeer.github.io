@@ -132,8 +132,9 @@ blockquote {
  */
 pre,
 code {
-    font-size: 13px;
+    font-size: $small-font-size;
     font-family: $font-mono;
+    line-height: 18px;
     margin-bottom: $spacing-unit;
 
     #border: 1px solid $grey-color-light;
