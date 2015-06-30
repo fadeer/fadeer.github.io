@@ -30,7 +30,7 @@ That to secure these rights, Governments are instituted among Men, deriving thei
 常见的语法高亮:
 <!--preview-end-->
 
-Javascript
+Javascript，代码和正文保持纵向对齐：
 {% highlight javascript %}
 function start(){
 	num1++;
@@ -44,7 +44,7 @@ document.addEventListener("mouseup",function(){
 });
 {% endhighlight %}
 
-Linux Bash
+Linux Bash，包含横向滚动：
 {% highlight bash %}
 #!/bin/bash
 for fullpath in "$@"
@@ -62,7 +62,7 @@ do
 done
 {% endhighlight %}
 
-Java， 包含行号
+Java， 包含行号：
 {% highlight java linenos%}
 public static void main( String[] args ){
     Dog aDog = new Dog("Max");
