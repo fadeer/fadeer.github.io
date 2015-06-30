@@ -16,9 +16,10 @@ categories: jekyll markdown
 * 第三项，内容，**重要的内容**。
 * 第四项，内容，[外部链接](http://www.google.com)。
 
-常见的语法高亮，比如Javascript、Bash、Java。
+常见的语法高亮:
 <!--preview-end-->
 
+* Javascript
 {% highlight javascript %}
 function start(){
 	num1++;
@@ -32,6 +33,7 @@ document.addEventListener("mouseup",function(){
 });
 {% endhighlight %}
 
+* Linux Bash
 {% highlight bash %}
 #!/bin/bash
 for fullpath in "$@"
@@ -49,7 +51,8 @@ do
 done
 {% endhighlight %}
 
-{% highlight java %}
+* Java， 包含行号
+{% highlight java linenos%}
 public static void main( String[] args ){
     Dog aDog = new Dog("Max");
     foo(aDog);
@@ -69,6 +72,14 @@ public static void main( String[] args ){
 [链接1]:	http://www.google.com
 [链接2]:	http://www.google.com
 [链接3]:	http://www.google.com
+
+如果引用一张图片，效果是这样的：
+
+![](http://www.markgray.com.au/images/gallery/large/desert-light.jpg)
+
+如果图片宽度不够，效果是：
+
+![](http://www.wallpaperkostenlos.com/cache/hintergrundbilder/Wasserfaelle-Sued-Amerika.-Lateinamerika_w454_h220_cw454_ch220_thumb.jpg)
 
 更多的语法参考[kramdown Syntax](http://kramdown.gettalong.org/syntax.html)。
 

@@ -14,7 +14,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font-family: $base-font-family;
+    font-family: $font-default;
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
@@ -42,8 +42,11 @@ ul, ol, dl, figure,
  * Images
  */
 img {
-    max-width: 100%;
     vertical-align: middle;
+    max-width: -webkit-calc(100% + (#{$spacing-lr} *3));
+    max-width:         calc(100% + (#{$spacing-lr} *3));
+    margin-left: -($spacing-lr *3 /2);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -129,10 +132,12 @@ blockquote {
  */
 pre,
 code {
-    font-size: 14px;
-    font-family: consolas;
+    font-size: 13px;
+    font-family: $font-mono;
+    margin-bottom: $spacing-unit;
+
     #border: 1px solid $grey-color-light;
-    border-radius: 3px;
+    #border-radius: 3px;
     #background-color: #eef;
 }
 
@@ -141,7 +146,7 @@ code {
 }
 
 pre {
-    padding: 8px 12px;
+    padding: 10px $spacing-lr;
     overflow-x: scroll;
 
     > code {

@@ -6,7 +6,9 @@
 
 
 // Our variables
-$base-font-family: Helvetica, 微软雅黑, Arial, sans-serif;
+$font-default:	"Helvetica Neue","Microsoft YaHei", "WenQuanYi Micro Hei",Arial, sans-serif;
+$font-mono:	Monaco, Menlo, Consolas, Courier New, "Heiti SC", STHeiti, "Microsoft Yahei", monospace;
+$base-font-family: $font-default;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -15,7 +17,7 @@ $spacing-unit:     30px;
 $spacing-lr:       20px;
 
 $text-color:       #111;
-$background-color: #f2f2f2;
+$background-color: #eee;
 $brand-color:      #176BD7;
 
 $grey-color:       #828282;
