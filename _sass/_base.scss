@@ -134,7 +134,6 @@ pre,
 code {
     font-size: $small-font-size;
     font-family: $font-mono;
-    line-height: 18px;
     margin-bottom: $spacing-unit;
 
     #border: 1px solid $grey-color-light;
@@ -146,8 +145,12 @@ code {
     padding: 1px 5px;
 }
 
+.lineno {
+    color: #aaa;
+}
+
 pre {
-    padding: 10px $spacing-lr;
+    padding: 10px ($spacing-lr * 3 / 2);
     overflow-x: scroll;
 
     > code {
