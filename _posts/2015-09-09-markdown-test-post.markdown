@@ -7,7 +7,7 @@ categories: jekyll markdown
 
 这是一个测试帖，用来调试常见帖子元素的风格。比如：
 
-包含大量废话的段落。
+包含大量文字的段落。
 
 When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume among the Powers of the earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation.
 在有关人类事务的发展过程中，当一个民族必须解除其和另一个民族之间的政治联系，并在世界各国之间依照自然法则和自然之造物主的意旨，接受独立和平等的地位时，出于人类舆论的尊重，必须把他们不得不独立的原因予以宣布。
@@ -86,9 +86,9 @@ public static void main( String[] args ){
 [链接3]:	http://www.google.com
 
 
-如果引用一张图片，是这样的；原始很大的图片，在高分辨率屏下效果应该不错：
+引用一张图片，是这样的；原始很大的图片，在高分辨率屏下效果应该不错：
 
-![](https://drscdn.500px.org/photo/112647659/m%3D900/822be42cd0189307af4b3961b30970a5)
+![](https://drscdn.500px.org/photo/97951807/m%3D900/5a45cea2455b77fc732111173ad391be)
 
 如果图片宽度不够，也要填满宽度，虽然会显得模糊：
 
