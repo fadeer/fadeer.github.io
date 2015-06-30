@@ -43,8 +43,8 @@ ul, ol, dl, figure,
  */
 img {
     vertical-align: middle;
-    max-width: -webkit-calc(100% + (#{$spacing-lr} *3));
-    max-width:         calc(100% + (#{$spacing-lr} *3));
+    width: -webkit-calc(100% + (#{$spacing-lr} *3));
+    width:         calc(100% + (#{$spacing-lr} *3));
     margin-left: -($spacing-lr *3 /2);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
 }

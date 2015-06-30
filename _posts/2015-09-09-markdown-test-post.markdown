@@ -75,13 +75,13 @@ public static void main( String[] args ){
 [链接2]:	http://www.google.com
 [链接3]:	http://www.google.com
 
-如果引用一张图片，效果是这样的：
+如果引用一张图片，是这样的；原始很大的图片，在高分辨率屏下效果应该不错：
 
-![](http://www.markgray.com.au/images/gallery/large/desert-light.jpg)
+![](https://drscdn.500px.org/photo/112647659/m%3D900/822be42cd0189307af4b3961b30970a5)
 
-如果图片宽度不够，效果是：
+如果图片宽度不够，也要填满宽度：
 
-![](http://www.wallpaperkostenlos.com/cache/hintergrundbilder/Wasserfaelle-Sued-Amerika.-Lateinamerika_w454_h220_cw454_ch220_thumb.jpg)
+![](http://www.workshifting.com/wp-content/uploads/2012/12/1-casual-4am-walks_-by-Josh-Sam-Downloaded-from-500px1-595x240.jpg)
 
 更多的语法参考[kramdown Syntax](http://kramdown.gettalong.org/syntax.html)。
 
