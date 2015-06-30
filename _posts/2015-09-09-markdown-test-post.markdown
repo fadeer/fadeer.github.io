@@ -88,11 +88,11 @@ public static void main( String[] args ){
 [链接3]:	http://www.google.com
 
 
-引用一张图片，是这样的；原始很大的图片，在高分辨率屏下效果应该不错：
+引用一张图片，是这样的：
 
-![](https://drscdn.500px.org/photo/97951807/m%3D900/5a45cea2455b77fc732111173ad391be)
+![](https://drscdn.500px.org/photo/100664911/m%3D900/0f41604dc77d7a5d1d347b9533b844ba)
 
-如果图片宽度不够，也要填满宽度，虽然会显得模糊：
+原始很大的图片，在高分辨率屏下效果应该不错；如果图片宽度不够，也要填满宽度，虽然会显得模糊：
 
 ![](http://www.workshifting.com/wp-content/uploads/2012/12/1-casual-4am-walks_-by-Josh-Sam-Downloaded-from-500px1-595x240.jpg)
 
