@@ -2,17 +2,19 @@
 layout: post
 title:  "测试帖子的markdown语法"
 date:   2015-09-09 12:00:00
-categories: jekyll markdown
+categories: jekyll markdown test
 ---
 
 这是一个测试帖，用来调试常见帖子元素的风格。比如：
 
-包含大量文字的段落。
+包含大量文字的段落:
 
 When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume among the Powers of the earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation.
 在有关人类事务的发展过程中，当一个民族必须解除其和另一个民族之间的政治联系，并在世界各国之间依照自然法则和自然之造物主的意旨，接受独立和平等的地位时，出于人类舆论的尊重，必须把他们不得不独立的原因予以宣布。
+
 We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty, and the pursuit of Happiness.
 我们认为下面这些真理是不言而喻的：人人生而平等，造物者赋予他们若干不可剥夺的权利，其中包括生命权、自由权和追求幸福的权利。
+
 That to secure these rights, Governments are instituted among Men, deriving their just powers from the consent of the governed.
 为了保障这些权利，人类才在他们之间建立政府，而政府之正当权力，是经被治理者的同意而产生的。
 
@@ -28,7 +30,7 @@ That to secure these rights, Governments are instituted among Men, deriving thei
 常见的语法高亮:
 <!--preview-end-->
 
-* Javascript
+Javascript
 {% highlight javascript %}
 function start(){
 	num1++;
@@ -42,7 +44,7 @@ document.addEventListener("mouseup",function(){
 });
 {% endhighlight %}
 
-* Linux Bash
+Linux Bash
 {% highlight bash %}
 #!/bin/bash
 for fullpath in "$@"
@@ -60,7 +62,7 @@ do
 done
 {% endhighlight %}
 
-* Java， 包含行号
+Java， 包含行号
 {% highlight java linenos%}
 public static void main( String[] args ){
     Dog aDog = new Dog("Max");
