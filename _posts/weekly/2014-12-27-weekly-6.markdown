@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "每周技术文章 2014.6"
-date:   2014-12-20 12:00:00
+title:  "每周技术文章 No.6"
+date:   2014-12-27 12:00:00
+daterange: "2014.12.20-26"
 categories: weekly
 ---
 **前端技术，界面、交互、安全**

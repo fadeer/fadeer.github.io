@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "每周技术文章 2015.17"
-date:   2015-05-25 12:00:00
+title:  "每周技术文章 No.24"
+date:   2015-06-01 12:00:00
+daterange: "2015.5.25-31"
 categories: weekly
 ---
 **前端技术，界面、交互、安全**
@@ -15,7 +16,6 @@ categories: weekly
 * 这两天[携程出事儿](http://www.leiphone.com/news/201505/IT7G6BAn8e1gZXGc.html)了，所以得来几篇关于运维安全的文章：[安全基础教育-堡垒是从内部攻破的](http://www.cnblogs.com/zhengyun_ustc/p/sec01.html)；[小伙伴们手滑集](http://www.cnblogs.com/zhengyun_ustc/p/slip.html)，“某年研发部所有电脑硬盘被偷，95%+的产品都丢了源代码，为了维护一个已经上线的产品不得已，挂 HttpHandler 来处理”；[华为内部的Web安全原则](http://mp.weixin.qq.com/s?__biz=MzAxMjAwMjUxNQ==&mid=207881605&idx=1&sn=2fce890233828adaa90364e3c8633f4a&scene=1&key=c468684b929d2be2e72bdeea4c902b28ce440293159aa6e868c80f0ada82f7b7bee8ee2381d94cf812e107e0c39ff9e4&ascene=0&uin=Mjc5MDYwMDk0MA%3D%3D&devicetype=iMac+MacBookPro11,1+OSX+OSX+10.10.3+build(14D136)&version=11020012&pass_ticket=9IxyMgqyWjsfSKw4iuGCYskt5Jd1skh5b23Jv4vjt3udF9Tx2vAI0uc2Hmk7sHqW)。
 
 **后端技术，操作系统、虚拟化、存储、网络、桌面领域**
-<!--preview-end-->
 
 * Azure Stack相关两篇：[当Azure遇上Docker](http://maomaostyle.blog.51cto.com/2220531/1654994)，[Windows Nano Server测试和Azure Stack揭秘](http://markwin.blog.51cto.com/148406/1654636)，这个管理界面的设计沿自Azure Web的，但是也有不少改进，值得参考。
 * [闲聊Openstack中国的商业模式](http://www.chenshake.com/chat-openstack-business-model-in-china/)，确实**谈了很多现实的问题**。“当你把Openstack已经做的和vmware差不多的情况下，客户就会提出更多的问题，每个问题都会让你无比的恶心：... 11.能支持VDI吗，最好可以搞定U盘重定向”。

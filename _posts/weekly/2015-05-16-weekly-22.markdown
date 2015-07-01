@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "每周技术文章 2015.15"
-date:   2015-05-04 12:00:00
+title:  "每周技术文章 No.22"
+date:   2015-05-16 12:00:00
+daterange: "2015.5.4-15"
 categories: weekly
 ---
 **前端技术，界面、交互、安全**
@@ -16,7 +17,6 @@ categories: weekly
 * [关于社会工程学攻击的一次探索](http://security.zdnet.com.cn/security_zone/2015/0507/3052095.shtml)，系统最大漏洞之一，人。
 
 **后端技术，操作系统、虚拟化、存储、网络、桌面领域**
-<!--preview-end-->
 
 * **人们为什么使用VDI？**[原因只有一个](http://www.brianmadden.com/blogs/brianmadden/archive/2015/05/06/why-do-people-use-vdi-one-reason.aspx)，用户只是希望能够**用他手头的设备，来使用工作必须的程序**。
 * [中企通信发布DaaS桌面云解决方案](http://cio.zdnet.com.cn/cio/2015/0514/3052647.shtml)，它自家的虚拟机服务，然后包装VMware Horizon（私有桌面云）的业务啊。看来Vmware自家的DaaS服务方案还没进中国。
