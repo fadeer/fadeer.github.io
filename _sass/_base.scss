@@ -79,7 +79,18 @@ li {
     }
 }
 
+.archive {
+    margin-left: 0;
 
+    .archive_item {
+        list-style-type: none;
+    }
+
+    .archive_date {
+        float: right;
+        color: #999;
+    }
+}
 
 /**
  * Headings

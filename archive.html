@@ -11,24 +11,27 @@ layout: default
     {% if forloop.first %}
     <div class="area">
     <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
-    <ul>
+    <ul class="archive">
     {% endif %}
 
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li class="archive_item">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <span class="archive_date">{{ post.date | date: "%b %-d, %Y"}}</span>
+    </li>
 
     {% if forloop.last %}
     </ul>
     </div>
     {% else %}
         {% if this_year != next_year %}
-    </div>
+        </div>
         </ul>
-    <div class="area">
+
+        <div class="area">
         <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
-        <ul>
+        <ul class="archive">
         {% endif %}
     {% endif %}
 {% endfor %}
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
