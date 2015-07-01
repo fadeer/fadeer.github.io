@@ -27,10 +27,18 @@ That to secure these rights, Governments are instituted among Men, deriving thei
 * 第四项，内容，[外部链接](http://www.google.com)。
 
 
+这种把正文内容和引用的原始链接分开的方式不错，[参考1][链接1]和[参考2][链接2]，这样正文就不会被过长的[链接3]打断了。
+
+<!-- 下面就是原始的链接，不会直接出现在正文里 -->
+[链接1]:	http://www.google.com
+[链接2]:	http://www.google.com
+[链接3]:	http://www.google.com
+
+
 常见的语法高亮:
 <!--preview-end-->
 
-Javascript，代码和正文保持纵向对齐：
+**Javascript**，代码和正文保持纵向对齐：
 {% highlight javascript %}
 function start(){
 	num1++;
@@ -44,7 +52,7 @@ document.addEventListener("mouseup",function(){
 });
 {% endhighlight %}
 
-Linux Bash，包含横向滚动：
+Linux **Bash**，包含横向滚动：
 {% highlight bash %}
 #!/bin/bash
 for fullpath in "$@"
@@ -62,7 +70,7 @@ do
 done
 {% endhighlight %}
 
-Java， 包含行号：
+**Java**， 包含行号：
 {% highlight java linenos%}
 public static void main( String[] args ){
     Dog aDog = new Dog("Max");
@@ -78,14 +86,6 @@ public static void main( String[] args ){
 {% endhighlight %}
 
 也可以在文字间加代码，比如`/etc/network/interfaces`这样。
-
-
-这种把正文内容和引用的原始链接分开的方式不错，[参考1][链接1]和[参考2][链接2]，这样正文就不会被过长的[链接3]打断了。
-
-<!-- 下面就是原始的链接，不会直接出现在正文里 -->
-[链接1]:	http://www.google.com
-[链接2]:	http://www.google.com
-[链接3]:	http://www.google.com
 
 
 引用一张图片，是这样的：
