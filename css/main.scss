@@ -10,7 +10,8 @@ $font-default:	"Helvetica Neue","Microsoft YaHei", "WenQuanYi Micro Hei",Arial, 
 $font-mono:	Monaco, Menlo, Consolas, Courier New, "Heiti SC", STHeiti, "Microsoft Yahei", monospace;
 $base-font-family: $font-default;
 $base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
+$small-font-size:  $base-font-size * 0.875; //14px
+$title-font-size:  $base-font-size * 1.5; //24px
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;

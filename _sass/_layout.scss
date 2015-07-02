@@ -13,7 +13,7 @@
 }
 
 .site-title {
-    font-size: 24px;
+    font-size: $title-font-size;
     line-height: 44px;
     padding-top: 4px;
     /*letter-spacing: -1px;*/
@@ -192,9 +192,14 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: $title-font-size;
+    line-height: 1.5;
 }
 
+.post-title2 {
+    font-size: $base-font-size;
+    color: $grey-color-dark;
+}
 
 
 /**
@@ -205,18 +210,18 @@
 }
 
 .post-title {
-    font-size: 28px;
-    letter-spacing: -1px;
-    line-height: 1;
-    margin-bottom: 10px;
+    font-size: $title-font-size;
+    //letter-spacing: -1px;
+    //line-height: 1;
+    margin-bottom: 5px;
 
     @include media-query($on-laptop) {
         font-size: 36px;
     }
 }
 
-.post-sub-t {
-    font-size: 24px;
+.post-title2 {
+    font-size: $base-font-size;
     color: #999;
 }
 

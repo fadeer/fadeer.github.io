@@ -82,17 +82,19 @@ li {
 .archive {
     margin-left: 0;
 
-    .archive_item {
+    .apost-title {
         list-style-type: none;
     }
 
-    .archive_sub {
-        color: #999;
+    .apost-title2 {
+        font-size: $small-font-size;
+        color: $grey-color-dark;
     }
 
-    .archive_date {
+    .apost-date {
         float: right;
-        color: #999;
+        font-size: $small-font-size;
+        color: $grey-color;
     }
 }
 

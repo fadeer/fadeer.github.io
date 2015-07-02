@@ -5,12 +5,17 @@ layout: default
 <div class="home">
 
     {% for post in site.posts limit:5 %}
-    <div class="area"> 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    <div class="area">
+        <header class="post-header">
+        <h2 class="post-title">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+          {{ post.title }}
+          <span class="post-title2">{{ post.daterange }}</span>
+          </a>
         </h2>
 
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </header> 
 
 	<article class="post-content">
            {{ post.content | split:'<!--preview-end-->' | first }}
