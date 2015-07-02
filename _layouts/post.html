@@ -4,7 +4,7 @@ layout: default
 <div class="area post">
 
   <header class="post-header">
-    <h2 class="post-title">{{ page.title }}</h2>
+    <h2 class="post-title">{{ page.title }} <span class="post-sub-t">{{ page.daterange}}</span></h2>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
