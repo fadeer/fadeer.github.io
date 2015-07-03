@@ -37,6 +37,18 @@ ul, ol, dl, figure,
 }
 
 
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../resource/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(../resource/MaterialIcons-Regular.woff2) format('woff2'),
+       url(../resource/MaterialIcons-Regular.woff) format('woff'),
+       url(../resource/MaterialIcons-Regular.ttf) format('truetype');
+}
+
 .m-icons {
   font-family: 'Material Icons';
   font-weight: normal;
