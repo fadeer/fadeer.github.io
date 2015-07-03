@@ -6,10 +6,10 @@ layout: default
   <header class="post-header">
     <h2 class="post-title">{{ page.title }} <span class="post-title2">{{ page.title2}}</span></h2>
     <p class="post-meta">
-	{{ page.date | date: "%b %-d, %Y" }}
-	{% if page.author %} • {{ page.author }}{% endif %}
-	{% if page.meta %} • {{ page.meta }}{% endif %}
-	{% for cat in page.categories %} • {{ cat }}{% endfor %}
+	<i class="m-icons">schedule</i>{{ page.date | date: "%b %-d, %Y" }}
+	{% if page.author %} <i class="m-icons">face</i>{{ page.author }}{% endif %}
+	{% if page.meta %} <i class="m-icons">info_outline</i>{{ page.meta }}{% endif %}
+	{% for cat in page.categories %} <i class="m-icons">local_offer</i>{{ cat }}{% endfor %}
     </p>
   </header>
 
