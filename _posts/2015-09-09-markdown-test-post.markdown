@@ -19,24 +19,7 @@ That to secure these rights, Governments are instituted among Men, deriving thei
 为了保障这些权利，人类才在他们之间建立政府，而政府之正当权力，是经被治理者的同意而产生的。
 
 
-**列表**
-
-* 第一项，内容。
-* 第二项，内容。
-* 第三项，内容，**重要的内容**。
-* 第四项，内容，[外部链接](http://www.google.com)。
-
-
-这种把正文内容和引用的原始链接分开的方式不错，[参考1][链接1]和[参考2][链接2]，这样正文就不会被过长的[链接3]打断了。
-
-<!-- 下面就是原始的链接，不会直接出现在正文里 -->
-[链接1]:	http://www.google.com
-[链接2]:	http://www.google.com
-[链接3]:	http://www.google.com
-
-
 **常见的语法高亮**
-<!--preview-end-->
 
 **Javascript**，代码和正文保持纵向对齐：
 {% highlight javascript %}
@@ -51,6 +34,7 @@ document.addEventListener("mouseup",function(){
 	this.removeEventListener("mousemove",start,false);
 });
 {% endhighlight %}
+<!--preview-end-->
 
 Linux **Bash**，包含横向滚动：
 {% highlight bash %}
@@ -86,6 +70,22 @@ public static void main( String[] args ){
 {% endhighlight %}
 
 也可以在文字间加代码，比如`/etc/network/interfaces`这样。
+
+
+**列表内容*
+
+* 第一项，内容。
+* 第二项，内容。
+* 第三项，内容，**重要的内容**。
+* 第四项，内容，[外部链接](http://www.google.com)。
+
+
+这种把正文内容和引用的原始链接分开的方式不错，[参考1][链接1]和[参考2][链接2]，这样正文就不会被过长的[链接3]打断了。
+
+<!-- 下面就是原始的链接，不会直接出现在正文里 -->
+[链接1]:	http://www.google.com
+[链接2]:	http://www.google.com
+[链接3]:	http://www.google.com
 
 
 **引用一张图片**，是这样的：

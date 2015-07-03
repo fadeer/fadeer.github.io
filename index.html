@@ -10,11 +10,17 @@ layout: default
         <h2 class="post-title">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
           {{ post.title }}
-          <span class="post-title2">{{ post.daterange }}</span>
+          <span class="post-title2">{{ post.title2 }}</span>
           </a>
         </h2>
 
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <p class="post-meta">
+	{{ post.date | date: "%b %-d, %Y" }}
+        {% if post.author %} • {{ post.author }}{% endif %}
+        {% if post.meta %} • {{ post.meta }}{% endif %}
+        {% for cat in post.categories %} • {{ cat }}{% endfor %}
+	</p>
+
         </header> 
 
 	<article class="post-content">

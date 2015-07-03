@@ -2,8 +2,8 @@
 layout: post
 title:  "每周技术文章 No.4"
 date:   2014-12-13 12:00:00
-daterange: "2014.12.6-12"
-categories: weekly
+title2: "2014.12.6-12"
+categories: weekly skill
 ---
 **前端技术，界面、交互、安全**
 
