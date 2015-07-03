@@ -7,7 +7,8 @@ categories: jekyll markdown test
 
 这是一个测试帖，用来调试常见帖子元素的风格。比如：
 
-**包含大量文字的段落**
+文字，段落
+----
 
 When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume among the Powers of the earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation.
 在有关人类事务的发展过程中，当一个民族必须解除其和另一个民族之间的政治联系，并在世界各国之间依照自然法则和自然之造物主的意旨，接受独立和平等的地位时，出于人类舆论的尊重，必须把他们不得不独立的原因予以宣布。
@@ -19,7 +20,8 @@ That to secure these rights, Governments are instituted among Men, deriving thei
 为了保障这些权利，人类才在他们之间建立政府，而政府之正当权力，是经被治理者的同意而产生的。
 
 
-**常见的语法高亮**
+常见的语法高亮
+----
 
 **Javascript**，代码和正文保持纵向对齐：
 {% highlight javascript %}
@@ -72,7 +74,8 @@ public static void main( String[] args ){
 也可以在文字间加代码，比如`/etc/network/interfaces`这样。
 
 
-**列表内容**
+列表内容
+----
 
 * 第一项，内容。
 * 第二项，内容。
@@ -88,7 +91,9 @@ public static void main( String[] args ){
 [链接3]:	http://www.google.com
 
 
-**引用一张图片**，是这样的：
+富媒体内容
+----
+引用一张图片，是这样的：
 
 ![](https://drscdn.500px.org/photo/100664911/m%3D900/0f41604dc77d7a5d1d347b9533b844ba)
 
@@ -97,6 +102,8 @@ public static void main( String[] args ){
 ![](http://www.workshifting.com/wp-content/uploads/2012/12/1-casual-4am-walks_-by-Josh-Sam-Downloaded-from-500px1-595x240.jpg)
 
 
-**更多的语法**参考:[kramdown Syntax](http://kramdown.gettalong.org/syntax.html)。
+更多元素
+----
+参考：[kramdown Syntax](http://kramdown.gettalong.org/syntax.html)
 
 
