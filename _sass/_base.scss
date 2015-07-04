@@ -36,18 +36,19 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-
+/*
 @font-face {
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: url(../resource/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: url(../resource/MaterialIcons-Regular.eot);
   src: local('Material Icons'),
        local('MaterialIcons-Regular'),
        url(../resource/MaterialIcons-Regular.woff2) format('woff2'),
        url(../resource/MaterialIcons-Regular.woff) format('woff'),
        url(../resource/MaterialIcons-Regular.ttf) format('truetype');
 }
+*/
 
 .m-icons {
   font-family: 'Material Icons';

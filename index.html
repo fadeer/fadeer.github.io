@@ -15,10 +15,10 @@ layout: default
         </h2>
 
         <p class="post-meta">
-	<i class="m-icons">schedule</i>{{ post.date | date: "%b %-d, %Y" }}
-        {% if post.author %} <i class="m-icons">face</i>{{ post.author }}{% endif %}
-        {% if post.meta %} <i class="m-icons">info_outline</i>{{ post.meta }}{% endif %}
-        {% for cat in post.categories %} <i class="m-icons">local_offer</i>{{ cat }}{% endfor %}
+        <i class="zmdi zmdi-time"></i><span class="meta-item">{{ post.date | date: "%b %-d, %Y" }}</span>
+        {% if post.author %} <i class="zmdi zmdi-account-box"></i><span class="meta-item">{{ post.author }}</span> {% endif %}
+        {% if post.meta %} <i class="zmdi zmdi-bookmark"></i><span class="meta-item">{{ post.meta }}</span> {% endif %}
+        {% for cat in post.categories %} <i class="zmdi zmdi-local-offer"></i><span class="meta-item">{{ cat }}</span> {% endfor %}
 	</p>
 
         </header> 

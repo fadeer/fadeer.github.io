@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "测试帖子的markdown语法"
+title:  "测试帖子的常见元素的表现"
 date:   2015-09-09 12:00:00
+author: fadeer
 categories: jekyll markdown test
 ---
 
