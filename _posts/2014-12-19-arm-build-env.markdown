@@ -2,6 +2,7 @@
 layout: post
 title:  "有关ARM编译环境"
 date:   2014-12-19 10:19:00
+author: fadeer
 categories: Linux ARM
 ---
 

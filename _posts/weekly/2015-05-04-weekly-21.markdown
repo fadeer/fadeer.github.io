@@ -3,6 +3,7 @@ layout: post
 title:  "每周技术文章 No.21"
 date:   2015-05-04 12:00:00
 title2: "2015.4.25-5.3"
+author: fadeer
 categories: weekly skill
 ---
 **前端技术，界面、交互、安全**

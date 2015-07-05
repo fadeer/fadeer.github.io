@@ -3,6 +3,7 @@ layout: post
 title:  "每周技术文章 No.1"
 date:   2014-11-22 12:00:00
 title2: "2014.11.16-21"
+author: fadeer
 categories: weekly skill
 ---
 **界面、交互**
