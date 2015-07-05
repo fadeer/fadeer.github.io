@@ -24,7 +24,8 @@
         font-size: $title-font-size * 1.125;
     }
     @include media-query($on-palm) {
-        font-size: $title-font-size * 0.875;
+        font-size: $title-font-size * 0.55;
+        margin: 0 5px;
     }
 
     &,
@@ -65,7 +66,7 @@
         text-align: right;
 
         .menu-icon {
-            display: block;
+            display: none;
             float: right;
             width: 36px;
             height: 26px;
