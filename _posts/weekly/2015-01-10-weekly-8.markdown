@@ -51,6 +51,7 @@ categories: weekly skill
 图书
 ----
 今年新增图书这个分类，技术文章只能解决小问题，系统性的还得完整看书。基本上都会贴多看的链接，因为都是买了的，已经开始看了，是否看完就没准了。当然，必须得有闲白儿的。
+
 * [深入浅出Node.js](http://www.duokan.com/book/43927)，赶上咱部门学Node的热潮，积极补课。
 * [JavaScript高级程序设计（第3版）](http://www.duokan.com/book/41450)，配着Node补充javascript知识，之前基本只看了原型链部分。
 * [银河帝国 8：我，机器人](http://www.duokan.com/book/65899)，补课。
