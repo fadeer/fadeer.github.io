@@ -19,6 +19,13 @@
     /*letter-spacing: -1px;*/
     float: left;
     margin: 0 15px;
+    
+    @include media-query($on-laptop) {
+        font-size: $title-font-size * 1.125;
+    }
+    @include media-query($on-palm) {
+        font-size: $title-font-size * 0.875;
+    }
 
     &,
     &:visited {
@@ -115,7 +122,7 @@
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
+    //font-size: 15px;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
@@ -173,7 +180,7 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: $base-font-size;
 }
 
 .post-list {
@@ -188,6 +195,13 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    
+    @include media-query($on-laptop) {
+        font-size: $small-font-size * 1.125;
+    }
+    @include media-query($on-palm) {
+        font-size: $small-font-size * 0.875;
+    }
 }
 
 .meta-item {
@@ -198,11 +212,26 @@
     display: block;
     font-size: $title-font-size;
     line-height: 1.5;
+    
+    @include media-query($on-laptop) {
+        font-size: $title-font-size * 1.125;
+    }
+    @include media-query($on-palm) {
+        font-size: $title-font-size * 0.875;
+    }
 }
 
 .post-title2 {
     font-size: $base-font-size;
     color: $grey-color-dark;
+    
+    @include media-query($on-laptop) {
+        font-size: $base-font-size * 1.125;
+    }
+    @include media-query($on-palm) {
+        font-size: $base-font-size * 0.875;
+        display: none;
+    }
 }
 
 
@@ -220,37 +249,81 @@
     margin-bottom: 5px;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: $title-font-size * 1.125;
+    }
+    @include media-query($on-palm) {
+        font-size: $title-font-size * 0.875;
     }
 }
 
 .post-content {
     margin-bottom: $spacing-unit;
-
+    
+	@include media-query($on-laptop) {
+        font-size: $base-font-size * 1.125;
+    }
+    @include media-query($on-palm) {
+        font-size: $base-font-size * 0.875;
+    }
+    
     h2 {
-        font-size: 20px;
+        font-size: $hh-font-size;
+        font-weight: 600;
 
         @include media-query($on-laptop) {
-            font-size: 28px;
+            font-size: $hh-font-size * 1.125;
+        }
+        @include media-query($on-palm) {
+            font-size: $hh-font-size * 0.875;
         }
     }
 
-    h3 {
-        font-size: 22px;
+    h3, h4{
+        font-size: $hhh-font-size;
 
         @include media-query($on-laptop) {
-            font-size: 22px;
+            font-size: $hhh-font-size * 1.125;
         }
-    }
-
-    h4 {
-        font-size: 18px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
+        @include media-query($on-palm) {
+            font-size: $hhh-font-size * 0.875;
         }
     }
 }
+
+.archive {
+    margin-left: 0;
+    
+    @include media-query($on-laptop) {
+        font-size: $base-font-size * 1.125;
+    }
+    @include media-query($on-palm) {
+        font-size: $base-font-size * 0.875;
+    }
+
+    .apost-title {
+        list-style-type: none;
+    }
+
+    .apost-title2 {
+        font-size: $small-font-size;
+        color: $grey-color-dark;
+        
+        @include media-query($on-laptop) {
+            font-size: $base-font-size * 1.125;
+        }
+        @include media-query($on-palm) {
+            font-size: $base-font-size * 0.875;
+            display: none;
+        }
+	}
+
+    .apost-date {
+        float: right;
+        font-size: $small-font-size;
+        color: $grey-color;
+    }
+}
+
 
 .mNav {
 	background-color: rgba(30,30,30,0.9);

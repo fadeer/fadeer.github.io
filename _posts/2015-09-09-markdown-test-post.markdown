@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "测试帖子的常见元素的表现"
+title:  "测试markdown语法和元素表现风格"
 date:   2015-09-09 12:00:00
 author: fadeer
 categories: jekyll markdown test

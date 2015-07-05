@@ -54,7 +54,6 @@ ul, ol, dl, figure,
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
-  /*font-size: $small-font-size;*/
   line-height: 1;
   letter-spacing: normal;
   text-transform: none;
@@ -115,25 +114,6 @@ li {
     }
 }
 
-.archive {
-    margin-left: 0;
-
-    .apost-title {
-        list-style-type: none;
-    }
-
-    .apost-title2 {
-        font-size: $small-font-size;
-        color: $grey-color-dark;
-    }
-
-    .apost-date {
-        float: right;
-        font-size: $small-font-size;
-        color: $grey-color;
-    }
-}
-
 /**
  * Headings
  */
@@ -189,13 +169,17 @@ code {
     font-family: $font-mono;
     margin-bottom: $spacing-unit;
 
-    #border: 1px solid $grey-color-light;
-    #border-radius: 3px;
-    #background-color: #eef;
-}
-
-code {
-    padding: 1px 5px;
+	padding: 1px 5px;
+    color: #28B611;
+    border: 1px solid $grey-color-light;
+    background-color: #f8f8f8;
+    
+    @include media-query($on-laptop) {
+        font-size: $small-font-size * 1.125;
+    }
+    @include media-query($on-palm) {
+        font-size: $small-font-size * 0.75;
+    }
 }
 
 .lineno {
@@ -205,8 +189,13 @@ code {
 pre {
     padding: 10px ($spacing-lr * 3 / 2);
     overflow-x: auto;
+    border: none;
+    color: $code-color;
+    background-color: $code-color-bg;
 
     > code {
+    color: $code-color;
+    	background-color: $code-color-bg;
         border: 0;
         padding-right: 0;
         padding-left: 0;

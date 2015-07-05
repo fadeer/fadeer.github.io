@@ -5,6 +5,7 @@ date:   2014-12-19 10:19:00
 categories: Linux ARM
 ---
 
+
 原始知识
 ----
 构建ARM执行档、内核的编译运行环境，之前理解有这么两种：
@@ -16,6 +17,7 @@ categories: Linux ARM
 最近帮同事创建虚拟机，了解到他们使用**qemu-arm-static来进行交叉编译**，似乎是条中间路线，就探索了一下。其实，咱实验ARM开发板时也就是这么做的，当初不理解也就忽略了，所以这里也是补课一下。
 
 大致的方法是，需要一个目标ARM架构的rootfs，可以选择开发板提供的rootfs，或者以Ubuntu Core（其他发行版也有）为基础构建一个，目前开发板常见的就是ARMHF的了。apt-get安装qemu-user-static，然后将/usr/bin/qemu-arm-staic拷贝到arm-rootfs/usr/bin下，在**chroot到arm-rootfs**，就进入到了ARM的rootfs里，可以运行ARM的执行挡，编译程序、内核，甚至apt-get、完善rootfs都可以了，神奇啊。从表现上跟一个ARM VM区别不大啊，直接免了模拟ARM CPU这步。
+
 
 Qemu Static机制
 ----
@@ -57,7 +59,7 @@ mask ffffffffffffff00fffffffffffffffffeffffff
 /lib/ld-linux-armhf.so.3: No such file or directory
 {% endhighlight %}
 
-出错是arm的库在外部linux下没有。而chroot到arm-rootfs下也没干什么高级的事儿，由于mount的binfmt_misc没有变化，所以还是依赖于chroot后路径的/usr/bin/qemu-arm-static。chroot后执行sleep 10，外部Linux可以看到：
+出错是arm的库在外部linux下没有。而chroot到arm-rootfs下也没干什么高级的事儿，由于mount的binfmt_misc没有变化，所以还是依赖于chroot后路径的`/usr/bin/qemu-arm-static`。chroot后执行sleep 10，外部Linux可以看到：
 
 {% highlight bash %}
 root      1410  0.0  0.0  68140  2472 pts/1    S    09:32   0:00 sudo chroot ubuntu-core-armhf-rootfs/
@@ -73,6 +75,7 @@ Linux ubt1404-tico.itc.inventec 3.13.0-43-generic #72-Ubuntu SMP Mon Dec 8 19:35
 {% endhighlight %}
 
 arm-rootfs里显然没有内核，但是指令集的信息已经变成了armv7l了。
+
 
 比较一下
 ----

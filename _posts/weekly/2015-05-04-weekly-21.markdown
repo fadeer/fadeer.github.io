@@ -11,7 +11,7 @@ categories: weekly skill
 
 **后端技术，操作系统、虚拟化、存储、网络、桌面领域**
 
-* [树莓派上第一个商业RDP客户端产品](http://arstechnica.com/information-technology/2015/04/29/raspberry-pi-gets-a-remote-windows-desktop-client-from-parallels/)，来自Parallels 2X，其实就是原2X的RAS产品下的。[下载](http://www.2x.com/rdp-client/downloadlinks/)，[Linux下安装](http://www.2x.com/support/ras-documentation/2x-client-linux/installing/)和[使用说明](http://www.2x.com/support/ras-documentation/2x-client-linux/using-2x-client/)。大概跑了一下，支持NLA，但是没有RemoteFX，单线程，效率感觉跟FreeRDP非RFX差不多。连接起来的命令行是`/opt/2X/Client/bin/appserverclient -u itc030038 -r 1234567890123456789012== -s itc-030038-vdi:3389 -d itc -S local -c 16 -K local -e 0x86 --tls 0 -l 0x0409:0x0409 -I PRE_WIN2000_DISABLED -I 0 -m MS -T itc-030038-vdi -g 1600x900`
+* [树莓派上第一个商业RDP客户端产品](http://arstechnica.com/information-technology/2015/04/29/raspberry-pi-gets-a-remote-windows-desktop-client-from-parallels/)，来自Parallels 2X，其实就是原2X的RAS产品下的。[下载](http://www.2x.com/rdp-client/downloadlinks/)，[Linux下安装](http://www.2x.com/support/ras-documentation/2x-client-linux/installing/)和[使用说明](http://www.2x.com/support/ras-documentation/2x-client-linux/using-2x-client/)。大概跑了一下，支持NLA，但是没有RemoteFX，单线程，效率感觉跟FreeRDP非RFX差不多。连接起来的命令行是`/opt/2X/Client/bin/appserverclient -u itc030038 -r 1234567890123456789012== -s itc-030038-vdi:3389 -d itc -S local -c 16 -K local -e 0x86 --tls 0 -l 0x0409:0x0409 -I PRE_WIN2000_DISABLED -I 0 -m MS -T itc-030038-vdi -g 1600x900`。
 * [Ubuntu下一个桌面版本将默认使用Snappy打包](http://www.solidot.org/story?sid=43862)。“基于Mir和Unity 8的Ubuntu 16.04将提供两个分支，一个是Snappy打包，一个仍然使用deb。未来所有的Ubuntu发行版都将使用Snappy打包。”
 * [Linux整合服务4.0发布了](http://blogs.technet.com/b/virtualization/archive/2015/05/01/linux-integration-services-4-0-announcement.aspx)，支持2008R2后所有HyperV版本，Linux端是RedHat、CentOS系列，SuSE哪儿去了？
 * [微信红包金额分配的算法](http://timyang.net/architecture/wechat-red-packet/)，“每次拆红包时，系统取0.01到剩余平均值*2之间作为红包的金额”...
@@ -21,7 +21,7 @@ categories: weekly skill
 * [JVM内部原理](http://ifeve.com/jvm-internals/)，不明觉厉。
 * [Json序列化性能测试](http://dongliu.net/post/622456)，Jackson，FastJson和Gson。**至于Json-lib，加入这个性能测试对比主要是用来羞辱还在使用这个库的Javaer们。**
 
-* 微软开大会了，Build 2015上，服务器虚拟化相关内容：[Nano Server: A Cloud Optimized Windows Server for Developers](http://channel9.msdn.com/Events/Build/2015/2-755)，[Windows Containers: What, Why and How](http://channel9.msdn.com/Events/Build/2015/2-704)，[]()，其他的去[Channel9](http://channel9.msdn.com/Events/Build/2015)上看吧。
+* 微软开大会了，Build 2015上，服务器虚拟化相关内容：[Nano Server: A Cloud Optimized Windows Server for Developers](http://channel9.msdn.com/Events/Build/2015/2-755)，[Windows Containers: What, Why and How](http://channel9.msdn.com/Events/Build/2015/2-704)，其他的去[Channel9](http://channel9.msdn.com/Events/Build/2015)上看吧。
 * **深入掌握ECMAScript6异步编程**，[1.Generator 函数的含义与用法](http://www.ruanyifeng.com/blog/2015/04/generator.html)，[2.Thunk 函数的含义和用法](http://www.ruanyifeng.com/blog/2015/05/thunk.html)，“异步编程的语法目标，就是怎样让它更像同步编程？”我最近正头疼这个。
 * [HTTP 请求头中的 X-Forwarded-For](https://www.imququ.com/post/x-forwarded-for-header-in-http.html)，这个也有点儿用。
 * [Login PI v1.0](http://vmblog.com/archive/2015/04/28/login-pi-v1-0-releases-with-fanfare.aspx#.VUb6gCGqqE0) Release了，Brian Madden说[这是他等了15年的工具](https://www.brianmadden.com/blogs/brianmadden/archive/2015/04/30/login-pi-is-the-most-brilliant-monitoring-product-that-i-ve-been-waiting-15-years-for.aspx)。其实之前也发过前瞻，就是能更准确**判断远程桌面交互体验**的工具，不过咱应该也是用不起了。
