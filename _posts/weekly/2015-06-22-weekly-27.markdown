@@ -6,7 +6,8 @@ title2: "2015.6.15-21"
 author: fadeer
 categories: weekly skill
 ---
-**前端技术，界面、交互、安全**
+前端技术，界面、交互、安全
+----
 
 * [超实用的网页动画终极指南](http://www.uisdc.com/ultimate-guide-to-web-animation)，“从网页动画的简史、种类到实现都有特别细致的讲述，附大量原生教程，帮你彻彻底底掌握这个点”。
 * [来看看将成为明日主流的7大网页设计趋势](http://www.uisdc.com/7-future-web-design-trends)。
@@ -15,7 +16,8 @@ categories: weekly skill
 * [利用JSONP进行水坑攻击](http://www.infoq.com/cn/articles/JSONP-attack)，了解一下。
 * [理想的应用框架](http://www.cnblogs.com/sskyy/p/4592353.html)，长文，很多思考值得借鉴。
 
-**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+后端技术，操作系统、虚拟化、存储、网络、桌面领域
+----
 <!--preview-end-->
 
 * Sentry 是一个错误记录和聚合的平台，[实战Sentry](http://huoding.com/2015/06/19/450)，看着不错啊，可以考虑用起来。
@@ -25,18 +27,21 @@ categories: weekly skill
 * 来自Ben Armstrong的脚本：[Image Factory for Hyper-V](http://blogs.msdn.com/b/virtual_pc_guy/archive/2015/06/16/script-image-factory-for-hyper-v.aspx)。针对新一代的Windows，我们能有更方便的方式来完成初始VM的准备，包括系统、包括必要的更新。
 * [运维自动化之殇](http://www.infoq.com/cn/articles/effective-ops-part-05)。
 
-**硬件设备，ARM、终端、移动、智能设备**
+硬件设备，ARM、终端、移动、智能设备
+----
 
 * [亲历 WWDC 的开发者，让你看看 WWDC 的真正干货](http://www.ifanr.com/532189)
 * WWDC15 Session笔记：[iOS 9 多任务分屏要点](http://onevcat.com/2015/06/multitasking/)
 
-**市场、产品、项目**
+市场、产品、项目
+----
 
 * [产品设计怎么做头脑风暴？](http://www.uisdc.com/brainstorm-in-product-design) “确定问题的关键词，尽量找不同的角色来参与，不批评不点评，维度分析，留作记录”。
 * [运营工作的方法和提升技巧](http://www.woshipm.com/operate/165835.html)，
 * [A new window into our world with real-time trends](http://googleblog.blogspot.hk/2015/06/a-new-window-into-our-world-with-real.html)，谷歌趋势更新了。
 
-**团队建设**
+团队建设
+----
 
 * Git 10 周年访谈：[Linus 讲述背后故事](http://www.techug.com/linus)，了解一下Git是怎么来的。然后再学几个有用的命令，[如何在Git中撤销一切](http://www.jointforce.com/jfperiodical/article/show/796?m=d03)。
 * [更快学会任何东西的终极指南](http://36kr.com/p/533829.html)，“以专家为榜样，不必自己重新探索；解构技能，找出实现80%效果的那20%；不要一心二用；练习练习再练习，然后获得即时反馈；坚持，不要在低谷期放弃”。

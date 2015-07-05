@@ -6,13 +6,15 @@ title2: "2015.1.1-9"
 author: fadeer
 categories: weekly skill
 ---
-**前端技术，界面、交互、安全**
+前端技术，界面、交互、安全
+----
 
 * [2014年最佳的十款交互设计工具](http://www.uisdc.com/2014-interaction-design-tools)。
 * [响应式设计的现状与趋势](http://www.woshipm.com/it/129075.html)，“我想说下响应式体现的是一种高度适应性的设计思维模式。在响应式设计探究的道路上，响应式本身不是唯一目的，基于任意设备对页面内容进行完美规划的设计策略及工作流程应该是我们更大的课题”。
 * [移动前端不得不了解的html5 head头标签](http://www.css88.com/archives/5480)，感觉内容比较接地气，比如个别浏览器支持、Viewpoint、移动平台特点等。
 
-**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+后端技术，操作系统、虚拟化、存储、网络、桌面领域
+----
 
 * 知乎CTO李申申，[从0到100——知乎架构变迁史](http://haha.iczerd.com/weixin776)，看看这转变过程挺好。
 * [Github”里的“hub”改用Go语言开发](http://www.techug.com/hub-is-powered-by-go)，这事儿去年初就开始了，年中已经定论了，见[原始讨论](https://github.com/github/hub/issues/475)，可以借着这个Issue，了解一下在Github下，针对一个功能的讨论与开发、测试是怎么进行的。
@@ -22,17 +24,20 @@ categories: weekly skill
 * [HyperV报告脚本](http://blogs.msdn.com/b/virtual_pc_guy/archive/2015/01/06/hyper-v-reporting-script.aspx)，PowerShell[实现的](https://gallery.technet.microsoft.com/Hyper-V-Reporting-Script-4adaf5d0)（样例啊），输出Host和VM的信息，挺全面，[输出html效果](http://www.serhatakinci.com/files/get-hypervreport-v1-0-demo-output.html)也很好。
 * [Large Scale VDI deployment using Hyper-V with Storage Tiers and Data Deduplication](http://blogs.msdn.com/b/rds/archive/2015/01/05/large-scale-vdi-deployment-using-hyper-v-with-storage-tiers-and-data-deduplication.aspx)，重点是大规模的**存储架构和配置**，和**利用Login VSI进行的测试**，[Word下载](http://go.microsoft.com/fwlink/?LinkId=518098)。
 
-**硬件设备，ARM、终端、移动、智能设备**
+硬件设备，ARM、终端、移动、智能设备
+----
 
 * [自学 iOS 开发的一些经验](http://limboy.me/ios/2014/12/31/learning-ios.html)，挺全面的啊。
 * Internet of Things，[Programming IoT Devices, Web Services and IoT Clients](http://www.codeproject.com/Articles/853183/Internet-of-Things-Programming-IoT-Devices-Web-Ser)，拿树莓派和Arduino做的几个小例子。
 
-**市场、产品、项目**
+市场、产品、项目
+----
 
 * [为什么你不应该办健身卡](http://jandan.net/2015/01/03/gym-membership.html)，“调查表明有百分之六十七的健身房会员从未去过健身房。而这正是健身行业赚钱的方式，健身房利用的正是人类罪恶感和懒惰”。这商业模式很好啊。
 * Workflow最近很火，讨论很多，在iOS（特别是非越狱的）下玩儿成这样已经很能琢磨了，评价很高，还有说18块卖的太便宜了，呵呵。我还没买，因为感觉对“效率”的追求有点儿过，不过还是转几篇了解一下[神器初探Workflow-这个应用不太简单](http://www.iapps.im/single/28776)，[史上最強大iOS App自動化機器人上手教學](http://www.playpcesor.com/2015/01/workflow-ios-app.html)，[命中需求痛点的4个Workflow实例](http://sspai.com/27689)，[一个集合若干Workflow实例的非官方Workflow Gallery网站](http://sspai.com/27867)，[Workflow背后的故事](http://www.cocoachina.com/industry/20141223/10735.html)，[爱上Workflow的8个理由](http://sspai.com/27699)。这么多，重点是iOS下应用之间如何调用的，作为一个开放的应用，如何支持与其他应用联动。
 
-**团队建设**
+团队建设
+----
 
 * [牛人和普通人的区别在于思维方式](http://www.pento.cn/pin/30458614)，“人类就像是一条历史长河中的鱼，只有某几条鱼跳出河面，看到世界的法则，但是却无法改变，当那几条鱼中有跳上岸，进化了，改变河道流向，那样才能改变法则。”
 * [编程语言学习曲线](http://www.iteye.com/news/30007)，程序员Dobiasd在Github上绘制了七种编程语言的学习曲线，这些语言分别是：JavaScript、Java、C++、Python、Lisp、Haskell、PHP。
@@ -43,7 +48,9 @@ categories: weekly skill
 * 现在使用feedly 来订阅rss, 但常用的一些站点都没有提供全文输出，于是在GAE 上做了一个封装，转为全文RSS。[提供几个全文RSS](http://www.dongliu.net/post/5839069779066880)，InfoQ、瘾科技、cnbeta、CSDN。
 * [你有什么技能或知识是可以跨领域迁移的？](http://www.read.org.cn/html/2413-ni-shi-ji-neng-huo-zhi-shi-shi-ke-yi-kua-ling-yu-qian-yi-de-2.html)这个话题有用，阅读能力、时间管理、人际沟通、写作、项目统筹、批判性思维、学习能力、知识管理、网络营销、演讲演示、谈判能力。
 
-**图书**，今年新增图书这个分类，技术文章只能解决小问题，系统性的还得完整看书。基本上都会贴多看的链接，因为都是买了的，已经开始看了，是否看完就没准了。当然，必须得有闲白儿的。
+图书
+----
+今年新增图书这个分类，技术文章只能解决小问题，系统性的还得完整看书。基本上都会贴多看的链接，因为都是买了的，已经开始看了，是否看完就没准了。当然，必须得有闲白儿的。
 * [深入浅出Node.js](http://www.duokan.com/book/43927)，赶上咱部门学Node的热潮，积极补课。
 * [JavaScript高级程序设计（第3版）](http://www.duokan.com/book/41450)，配着Node补充javascript知识，之前基本只看了原型链部分。
 * [银河帝国 8：我，机器人](http://www.duokan.com/book/65899)，补课。

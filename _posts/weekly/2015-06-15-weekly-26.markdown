@@ -6,14 +6,16 @@ title2: "2015.6.8-14"
 author: fadeer
 categories: weekly skill
 ---
-**前端技术，界面、交互、安全**
+前端技术，界面、交互、安全
+----
 
 * [聊聊界面中常用的对齐形式](http://www.uisdc.com/ui-common-alignment-mode)。
 * [7个方法帮你精准判断一个LOGO的好坏](http://www.uisdc.com/7-step-logo-design-test)。
 * [苹果为何抛弃了最受欢迎的字体？](http://www.leiphone.com/news/201506/BgXiQk2GIDmJ3Hsd.html)Google的Roboto看着确实挺舒服的。
 * [移动web问题小结](http://www.alloyteam.com/2015/06/yi-dong-web-wen-ti-xiao-jie/)，挺有用的小细节。
 
-**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+后端技术，操作系统、虚拟化、存储、网络、桌面领域
+----
 <!--preview-end-->
 
 * [NEW RDS deployment model: Personal Session Desktops!](http://microsoftplatform.blogspot.nl/2015/06/new-rds-deployment-model-personal.html)Windows Server 2016 RDS新增桌面类型**Personal Session Desktops**，基本就是直接用Server版当桌面用，这跟之前有什么区别（本以为能用容器技术实现一个Virtual Desktop和Session Host中间的模式）？于是，一帮人都在评论微软的授权问题，Brain Madden也在[抱怨微软桌面访问授权之折腾](http://www.brianmadden.com/blogs/brianmadden/archive/2015/06/10/server-os-based-vdi-is-an-official-quot-feature-quot-of-windows-server-2016-apparently-microsoft-plans-to-continue-screwing-us-for-years-to-come.aspx)。
@@ -29,19 +31,22 @@ categories: weekly skill
 * [Power Shell Robocopy Backup](https://gallery.technet.microsoft.com/scriptcenter/Power-Shell-Robocpy-Backup-ce1c198b)，“This script was created to help you to make file server backups.It **keeps all ACL permissions, timestamp and the structure folders** using powershell with robocopy”。看着很有用哈，其实核心内容也就一行，“robocopy $Source $Destination\\$Folder *.* /mir /sec”。
 * [如何拯救一台glibc被干掉的Linux服务器?](http://zhuanlan.zhihu.com/iobject/20062978)，这个很有想法，哈哈。
 
-**硬件设备，ARM、终端、移动、智能设备**
+硬件设备，ARM、终端、移动、智能设备
+----
 
 * [开发者所需要知道的 iOS 9 SDK 新特性](http://onevcat.com/2015/06/ios9-sdk/)。
 * [5个应该跳过的APPLE WATCH设计模式](http://www.uisdc.com/avoid-5-apple-watch-patterns)。
 
-**市场、产品、项目**
+市场、产品、项目
+----
 
 * [好产品六字法则——刚需、痛点、高频](http://www.woshipm.com/pd/162009.html)，我总觉着，目前最好的产品，就是移动电源。
 * [微信订阅号配置及运营手册](http://www.woshipm.com/operate/163194.html)，学学，什么《你所不知道的运营微信订阅号128大技巧》。
 * [搜索引擎营销推广技巧](http://www.williamlong.info/archives/4265.html)
 * 补一篇上周的，[Openstack国内商业模式搞笑版](http://www.chenshake.com/openstack-domestic-business-model-funny-version/)，感觉还是**培训咨询**模式比较健康啊。
 
-**团队建设**
+团队建设
+----
 
 * [充滿工程師思維的 Google，是怎麼終於為自己注入設計精神？](http://www.inside.com.tw/2015/06/11/how-google-finally-got-design)光快是不行了，好看好用也是必须的。 
 * [编程语言与思维：科技公司如何自我重构？](http://www.techug.com/how-to-refactor-tech-company)“软件创业公司能够做到这一点调整，或许能够帮助解释为什么他们如此强大。计算机不端扩张的触及领域也是如此。这些软件公司同样具有独特的能力，重新构建自我。随着变化和发展，它们能够做的不仅仅是组织机构调整，因为它们基于代码设计，所以能够实现更加巨大的变化。它们能够重编自身，它们的文化，以及它们思考的方式。”这个结论看着挺激动的，但是要求也很高啊。
@@ -49,7 +54,8 @@ categories: weekly skill
 * [小黄鸭调试法](http://www.techug.com/debugger)，每个人都要找到自己学习的方法，这是一种。
 * [极限与现实](http://blog.lofyer.org/%E6%9E%81%E9%99%90%E4%B8%8E%E7%8E%B0%E5%AE%9E/)，鸡汤，“够不够格只是于自己来看，从来没有资历问题，只是上与不上的问题。上了，你就有，不上，你就没有”。
 
-**图书**
+图书
+----
 
 * [《领导力与新科学》](http://book.douban.com/subject/3349621/)，一篇读后感，[世界其实是混沌的](http://www.ikent.me/blog/5011)，“使命与价值观是驱动企业胜利的法宝，阿里巴巴就是这样的；参与感是产品设计的制胜法宝，小米就是这样的；允许员工自主决策是企业突飞猛进的法宝，内部创业与小组式产品研发就是这样的”。
 

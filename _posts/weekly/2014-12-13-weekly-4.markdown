@@ -6,11 +6,13 @@ title2: "2014.12.6-12"
 author: fadeer
 categories: weekly skill
 ---
-**前端技术，界面、交互、安全**
+前端技术，界面、交互、安全
+----
 
 * [谈响应式web设计代码实现](http://isux.tencent.com/code-of-response-web-design.html)，很多细节脑补不完整，先留着备忘。
 
-**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+后端技术，操作系统、虚拟化、存储、网络、桌面领域
+----
 
 * OpenStack巴黎大会，TryStack上[这篇](http://trystack.cn/uncategorized/openstack-summit-2014-%E5%B7%B4%E9%BB%8E%E7%AB%99%E5%85%A8%E8%AE%B0%E5%BD%95/)似乎比UnitedStack的分享更详细一些。里面提到了之前没太关注的OpenStack发行版，比如HP的Helion，大概华为以后也会发布自己的；这就像RHEL对于Linux，厂商把开源项目包装成产品，好提供有质量的服务和绑定用户。TryStack是九州云的一个技术分享网站，OpenStack[半月扯](http://trystack.cn/news/openstack%E5%8D%8A%E6%9C%88%E6%89%AF-12%E6%9C%88%E4%B8%8B/)系列也值得看看，比如这期提到的OpenStack[中国案例](http://www.openstack.org/user-stories/)。
 * [Ubuntu Core](https://wiki.ubuntu.com/Core)是Ubuntu的一个最小运行环境，李鸿明**定制ClientOS**也是以这个为基础的。之前在Docker生态里提及的CoreOS，就是提供了一个最小的Linux运行环境，但这是一个新兴的发型版啊，这事儿如果Ubuntu来做，那用户会觉得更靠谱一些吧。于是Ubuntu为了更好的支持类Docker的用法，发布了套新的发行版**Snappy Ubuntu Core**，结构就是Core(Ubuntu) + Framework(基础软件包) + APP(用户程序)，每层都是只读的，使用snappy工具进行**更新和回滚**（对，[apt-get已经不在了](http://www.36kr.com/p/217714.html)），这玩儿法咱们也讨论过不是？更多信息参考[Snappy页面](http://www.ubuntu.com/cloud/tools/snappy)，[文件系统结构](http://developer.ubuntu.com/snappy/filesystem-layout/)，[应用打包](http://developer.ubuntu.com/snappy/packaging-format-for-apps/)。
@@ -20,20 +22,23 @@ categories: weekly skill
 * 这是个“谁谁谁不高兴”的例子，[Node.js也分裂，核心开发者创建分支io.js](http://www.infoq.com/cn/news/2014/12/node.js-split-branch-iojs)，开源社区不靠谱是吧。然后就一堆人开始张罗着给新项目[做Logo](https://github.com/iojs/io.js/issues/37)了，这起哄劲儿啊。
 
 
-**硬件设备，ARM、终端、移动、智能设备**
+硬件设备，ARM、终端、移动、智能设备
+----
 
 * [PC Partner 迷你PC采用Tegra K1片上系统](http://www.cnbeta.com/articles/351753.htm)，小盒子看着还挺好，关键是**内建一个串口**。
 * [Firefox要支持iOS了](http://sspai.com/27607)，跟Chrome、Opera的差不多，谁在iOS上做“浏览器”都要踏实做壳，但是为了统一体验，不死心也得做啊。但这事儿的重点是怎么实现，Mozilla在Github上开了个[Firefox-ios](https://github.com/mozilla/firefox-ios)项目，项目[11月初开始](https://github.com/mozilla/firefox-ios/graphs/contributors)的，已经100多次提交300多次Fork了，只是官方尚未承认。亮点是这几乎是一个全部**用Swift编写的项目**，有可能是目前用Swift编写工程最复杂的一个，值得关注。
 * [深圳2014，开源硬件这一年](http://www.leiphone.com/news/201412/rolrdaoZEXDT9OHC.html)。
 
 
-**市场、项目**
+市场、项目
+----
 
 * [CoreOS与Docker分道扬镳，推出自己的容器引擎Rocket](http://www.infoq.com/cn/news/2014/12/coreos-docker-rocket)，题目有点儿唬人，放在这里是因为这不是个“谁谁谁不高兴”的问题，而是商业利益的问题。另外一篇译文[为什么CoreOS和Docker的分手是命中注定的](http://www.openstack.cn/p2820.html)，说明了这个问题，谁都不想被工具化、管道化，哪个公司要健康都得赚钱。
 * 订阅的硬塞的看到一篇文章，[想改變資策會？先從加入資策會做起！](http://www.inside.com.tw/2014/12/07/%e2%80%aachaneg-iii-join-iii)，评论有亮点，哈哈。
 * 来看看[浪潮的云计算策略](http://server.zdnet.com.cn/server/2014/1208/3041110.shtml)。
 
-**团队建设**
+团队建设
+----
 
 * [关于工作压力的思考](http://zhuanlan.zhihu.com/youwenwen/19888194)，值得看看，“工作压力增大一般是好事”。
 * [工程师的自我突破](https://www.ustack.com/blog/about-engineer-2/)，希望不只是鸡汤，态度决定一切。

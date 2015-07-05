@@ -6,14 +6,16 @@ title2: "2014.11.29-12.5"
 author: fadeer
 categories: weekly skill
 ---
-**前端技术，界面、交互、安全**
+前端技术，界面、交互、安全
+----
 
 * 数据可视化[基本图表](http://www.ruanyifeng.com/blog/2014/11/basic-charts.html)，如何展示简单数据关系。
 * 界面颜色搭配是一个问题，参考[色彩设计方法](http://www.woshipm.com/pd/123505.html)。还是设计的范畴，然后就会有规则、有惯用方法、有流行趋势、有突破创新。
 * 借[这篇文章](http://www.woshipm.com/ucd/123663.html)来了解一下动效，这事儿特别是针对移动领域，在受限的空间里，如何展示数据的关系、层次和变化等。这方面iOS上好像没做什么“规范”，但是有不少APP做了很好的尝试（比如Reeder，Flipboard等），前天下了个pad上的Google+，虽然还是上一代卡片式的结构，但是细节的切换确实比网页版好很多。而最近最火热的交互尝试是Google的Material Design，几乎处处都有动效的处理，这个在移动端上的实践案例就得算[Google自家的Inbox](https://play.google.com/store/apps/details?id=com.google.android.apps.inbox&hl=en)了。
 
 
-**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+后端技术，操作系统、虚拟化、存储、网络、桌面领域
+----
 
 * Calamari，这是一个Ceph的管理监控框架，[这里](http://www.openstack.cn/p2708.html)有个架构和功能的分析；之前UnitedStack的Ceph使用方案的文章里提到了监控部分，大概Calamari还有些粗糙，不够生产环境使用。
 * OpenStack在国内实践确实非常多啊，线下讨论也时常见到，这有个[西安OpenStack Meet Up总结](http://www.openstack.cn/p2792.html)，已经第四期了，分享的文档[这里有下载](http://www.meetup.com/Xian-OpenStack-Meetup/files/)。北京前一阵也有个[Ceph技术交流会](https://www.ustack.com/blog/ceph-meet-up/)，不知道是不是以后会聚在[China Ceph Meetup](http://www.meetup.com/China-Ceph/)下。另外一个话题是OpenStack对Docker的整合，基本上Docker就像KVM、HyperV一样是作为Nova计算服务的一个实现；关于Docker与OpenStack的关系，[这篇文章](https://www.ustack.com/blog/do-i-need-docker-also-with-openstack/)可以参考。
@@ -23,14 +25,16 @@ categories: weekly skill
 * 每年双11之后，淘宝都有些技术方面的分享和显摆，今年比较感兴趣的是[从未降级的搜索技术](http://www.searchtb.com/2014/11/search-in-1111.html)系列，特别是[自动化运维](http://www.searchtb.com/2014/11/%E4%BB%8E%E6%9C%AA%E9%99%8D%E7%BA%A7%E7%9A%84%E6%90%9C%E7%B4%A2%E6%8A%80%E6%9C%AF-hippo%E5%9C%A8%E7%BA%BF%E6%9C%8D%E5%8A%A1%E8%B0%83%E5%BA%A6%E7%B3%BB%E7%BB%9F.html)，其他的还有[HBase集群](http://www.searchtb.com/2014/11/search-in-1111-hbase.html)和[SKU搜索](http://www.searchtb.com/2014/11/%E4%BB%8E%E6%9C%AA%E9%99%8D%E7%BA%A7%E7%9A%84%E6%90%9C%E7%B4%A2%E6%8A%80%E6%9C%AF-%E5%A4%A9%E7%8C%ABsku%E6%90%9C%E7%B4%A2.html)。
 
 
-**硬件设备，ARM、终端、移动、智能设备**
+硬件设备，ARM、终端、移动、智能设备
+----
 
 * [论Web App、Hybrid App、Native App设计差异](http://mux.baidu.com/?p=6750)，了解一下。
 * 从Facebook的[iOS APP头文件](http://limboy.me/ios/2014/11/28/facebook-app-headers.html)看程序设计，希望能用上。
 * 看到树莓派博客上一篇文章，我标题党为[一名卡车司机的物联网尝试](http://www.raspberrypi.org/idata-truck-an-internet-of-things-lorry/)，大致是他用树莓派向办公室发送卡车运送货柜的状态，通过Twitter或者邮件。这过程顺便还学了Python，榜样啊！
 
 
-**市场、项目**
+市场、项目
+----
 
 * 采集数据、理解数据、整理分析数据基本是一项基础技能了，有数据支撑的理论才好说靠谱，转两篇文章[拿数据说话，从哪拿？](http://www.zhihu.com/question/19636807/answer/12482343)，[未来设计师应该是数据艺术家](http://www.36kr.com/p/217378.html)。
 * [纸上得来终觉浅，绝知此事须躬行](http://robbinfan.com/blog/76)，“上周云掌柜CEO邓熔来我们公司分享创业经历，介绍米途创业到转型云掌柜的创业过程”，比较感兴趣的是快速迭代探索新方向这段。
@@ -40,7 +44,8 @@ categories: weekly skill
 * 来自Chris Dixon的[观点](https://twitter.com/cdixon/status/505118160811728896)，每个原始的UNIX命令，都会变成一项互联网服务。比如：Grep->Google, rsync->Dropbox, man->stack overflow, cron->ifttt；后来[演进](http://sinacn.weibodangan.com/user/1401527553/)为dir->Yahoo!，find->Google，rcp->Dropbox，w->twitter/facebook，finger->LinkedIn，还有sudo->GCHQ、NSA。
 
 
-**团队建设**
+团队建设
+----
 
 * 借EasyStack的[招聘](http://www.easystack.cn/en/jobs.php)说明，来看看“优秀的OpenStack工程师”都有些什么要求，方向有虚拟化、网络、存储、产品、视觉、前端。
 * InfoQ上发布了一本[《DevOps的概念与实践》](http://www.infoq.com/cn/minibooks/aws-minibook-devops2014)电子书，大致就是今年网站上DevOps领域文章的合集，感兴趣的可以大概过一遍。

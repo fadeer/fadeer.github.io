@@ -6,13 +6,15 @@ title2: "2015.4.11-24"
 author: fadeer
 categories: weekly skill
 ---
-**前端技术，界面、交互、安全**
+前端技术，界面、交互、安全
+----
 
 * [网页字体排印指南](http://aaaaaashu.me/shu/)，“排版者应像手艺人一样遵循一条原则：做好自己的工作并隐于无形”。
 * [支付宝前端架构的涅槃](http://airjd.com/view/i8gmaghl000pt9e)，这就是React的应用啊。
 * [关于移动端的钓鱼式攻击](http://coolshell.cn/articles/17066.html)，手机太快了也不好，要不切换个程序都看不出来。“旧手机在卖前要“物理删除”数据”。这删完之后就不能当手机卖了啊。
 
-**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+后端技术，操作系统、虚拟化、存储、网络、桌面领域
+----
 
 * Docker方面三篇基础知识，[Linux Namespace（上）](http://coolshell.cn/articles/17010.html)，[Linux Namespace（下）](http://coolshell.cn/articles/17029.html)，[Linux CGroup](http://coolshell.cn/articles/17049.html)。
 * Google发布论文 披露[大规模集群管理工具Borg的细节](http://www.infoq.com/cn/news/2015/04/google-borg)，看[原文](https://research.google.com/pubs/archive/43438.pdf)吧。
@@ -23,18 +25,21 @@ categories: weekly skill
 * [Local GUI for Hyper-V Server 2012 R2 and Windows Server Core](http://blog.vttechnology.com/2015/04/local-gui-for-hyper-v-server-2012-r2.html)，本地Hyper-V管理工具，挺全面，120刀啊。
 * [RPi-TC 2 Release 1.1 available!](http://rpitc.blogspot.hk/2015/04/rpi-tc-2-release-11-available.html)，这回还有了个正式[文档](http://rpitc.blogspot.hk/p/main-documentation.html)。
 
-**硬件设备，ARM、终端、移动、智能设备**
+硬件设备，ARM、终端、移动、智能设备
+----
 
 * [硬件创业必经的八个坑，怎么填?](http://www.woshipm.com/pd/148764.html)，
 * Google近期在Udacity上发布了[Android性能优化的在线课程](https://www.udacity.com/course/ud825)，目前有三个篇章，分别从渲染，运算与内存，电量三个方面介绍了如何去优化性能，这些课程是Google之前在Youtube上发布的Android性能优化典范专题课程（之前发过）的细化与补充。这里是三篇博客笔记，[渲染篇](http://hukai.me/android-performance-render/)，[内存篇](http://hukai.me/android-performance-memory/)，[计算篇](http://hukai.me/android-performance-compute/)，更详细的直接看课程吧。
 
-**市场、产品、项目**
+市场、产品、项目
+----
 
 * [如何做出微软风格的PPT？](http://www.uisdc.com/design-metro-style-ppt)很多Modern UI细节的分析，比如零宽字形叠加这事儿比较方便啊。
 * 牛逼文案怎么憋？[《Creating the Copy：广告文案写作》](http://www.woshipm.com/pmd/149281.html)，这是十数年前曾在帝都文案界广为流传、堪称创意界《葵花宝典》的古董级PPT。
 * 万万没想到，我竟然购买了一款《纪念碑谷》的山寨模仿游戏《Skyward》。[站在猪闯出来的路子上玩微创新？](http://www.pingwest.com/ketchapp-skyward/)这公司叫Ketchapp，“休闲山寨王”，成功率高达70%以上，这法儿可行啊。
 
-**团队建设**
+团队建设
+----
 
 * [编程的宗派](http://www.yinwang.org/blog-cn/2015/04/03/paradigms/)，这是个广告啊，哈哈。
 * [Linux运维工程师指北](http://dbarobin.com/2015/04/14/operation-and-maintenance-engineer-tips/)。

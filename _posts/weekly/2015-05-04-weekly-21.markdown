@@ -6,11 +6,13 @@ title2: "2015.4.25-5.3"
 author: fadeer
 categories: weekly skill
 ---
-**前端技术，界面、交互、安全**
+前端技术，界面、交互、安全
+----
 
 * [译文，脱离屏幕：设计虚拟现实](http://www.aliued.cn/2015/04/25/%E3%80%90%E8%AF%91%E6%96%87%E3%80%91%E8%84%B1%E7%A6%BB%E5%B1%8F%E5%B9%95%EF%BC%9A%E8%AE%BE%E8%AE%A1%E8%99%9A%E6%8B%9F%E7%8E%B0%E5%AE%9E.html)，VR方向很火热啊。聚焦体验确实影响体验，指哪儿打哪儿不知谁能做的好。
 
-**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+后端技术，操作系统、虚拟化、存储、网络、桌面领域
+----
 
 * [树莓派上第一个商业RDP客户端产品](http://arstechnica.com/information-technology/2015/04/29/raspberry-pi-gets-a-remote-windows-desktop-client-from-parallels/)，来自Parallels 2X，其实就是原2X的RAS产品下的。[下载](http://www.2x.com/rdp-client/downloadlinks/)，[Linux下安装](http://www.2x.com/support/ras-documentation/2x-client-linux/installing/)和[使用说明](http://www.2x.com/support/ras-documentation/2x-client-linux/using-2x-client/)。大概跑了一下，支持NLA，但是没有RemoteFX，单线程，效率感觉跟FreeRDP非RFX差不多。连接起来的命令行是`/opt/2X/Client/bin/appserverclient -u itc030038 -r 1234567890123456789012== -s itc-030038-vdi:3389 -d itc -S local -c 16 -K local -e 0x86 --tls 0 -l 0x0409:0x0409 -I PRE_WIN2000_DISABLED -I 0 -m MS -T itc-030038-vdi -g 1600x900`。
 * [Ubuntu下一个桌面版本将默认使用Snappy打包](http://www.solidot.org/story?sid=43862)。“基于Mir和Unity 8的Ubuntu 16.04将提供两个分支，一个是Snappy打包，一个仍然使用deb。未来所有的Ubuntu发行版都将使用Snappy打包。”
@@ -20,30 +22,34 @@ categories: weekly skill
 * [高效运维最佳实践（04）](http://www.infoq.com/cn/articles/effective-ops-part-04)，运维 2.0，危机前的自我拯救。
 * [面向服务体系和遗留系统](http://www.infoq.com/cn/articles/service-oriented-architecture-and-legacy-systems)，得空细看看。
 * [JVM内部原理](http://ifeve.com/jvm-internals/)，不明觉厉。
-* [Json序列化性能测试](http://dongliu.net/post/622456)，Jackson，FastJson和Gson。**至于Json-lib，加入这个性能测试对比主要是用来羞辱还在使用这个库的Javaer们。**
+* [Json序列化性能测试](http://dongliu.net/post/622456)，Jackson，FastJson和Gson。**至于Json-lib，加入这个性能测试对比主要是用来羞辱还在使用这个库的Javaer们**。
 
 * 微软开大会了，Build 2015上，服务器虚拟化相关内容：[Nano Server: A Cloud Optimized Windows Server for Developers](http://channel9.msdn.com/Events/Build/2015/2-755)，[Windows Containers: What, Why and How](http://channel9.msdn.com/Events/Build/2015/2-704)，其他的去[Channel9](http://channel9.msdn.com/Events/Build/2015)上看吧。
 * **深入掌握ECMAScript6异步编程**，[1.Generator 函数的含义与用法](http://www.ruanyifeng.com/blog/2015/04/generator.html)，[2.Thunk 函数的含义和用法](http://www.ruanyifeng.com/blog/2015/05/thunk.html)，“异步编程的语法目标，就是怎样让它更像同步编程？”我最近正头疼这个。
 * [HTTP 请求头中的 X-Forwarded-For](https://www.imququ.com/post/x-forwarded-for-header-in-http.html)，这个也有点儿用。
 * [Login PI v1.0](http://vmblog.com/archive/2015/04/28/login-pi-v1-0-releases-with-fanfare.aspx#.VUb6gCGqqE0) Release了，Brian Madden说[这是他等了15年的工具](https://www.brianmadden.com/blogs/brianmadden/archive/2015/04/30/login-pi-is-the-most-brilliant-monitoring-product-that-i-ve-been-waiting-15-years-for.aspx)。其实之前也发过前瞻，就是能更准确**判断远程桌面交互体验**的工具，不过咱应该也是用不起了。
 
-**硬件设备，ARM、终端、移动、智能设备**
+硬件设备，ARM、终端、移动、智能设备
+----
 
 * Android性能优化典范-[第2季](http://hukai.me/android-performance-patterns-season-2/)，包括的内容大致有：电量优化，网络优化，Wear上如何做优化，使用对象池来提高效率，LRU Cache，Bitmap的缩放，缓存，重用，PNG压缩，自定义View的性能，提升设置alpha之后View的渲染性能，以及Lint，StictMode等等工具的使用技巧。
 
-**市场、产品、项目**
+市场、产品、项目
+----
 
 * [移动互联网产业发展白皮书（2015版）](http://blog.sina.com.cn/s/blog_4a78b4ee0102vjq5.html)，[赛迪PDF](http://www.ccidthinktank.com/uploads/soft/150421/INTERNET.pdf)。
 * [如何正确应对甲方的不合理要求？](http://www.uisdc.com/deal-with-unreasonable-requirement)
 * [简单易用的中文分词系统-盘古分词](http://www.kai-zhou.com/easy-to-use-chinese-word-pangea-word/)。
 
-**团队建设**
+团队建设
+----
 
 * [专注和游离](http://macshuo.com/?p=1307)，关于编程的。“**根本没有什么快速的提升，如果你在某段时间觉得自己提升得很快，那是因为你身边的大部分人成长得更慢**，或者，他们安于现状，没有提升。提升从来稳定的，持续的，渐进的。在大部分领域，围棋、绘画、写作、编程、球类等，没有十年的持续学习和实践，基本上很难达到专家级别的水准。”
 * 如何隐藏你的踪迹，避免跨省追捕，[8.如何搭配“多重代理”和“多虚拟机”](http://program-think.blogspot.com/2015/04/howto-cover-your-tracks-8.html)，要想安全发个牢骚，有多不容易。
 
 
-**图书**
+图书
+----
 
 
 

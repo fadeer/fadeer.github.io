@@ -6,13 +6,15 @@ title2: "2014.12.13-19"
 author: fadeer
 categories: weekly skill
 ---
-**前端技术，界面、交互、安全**
+前端技术，界面、交互、安全
+----
 
 * [浏览器解析HTML的过程及DOM的树形结构](http://www.w3cfuns.com/blog-5445197-5402548.html)，基础知识。然后再来看Facebook的[React框架](http://www.infoq.com/cn/articles/subversion-front-end-ui-development-framework-react)，这是与MVC不同的另一种思路。大致是，UI进行细粒度的划分，开发时只需要想着完整的数据表现，而框架会想着如何减少浏览器的负担，只把表现更改的部分推送过去。看前端为了提升点儿性能多不容易，后面要想着网络不可靠、Server不可靠，前面还要想着浏览器的逻辑，别总傻傻的重绘。
 * [前端学习总结](http://www.w3cfuns.com/blog-5454704-5402448.html)，貌似8K标准的。
 
 
-**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+后端技术，操作系统、虚拟化、存储、网络、桌面领域
+----
 
 * [深信服桌面云开启河北省重点高中教学新模式](http://net.zdnet.com.cn/network_security_zone/2014/1215/3041708.shtml)，沧州一中，1150个桌面，图书馆、学生机房、教师办公室。
 * [2015虚拟化市场预测](http://vmblog.com/archive/2014/12/12/1e-2015-predictions-four-virtualization-market-predictions.aspx)，这个看着玩就行。跟咱相关的比如**VDI增长依旧乏力**，带你的电脑来上班(BYOPC)的需求盖过了BYOD，某些中国企业在这方面的前瞻性真是超乎想象啊，哈哈。
@@ -21,15 +23,18 @@ categories: weekly skill
 * [NoSQL性能测试白皮书](http://www.infoq.com/cn/articles/nosql-performance-test)，题目有点儿大，实际上测试了SequoiaDB、Cassandra、MongoDB这三个NoSQL数据库在全内存、大部分内存运行的性能。重点是测试的方法和工具。
 * [通过抓包分析微软DHCP报文和其它系统DHCP报文的不同](http://yuan2.blog.51cto.com/446689/1590606)，对比后**才知道微软有多次**，呵呵。
 
-**硬件设备，ARM、终端、移动、智能设备**
+硬件设备，ARM、终端、移动、智能设备
+----
 
 * [360开发iPhone防骚扰的3年不归路](http://www.leiphone.com/news/201412/6PubhzimiDK8cMJR.html)，看看广告之外的东西。不能把企业版接口开放给普通用户，否则，**360账号大概被封了一年**。通讯录上，有1000个号码的“骚扰电话”，哈哈，这是iOS上目前的最佳实践。然而，这些号码的更新和准确全仰仗Android用户啦。
 
-**市场、项目**
+市场、项目
+----
 
 * 转个闲白儿的，湛庐美国之旅“话最伟大的头脑”的一个经历和思考，目前有三篇。[1.创意的诞生](http://weiwuhui.com/6312.html)，[2.大未来](http://weiwuhui.com/6326.html)，[3.设计引导型组织](http://weiwuhui.com/6352.html)。有意思的思路，比如“厚积薄发这个道理我们中国人数千年前就知道了，但比厚积薄发更重要的是：允许你慢悠悠地去厚积一些看似没有任何短期利益的事”，比如“这非常像一个木桶。每一块板都需要长板，但同时，别忘了桶箍。有些板子略短也就算了，少一两块也不会太碍事，但桶箍，万万缺不得”。
 
-**团队建设**
+团队建设
+----
 
 * [程序员的“纪律性”](http://www.techug.com/the-discipline-of-programmer)，“堆代码永远不是软件行业的核心竞争力，设计能力才是，尽管很多公司还以代码行数作为绩效来考评；**做一个听话的孩子在这个行业里也很难快速提升自我，因为创造力是要靠自己勉励自己才能不断展现的**”。
 * [哥们别逗了，写个脚本那真不叫运维自动化!](http://3060674.blog.51cto.com/3050674/1590803)，吐槽文。但重点是，“自动化”就说明了一个经验技术要被替代的趋势，让一年经验用十年没价值的趋势。

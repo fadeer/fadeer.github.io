@@ -6,12 +6,14 @@ title2: "2014.11.16-21"
 author: fadeer
 categories: weekly skill
 ---
-**界面、交互**
+界面、交互
+----
 
 * [响应式Web设计的9项基本原则](http://www.woshipm.com/pd/119337.html)，以小动画对比的方式，解释了响应式是怎么考虑问题的。
 * [非官方的iOS设计指南](http://www.woshipm.com/pd/119610.html)，各种界面细节，关注思路。
 
-**前端、安全**
+前端、安全
+----
 
 * 借着刘毓超他们讨论JS文件动态加载的话题，补充了一下这方面的知识，主要是SeaJs和RequireJs的比较。[SeaJS与RequireJS最大的区别](http://www.douban.com/note/283566440/)，亮点见评论。[LABjs、RequireJS、SeaJS 哪个最好用？为什么？](http://www.zhihu.com/question/20342350)，看看后面的回答。[Mod 与 RequireJS/SeaJS 的那些事](http://fex.baidu.com/blog/2014/04/fis-modjs-requirejs-seajs/)，这个实践也值得看看。
 * 两个实现的比较，背景还是Javascript的模块化，CommonJs和AMD规范的比较。先看看这三篇基础知识，[模块的写法](http://www.ruanyifeng.com/blog/2012/10/javascript_module.html)、[AMD规范](http://www.ruanyifeng.com/blog/2012/10/asynchronous_module_definition.html)、[requirejs的用法](http://www.ruanyifeng.com/blog/2012/11/require_js.html)。再看看[RequireJs其一、其二](http://cyj.me/why-seajs/requirejs/)。
@@ -21,12 +23,14 @@ categories: weekly skill
 * 为嘛考虑JS动态加载，为嘛考虑MVVM框架，为嘛还有那么一堆前端框架和库，无非是要能快速、可靠的实现前端业务，还要能达到生产级别的品质要求，参考[快速web开发中的前后端框架选型最佳实践](http://www.cnblogs.com/sskyy/p/3498273.html)。
 * 安全方面，继续HTTPS基础知识，[扫盲 HTTPS 和 SSL/TLS 协议](http://program-think.blogspot.com/2014/11/https-ssl-tls-0.html)，这系列正在连载，目前放出了头两篇，[背景知识、协议的需求、设计的难点](http://program-think.blogspot.com/2014/11/https-ssl-tls-1.html)，[可靠密钥交换的原理](http://program-think.blogspot.com/2014/11/https-ssl-tls-2.html)，感兴趣可以持续关注。
 
-**桌面领域、操作系统、虚拟化、存储、网络**
+桌面领域、操作系统、虚拟化、存储、网络
+----
 
 * 一组XenDesktop 7.6 的体验文章，了解一下吧：[安装, 配置站点和序列号服务器](http://beanxyz.blog.51cto.com/5570417/1579558)，[配置计算机目录和交付组](http://beanxyz.blog.51cto.com/5570417/1580096)，还没连载完。
 * OSv，面向云环境的操作系统，[官网](http://osv.io/)，[Wiki](http://en.wikipedia.org/wiki/OSv)。这是一个跟Linux\Windows对等的操作系统，提供最精简的系统支持运行用户的应用，应用可以获得更直接的内存、cpu、网络的访问。显然，硬件支持和安全性都是靠典型的虚拟化层来保障的。性能的提升参考[Cassandra on OSv](http://www.slideshare.net/dmarti1111/osv-at-cassandra-summit)。目前支持的应用模式有C++程序（OSv API）、Java程序（OSv+JVM、OSv+JVM+AppServer）。关于OSv最早的概念说明参考[OSv - CloudOpen 2013](https://docs.google.com/presentation/d/11mxUl8PBDQ3C4QyeHBT8BcMPGzqk-C8bV1Fw8xLgwSI/edit#slide=id.g20185cee_0_48)。
 
-**ARM设备、终端、移动**
+ARM设备、终端、移动
+----
 
 * 了解一下热门智能可穿戴设备的现状，看看[这篇文章](http://m.huxiu.com/article/101824/1.html)，包括设备类型、代表产品、产业链、主流芯片平台方案、软件什么的。
 * 来看看这几个物联网方向的[开发板](http://www.leiphone.com/news/201411/4MmuQFHI4ow1LaYC.html)。
@@ -34,7 +38,8 @@ categories: weekly skill
 * 2014中国X86服务器售前满意度分析，没看到完整的报告，但是有个[分析](http://mp.weixin.qq.com/s?__biz=MjM5NzUzNjgwMQ==&mid=201242246&idx=1&sn=e34ddb4b815bb2241016824f71e73019#rd)，DELL在大陆市场的售前和方案能力真成问题是么，ThinClient业务是不是还不如服务器呢？
 * [Apple Pay 究竟是什么？](http://zhuanlan.zhihu.com/wxiluo/19879908)，“不去破环，而是更好的利用原有的连接，在连接中将自己作为新的角色参与到整个活动中，用自己所长给整套体系创造更大的价值，也是一种非常聪明和高效的模式”。
 
-**团队、项目**
+团队、项目
+----
 
 * 有三种手法来训练自己的团队，使得在突发事件出现时（也就是之前既没有流程定义，也没有干部知道该如何处理），团队能够自动自发地灭火：[穷追不舍、事故入手和倒逼](http://www.cnblogs.com/zhengyun_ustc/p/3methods.html)。
 * 翻老文章，[学习技术的三部曲：WHAT、HOW、WHY](http://program-think.blogspot.com/2009/02/study-technology-in-three-steps.html)。

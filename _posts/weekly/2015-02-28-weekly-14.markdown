@@ -6,14 +6,16 @@ title2: "2015.2.16-27"
 author: fadeer
 categories: weekly skill
 ---
-**前端技术，界面、交互、安全**
+前端技术，界面、交互、安全
+----
 
 * [学交互设计我看过的那些书](http://www.woshipm.com/ucd/139018.html)。
 * [晒晒设计师工作时遇到的最奇葩修改意见！](http://www.uisdc.com/hateful-design-amendments)“这个设计太棒了，上线的话可能会产生话题性，因为可能有些人接受不了，所以我决定不采用”，“做个logo，领导说要远看是摄像头，近看是警徽，整体看是个永不消逝的电波”......
 * [没改默认密码，连公安的监控摄像头都被境外控制了](http://www.leiphone.com/news/201502/ApnVd4HanG8y3oaE.html)
 * [金雅拓公布攻击SIM卡密钥事件的调查结果](http://security.zdnet.com.cn/security_zone/2015/0227/3046963.shtml)
 
-**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+后端技术，操作系统、虚拟化、存储、网络、桌面领域
+----
 
 * [Boot Guard 与 Coreboot](https://linuxtoy.org/archives/reading-boot-guard-and-coreboot.html)，当年对 Secure Boot 开炮且实现 Linux 支持的 Matthew Garrett 在自己的博客上再次开轰，认为 Intel 引入的 Boot Guard 技术在某种程度上可以说是逼迫厂商在安全与自由之间做抉择，结果是消费者的选择自由以“大多数的安全”名义被剥对了。
 * [Make 命令教程](http://www.ruanyifeng.com/blog/2015/02/make.html)，基础知识。
@@ -26,24 +28,28 @@ categories: weekly skill
 * [Parallels收购了2X](http://www.brianmadden.com/blogs/brianmadden/archive/2015/02/26/parallels-buys-2x-software.aspx)。
 * PowerShell DSC(Desired State Configuration) for Linux，这玩儿还支持Linux那，之前只关注Windows部分了，[这里有个入门介绍](http://blogs.technet.com/b/privatecloud/archive/2014/05/19/powershell-dsc-for-linux-step-by-step.aspx)，玩儿法就是**给Linux装了个WinRM服务，端口还是5985**。这整体看来就是微软的Puppet啊，当然另一个角度是DSC会成为一个通用的协议层。PowerShell Magazine上有个详细些的讲解：[Part1](http://www.powershellmagazine.com/2015/02/23/working-with-powershell-dsc-for-linux-part-1/)、[Part2](http://www.powershellmagazine.com/2015/02/21/working-with-powershell-dsc-for-linux-part-2/)、[Part3](http://www.powershellmagazine.com/2015/02/25/working-with-powershell-dsc-for-linux-part-3/)、[Part4](http://www.powershellmagazine.com/2015/02/26/working-with-powershell-dsc-for-linux-part-4/)。
 
-**硬件设备，ARM、终端、移动、智能设备**
+硬件设备，ARM、终端、移动、智能设备
+----
 
 * **有关AI革命**的两篇译文，不只是脑洞大开啊。[为什么霍金、比尔·盖茨这些大佬们，让我们警惕人工智能？](http://www.huxiu.com/article/108990/1.html) [超人工智能带来的是，世界尽头还是冷酷仙境？](http://www.huxiu.com/article/108994/1.html) 很长，但是喜欢看科幻小说的，建议看完，这讨论的已经不是幻想了，原文引发的讨论也很多。
 
-**市场、产品、项目**
+市场、产品、项目
+----
 
 * [富士通：将内部IT系统迁移到OpenStack上](http://server.zdnet.com.cn/server/2015/0220/3046785.shtml)。
 * [微软云服务将迎合ISO 27018标准](http://www.cnbeta.com/articles/371459.htm)。
 * [Google：想在 Play 商店中排到前面？交钱吧](http://cn.engadget.com/2015/02/26/google-play-store-sponsored-apps/?ncid=rss_truncated)，看来，**竞价排名**才是人之常情。
 * [还原DUANG是怎么火起来的](http://www.woshipm.com/operate/139358.html)，最后重温这句《引爆点》中提到流行三法则：人物法则、附着力因素法则和环境威力法则。就是关键人物，新闻价值，传播渠道和时间节点的组合，DUANG！
 
-**团队建设**
+团队建设
+----
 
 * Coursera内部分享：[如何成为一个伟大的工程师](http://www.huxiu.com/article/108988/1.html)，“优秀工程师们关心队友和保持谦卑。他们认识到，每一个错误其实是有机会让他们做的更好”。
 * [20件程序员必须知道的事](http://www.techug.com/20-things-programmer-should-know)，观察用户的行为，心口不一的客户，努力并不一定都有回报，做点所谓的“重复工作”，自动化，编写测试程序。
 * [如何才能让我们变得更有竞争力？](http://mp.weixin.qq.com/s?__biz=MzA3NTM1MzE4Nw==&mid=202891026&idx=1&sn=7c73fe22ef2abf5d8448b993579e4787#rd)这例子太生动了，研发占收入15%，营销占收入35%。
 
-**图书**
+图书
+----
 
 * 另类科幻**银河系漫游指南系列**上架多看了，每个讨论科幻小说都绕不开的奇葩：[银河系搭车客指南](http://www.duokan.com/book/85683)，[宇宙尽头的餐馆](http://www.duokan.com/book/85682)，[生命，宇宙以及一切](http://www.duokan.com/book/85705)，[再会，谢谢所有的鱼](http://www.duokan.com/book/85704)，[基本无害](http://www.duokan.com/book/85681)，每本9块9毛9。DON'T PANIC，有合集，[银河系搭车客指南5部曲（全五册）](http://www.duokan.com/book/85703)，还便宜，40，应该卖42啊。
 

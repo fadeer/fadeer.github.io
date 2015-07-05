@@ -6,7 +6,8 @@ title2: "2015.2.7-15"
 author: fadeer
 categories: weekly skill
 ---
-**前端技术，界面、交互、安全**
+前端技术，界面、交互、安全
+----
 
 * [浅谈Angular与React](http://jimliu.net/2015/02/05/angular-vs-react-in-shallow/)。
 * [那些被误解的用户体验](http://www.woshipm.com/pmd/137708.html)，“好用是基本，**好看是必须啊**”。
@@ -14,7 +15,8 @@ categories: weekly skill
 * [暴露丝绸之路创始人秘密的五种技术](http://www.solidot.org/story?sid=43042)，不匿名的技术。
 * [交互设计思考的读书笔记](http://zhuanlan.zhihu.com/youwenwen/19949278)，细节、思考、踏实。
 
-**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+后端技术，操作系统、虚拟化、存储、网络、桌面领域
+----
 
 * 1月31日西安OpenStack Meet Up[总结](http://www.openstack.cn/p3192.html)，1月31日，由IBM系统与科技部发起，天云软件和华为联合举办的OpenStack西安的第六次Meet Up在IBM系统与科技部 (CSTL) 西安研发中心成功举办！本次Meet Up作为OpenStack西安社区的2015首秀，吸引了来自IBM，天云软件，华为，三星等多家公司的大约60名技术精英共襄盛举。同时还十分荣幸的邀请到来自西北工业大学的吴俊教授以及西安电子科技大学的刘慧老师。邀请的三位演讲嘉宾来自华为与天云软件。
 * [WebSocket 实战](http://www.ibm.com/developerworks/cn/java/j-lo-WebSocket/index.html?ca=drs-)，基础知识。
@@ -28,11 +30,13 @@ categories: weekly skill
 * [Windows Azure实现翻墙的原理解析](http://mp.weixin.qq.com/s?__biz=MzA3NTM1MzE4Nw==&mid=202736755&idx=1&sn=f63602f96eb2dec3e6ff26bc0d03a4b0)，一句话就是**国外的Azure上RemoteAPP开IE**，这样就是墙外的浏览器了。文章后面是对RemoteAPP虚拟机实例的分析，涉及了**User Profile Disk**和用户权限。
 * [理解Azure AD以及它的验证机制](http://mp.weixin.qq.com/s?__biz=MzA3NTM1MzE4Nw==&mid=202743842&idx=1&sn=8fa4610b31583392dc356605592bc6fa#rd)，看看吧，说实在原来也没了解过Windows AD的机制和角色，微软考试涉及的都只限于背答案了。这两篇都是来自“华来四笑侃Windows”这个微信公众号（sysinternal），感兴趣可以加下。
 
-**硬件设备，ARM、终端、移动、智能设备**
+硬件设备，ARM、终端、移动、智能设备
+----
 
 * [RPi-TC 2 beta image out! PCoIP ready :)](http://rpitc.blogspot.jp/2015/02/rpi-tc-2-beta-image-out-pcoip-ready.html)，支持树莓派的Thinclinmt项目又更新了，**10秒启动到桌面**，这次是树莓派二代专用。看评论xfreerdp的表现依旧不佳，非remotefx的连接，只占一个CPU，确如评论描述的表现**xfreerdp和X各占满一核**。X的CPU占用在这种低频率CPU下也是个限制，也会影响画面更新的效率。
 
-**市场、产品**
+市场、产品
+----
 
 * [VMware发布整合OpenStack的发行版](https://www.mirantis.com/openstack-portal/external-news/onecloud-rule-vmware-releases-openstack-distro-goes-hybrid)，面向混合云。
 * [2015，经纬分享的六个创投趋势](http://www.woshipm.com/it/137609.html)，O2O，企业服务，交易平台，社区、社交，电商。
@@ -40,7 +44,8 @@ categories: weekly skill
 * [十大需要关注的虚拟化新兴企业与技术](http://server.zdnet.com.cn/server/2015/0210/3046298.shtml)，超融合方向还是热门啊，里面提得到的nimboxx把Virtual Bridges的VDI产品VERDE买下了，显然**超融合的IO提升和线性扩展**对改进VDI部署方案有很明显的作用的。
 * [单枪匹马：4年只做一个iOS游戏](http://www.techug.com/tiny-wings)，**小翅膀**，这游戏确实很好。
 
-**团队合作**
+团队合作
+----
 
 * [两个程序员的故事](http://www.vaikan.com/the-parable-of-the-two-programmers/)，确实不带偏向，只展示了两个平行的故事。评论有亮点。
 * [如何管理自己？](http://www.woshipm.com/zhichang/136374.html)，我们当中的大多数人，甚至包括那些还算有点天赋的人，都不得不通过学习来掌握自我管理的技巧。**我们必须学会自我发展，必须知道把自己放在什么样的位置上，才能做出最大的贡献**，而且还必须在长达50年的职业生涯中保持着高度的警觉和投入。有不少内容值得我自己反思，都看完了才发现，作者比较有名。

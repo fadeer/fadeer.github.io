@@ -6,13 +6,15 @@ title2: "2015.3.9-13"
 author: fadeer
 categories: weekly skill
 ---
-**前端技术，界面、交互、安全**
+前端技术，界面、交互、安全
+----
 
 * [中文字体新手指南](http://fuxiaopang.cn/the-complete-beginners-guide-to-chinese-fonts/?from=timeline&isappinstalled=0)，译文，还是外国人写的！本文非常详细地对中文现有的几大字体的历史与特点做了初步的介绍。
 * [UI设计师有哪些应该会写的文件？](http://www.woshipm.com/pd/141299.html)，企划书、规格书、交互说明、精稿、切图...。后面还推荐了几本书。
 * [绿盟科技：2014年DDoS威胁报告](http://www.williamlong.info/archives/4166.html)，本报告是2014年全年度DDoS报告。2014年，DDoS攻击方式中出现了新的DDoS反射式放大攻击形式，该攻击基于SSDP协议利用一些智能设备进行反射式攻击，攻击带宽放大倍数最高可达75倍。在国内，在线游戏已进入DDoS攻击目标的前3。在2014年DDoS攻击事件中，某次攻击事件流量超过100Gbps。
 
-**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+后端技术，操作系统、虚拟化、存储、网络、桌面领域
+----
 
 * 先看[把Windows Azure搬回家](http://mp.weixin.qq.com/s?__biz=MzA3NTM1MzE4Nw==&mid=203132864&idx=1&sn=bbd6d32900009051467f6f166a8d6fb1#rd)，这里利用了Windows Azure Pack（for Windows Server），就可以在私有云上构建对等Azure的服务了（基础业务），测试一下管理、域整合、计费什么的也比较方便。这个免费的组件大概13年下半年就发布了，见[主页](http://www.microsoft.com/zh-cn/server-cloud/products/windows-azure-pack)，[白皮书](http://download.microsoft.com/download/0/1/C/01C728DF-B1DD-4A9E-AC5A-2C565AA37730/Windows_Azure_Pack_White_Paper.pdf)。光把Azure Pack部署完只是一个“空的”Azure服务，至少要把虚拟机自服务加上才直观，见[了解虚拟机云（VM Role）体系结构](https://technet.microsoft.com/zh-cn/library/dn457796.aspx)，当然这也就引出了System Center这层，至少得有个SCVMM吧。**自建Azure**这个有两个用途，一是像**QA的测试虚拟化环境，可以通过Azure的管理界面来暴露**，应该不比SCVMM的自服务多花钱，二是**iDES扩展Azure业务**时可以当作练习。
 * 再来，[公有云里的私有云-Windows Azure上的Azure Pack！](http://mp.weixin.qq.com/s?__biz=MzA3NTM1MzE4Nw==&mid=203226985&idx=1&sn=98383e03509039c9a96efff73b004a5e#rd)，里面有个介绍。
@@ -22,13 +24,15 @@ categories: weekly skill
 * [VDI和Session Host的桌面搜索问题](http://www.brianmadden.com/blogs/brianmadden/archive/2015/03/11/what-do-you-do-for-desktop-search-in-vdi-and-rdsh.aspx)，创建索引问题还算不大，每次重建VM都要重建索引所以这可就折腾了。
 * [Chrome OS用Freon替换X11](http://www.cnbeta.com/articles/375707.htm)，Freon不是完整显示服务器实现，比如Wayland或Mir，ChromOS通过Freon移除对X11的依赖，Freon旨在提供更好的性能，降低能耗和二进制文件大小。
 
-**硬件设备，ARM、终端、移动、智能设备**
+硬件设备，ARM、终端、移动、智能设备
+----
 
 * [龙芯开源主板开始接受预订](http://news.mydrivers.com/1/397/397522.htm)，**售价199元带激光个性雕刻**。政府VDI项目首选终端设备啊。
 * [这周我走遍了整场家博会，却没找到几件像样的智能家居](http://www.pingwest.com/awe-2015-smart-home/)。
 * [Android 开发的昨天、今天和明天](http://www.gracecode.com/posts/the-past-present-and-future-of-android-development.html)，值得看看。主体是个译文，早期这么艰难的开发环境下居然逐渐占了移动系统的80%，好在现在有了Android Studio、ART、Material Design。后面作者还加上了中国的奇葩情况，比如“国内的 Android 用户有「清理内存、杀进程」的习惯，因此很多正常运行的 Service 会被莫名得 kill 掉，而开发人员为了避免被 kill 又频繁的启动后台 Service ，恶性循环”。
 
-**市场、产品、项目**
+市场、产品、项目
+----
 
 * [Key Differences Between Virtual Desktop Infrastructure (VDI) and Desktop-as-a-Service](http://vmblog.com/archive/2015/03/09/key-differences-between-virtual-desktop-infrastructure-vdi-and-desktop-as-a-service.aspx#.VQI62Y7oS-U)，DaaS桌面即服务和VDI的区别，DaaS让管理员省的操心服务器基础机架构了、管理相对简便了、成本更低了，但是网络带来的影响更大了。
 * [应用程序虚拟化的信息图](http://www.algiz-technology.com/wp-content/uploads/2015/02/Application-Virtualization-Smackdown-Infographic-e1425053238941.png)，这里也涵盖了VDI，从支持类型来看，还是CVM三家种类最多；另外有咱之前接触的Numecent。更详细的信息，还是看[PQR的《Application Virtualization Smackdown》4.1](http://www.pqr.com/application-virtualization-smackdown)。
@@ -36,12 +40,14 @@ categories: weekly skill
 * 微软，[企业通讯软件Lync于3月18日更名为Skype for Business](http://www.cnbeta.com/articles/376673.htm)，完，客户端白装了，还没用上就得换了。
 * [大规模普及在即 戴尔引领虚拟桌面发展趋势](http://server.zdnet.com.cn/server/2015/0310/3047705.shtml)，枪文。VDI又要大规模普及了，DELL又领先了，哈哈。
 
-**团队建设**
+团队建设
+----
 
 * [如何提高生活和工作效率](http://m.cnbeta.com/articles/376667.htm)，**适当小憩**。
 * 40岁后才明白的道理：[真的不用为工作拼命，这么做不值得](http://news.cnblogs.com/n/516482/)，鸡汤。
 
-**图书**
+图书
+----
 
 * [《破茧成蝶：用户体验设计师的成长之路》](http://www.duokan.com/book/54064)，基础知识，有实践，还有很重要的是如何跟“上下游”一块儿把事儿做好。
 

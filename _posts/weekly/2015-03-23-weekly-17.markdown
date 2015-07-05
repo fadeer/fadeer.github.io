@@ -6,11 +6,13 @@ title2: "2015.3.14-22"
 author: fadeer
 categories: weekly skill
 ---
-**前端技术，界面、交互、安全**
+前端技术，界面、交互、安全
+----
 
 * [哪种字体最适合快速阅读？](http://www.uisdc.com/fonts-for-quick-reading)，重点是易认性（Legibility）和可读性（Readability），附搭配建议。
 
-**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+后端技术，操作系统、虚拟化、存储、网络、桌面领域
+----
 
 * [SCVMM服务模板的一个案例](http://markwin.blog.51cto.com/148406/1621102)，详细介绍了如何使用SCVMM来创建服务模板，里面涉及到Web应用、数据库应用和普通服务端应用的分发。还有很好玩的案例，例如一旦检测到前端Web服务压力超载，立马发微信报警，领导收到后，微信回复同意扩展，即可扩展！
 * [12306 售票网站新版验证码识别对抗](http://linux.im/2015/03/17/12306-new-captcha.html)，新鲜东西，立马有人琢磨了。
@@ -20,7 +22,8 @@ categories: weekly skill
 * 微软新书，[Deploying Hyper-V with Software-Defined Storage & Networking](http://blogs.msdn.com/b/microsoft_press/archive/2015/03/17/free-ebook-microsoft-system-center-deploying-hyper-v-with-software-defined-storage-amp-networking.aspx)，还是傻傻的JBOD好用，[PDF](http://download.microsoft.com/download/F/9/D/F9D63A0A-F997-487B-B50A-FF59DE37A558/9780735695672.pdf)。
 
 
-**硬件设备，ARM、终端、移动、智能设备**
+硬件设备，ARM、终端、移动、智能设备
+----
 
 * 换个方式做智能家居，[讯飞发布远场识别技术](http://www.leiphone.com/news/201503/BEMTcSwMitKKe9nO.html)，5m范围内识别率和近讲效果相当，5m距离语音识别率超过90%；超强的降噪性能，信噪比10dB、干扰60度条件下，识别率超过98%。
 * [HSA基金会正式发布HSA 1.0技术规范](http://www.expreview.com/39409.html)，X86、ARM、MIPS终于在一起了。
@@ -28,11 +31,13 @@ categories: weekly skill
 * [如何评价 React Native？](http://www.zhihu.com/question/27852694/answer/41704172)，反编译后的分析。
 * 看看Windows 10 IOT方面的事儿，[Windows 10 IoT 打造大一统物联网](http://www.dgtle.com/article-9689-1.html)，“针对 **ARM 架构**、中低内存和存储空间的移动设备，IoT 版将**采用 Modern UI**，支持 UAP 应用和通用驱动；而针对 **x86 架构**，中高内存和存储空间的行业设备，IoT 版将采用**和 Windows 10 一样的 Desktop UI**，支持 Win 32 应用、UAP 应用和通用驱动”。[不止树莓派，Windows 10还支持了英特尔、高通的开发板](http://www.leiphone.com/news/201503/o3UYPNo9SUAWIwvl.html)，99刀的MinnowBoard Max之前发过，看看高通410c开发板什么[规格](http://www.cnmo.com/news/480548.html)。然后就是[微软计划推出Azure IoT套件](http://www.infoq.com/cn/news/2015/03/ms-azure-iot-suite)，Azure IoT 套件是一项云服务，支持物联网解决方案的记费、监控和分析。
 
-**市场、产品、项目**
+市场、产品、项目
+----
 
 * [京东智能硬件趋势](http://zhidx.com/p/7766.html)。
 
-**团队建设**
+团队建设
+----
 
 * [聊聊不同学科中的坑爹翻译](http://program-think.blogspot.com/2015/03/Translation-Mistakes.html)，评论很热闹啊。
 * [职场人士如何打造个人品牌](http://www.woshipm.com/zhichang/143520.html)。

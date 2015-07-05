@@ -6,7 +6,8 @@ title2: "2015.1.17-23"
 author: fadeer
 categories: weekly skill
 ---
-**前端技术，界面、交互、安全**
+前端技术，界面、交互、安全
+----
 
 * 方正字库**首席字体设计师朱志伟**：[从一笔一划谈字体设计与视觉感受](http://www.36kr.com/p/218829.html)，看起来内容不多，但是老牌字体设计师能参与这样的演讲，很难得了。之前Adobe和Google发布思源黑体时，看到了一段[常州华文的介绍](http://www.zhihu.com/question/24500195/answer/28110462)，可以直观的感受一下字体设计师的工作。
 * [设计师通常如何发现灵感](http://www.woshipm.com/pd/131405.html)？
@@ -14,7 +15,8 @@ categories: weekly skill
 * [「删除前确认」和「删除后允许撤销」两种处理方式哪个更好？](http://www.woshipm.com/discuss/132615.html)，这个对用户体验影响不小。
 * [AngularJS’ Internals In Depth](http://www.smashingmagazine.com/2015/01/22/angularjs-internals-in-depth/)，来自Smashing Magazine的，应该比较靠谱。
 
-**后端技术，操作系统、虚拟化、存储、网络、桌面领域**
+后端技术，操作系统、虚拟化、存储、网络、桌面领域
+----
 
 * **工作目录**，[work folders](http://technet.microsoft.com/en-us/library/dn265974.aspx)，是Windows Server 2012R2在BYOD方面新特性（TechEd北美2014:PCIT-B322 Deploying and Management Work Folders.pptx），主要作用是在PC上跟移动设备上共享文件，所以这事儿最重要的就是数据安全了。最近微软[发布了iPad上的客户端](http://blogs.technet.com/b/filecab/archive/2015/01/16/work-folders-for-ios-ipad-app-release.aspx)，貌似Android跟WP的客户端还没有呢？
 * [HTTPS, SPDY和 HTTP/2性能的简单对比](http://www.qianduan.net/a-simple-performance-comparison-of-https-spdy-and-http2.html)。
@@ -23,11 +25,13 @@ categories: weekly skill
 * [从一个OpenStack的失败案例看Ironic和Neutron组件的现状](http://www.infoq.com/cn/news/2015/01/ironic-neutron-packet)，这类失败经验很有用。
 * [SSD固态盘应用于Ceph集群的典型使用场景](http://www.openstack.cn/p3081.html)，4种使用、配置的方式。
 
-**硬件设备，ARM、终端、移动、智能设备**
+硬件设备，ARM、终端、移动、智能设备
+----
 
 * **我是一个鼠标，其实我是一个电脑**，[Mouse-Box](http://www.leiphone.com/news/201501/dXIjJB3tHRnSKsiu.html)，原型阶段，这个重点儿还能接受，就是线缆不能太粗影响移动。还有之前发过的，**我是一个键盘，其实我也是一个电脑**，[oneBoard的一个评测](http://www.mefun.com/article-3629-1.html)，黑轴键盘，ARM板子是模块化可升级的，就是1999可不便宜啊。
 
-**市场、产品、项目**
+市场、产品、项目
+----
 
 * 看看热门游戏**《纪念碑谷》**的一些[市场数据](http://techcrunch.cn/2015/01/16/monument-valley-team-reveals-the-cost-and-reward-of-making-a-hit-ios-game/?ncid=rss)，下载超240万，收入600万美元，其中iOS占80%+，发布安卓版本后盗版率达95%；8人开发团队，两个版本合计84周，开发成本140万美元。
 * 一年时间，这个新奇的[豆瓣fm实体音响终于上线KS](http://www.36kr.com/p/218825.html)了，看里面那视频，还不错哦，**Designed in shenzhen**！
@@ -38,7 +42,8 @@ categories: weekly skill
 * 互联网公司的农村[“刷墙大战”](http://www.woshipm.com/it/132278.html)，这跟电梯广告赛的，简单、粗暴、看来管用啊。
 * IDC于2015年1月16日举办了一场小规模的公有云服务市场座谈会。来自阿里云、百度、乐视云、Ucloud、青云、万国数据、首都在线、蓝汛、甲骨文、浪潮软件以及KKR集团的共12位云计算从业人士参与了座谈。[对公有云未来主要的发展趋势，与会各方在如下三点持有较为一致的观点](http://cio.zdnet.com.cn/cio/2015/0122/3044941.shtml)：1. IaaS市场利润日趋降低，未来面临市场整合重组；2. IaaS与通用PaaS将紧密结合；3. 云生态构建成为发展重点。这里面提到的IDC发布《中国公有云服务追踪研究，2014上半年度》，还没找到下载，这有个[粗略解读](http://tech.sina.com.cn/it/2015-01-23/doc-ichmifpx5273236.shtml)。
 
-**团队建设**
+团队建设
+----
 
 * [iPhone使用小技巧](http://www.huxiu.com/article/106487/1.html)。Google离线地图的玩儿法、飞行模式充电、曝光锁定比较有用。
 * [产品经理做的原型和交互设计师做的原型有什么区别](http://www.woshipm.com/pd/131400.html)？在产品经理、交互设计师都没有的情况下，看这路文章就是闲扯淡啊。
@@ -47,7 +52,8 @@ categories: weekly skill
 * “编程行业这20年，是中国最好的行业，不管你的出身，你的学历，你的背景，你的户口，只要你能干活，你肯学习，你总是可以找到不错的工作，甚至可以拥有傲人的薪水。” 但是，[不要轻易在简历上写我热爱编程，我热爱学习](http://www.techug.com/i-love-programming)。
 * [程序员如何选择技术方向](http://macshuo.com/?p=1271)，“写到这里，冬夜已经黑的不像样子。站在阳台望出去，仿佛看着某个巨大 IDE 的黑色编码主题，我想起了某位大牛的一句话：**我不是懂得多，我只是学的快而已**”。
 
-**图书**
+图书
+----
 
 * [海伯利安的陨落](http://www.duokan.com/book/82621)，第二本开始啦。
 
