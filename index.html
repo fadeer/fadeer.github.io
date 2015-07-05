@@ -26,7 +26,7 @@ layout: default
 	<article class="post-content">
            {{ post.content | split:'<!--preview-end-->' | first }}
 	   {% if post.content contains '<!--preview-end-->' %}
-	      <br><br>
+	      <br>
 	      <a href="{{ post.url }}">阅读全文...</a>
 	   {% endif %}
 	  </article>
