@@ -6,7 +6,7 @@ author: fadeer
 categories: OSX Ruby
 ---
 
-最近为创建博客而折腾Jekyll运行环境，因此接触到了ruby、gem什么的。在Linux下基本根据[官网][jekyll]的介绍，没费嘛事儿就跑起来了。理解的依赖关系大致是：
+最近为创建博客而折腾Jekyll运行环境，因此接触到了ruby、gem什么的。在Raspbian下基本根据[官网][jekyll]的介绍，没费嘛事儿就跑起来了。理解的依赖关系大致是：
 
 * jekyll，静态页面框架。
 * liquid、pygments、kramdown等，jekyll使用的模块。
@@ -23,6 +23,7 @@ OSX下遇到问题
 然后跑`jekyll serve`报错，缺kramdown；然后bundle若干、gem若干次、sudo若干次、挂代理尝试若干，依然缺。仔细看看报错，是.../2.0.0..，什么，为什么不是/usr/local下的2.2.2，这才是brew跟装的ruby目录啊。which了一下各个命令，发现bundle似乎是旧版的。搜了下，看到stackoverflow下[11年的一个问题][sof-11]，知道了对于更新ruby，RVM不错，rbenv可能更好。
 
 然后进[rbenv的github页面][rbenv]，了解了一下rbenv支持ruby多版本的机制和用法，觉得这个确实比较清晰，跟系统里自带的切割的比较好，于是用rbenv重新配置运行环境了。
+<!--preview-end-->
 
 清理现存ruby和gems
 ----
@@ -78,7 +79,7 @@ bundle install
 which jekyll
 {% endhighlight %}
 
-这样，jekyll就可以愉快的跑起来了。
+这样，jekyll又可以愉快的跑起来了。
 
 参考文章
 ----
