@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "更新OSX下的Ruby及组件"
-date:   2015-7-5 23:15:00
+date:   2015-07-05 23:15:00
 author: fadeer
 categories: OSX Ruby
 ---
@@ -58,12 +58,15 @@ rbenv install -l
 rbenv install 2.2.2
 {% endhighlight %}
 
-选择使用新版ruby
+选择使用ruby 2.2.2，全局就可以。
 {% highlight bash %}
 rbenv versions
 * system (set by /Users/7Days/.rbenv/version)
   2.2.2
 rbenv global 2.2.2
+rbenv versions
+  system (set by /Users/7Days/.rbenv/version)
+* 2.2.2
 {% endhighlight %}
 
 来，接下来依次安装bundle和jekyll依赖的组件，#bash是新开终端窗口，用于确认使用的命令已更新。

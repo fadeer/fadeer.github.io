@@ -169,10 +169,10 @@ code {
     font-family: $font-mono;
     margin-bottom: $spacing-unit;
 
-	padding: 1px 5px;
-    color: #28B611;
+    padding: 1px 5px;
+    color: #009933;
     border: 1px solid $grey-color-light;
-    background-color: #f8f8f8;
+    background-color: #f2f2f2;
     
     @include media-query($on-laptop) {
         font-size: $small-font-size * 1.125;
@@ -194,7 +194,7 @@ pre {
     background-color: $code-color-bg;
 
     > code {
-    color: $code-color;
+        color: $code-color;
     	background-color: $code-color-bg;
         border: 0;
         padding-right: 0;

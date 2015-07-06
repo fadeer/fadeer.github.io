@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "每周技术文章 No.29"
+date:   2015-07-06 12:00:00
+title2: "2015.6.29-7.5"
+author: fadeer
+categories: weekly skill
+---
+前端技术，界面、交互、安全
+----
+* 腾讯上两篇HTML5发展的文章，值得看看。[后HTML5时代Ⅰ](http://tgideas.qq.com/webplat/info/news_version3/804/7104/7106/m5723/201506/354489.shtml)，[后HTML5时代Ⅱ](http://tgideas.qq.com/webplat/info/news_version3/804/7104/7106/m5723/201506/355023.shtml)，上下两篇，作者不同，文风不同啊。
+* [9款免费且超实用的响应式网页测试工具](http://www.uisdc.com/9-free-responsiveness-testing-tools)，用起来比Chrome开发者工具更方便些。
+* [数据驱动的界面设计](http://colachan.com/post/3448)，这个设计思路值得参考。
+* [前端自动化测试探索](http://fex.baidu.com/blog/2015/07/front-end-test/)，了解下。“轮子有了很多，可是要把轮子攒成车，需要不懈的努力！”
+* [小米路由器劫持用户浏览器事件始末](http://www.infoq.com/cn/news/2015/06/xiaom-hijack)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面领域
+----
+<!--preview-end-->
+* 知乎上[关于操作系统安全的一个话题](http://www.zhihu.com/question/20237554/answer/52572637)。
+* [Use DSC to manage WMI namespace security](http://blogs.msdn.com/b/powershell/archive/2015/06/29/use-dsc-to-manage-wmi-namespace-security.aspx)。
+* [搭建单机Kubernetes开发环境](http://www.ustack.com/blog/kubernetes1)，[在UOS搭建Kubernetes集群](http://www.ustack.com/blog/kubernetes2/)。
+* [“雪人计划”全球发布 下一代根服务器体系引发热议](http://net.zdnet.com.cn/network_security_zone/2015/0629/3056227.shtml)，
+* [Node技术栈实践@猿题库](http://airjd.com/view/ibh6lusu000zf4w)，
+* [JavaScript数据结构和算法简述——前言](http://www.alloyteam.com/2015/06/javascript-shu-ju-jie-gou-he-suan-fa-jian-shu-qian-yan/)。
+* [OpenStack & Ceph Kilo 版解析](http://www.wzxue.com/openstack-ceph-kilo/)，了解一下新发展。
+
+市场、产品、项目
+----
+* [Slack是如何让用户上瘾的，这也是Twitter终将失败的原因](http://wwww.huxiu.com/article/118990/1.html)，“你最先应该考虑的是什么呢？是心理学。当人们迫于社交压力而难以从你的软件中抽离出来时，你就成功了”，这跟史玉柱设计《征途》一样一样的啊。
+* [适合中小企业的10款协同办公软件](http://www.woshipm.com/it/170072.html)，看，国内这类产品也很多了。
+* [316页！分拆后的惠普什么样全在这了！](http://server.zdnet.com.cn/server/2015/0702/3056474.shtml) [PDF](http://h30261.www3.hp.com/~/media/Files/H/HP-IR/documents/reports/2015/01-07-2015-form-10.pdf)。
+* [哪些产品不用开发原生APP，微信公众号就够了？](http://wwww.huxiu.com/article/118968/1.html)
+
+团队建设
+----
+* [奴性的螺丝钉思维](http://www.ikent.me/blog/5018)，“未来的组织结构将越来越不稳，想尽办法把事情干成了，才是牛逼的，分工的界限也会越来越模糊”。
+* [中/高级Linux运维工程师面试题](http://nolinux.blog.51cto.com/4824967/1670406)，用于“先拒掉一部分人”的门槛，来看看吧。
+* [15个IT技术人员必须思考的问题](http://www.woshipm.com/zhichang/170212.html)，比如“加班与身体健康”、“平衡工作与家庭”、“技术牛人如何对待新手”（哈哈，这让我想起了老裴）...
+* [代码的印象派：写点好代码吧](http://www.cnblogs.com/gaochundong/p/the_impressionism_of_code.html)，写代码这事儿，很复杂。
+* [WeiRSS – 为微信公众号提供 RSS 功能](http://www.appinn.com/weirss/)，这个太有用了。
+
