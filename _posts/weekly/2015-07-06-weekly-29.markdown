@@ -25,6 +25,10 @@ categories: weekly skill
 * JavaScript数据结构和算法简述--[前言](http://www.alloyteam.com/2015/06/javascript-shu-ju-jie-gou-he-suan-fa-jian-shu-qian-yan/)。
 * [OpenStack & Ceph Kilo 版解析](http://www.wzxue.com/openstack-ceph-kilo/)，了解一下新发展。
 
+硬件设备，ARM、终端、移动、智能设备
+----
+* [2015智能可穿戴市场白皮书](http://isux.tencent.com/2015-wearable-market-white-book.html)。
+
 市场、产品、项目
 ----
 * [Slack是如何让用户上瘾的，这也是Twitter终将失败的原因](http://wwww.huxiu.com/article/118990/1.html)，“你最先应该考虑的是什么呢？是心理学。当人们迫于社交压力而难以从你的软件中抽离出来时，你就成功了”，这跟史玉柱设计《征途》一样一样的啊。
