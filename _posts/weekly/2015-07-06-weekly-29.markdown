@@ -8,7 +8,7 @@ categories: weekly skill
 ---
 前端技术，界面、交互、安全
 ----
-* 腾讯上两篇HTML5发展的文章，值得看看。[后HTML5时代Ⅰ](http://tgideas.qq.com/webplat/info/news_version3/804/7104/7106/m5723/201506/354489.shtml)，[后HTML5时代Ⅱ](http://tgideas.qq.com/webplat/info/news_version3/804/7104/7106/m5723/201506/355023.shtml)，上下两篇，作者不同，文风不同啊。
+* 腾讯上两篇HTML5支持设备特性的文章，值得看看。[后HTML5时代Ⅰ](http://tgideas.qq.com/webplat/info/news_version3/804/7104/7106/m5723/201506/354489.shtml)，[后HTML5时代Ⅱ](http://tgideas.qq.com/webplat/info/news_version3/804/7104/7106/m5723/201506/355023.shtml)，上下两篇，作者不同，文风不同啊。
 * [9款免费且超实用的响应式网页测试工具](http://www.uisdc.com/9-free-responsiveness-testing-tools)，用起来比Chrome开发者工具更方便些。
 * [数据驱动的界面设计](http://colachan.com/post/3448)，这个设计思路值得参考。
 * [前端自动化测试探索](http://fex.baidu.com/blog/2015/07/front-end-test/)，了解下。“轮子有了很多，可是要把轮子攒成车，需要不懈的努力！”
