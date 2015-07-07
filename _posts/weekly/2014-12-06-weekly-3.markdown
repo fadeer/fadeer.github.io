@@ -4,7 +4,8 @@ title:  "每周技术文章 No.3"
 date:   2014-12-06 12:00:00
 title2: "2014.11.29-12.5"
 author: fadeer
-categories: weekly skill
+categories: 工作
+tags: Weekly Skill
 ---
 前端技术，界面、交互、安全
 ----

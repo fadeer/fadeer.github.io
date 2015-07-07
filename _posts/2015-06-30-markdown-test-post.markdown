@@ -3,7 +3,8 @@ layout: post
 title:  "测试markdown语法和元素表现风格"
 date:   2015-06-30 12:00:00
 author: fadeer
-categories: jekyll markdown test
+categories: 工作
+tags: jekyll markdown test
 ---
 
 这是一个测试帖，用来调试常见帖子元素的风格。比如：

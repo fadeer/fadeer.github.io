@@ -3,7 +3,8 @@ layout: post
 title:  "更新OSX下的Ruby及组件"
 date:   2015-07-05 23:15:00
 author: fadeer
-categories: OSX Ruby
+categories: 工作
+tags: OSX Ruby
 ---
 
 最近为创建博客而折腾Jekyll运行环境，因此接触到了ruby、gem什么的。在Raspbian下基本根据[官网][jekyll]的介绍，没费嘛事儿就跑起来了。理解的依赖关系大致是：
