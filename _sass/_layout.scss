@@ -196,6 +196,7 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    margin-top: 5px;
     
     @include media-query($on-laptop) {
         font-size: $small-font-size * 1.125;
@@ -240,14 +241,14 @@
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit*2/3;
+    margin-bottom: $spacing-unit / 3;
 }
 
 .post-title {
     font-size: $title-font-size;
     //letter-spacing: -1px;
     //line-height: 1;
-    margin-bottom: 5px;
+    margin-top: 5px;
 
     @include media-query($on-laptop) {
         font-size: $title-font-size * 1.125;
@@ -258,6 +259,7 @@
 }
 
 .post-content {
+    margin-top: $spacing-unit *2 /3;
     margin-bottom: $spacing-unit;
     
 	@include media-query($on-laptop) {
