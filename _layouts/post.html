@@ -9,7 +9,8 @@ layout: default
 	<i class="zmdi zmdi-time"></i><span class="meta-item">{{ page.date | date: "%b %-d, %Y" }}</span>
 	{% if page.author %} <i class="zmdi zmdi-account-box"></i><span class="meta-item">{{ page.author }}</span> {% endif %}
 	{% if page.meta %} <i class="zmdi zmdi-bookmark"></i><span class="meta-item">{{ page.meta }}</span> {% endif %}
-	{% for cat in page.categories %} <i class="zmdi zmdi-local-offer"></i><span class="meta-item">{{ cat }}</span> {% endfor %}
+	{% for cat in page.categories %} <i class="zmdi zmdi-folder"></i><span class="meta-item">{{ cat }}</span> {% endfor %}
+	{% for tag in page.tags %} <i class="zmdi zmdi-label"></i><span class="meta-item">{{ tag }}</span> {% endfor %}
     </p>
   </header>
 
