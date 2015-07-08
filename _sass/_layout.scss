@@ -320,9 +320,11 @@
 	}
 
     .apost-date {
-        float: right;
+        //float: right;
         font-size: $small-font-size;
         color: $grey-color;
+        min-width: 100px;
+        display: inline-block;
     }
 }
 

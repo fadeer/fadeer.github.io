@@ -16,9 +16,9 @@ layout: default
     {% endif %}
 
     <li class="apost-title">
+        <span class="apost-date">{{ post.date | date: "%Y %b %-d"}}</span>
         <a href="{{ post.url }}">{{ post.title }}</a>
 	<span class="apost-title2">{{ post.title2 }}</span>
-        <span class="apost-date">{{ post.date | date: "%b %-d, %Y"}}</span>
     </li>
 
     {% if forloop.last %}
