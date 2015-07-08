@@ -15,7 +15,7 @@ layout: default
         </h2>
 
         <p class="post-meta">
-        <i class="zmdi zmdi-time"></i><span class="meta-item">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <i class="zmdi zmdi-calendar"></i><span class="meta-item">{{ post.date | date: "%b %-d, %Y" }}</span>
         {% if post.author %} <i class="zmdi zmdi-account-box"></i><span class="meta-item">{{ post.author }}</span> {% endif %}
         {% if post.meta %} <i class="zmdi zmdi-bookmark"></i><span class="meta-item">{{ post.meta }}</span> {% endif %}
         {% for cat in post.categories %} <i class="zmdi zmdi-folder"></i><span class="meta-item">{{ cat }}</span> {% endfor %}

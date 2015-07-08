@@ -14,7 +14,7 @@ tags: Weekly Skill
 * [浅议内滚动布局](http://isux.tencent.com/inner-scroll-layout.html)，iDES的管理页面，可能也会向这个方向演变。
 * [时间感知对交互设计的影响](http://colachan.com/post/3442)。
 * [DIV 是给弱者准备的](http://www.techug.com/div-is-for-the-weak)，这也太激进了，哈哈。“老实讲，网页除了列表嵌套列表，就没有什么了”，值得琢磨。
-* [Google 提供免費 Material icons 向量圖示集，可自由用於個人或商業專案](https://free.com.tw/google-material-icons/)，有图标字体，这个下版设计考虑用上。[Google页面](http://google.github.io/material-design-icons/)，[Github页面](https://github.com/google/material-design-icons/)，[font下载](http://zavoloklom.github.io/material-design-iconic-font/icons.html)。
+* [Google 提供免費 Material icons 向量圖示集，可自由用於個人或商業專案](https://free.com.tw/google-material-icons/)，有图标字体，这个下版设计考虑用上。[Google Material 图标使用指南](http://google.github.io/material-design-icons/)，[图标列表](https://www.google.com/design/icons/)，资源都托管在[Github页面](https://github.com/google/material-design-icons/)也提供了各种[字体打包](https://github.com/google/material-design-icons/tree/master/iconfont)；但是这里**更推荐的是Sergey Kupletsky**的[封装](http://zavoloklom.github.io/material-design-iconic-font/index.html)，他给出了丰富的[使用示例](http://zavoloklom.github.io/material-design-iconic-font/examples.html)，值得学习。
 * [海外客户设计交付体验与思考](http://www.uisdc.com/design-delivery-ux-thought)，专业、文化、形象三方面，**专业是建立信任的第一步，信任是顺利合作的第一步**。其实，每次面对一个新客户，都要有个适配的过程，都要认真对待。
 
 后端技术，操作系统、虚拟化、存储、网络、桌面领域
