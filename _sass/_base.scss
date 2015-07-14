@@ -178,7 +178,7 @@ code {
     background-color: #f2f2f2;
     
     @include media-query($on-laptop) {
-        font-size: $small-font-size * 1.125;
+        font-size: $small-font-size;
     }
     @include media-query($on-palm) {
         font-size: $small-font-size * 0.75;

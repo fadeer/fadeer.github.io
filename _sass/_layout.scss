@@ -21,7 +21,7 @@
     margin: 0 15px;
     
     @include media-query($on-laptop) {
-        font-size: $title-font-size * 1.125;
+        font-size: $title-font-size;
     }
     @include media-query($on-palm) {
         font-size: $title-font-size * 0.55;
@@ -198,7 +198,7 @@
     margin-top: 5px;
     
     @include media-query($on-laptop) {
-        font-size: $small-font-size * 1.125;
+        font-size: $small-font-size;
     }
     @include media-query($on-palm) {
         font-size: $small-font-size * 0.875;
@@ -215,7 +215,7 @@
     line-height: 1.5;
     
     @include media-query($on-laptop) {
-        font-size: $title-font-size * 1.125;
+        font-size: $title-font-size;
     }
     @include media-query($on-palm) {
         font-size: $title-font-size * 0.875;
@@ -227,7 +227,7 @@
     color: $grey-color-dark;
     
     @include media-query($on-laptop) {
-        font-size: $base-font-size * 1.125;
+        font-size: $base-font-size;
     }
     @include media-query($on-palm) {
         font-size: $base-font-size * 0.875;
@@ -250,7 +250,7 @@
     margin-top: 5px;
 
     @include media-query($on-laptop) {
-        font-size: $title-font-size * 1.125;
+        font-size: $title-font-size;
     }
     @include media-query($on-palm) {
         font-size: $title-font-size * 0.875;
@@ -262,7 +262,7 @@
     margin-bottom: $spacing-unit;
     
 	@include media-query($on-laptop) {
-        font-size: $base-font-size * 1.125;
+        font-size: $base-font-size;
     }
     @include media-query($on-palm) {
         font-size: $base-font-size * 0.875;
@@ -273,7 +273,7 @@
         font-weight: 600;
 
         @include media-query($on-laptop) {
-            font-size: $hh-font-size * 1.125;
+            font-size: $hh-font-size;
         }
         @include media-query($on-palm) {
             font-size: $hh-font-size * 0.875;
@@ -284,7 +284,7 @@
         font-size: $hhh-font-size;
 
         @include media-query($on-laptop) {
-            font-size: $hhh-font-size * 1.125;
+            font-size: $hhh-font-size;
         }
         @include media-query($on-palm) {
             font-size: $hhh-font-size * 0.875;
@@ -296,7 +296,7 @@
     margin-left: 0;
     
     @include media-query($on-laptop) {
-        font-size: $base-font-size * 1.125;
+        font-size: $base-font-size;
     }
     @include media-query($on-palm) {
         font-size: $base-font-size * 0.875;
@@ -311,7 +311,7 @@
         color: $grey-color-dark;
         
         @include media-query($on-laptop) {
-            font-size: $base-font-size * 1.125;
+            font-size: $base-font-size;
         }
         @include media-query($on-palm) {
             font-size: $base-font-size * 0.875;

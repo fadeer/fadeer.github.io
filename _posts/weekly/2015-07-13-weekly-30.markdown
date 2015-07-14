@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "每周技术文章 No.30"
+date:   2015-07-13 12:00:00
+title2: "2015.7.6-12"
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [人手一份核武器 - Hacking Team 泄露（开源）资料导览手册](http://zhuanlan.zhihu.com/drops/20102713)，“Stuxnet 让公众知道：**原来真有这种事**，Snowden 让公众知道：**原来这种事这么多**，Hacking Team 让公众知道：**原来这种事都正经当买卖干了**”。**安全这事儿要重视起来**，先从密码习惯做起吧。
+* [Flex 布局语法教程](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)，评论角度很丰富。
+* [设计之前，花上时间去定义你的设计原则](http://www.woshipm.com/ucd/172161.html)，这就是统一价值观啊。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面领域
+----
+* [团队协作工具 Worktile 技术架构揭秘](http://segmentfault.com/a/1190000002967039)，正好咱们在用，了解一下，这也是目前很典型的实现架构了。
+
+硬件设备，ARM、终端、移动、智能设备
+----
+* [让我们再谈谈 iOS 安全](http://blog.devtang.com/blog/2015/07/11/ios-security-book-recommendation/)，希望以后能用上。
+<!--preview-end-->
+
+市场、产品、项目
+----
+* 那些曾经大名鼎鼎的黑客现在都在干什么？对[排名第一的答案](http://www.zhihu.com/question/31425611/answer/52454043)评论是“远古大神来知乎了”，哈哈。
+* 在信息禁运的古巴，人民是用[这种方式](http://www.pingwest.com/el-paquete-is-the-internet-before-cuban-have-internet/)消费互联网内容的，“El Paquete 在这个过程中扮演了极为重要的角色，它能够帮助古巴人民享受最充分的信息自由，在灰色地带里运转，却没有给古巴对于信息的管控带来威胁”。
+* Google 收购 Android 十周年，[多图看 Android 十年间的变迁](http://www.pingwest.com/ten-years-after-google-acquired-android/)。虽然目前没用Android的手机，但是这系统是离不了了。
+
+团队建设
+----
+* [这些年，这些挖掘机算法，这些反思](http://www.blogchong.com/post/111.html)，前面是作者做数据挖掘方面的经验，后面是对于学习与自我提升的想法，文风很轻松。“**为了学到东西，脸皮是毛玩意儿**”（我特别认同抬杠长能耐这项技术）、“进步始于交流，收获源于分享”（写写博客吧）、“经常整理一下自己”...，为什么鸡汤都这么相似。那记住最后这个吧，“**善于在实际生活中寻找学习的动力**”，这个动力太重要了，项目推动可能靠压力，但是个人发展还是内因多些吧。
+* [10个让你沟通更有效率的方法](http://mp.weixin.qq.com/s?__biz=MjM5NjA3OTM0MA==&mid=210771135&idx=1&sn=fa15d1b75af804049e59077abf9a04a3&3rd=MzA3MDU4NTYzMw==&scene=6#rd)，这是[《如何问，别人才肯说》](http://book.douban.com/subject/26426001/)的一个摘要。
+* [挖坑和踩雷](http://www.cnblogs.com/zhengyun_ustc/p/digging.html)，例子很生动，“在工作中要有意识地去了解，**怎么做是对的，为什么是对的，前提条件是什么**，什么是错的，错在哪里，不仅仅要看现在和未来的错与对，还要看过去若干年的错与对”。我一直在训练的就是经验如何总结、如何传递。
+
+
