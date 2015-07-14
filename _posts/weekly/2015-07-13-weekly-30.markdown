@@ -21,8 +21,8 @@ tags: Weekly Skill
 硬件设备，ARM、终端、移动、智能设备
 ----
 * [让我们再谈谈 iOS 安全](http://blog.devtang.com/blog/2015/07/11/ios-security-book-recommendation/)，希望以后能用上。
-<!--preview-end-->
 
+<!--preview-end-->
 市场、产品、项目
 ----
 * 那些曾经大名鼎鼎的黑客现在都在干什么？对[排名第一的答案](http://www.zhihu.com/question/31425611/answer/52454043)评论是“远古大神来知乎了”，哈哈。
