@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "每周技术文章 No.31"
+date:   2015-07-20 12:00:00
+title2: "2015.7.13-19"
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [Webpack 和 React 小书](http://segmentfault.com/a/1190000002985564)，前端开发入门，文章贴出了webpack这一节，更多见[中文完整版](https://fakefish.github.io/react-webpack-cookbook/index.html)、[Gitbook英文原版](http://christianalfoni.github.io/react-webpack-cookbook/)。
+* [Google将Material Design带到CSS、HTML与JavaScript上](http://www.infoq.com/cn/news/2015/07/google-material-design-lite)，扁平化已经让一大部分网页都看着差不多了，Google又更进了一步？呵呵。作为一个前端交互的实现，既然是[开源](https://github.com/google/material-design-lite)的，那学学也好。
+* 那么，在扁平化和极简风格的大潮下，如何让自己产品的界面依旧保持精致和层次感呢？来看[提升用户体验的7大微交互](http://colachan.com/post/3450)。
+* [HTML5实现屏幕手势解锁](http://www.alloyteam.com/2015/07/html5-shi-xian-ping-mu-shou-shi-jie-suo/)，学习下。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面领域
+----
+<!--preview-end-->
+* 微软发布了**Azure上的RDS部署模板**，[Azure Resource Manager Template for RDS Deployment](http://blogs.msdn.com/b/rds/archive/2015/07/13/azure-resource-manager-template-for-rds-deployment.aspx)，这下自动化程度就高很多了。当然也顺便了解一下这个服务部署为导向的[Azure Resource Manager](https://azure.microsoft.com/en-us/documentation/articles/resource-group-overview/)。
+* 上周，Teradici（对，就是Vmware的PCoIP协议的提供者）发布了一个新产品[Teradici Pervasive Computing Platform](http://connect.teradici.com/platform)，干什么用的？简单说，就是让其他供应商也可以像Vmware Horizon、Amazon Workspace一样，以PCoIP协议来提供桌面服务。这不错啊，怎么收费？**前50坐席免费**，然后**6刀每座席每月**。更多可以看看[Brian Madden的分析](http://www.brianmadden.com/blogs/brianmadden/archive/2015/07/13/teradici-releases-an-sdk-amp-apis-to-make-their-core-pcoip-technology-available-to-anyone.aspx)。对了，如果你通过远程桌面访问前面的Teradici产品页面，那它一上来就在考验你现在的协议、设备的性能啊，哈哈。
+* 戴尔发布了[Wyse vWorkspace 8.6](http://www.dell.com/learn/us/en/uscorp1/press-releases/2015-07-14-dell-first-major-oem)，关注的重点这是一个“Azure-Ready VDI”方案，它能通过**关闭没有session占用的Azure VM来减少最多67%的费用**，就是8小时工作时段VM才创建使用呗。这方面更详细的描述还得找找文档。
+* [kingshard](http://segmentfault.com/a/1190000003001545)，一个由Go开发高性能MySQL Proxy项目，kingshard在满足基本的读写分离的功能上，致力于**简化MySQL分库分表**操作；能够让DBA通过kingshard轻松平滑地实现MySQL数据库扩容。
+* [经典的 TCP socket 读取报文错误](http://www.ideawu.net/blog/archives/891.html)，翻翻换换脑子。
+* 关于**函数式编程**中的[Monad](http://www.ruanyifeng.com/blog/2015/07/monad.html)，更完整的可以看[原文](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)，或另一个[完整译文](http://jiyinyiyong.github.io/monads-in-pictures/)。扩展的看看[从 Stream 和函数式编程想到的](http://segmentfault.com/a/1190000002992542)。
+* ArchSummit全球架构师峰会2015深圳站[见闻](http://timyang.net/misc/archsummit-2015-shenzhen/)，转几个感兴趣的内容：[技术决定生产力：生产力工具在创业公司落地实践](http://www.stuq.org/ppt/show/241/c151b03b0be5b821dd8ffdc6ee197894)，很多现实问题，哈哈；[利用云服务搭建高可用的系统架构](http://www.stuq.org/ppt/show/244/c61e28bc09e4f25e3c1c6fd96581199d)；[平台服务的架构演进](http://www.stuq.org/ppt/show/246/a89045d6b54661d61b9f7a49f489765c)；[融合web开发技术的同构原生app基础架构（上）](http://www.stuq.org/ppt/show/265/618383e8bfe75f98ce126c9197278e2b)，[（下）](http://www.stuq.org/ppt/show/266/f63af1473a67464af04f6391d6def715)；[饿了么数据仓库治理及数据使用](http://www.stuq.org/ppt/show/262/e5540bc7dbfb3a7d7b3597058162a3fd)；[移动应用性能分析与总结](http://www.stuq.org/ppt/show/268/e5f0165b5ec023b9ab25fd762ecaf0fe)；更多内容见[STUQ](http://www.stuq.org/ppt/qcon2015/ArchSummit%E6%B7%B1%E5%9C%B32015%E5%A4%A7%E4%BC%9A)。
+* Hacking Team被黑后续内容：[简要分析Hacking Team远程控制系统](http://drops.wooyun.org/papers/7025)，[WP8 监控代码分析](http://drops.wooyun.org/tips/7196)，[不需越狱即可监控iOS用户](http://drops.wooyun.org/tips/7195)。
+
+硬件设备，ARM、终端、移动、智能设备
+----
+* WiFi、ZigBee、BLE用哪个？[小米内部是这样选的](http://www.leiphone.com/news/201507/m6n5F5USgELvC3B7.html)。
+
+市场、产品、项目
+----
+* 技术宅炒股是这样的，[A股辅助分析工具](https://github.com/hustcer/star)。
+* [Uber如何用6步获取人民的心](http://www.woshipm.com/operate/176747.html)，了解一下Uber的产品逻辑。
+
+团队建设
+----
+* [怎么样才算是靠谱的产品经理？](http://www.woshipm.com/pmd/174142.html) 靠谱的需求、靠谱的产品方案、靠谱的产品落地。这是产品上线之前的部分，据说还有下半部分。
+* [多项目同时进行如何做好进度管理](http://www.woshipm.com/discuss/174495.html)，这个谁都会遇上，就是一个项目内部，不同方向上的事儿也要做好平衡。[知乎原问](http://www.zhihu.com/question/19911326)。
+* 产品陷入没人用的死循环？[因为用户想要啥功能你都给给给](http://www.niaogebiji.com/article-7554-1.html)。
+* [为什么说产品思考是进行用户体验设计时所不可或缺的？](http://www.jianshu.com/p/10a6df6326de) “很多时候是这样，说起来容易，做起来难，所以只有反复的强调，才能在做的时候稍微想起那些重要而容易被忽略的东西。”
+* [互联网人如何利用晚上八点到十点这段时间自我提升？](http://www.woshipm.com/pmd/175240.html)
+
+
+
