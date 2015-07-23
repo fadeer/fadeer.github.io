@@ -17,7 +17,6 @@ tags: Weekly Skill
 
 后端技术，操作系统、虚拟化、存储、网络、桌面领域
 ----
-<!--preview-end-->
 * 知乎上[关于操作系统安全的一个话题](http://www.zhihu.com/question/20237554/answer/52572637)。
 * [Use DSC to manage WMI namespace security](http://blogs.msdn.com/b/powershell/archive/2015/06/29/use-dsc-to-manage-wmi-namespace-security.aspx)。
 * [搭建单机Kubernetes开发环境](http://www.ustack.com/blog/kubernetes1)，[在UOS搭建Kubernetes集群](http://www.ustack.com/blog/kubernetes2/)。
@@ -28,6 +27,7 @@ tags: Weekly Skill
 
 硬件设备，ARM、终端、移动、智能设备
 ----
+<!--preview-end-->
 * [2015智能可穿戴市场白皮书](http://isux.tencent.com/2015-wearable-market-white-book.html)。
 
 市场、产品、项目

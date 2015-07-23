@@ -22,7 +22,6 @@ tags: Weekly Skill
 ----
 * [让我们再谈谈 iOS 安全](http://blog.devtang.com/blog/2015/07/11/ios-security-book-recommendation/)，希望以后能用上。
 
-<!--preview-end-->
 市场、产品、项目
 ----
 * 那些曾经大名鼎鼎的黑客现在都在干什么？对[排名第一的答案](http://www.zhihu.com/question/31425611/answer/52454043)评论是“远古大神来知乎了”，哈哈。
@@ -31,6 +30,7 @@ tags: Weekly Skill
 
 团队建设
 ----
+<!--preview-end-->
 * [这些年，这些挖掘机算法，这些反思](http://www.blogchong.com/post/111.html)，前面是作者做数据挖掘方面的经验，后面是对于学习与自我提升的想法，文风很轻松。“**为了学到东西，脸皮是毛玩意儿**”（我特别认同抬杠长能耐这项技术）、“进步始于交流，收获源于分享”（写写博客吧）、“经常整理一下自己”...，为什么鸡汤都这么相似。那记住最后这个吧，“**善于在实际生活中寻找学习的动力**”，这个动力太重要了，项目推动可能靠压力，但是个人发展还是内因多些吧。
 * [10个让你沟通更有效率的方法](http://mp.weixin.qq.com/s?__biz=MjM5NjA3OTM0MA==&mid=210771135&idx=1&sn=fa15d1b75af804049e59077abf9a04a3&3rd=MzA3MDU4NTYzMw==&scene=6#rd)，这是[《如何问，别人才肯说》](http://book.douban.com/subject/26426001/)的一个摘要。
 * [挖坑和踩雷](http://www.cnblogs.com/zhengyun_ustc/p/digging.html)，例子很生动，“在工作中要有意识地去了解，**怎么做是对的，为什么是对的，前提条件是什么**，什么是错的，错在哪里，不仅仅要看现在和未来的错与对，还要看过去若干年的错与对”。我一直在训练的就是经验如何总结、如何传递。

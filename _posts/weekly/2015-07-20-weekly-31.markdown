@@ -17,7 +17,6 @@ tags: Weekly Skill
 
 后端技术，操作系统、虚拟化、存储、网络、桌面领域
 ----
-<!--preview-end-->
 * 微软发布了**Azure上的RDS部署模板**，[Azure Resource Manager Template for RDS Deployment](http://blogs.msdn.com/b/rds/archive/2015/07/13/azure-resource-manager-template-for-rds-deployment.aspx)，这下自动化程度就高很多了。当然也顺便了解一下这个服务部署为导向的[Azure Resource Manager](https://azure.microsoft.com/en-us/documentation/articles/resource-group-overview/)。
 * 上周，Teradici（对，就是Vmware的PCoIP协议的提供者）发布了一个新产品[Teradici Pervasive Computing Platform](http://connect.teradici.com/platform)，干什么用的？简单说，就是让其他供应商也可以像Vmware Horizon、Amazon Workspace一样，以PCoIP协议来提供桌面服务。这不错啊，怎么收费？**前50坐席免费**，然后**6刀每座席每月**。更多可以看看[Brian Madden的分析](http://www.brianmadden.com/blogs/brianmadden/archive/2015/07/13/teradici-releases-an-sdk-amp-apis-to-make-their-core-pcoip-technology-available-to-anyone.aspx)。对了，如果你通过远程桌面访问前面的Teradici产品页面，那它一上来就在考验你现在的协议、设备的性能啊，哈哈。
 * 戴尔发布了[Wyse vWorkspace 8.6](http://www.dell.com/learn/us/en/uscorp1/press-releases/2015-07-14-dell-first-major-oem)，关注的重点这是一个“Azure-Ready VDI”方案，它能通过**关闭没有session占用的Azure VM来减少最多67%的费用**，就是8小时工作时段VM才创建使用呗。这方面更详细的描述还得找找文档。
@@ -29,6 +28,7 @@ tags: Weekly Skill
 
 硬件设备，ARM、终端、移动、智能设备
 ----
+<!--preview-end-->
 * WiFi、ZigBee、BLE用哪个？[小米内部是这样选的](http://www.leiphone.com/news/201507/m6n5F5USgELvC3B7.html)。
 
 市场、产品、项目
