@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "每周技术文章 No.32"
+date:   2015-07-27 22:00:00
+title2: "2015.7.20-26"
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [给自己的字体课（一）英文字体基础](http://cdc.tencent.com/?p=8565)，非常不错的字体基础知识。这PPT做的，啧啧啧；这得是有多闲，哈哈。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面领域
+----
+* [最近Docker淫威太盛，看我怎么扁它！](http://mp.weixin.qq.com/s?__biz=MzA5MjA2MjgyNg==&mid=206354580&idx=1&sn=8faa5ca7f5ddace1234f00516939f66e&3rd=MzA3MDU4NTYzMw==&scene=6#rd) 一篇非常生动、准确描述Docker的文章。还介绍了几个国内Docker生态的初创企业，还有众多IaaS厂商的参与。
+* [Virtual PC Guy on GitHub](http://blogs.msdn.com/b/virtual_pc_guy/archive/2015/07/20/virtual-pc-guy-on-github.aspx)，Benjamin Armstrong（这家伙是Hyper-V的项目经理）开始把他这些年分享的脚本放到[GitHub](https://github.com/BenjaminArmstrong)上了，方便大家复制、修改。
+* [现代告警平台的设计是模块化的](http://segmentfault.com/a/1190000003012335)，看看细节。
+* [超融合集成系统(HCIS)，中型数据中心哪家强？](http://mp.weixin.qq.com/s?__biz=MjM5NDQyNDQ0Mw==&mid=210730969&idx=1&sn=6864328aa06fa3c1cbb9e695626ae383&3rd=MzA3MDU4NTYzMw==&scene=6#rd)，Nutanix还行。
+* [iptables配置实践](http://wsgzao.github.io/post/iptables/)，这必须得会。
+* [360分布式存储系统Bada的架构设计和应用](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=209169592&idx=1&sn=6539823f959dfa3a88e4cb66b729bd26&3rd=MzA3MDU4NTYzMw==&scene=6#rd)，了解一下。
+* [关于7月22日和7月23日青云QingCloud北京2区（PEK2）网络故障说明](https://log.qingcloud.com/?p=1007)，又出故障了，这次是“两台汇聚层交换机的堆叠出现了 ARP TABLE 混乱，引致了局部内联机器丢包”，最终是H3C换成了Cisco。这让我深深的想起自家机房和重庆厂区遇到的网络问题。
+* [一款结合破壳(Shellshock)漏洞利用的Linux远程控制恶意软件Linux/XOR.DDoS 深入解析](http://drops.wooyun.org/tips/7320)，长文，不过值得看看；我更感兴趣的是里面那个RDP扫描和暴力破解工具，呵呵。
+* 通往自由的路：[第二届乌云安全峰会](http://www.infoq.com/cn/news/2015/07/wooyun-summit2015)在京举办，里面那个“猫池”新鲜啊。
+* [简单密码引起的血案](http://sery.blog.51cto.com/10037/1676611)，又是个安全的案例，重点是事故分析和坑人过程。
+* Visual Studio 2015发布了[正式版](http://www.infoq.com/cn/news/2015/07/VS2015-NET46-RTM)，亮点是带了个Android模拟器，这什么情况，来看看[台湾玩家的试用](http://www.techbang.com/posts/24823-free-installation-of-vs-android-emulator-in-windows-simulation-nexus-10-xperia-z-s6-and-other-hot-models)，完整介绍看[官网](https://www.visualstudio.com/en-us/features/msft-android-emulator-vs.aspx)。
+
+市场、产品、项目
+----
+<!--preview-end-->
+* [Evernote会成为下一只倒下的独角兽么？](http://36kr.com/p/5035613.html)，作为我日常严重依赖的一个服务，它自身的生存状况还是要关注一下的。另外这篇也引发了一些讨论，[从Evernote换帅看国内云笔记市场](http://36kr.com/p/5035735.html)，[Evernote 会倒吗？这不是我该关心的事情](http://36kr.com/p/5035716.html)。
+* [我从腾讯那“偷 了”3000万QQ用户数据，出了份很有趣的独家报告！](http://www.woshipm.com/pmd/179182.html)，非常棒的实践。
+
+团队建设
+----
+* [程序猿如何一步步建立个人品牌](http://www.huxiu.com/article/120970/1.html)，文章、个人简介、代码、产品，大致相同的一个要求就是**逻辑清晰、自圆其说**，作者从各方面都做了不错的例子。“我详细叙述了我从 11 岁开始做的东西，就是希望能告诉你：**如果你想学习编程，你需要动手开始做**！现在就去做，不要找任何借口。**动手做是最好的学习方法**”。
+* 写给代码技术同事，[被人信任才能有广阔未来](http://www.techug.com/technology-2)，行文有些唠叨，呵呵，但内容很重要。
+* 最近，一篇关于团队开发效率的老文在微博上引发了一些讨论。大概先是[左耳朵耗子](http://weibo.com/haoel)以[这篇](http://coolshell.cn/articles/11656.html)文章为基础，展开一些实际的案例，“面对这些技术决定，我不赞同，并给了技术方案，但是我的上头执意要这样解决问题，搞得我一定脾气没有。现在，自由了，我可以细细说说这些案例的背景”。 然后阿里的[玉伯](http://weibo.com/lifesinger)给出些不同角度的看法，"更喜欢朴实的工程团队，能安然处于谷底，每个人可能都不太牛，但通过各种土办法，能汇聚起来，所向无敌"。于是耗子也回复了一篇[请玉伯一起来聊一聊“所向无敌的土方法”](http://weibo.com/p/1001603868404359535571)，另外参与这个话题讨论的还有[Fenng](http://weibo.com/fenng)的[去了大公司就一定能学到很牛的技术么?](http://weibo.com/p/1001603868139464033961)，蝉游记产品经理[纯银V](http://weibo.com/cicada)分享他们[产品小团队](http://www.jianshu.com/p/9bf5fe5012ed)的玩儿法，都值得看看。然后才发现，耗子已经离开阿里了，背后有[故事](http://www.huochai.mobi/p/d/733343/)，甚至知乎上都有讨论（太八卦了），[如何评价左耳朵耗子因为工作居住证离开阿里巴巴？](http://www.zhihu.com/question/30778071)，[如何评价 @左耳朵耗子 关于建设团队的一条微博？](http://www.zhihu.com/question/29614511)，匿名用户真多，呵呵。
+* 再回到开发，耗子关于代码审查的建议是很有价值的，因为坑就在那里。参考[代码审查的重要性](http://www.codeceo.com/article/importance-of-code-reviews.html)，[程序员不是砌砖工人，他们是作家](http://www.codeceo.com/article/programmer-not-bricklayers.html)
+
+
