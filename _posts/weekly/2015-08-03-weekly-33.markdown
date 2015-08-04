@@ -18,7 +18,7 @@ tags: Weekly Skill
 * [Material Design只是独辟蹊径，并未全面胜出](http://colachan.com/post/3453)。
 * [css中的line-height](http://segmentfault.com/a/1190000003038583)，调整页面文字效果必会啊。
 * [谈谈Android Material Design 中的Tint（着色）](http://segmentfault.com/a/1190000003038675)，这机制不错。
-* [不止是UI：React的使用场景探索](http://www.infoq.com/cn/articles/react-more-scenarios)，这文章涉及了两个我关注的话题，近的是React，更近的是**atom-shell**。作为[已死APPJS](https://github.com/appjs/appjs)的替代品，一直关注的[NW.js](https://github.com/nwjs/nw.js/)（以前叫**Node-Webkit**），限制是它不是个node的模块，而是对node的包装，迁移负担较大。这里提及的atom-shell，现在叫[Electron](https://github.com/atom/electron)（怎么都爱改名啊）,似乎更符合咱目前的要求，值得考虑。另外要看的是这**前端包装**对ARM（树莓派为例）的支持，核心问题是Chromium、CEF，Node-Webkit的这个[Issue](https://github.com/nwjs/nw.js/issues/193)已经关注了一年多了，现在这已经是付费Issue了，价值10$，哈哈；而Electron这方面似乎从7月份的[0.29.0就开始支持了](https://github.com/atom/electron/releases/tag/v0.29.0)，不错啊，更多的见[Release和预打包](https://github.com/atom/electron/releases)。
+* [不止是UI：React的使用场景探索](http://www.infoq.com/cn/articles/react-more-scenarios)，这文章涉及了两个我关注的话题，近的是React，更近的是atom-shell。作为[已死APPJS](https://github.com/appjs/appjs)的替代品，一直关注的[NW.js](https://github.com/nwjs/nw.js/)（以前叫**Node-Webkit**），限制是它不是个node的模块，而是对node的包装，迁移负担较大。这里提及的**atom-shell**，是借着Github的ATOM编辑器发展起来的，现在叫[Electron](https://github.com/atom/electron)（怎么都爱改名啊），估计长期支持度不错值得考虑。另外要看的是这**前端包装**对ARM（树莓派为例）的支持，核心问题是Chromium、CEF，NW.js的这个[Issue](https://github.com/nwjs/nw.js/issues/193)已经关注了一年多了，现在这已经是付费Issue了，价值10$，哈哈；而Electron这方面似乎从7月份的[0.29.0就开始支持了](https://github.com/atom/electron/releases/tag/v0.29.0)，不错啊，更多的见[Release和预打包](https://github.com/atom/electron/releases)。
 
 后端技术，操作系统、虚拟化、存储、网络、桌面领域
 ----
