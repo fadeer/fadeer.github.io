@@ -13,8 +13,8 @@ Ramdisk、Initramfs对比WIM
 ----
 一个标准Linux的部署，系统部分通常分为三块儿：
 
-* 内核文件，一般在启动分区下vmlinuz-{kernel.version}；对比Windows的内核是C:\Windows\System32\ntoskrnl.exe
-* 内存盘（Ramdisk）被引导文件加载起来的精简系统，通常也是压缩格式的，这文件一般叫initrd.gz-{kernel.version}，意思就是init（初始化时用的）、rd（内存盘）、gz（压缩的）。
+* 内核文件，一般在启动分区下`vmlinuz-{kernel.version}`；对比Windows的内核是`C:\Windows\System32\ntoskrnl.exe`。
+* 内存盘（Ramdisk）被引导文件加载起来的精简系统，通常也是压缩格式的，这文件一般叫`initrd.gz-{kernel.version}`，意思就是init（初始化时用的）、rd（内存盘）、gz（压缩的）。
 * 系统分区，一般是一个完整的分区，EXT4之类格式的，放置完整的Linux系统组件。
 
 我们主要看看**Ramdisk**的作用，这个精简的系统通常是包含必要驱动和工具，完成当前机器的硬件识别（最重要的是磁盘控制器和磁盘设备），找到并挂载系统分区，然后跳转过去进入正式的系统。Ramdisk的实现方式分为两个阶段：
