@@ -14,7 +14,7 @@ Ramdisk、Initramfs对比WIM
 一个标准Linux的部署，系统部分通常分为三块儿：
 
 * 内核文件，一般在启动分区下vmlinuz-{kernel.version}；对比Windows的内核是C:\Windows\System32\ntoskrnl.exe
-* 内存盘（Ramdisk）被引导文件加载起来的精简系统，通常也是压缩格式的，这文件一般叫initrd.gz-{kernel.version}，意思就是init（管初始化的）、rd（内存盘）、gz（压缩的）。
+* 内存盘（Ramdisk）被引导文件加载起来的精简系统，通常也是压缩格式的，这文件一般叫initrd.gz-{kernel.version}，意思就是init（初始化时用的）、rd（内存盘）、gz（压缩的）。
 * 系统分区，一般是一个完整的分区，EXT4之类格式的，放置完整的Linux系统组件。
 
 我们主要看看**Ramdisk**的作用，这个精简的系统通常是包含必要驱动和工具，完成当前机器的硬件识别（最重要的是磁盘控制器和磁盘设备），找到并挂载系统分区，然后跳转过去进入正式的系统。Ramdisk的实现方式分为两个阶段：
@@ -60,7 +60,7 @@ lrwxrwxrwx  1 ys ys   32 Aug  6 17:04 znew -> /tmp/fadeer/ubuntu-core/bin/znew*
 30M     system-rw
 {% endhighlight %}
 
-于是，我们利用SquashFS，把一个目标系统目录（182MB）打包为压缩文件（63MB），然后创建了一个可写系统分区（system-rw），建立了一堆链接（）30MB）作为系统分区的文件，然后就可以chroot到system-rw里玩耍了，新建的所有文件都会存放在这个目录下。哎，这跟[install.wim和WIMBoot][wimboot]是一样一样的啊。
+于是，我们利用SquashFS，把一个目标系统目录（182MB）打包为压缩文件（63MB），然后创建了一个可写系统分区（system-rw），建立了一堆链接（30MB）作为系统分区的文件，然后就可以`chroot`到system-rw里玩耍了，新建的所有文件都会存放在这个目录下。哎，这跟[install.wim和WIMBoot][wimboot]是一样一样的啊。
 
 而SquashFS文件的制作是这样的：
 {% highlight bash %}
@@ -78,7 +78,7 @@ Union FileSystem对比Custom.img
 
 Union FileSystem的核心逻辑是Union Mount，它支持把一个目录A叠加到另一个目录B之上；用户对目录B的读取就是A加上B的内容，而对B目录里文件写入和改写则会保存在目录A上，因为A在上一层。这个类似差分VHD的效果，但是是以文件为单位的。因为是Union FS主要责叠加访问的逻辑，因此对叠加的目录的原始文件系统适应性比较好。
 
-再回到LiveCD，如果我们有机会把电脑本地的一个分区作为持久的可写目录叠加在squashfs目录上，那么我们就不用担心重启的问题了。Ubuntu的LiveCD就是这么干的，用户可以在本地硬盘创建一个id为`casper-rw`的分区，这个分区就会自动被mount到默认用户目录`/home/ubuntu`下，就可以持久保存用户在桌面、文档等目录下放置的文件了。
+再回到LiveCD，如果我们有机会把电脑本地的一个分区作为持久的可写目录叠加在squashfs目录上，那么我们就不用担心重启的问题了。Ubuntu的LiveCD就是这么干的，用户可以在本地硬盘创建一个id为`casper-rw`的分区，这个分区就会自动被`mount`到默认用户目录`/home/ubuntu`下，就可以持久保存用户在桌面、文档等目录下放置的文件了。
 
 UnionFS 常见的实现有：
 
