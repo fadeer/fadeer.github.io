@@ -11,7 +11,7 @@ WIM文件格式
 ----
 WIM，全称是Windows Imaging File Format、Windows镜像文件格式，是微软创造出来用于Vista系统部署的文件格式，当然，其后的Windows也都是使用这个来存放Windows安装源的。WIM是一个以文件为基础的格式，作为对比，之前讨论的VHD、我们常见的ISO等都是以扇区块为基础的。同时WIM还支持压缩和单一文件存储，大致上，你可以把WIM文件当作一个文件目录压缩包。WIM内部文件结构是这样：
 
-![](https://i-technet.sec.s-msft.com/dynimg/IC292021.gif)
+![][pic1]
 
 更详细的见[WIM格式SPEC][wimspec]，这格式从2007年就没变过呢？
 
@@ -145,4 +145,4 @@ Dism /unmount-image /mountdir:c:\imageMount /commit
 
 [wimspec]: http://www.microsoft.com/en-us/download/details.aspx?id=13096
 
-
+[pic1]: http://7xkxri.com1.z0.glb.clouddn.com/wimfile-1.gif
