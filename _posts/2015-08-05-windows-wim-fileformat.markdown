@@ -21,7 +21,7 @@ WIM的特点和用途
 
 另外，前面提到了WIM支持单一文件存储，同时支持多索引，就是你可以**把多个Windows版本保存到一个安装介质里**（典型就是DVD光盘，受4.7G容量限制），因为不同版本（比如标准版、企业版、数据中心版什么的，在加上多语言）的源文件绝大多数是相同的，所以整合到一起可以极大的节省空间，方便多版本测试，在安装过程中多一步来选择某一个要安装的版本。微软的MSDN下载往往提供这种源，开发者也可以利用后面的WIM工具自己制作多合一安装源。其实这事儿在XP时代也有，利用光盘格式的特性，把相同的文件只储存一份。当初虽然没自己手动做过，但是体验过这好处啊。
 
-前面提到的这个Windows安装源是光盘`Source\install.wim`，你会发现这目录下还有个`boot.img`，就用到了WIM另一个特性，支持启动。或者说，是Windows Loader支持从WIM这个压缩文件上启动系统（咦，这事儿在Linux下很熟悉），光盘启动电脑，进入的图形安装环境的系统（WinPE，预安装环境）就是从boot.img启动来的。这个环境下用diskpart可以看到一个X盘，就是boot.img的内容（Windows、Program Files都有啊，就是一精简的Windows），一般定制WinPE环境也就是修改boot.img的内容。
+前面提到的这个Windows安装源是光盘Source\install.wim，你会发现这目录下还有个boot.img，就用到了WIM另一个特性，**支持启动**。或者说，是Windows Loader支持从WIM这个压缩文件上启动系统（咦，这事儿在Linux下很熟悉），光盘启动电脑，进入的图形安装环境的系统（WinPE，预安装环境）就是从boot.img启动来的。这个环境下用diskpart可以看到一个X盘，就是boot.img的内容（Windows、Program Files都有啊，就是一精简的Windows），一般定制WinPE环境也就是修改boot.img的内容。
 
 WIM相关工具和日常操作
 ----
@@ -33,7 +33,7 @@ WIM相关工具和日常操作
 
 接下来我们看看WIM的日常操作和使用场景
 
-WIM文件的挂载与修改保存，这一般是**放进去里面几个绿色软件**什么的。
+**WIM文件的挂载与修改保存**，这一般是放进去里面几个绿色软件什么的。
 {% highlight bat %}
 ::挂载WIM文件，这一步需要点儿时间，似乎在建立索引，别着急。
 Dism /Mount-Image /ImageFile:C:\images\install.wim /index:1 /MountDir:C:\imageMount ::如果你光想看看，也可以加上只读参数/ReadOnly
@@ -92,7 +92,7 @@ Dism /apply-image /imagefile:X:\sources\install.wim /index:1 /ApplyDir:C:\
 {% endhighlight %}
 真省事儿，就这么一步。当然在WinPE环境下，WIM文件的来源不止是安装光盘或者U盘，也可以是网络上的路径，基于WADK的自动部署就是这样。
 
-对应的，**抓取一个定制好的Windows系统分区**是这样，记得先sysprep一般化：
+对应的，**抓取一个定制好的Windows系统分区**是这样，记得先Sysprep一般化：
 {% highlight bat %}
 Dism /Capture-Image /ImageFile:N:\custom-windows8.wim /CaptureDir:C:\ /Name:"Customized Windows 8"
 {% endhighlight %}
@@ -124,7 +124,7 @@ Dism /unmount-image /mountdir:c:\imageMount /commit
 
 更多的比如Windows所含驱动的管理，离线预安装应用程序等，看看后面的参考文章吧。
 
-**值得注意**的是，前面用到的DISM离线Windows管理操作，同时有/online参数，可以通过同样的方法，对当前运行的Windows进行配置管理，很是方便。
+**值得注意**的是，前面用到的DISM离线Windows管理操作，同时有`/online`参数，可以通过同样的方法，对当前运行的Windows进行配置管理，很是方便。
 
 参考文章
 ----

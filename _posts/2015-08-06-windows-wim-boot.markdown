@@ -126,19 +126,19 @@ dism /optimize-image /image:c:\mount /wimboot
 dism /unmount-image /mountdir:c:\mount /commit
 {% endhighlight %}
 
-如果你想在基础镜像里补充一些驱动、更新一些补丁，让这个镜像更适合生产的PC，那还得有一个正常部署、更新、Sysprep一般化、再抓取（加/wimboot参数）的过程，详细见[参考文章][create]。
+如果你想在基础镜像里补充一些驱动、更新一些补丁，让这个镜像更适合生产的PC，那还得有一个正常部署、更新、Sysprep一般化、再抓取（加`/wimboot`参数）的过程，详细见[参考文章][create]。
 
 哎，前面提到的**custom.wim定制化部分**怎么来的？这是利用DISM的增量抓取功能。
 
 * 首先向前面一样，使用通用install.wim，部署一个WIMBoot的Windows。
-* 然后进审核模式完成最终定制化，驱动、补丁、预安装软件什么的，sysprep一般化。
+* 然后进审核模式完成最终定制化，驱动、补丁、预安装软件什么的，Sysprep一般化。
 * 重启以WinPE来启动，抓取定制化部分
 
 {% highlight bat %}
 DISM /Capture-CustomImage /CaptureDir:C: /ScratchDir:C:\Recycler\Scratch
 {% endhighlight %}
 
-DISM把指针文件之外的用户文件作为新增部分，抓取为custom.wim，显然这个差分部分是要配合对应install.wim同时使用的。在部署时DISM Apply-Image时使用custom.wim就可以了。
+DISM把指针文件之外的用户文件作为新增部分，抓取为custom.wim，显然这个差分部分是要配合对应install.wim同时使用的。在部署时DISM `/Apply-Image`时使用custom.wim就可以了。
 
 值得注意的是，放置install.wim和custom.wim文件的这个**镜像分区是不能动态扩大的**，难道是修改分区会造成WIM文件的位置变化，因而造成指针文件失效？因此要保持镜像分区够用即可。可是定制化部分弹性很大，不确定怎么办？见参考文章，这里主要的逻辑是借着系统分区倒腾一下，等custom.wim确定下来，再完成最后的部署工作，过程如下图：
 
