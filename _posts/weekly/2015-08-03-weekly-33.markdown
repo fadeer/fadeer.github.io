@@ -13,7 +13,7 @@ tags: Weekly Skill
 * [这是前端最好的时代——论前端的“三化”建设](http://www.alloyteam.com/2015/07/zhe-shi-qian-duan-zui-hao-di-shi-dai-lun-qian-duan-di-san-hua-jian-she/)，前端自动化、服务化、实时化。这是对“JS中国开发者大会”的一个概括。
 * [图说2015用户体验行业调查报告](http://cdc.tencent.com/?p=8575)。
 * [Gulp不完全入门教程](http://segmentfault.com/a/1190000003041055)，了解一下。
-* 关于CSS Reset 那些事：[（一）之 历史演变与Normalize.css](http://segmentfault.com/a/1190000003021766)，[（二）之 Normalize.css 源码解读](http://segmentfault.com/a/1190000003025718)，[（三）之 Normalize-zh.css 出炉](http://segmentfault.com/a/1190000003028985)，温故知新。
+* 关于CSS Reset 那些事：[（一）之 历史演变与Normalize.css](http://segmentfault.com/a/1190000003021766)，[（二）之 Normalize.css 源码解读](http://segmentfault.com/a/1190000003025718)，[（三）之 Normalize-zh.css 出炉](http://segmentfault.com/a/1190000003028985)，[（四）构架CSS基础样式库](http://segmentfault.com/a/1190000003055238)，温故知新。
 * 一些CSS中不怎么为人所知但在解决某些问题的时候很溜的属性，[CSS 的黑科技](http://segmentfault.com/a/1190000003023537)，[补充篇](http://segmentfault.com/a/1190000003029085)。
 * [Material Design只是独辟蹊径，并未全面胜出](http://colachan.com/post/3453)。
 * [css中的line-height](http://segmentfault.com/a/1190000003038583)，调整页面文字效果必会啊。
