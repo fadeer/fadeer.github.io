@@ -168,15 +168,15 @@ blockquote {
  */
 pre,
 code {
-    font-size: $small-font-size;
+    //font-size: $small-font-size;
     font-family: $font-mono;
     //margin-bottom: $spacing-unit;
 
-    padding: 1px 4px;
+    padding: 0 4px;
     margin: 0 4px;
     //color: #009933;
-    border: 1px solid #B1D8B6;
-    background-color: #EBF9ED;
+    border-radius: 3px;
+    background-color: #E3E3E3;
     
     @include media-query($on-laptop) {
         font-size: $small-font-size;
