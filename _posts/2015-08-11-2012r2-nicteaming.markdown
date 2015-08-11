@@ -1,0 +1,112 @@
+---
+layout: post
+title:  "Windows Server 2012R2网卡做Teaming，VM网络时断时续"
+date:   2015-08-11 12:00:00
+author: fadeer
+categories: 工作
+tags: Windows Hyper-V Network
+---
+
+利用Windows Server 2012R2内建的Teaming功能来提高虚拟机网络带宽和可用性，在几个桌面基础架构中都有应用，但是都遇到过VM网络中断的问题：
+
+* QC厂区，2014.10，Host01频繁网络中断，因为管理链路也使用teaming网卡，只能重启。有网口松动信息，有网卡mac冲突信息。
+* JT厂区，2015.5，搬家后两周，11VK、11VM都出现过网络中断，也有mac冲突信息。最后改成Teaming单链路，网络稳定后再改成双链路，正常使用至今。
+* QC厂区，2015.7.4，还是Host01网络中断，暂时改成Teaming单链路使用。
+
+所以，这事儿问题很集中，就是Teaming最佳实践到底是怎样的，遇到问题如何查。
+
+Windows Server的NIC Teaming
+----
+先看看官方的文档，[Windows Server 2012R2 NIC Teaming (LBFO) Deployment and Management][teamingguide]。
+
+其中distribution选择是这样的：
+
+* **Address Hash**，根据IP地址+TCP端口分配Member网卡，单一流量不能超过一个物理网卡带宽；用在VM内做Teaming的情况。
+* **Hyper-V Port**，VM的网卡都会绑定到一个Member网卡上，VM总流量不能超过一个物理网卡带宽；好处是VMQ的性能最佳，因为物理网卡固定；缺点绑定的网卡出问题，VM也就不通了。
+* **Dynamic**，多Member网卡间均衡负载，能实现高可用。
+
+而Switch Independent和Dependent，主要是Dependent配置下，进来的流量对物理网卡的选择依赖于Switch的逻辑，具体还没闹明白。
+
+官方的建议是，绝大多数情况选择**Switch Independent + Dynamic**即可，这也是创建Teaming是默认的配置。
+
+另一方面，Windows Server内建的NIC Teaming从Server 2012就开始了，很多用户也积累了不少经验，看看这个[How To Avoid Common Networking Issues In Hyper-V][commonissue]，这是2013年底的情况，建议是：
+
+* Use Logo Tested NICs
+* If At All Possible, Do Not Use Broadcom NICs，哈哈
+* Update Your Firmware
+* Update Your Drivers
+* Install The Recommended Updates For Windows Server
+* Understand And Use Microsoft NIC Teaming
+* Don’t Use Blade Servers
+* Disable VMQ on Virtual Switch NICs，临时办法，不是解决方案。
+
+有几项也跟咱有关系啊。
+
+QC厂区的情况
+----
+再来看看微软的KB2986895，[Virtual machines lose network connectivity when you use Broadcom NetXtreme 1-gigabit network adapters][KB2986895]。
+
+> When you have Hyper-V running on Microsoft Windows Server 2012 or Windows Server 2012 R2 together with **Broadcom NetXtreme 1-gigabit network adapters** (but not NetXtreme II network adapters), you may notice one or more of the following symptoms:
+>
+> * **Virtual machines may randomly lose network connectivity**. The network adapter seems to be working in the virtual machine. However, you cannot ping or access network resources from the virtual machine. Restarting the virtual machine does not resolve the issue.
+> * You **cannot ping or connect to a virtual machine** from a remote computer.
+>
+> These symptoms may **occur on some or all virtual machines** on the server that is running Hyper-V. **Restarting the server immediately resolves** network connectivity to all the virtual machines.
+
+这跟咱的情况很像，使用的网卡HP Ethernet 1Gb 4-port 331FLR Adapter也在这范围内，但是为什么总是Host01出问题呢？几台Host硬件、驱动、网络配置都是一样的，那看看VMQ是不是有区别。
+
+先是Host01的，Team网卡只挂了OA1，这两个VMQ都是开着的。
+{% highlight powershell %}
+PS C:\Users\ides-itcuser> Get-NetAdapterVmq
+Name                           InterfaceDescription              Enabled BaseVmqProcessor MaxProcessors NumberOfReceiveQueues
+----                           --------------------              ------- ---------------- ------------- ---------------------
+HST-OA02                       HP Ethernet 1Gb 4-port 331FL...#4 False   0:0              16            16
+HST-Backup01                   HP Ethernet 1Gb 4-port 331FL...#3 False   0:0              16            16
+HST-OA01                       HP Ethernet 1Gb 4-port 331FL...#2 True    0:0              16            16
+HST-OA03                       HP Ethernet 1Gb 4-port 331FLR ... False   0:0              16            16
+Team-OA                        Microsoft Network Adapter Mult... True    0:0                            16
+{% endhighlight %}
+
+然后是Host03，所有网卡VMQ都关了。
+{% highlight powershell %}
+PS C:\Users\ides-itcuser> Get-NetAdapterVmq
+Name                           InterfaceDescription              Enabled BaseVmqProcessor MaxProcessors NumberOfReceiveQueues
+----                           --------------------              ------- ---------------- ------------- ---------------------
+HST-OA02                       HP Ethernet 1Gb 4-port 331FLR ... False   0:0              16            16
+HST-Backup01                   HP Ethernet 1Gb 4-port 331FL...#2 False   0:0              16            16
+HST-OA01                       HP Ethernet 1Gb 4-port 331FL...#4 False   0:0              16            16
+HST-OA03                       HP Ethernet 1Gb 4-port 331FL...#3 False   0:0              16            16
+Team-OA                        Microsoft Network Adapter Mult... False   0:0                            32
+{% endhighlight %}
+
+看来有关系，用PowerShell把Host01网卡的VMQ都关了，同时恢复OA01+OA02双链路，看看还会不会有VM网络中断的现象。
+{% highlight powershell %}
+#关闭所有网卡的VMQ，包括Teaming的
+PS C:\Users\ides-itcuser> Get-NetAdapterVmq | % { if ($_.Enabled -eq 'True') {Set-NetAdapterVmq $_.Name -Enabled $false} }
+#看看效果
+PS C:\Users\ides-itcuser> Get-NetAdapterVmq
+Name                           InterfaceDescription              Enabled BaseVmqProcessor MaxProcessors NumberOfReceiveQueues
+----                           --------------------              ------- ---------------- ------------- ---------------------
+HST-OA02                       HP Ethernet 1Gb 4-port 331FL...#4 False   0:0              16            16
+HST-Backup01                   HP Ethernet 1Gb 4-port 331FL...#3 False   0:0              16            16
+HST-OA01                       HP Ethernet 1Gb 4-port 331FL...#2 False   0:0              16            16
+HST-OA03                       HP Ethernet 1Gb 4-port 331FLR ... False   0:0              16            16
+Team-OA                        Microsoft Network Adapter Mult... False   0:0                            32
+{% endhighlight %}
+
+有解决方案么？
+----
+之前提到了，关闭VMQ只是临时绕开的法子，Boardcom网卡上这问题能解决么？看看一些讨论：
+
+[All team NICs become disconnected MsLbfoSysEvtProvider 16949][disconnected]，这帖子也是从13年5月就开始讨论，目前也没有终结。有的换了Intel网卡，有的关了VMQ，最后有人提及HP SPP contains a v17 Broadcom driver新版驱动该解决了，但是惠普网站上今年6月[更新的17.0.0.3驱动][hpdriver]没看到有这方面描述。而这个[针对KB2986895的讨论][aidanfinn]里，有人在Dell的服务器上测试了17.0.0.3的驱动，并没有解决问题。
+
+看来还得对付用一阵时间了。
+
+[KB2986895]: https://support.microsoft.com/en-us/kb/2986895
+[aidanfinn]: http://www.aidanfinn.com/2014/07/kb2986895-vms-lose-network-connection-on-ws2012-or-ws2012-r2-hyper-v-when-using-broadcom-1gbe-nics/
+[commonissue]: http://www.aidanfinn.com/2013/10/how-to-avoid-networking-issues-in-hyper-v/ 
+[teamingguide]: http://www.microsoft.com/en-us/download/details.aspx?id=40319
+[disconnected]: https://social.technet.microsoft.com/Forums/office/en-US/e2747e2f-2bff-4c69-91d3-d33d60bad225/all-team-nics-become-disconnected-mslbfosysevtprovider-16949?forum=winserver8gen
+[hpdriver]: https://h20565.www2.hpe.com/hpsc/swd/public/detail?swItemId=MTX_de344f22b2c245ec859d7821e3#tab3
+
+
