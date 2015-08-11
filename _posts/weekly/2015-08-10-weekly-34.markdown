@@ -1,0 +1,57 @@
+---
+layout: post
+title:  "每周技术文章 No.34"
+date:   2015-08-10 12:00:00
+title2: "2015.8.3-9"
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [2015移动端UI/UX设计趋势报告](http://www.uisdc.com/2015-ui-ux-trend-report)，看看、想想**为什么**，思考过程比结论更重要；又如[IOS中4种UI元素的可用性问题及优化建议](http://www.uisdc.com/ios-usability-and-solution)。
+* [两篇文章读后感, 关于数据库, 关于 MVC, 也关于 React](http://segmentfault.com/a/1190000003052202)，不明觉厉，开阔思路。
+* [CSS 行内布局实践小结](http://segmentfault.com/a/1190000003043991)。
+* [一个黑客的“福利” 他是如何泡到女神的？](http://security.zdnet.com.cn/security_zone/2015/0717/3057392.shtml) 多好的例子啊，关于安全。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面领域
+----
+* [集群文件系统架构演变终极深度梳理图解](http://mp.weixin.qq.com/s?__biz=MzAwNzU3NzQ0MA==&mid=209298809&idx=1&sn=70f93b7d71fa7ac9caf3c737fb20a2ad&3rd=MzA3MDU4NTYzMw==&scene=6#rd)，来自冬瓜哥的大话存储。
+* [网络虚拟化，OpenFlow和SDN](http://36kr.com/p/5035985.html)，看看。
+* [What's New for Hyper-V on Windows 10](https://msdn.microsoft.com/en-us/virtualization/hyperv_on_windows/about/whats_new)：PowerShell Direct、热添加网卡内存、VM配置版本增加了、格式又多了二进制的`.VMCX`。
+* [estools 辅助反混淆 Javascript](http://drops.wooyun.org/tips/7713)。
+* [XtraBackup不停机不锁表搭建MySQL主从同步实践](http://segmentfault.com/a/1190000003063874)。
+* [Docker为何未在生产环境中取得广泛成功？](http://cloud.51cto.com/art/201508/487219_all.htm) 还是有很多现实问题要完善，比如各层镜像的创建维护、旧镜像删除（咦，这事儿这么熟悉？）、文件系统（OverlayFS似乎是未来比较好的选择？）、内核依赖较新什么的。
+* [On rump kernels and the Rumprun unikernel](https://blog.xenproject.org/2015/08/06/on-rump-kernels-and-the-rumprun-unikernel/)，来自Xen的博客，虽然最近不很关注了，但是技术发展上，感觉Xen项目一直都很积极，博客上也会有深度的技术分享，未来思考。但这篇不补补课是看不进去了，比如**Unikernels**，先看看[Docker以后将是什么？无核Unikernels和不可变的底层](http://www.jdon.com/46840)、[Unikernels: Rise of the Virtual Library Operating System](https://queue.acm.org/detail.cfm?id=2566628)。
+* 微软，你这是要干啥？[发布Windows Bridge轻松将iOS应用转换成Windows应用](http://www.leiphone.com/news/201508/iGESfyuar1IcFCyF.html)，那么[Windows Bridge for iOS开源对微软生态有多大帮助？](http://www.wpdang.com/archives/142584.html)；另外一边儿，[Windows 10 Mobile中内置Linux兼容内核与Android 4.4兼容层](http://www.cnbeta.com/articles/417859.htm)，[Windows 10手机ROM解包：完整Android 4.4可直接运行apk](http://www.cnbeta.com/articles/417855.htm)。我看微软还是专门做好虚拟机服务和远程协议吧，以后用户可以把iOS、Android应用托管运行在云端，使用Windows手机远程交互使用；用户可以把Paper、MXplayer、Halo5、GT6、统统以磁贴放置在首屏，想用那个点那个；对了，时不时还能跑个分儿，多好。
+* [运维常用表格-干货分享](http://chenguang.blog.51cto.com/350944/1681423)，看，这都是要考虑被自动化的部分，哈哈。
+
+硬件设备，ARM、终端、移动、智能设备
+----
+<!--preview-end-->
+* [100%会做死的智能硬件产品，有些什么特征？](http://www.leiphone.com/news/201508/cKJfZmzJRD0HbDhn.html) 哈哈，要说这事儿我也干过一阵儿。文章的结论是： 1.在原有硬件基础上加触摸屏的；2.在原有硬件基础上加遥控的；3.多不相干功能叠加的；4.还没用户就搞开放平台的。另外[有哪些特别扯淡的智能硬件](http://www.zhihu.com/question/33645876)，里提到的“智能尿桶”，太有画面感了。
+* [他认为物联网的通讯标准是蓝牙，于是做了一款传输距离300米远的蓝牙路由器](http://36kr.com/p/5035772.html)，做了20年wifi，最终选了蓝牙。我看着这个联想起了ARM跟X86。
+* [你的指纹还安全吗？ - BlackHat 2015 黑帽大会总结 day 2](http://drops.wooyun.org/papers/7807)，HTC One这实现也太粗糙了。
+* [硬盘接口技术大观园](http://alanwu.blog.51cto.com/3652632/1680979)，基础。
+
+市场、产品、项目
+----
+* [SaaS服务的前世今生以及未来](http://get.jobdeer.com/7753.get)，从模式上告诉你为什么Slack会那么火。“你可能不喜欢客户可以点两下就从你的产品迁移到你的竞争对手产品中，但是客户并不这么想。如果你不允许客户这样做，客户可能一开始就不会选择你”。竞争已经这么充分了？
+* [用户并不是小白，她只是在等待被服务](http://www.ikent.me/blog/5028)，“我们要在最开始的时候用仆人的视角看待用户的诉求，理解他想要被服务的感受，然后，切换到上帝视角，把他的一些诉求枪毙掉，把他的一些需求像一个朋友一样的满足掉”。
+
+团队建设
+----
+* [Git使用规范流程](http://www.ruanyifeng.com/blog/2015/08/git-use-process.html)，[Git分支管理策略](http://www.ruanyifeng.com/blog/2012/07/git.html)，可以借鉴。
+* [20-30岁期间你应该要培养的十二项时间管理习惯](http://mp.weixin.qq.com/s?__biz=MjM5NjA3OTM0MA==&mid=211539502&idx=1&sn=7ee2db313cb3fd3d445228a0c9f2b907&3rd=MzA3MDU4NTYzMw==&scene=6#rd)。培养每天“真正工作投入时间≥4小时”习惯，真的不容易。
+* [PRD（产品需求文档）做不好，评审就是在直播吃翔](http://www.woshipm.com/pmd/186518.html)，基础话题。
+* [好用的Markdown编辑器一览](http://www.williamlong.info/archives/4319.html)，真多啊。另外，[介绍Sublime3下两款Markdown插件](http://www.jianshu.com/p/335b7d1be39e)。
+* 又是关于团队的交流讨论，[你的团队里有几条鲶鱼](http://36kr.com/p/5036200.html)，[团队是团队，鲶鱼是鲶鱼](http://36kr.com/p/5036212.html)，[再论团队与鲶鱼](http://36kr.com/p/5036215.html)，评论也有亮点。
+* [过稿必备话术！如何成为能言善辩的设计师？](http://www.uisdc.com/be-quick-tongued-designer)，话术，这才是通用技能啊。
+* 鸡汤，[To be a real programmer，对程序员说点实在话](http://www.techug.com/be_a_real_programmer)：“能力的提升来自厚积，所以对于基础的东西，应该保持持续的热情”、“类似“精通java”之类的说辞是存在的，但不谈JVM是耍流氓”、“人类的大部分知识来自间接渠道”。
+
+图书
+----
+
+
+
