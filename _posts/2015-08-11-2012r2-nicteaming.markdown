@@ -57,7 +57,7 @@ QC厂区的情况
 
 先是Host01的，Team网卡只挂了OA1，这两个VMQ都是开着的。
 {% highlight powershell %}
-PS C:\Users\ides-itcuser> Get-NetAdapterVmq
+PS C:\Users\admin> Get-NetAdapterVmq
 Name                           InterfaceDescription              Enabled BaseVmqProcessor MaxProcessors NumberOfReceiveQueues
 ----                           --------------------              ------- ---------------- ------------- ---------------------
 HST-OA02                       HP Ethernet 1Gb 4-port 331FL...#4 False   0:0              16            16
@@ -69,7 +69,7 @@ Team-OA                        Microsoft Network Adapter Mult... True    0:0    
 
 然后是Host03，所有网卡VMQ都关了。
 {% highlight powershell %}
-PS C:\Users\ides-itcuser> Get-NetAdapterVmq
+PS C:\Users\admin> Get-NetAdapterVmq
 Name                           InterfaceDescription              Enabled BaseVmqProcessor MaxProcessors NumberOfReceiveQueues
 ----                           --------------------              ------- ---------------- ------------- ---------------------
 HST-OA02                       HP Ethernet 1Gb 4-port 331FLR ... False   0:0              16            16
@@ -82,9 +82,9 @@ Team-OA                        Microsoft Network Adapter Mult... False   0:0    
 看来有关系，用PowerShell把Host01网卡的VMQ都关了，同时恢复OA01+OA02双链路，看看还会不会有VM网络中断的现象。
 {% highlight powershell %}
 #关闭所有网卡的VMQ，包括Teaming的
-PS C:\Users\ides-itcuser> Get-NetAdapterVmq | % { if ($_.Enabled -eq 'True') {Set-NetAdapterVmq $_.Name -Enabled $false} }
+PS C:\Users\admin> Get-NetAdapterVmq | % { if ($_.Enabled -eq 'True') {Set-NetAdapterVmq $_.Name -Enabled $false} }
 #看看效果
-PS C:\Users\ides-itcuser> Get-NetAdapterVmq
+PS C:\Users\admin> Get-NetAdapterVmq
 Name                           InterfaceDescription              Enabled BaseVmqProcessor MaxProcessors NumberOfReceiveQueues
 ----                           --------------------              ------- ---------------- ------------- ---------------------
 HST-OA02                       HP Ethernet 1Gb 4-port 331FL...#4 False   0:0              16            16
