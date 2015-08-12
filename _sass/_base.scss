@@ -19,7 +19,9 @@ body {
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
-    background-color: $background-color;
+    //background-color: $background-color;
+    background: -webkit-linear-gradient(top, $bg-color-t, $bg-color-b);
+    background-attachment: fixed;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -169,12 +171,11 @@ blockquote {
 pre,
 code {
     font-family: $font-default;
-
-    padding: 2px 4px;
+    padding: 1px 4px;
     margin: 0 4px;
-    //color: #009933;
+    color: $code-color;
     border-radius: 3px;
-    background-color: #E3E3E3;
+    background-color: $code-color-bgl;
     
     @include media-query($on-laptop) {
         font-size: $small-font-size;
