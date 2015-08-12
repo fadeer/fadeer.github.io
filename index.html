@@ -28,7 +28,7 @@ layout: default
            {{ post.content | split:'<!--preview-end-->' | first }}
 	   {% if post.content contains '<!--preview-end-->' %}
 	      <br>
-	      <p><a href="{{ post.url }}#continue">阅读全文...</a></p>
+	      <p><a href="{{ post.url }}#continue">继续阅读...</a></p>
 	   {% endif %}
 	  </article>
     </div>
