@@ -21,7 +21,7 @@ OSX下遇到问题
 ----
 隐约知道OSX下有ruby支持，因为安装更新homebrew就用的ruby脚本。但是为了新点儿，还是用`brew install ruby`更新了一下，目前的最新版是2.2.2。
 
-然后跑`jekyll serve`报错，缺kramdown；然后bundle若干、gem若干次、sudo若干次、挂代理尝试若干，依然缺。仔细看看报错，是.../2.0.0..，什么，为什么不是/usr/local下的2.2.2，这才是brew跟装的ruby目录啊。which了一下各个命令，发现bundle似乎是旧版的。搜了下，看到stackoverflow下[11年的一个问题][sof-11]，知道了对于更新ruby，RVM不错，rbenv可能更好。
+然后跑`jekyll serve`报错，缺kramdown；然后bundle若干、gem若干次、sudo若干次、挂代理尝试若干，依然缺。仔细看看报错，是.../2.0.0..，什么，为什么不是/usr/local下的2.2.2，这才是brew给装的ruby目录啊。which了一下各个命令，发现bundle似乎是旧版的。搜了下，看到stackoverflow下[11年的一个问题][sof-11]，知道了对于更新ruby，RVM不错，rbenv可能更好。
 
 然后进[rbenv的github页面][rbenv]，了解了一下rbenv支持ruby多版本的机制和用法，觉得这个确实比较清晰，跟系统里自带的切割的比较好，于是用rbenv重新配置运行环境了。
 <!--preview-end-->
@@ -34,7 +34,7 @@ gem info —local
 gem uninstall —all
 {% endhighlight %}
 
-会有几个默认的gem不能删除，接下来删除通过brew安装新版ruby：
+会有几个默认的gem不能删除，接下来删除通过`brew`安装新版ruby：
 {% highlight bash %}
 brew uninstall ruby
 {% endhighlight %}
@@ -46,7 +46,7 @@ for i in `gem list --no-versions`; do gem uninstall -aIx $i; done
 
 使用rbenv安装新版ruby和gems
 ----
-通过brew安装rbenv、ruby-build，并且初始化。
+通过`brew`安装rbenv、ruby-build，并且初始化。
 {% highlight bash %}
 brew install rbenv ruby-build
 rbenv init
@@ -70,7 +70,7 @@ rbenv versions
 * 2.2.2
 {% endhighlight %}
 
-来，接下来依次安装bundle和jekyll依赖的组件，#bash是新开终端窗口，用于确认使用的命令已更新。
+来，接下来依次安装bundle和jekyll依赖的组件，`#bash`是新开终端窗口，用于确认使用的命令已更新。
 {% highlight bash %}
 #bash
 which ruby
