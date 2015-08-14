@@ -190,8 +190,9 @@ code {
 }
 
 pre {
+    line-height: 1.4;
     padding: 10px ($spacing-lr * 3 / 2);
-    margin-top: 5px;
+    margin: 5px 0 0;
     overflow-x: auto;
     border: none;
     color: $code-color;
