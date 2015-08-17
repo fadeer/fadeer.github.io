@@ -13,6 +13,9 @@ WIM，全称是Windows Imaging File Format、Windows镜像文件格式，是微�
 
 ![][pic1]
 
+图片来源: [Windows Imaging File Format (WIM)][source1]
+{: .source}
+
 更详细的见[WIM格式SPEC][wimspec]，这格式从2007年就没变过呢？
 
 WIM的特点和用途
@@ -62,15 +65,15 @@ xcopy C:/greenSoftware C:\imageMount /s /i
 Dism /Commit-Image /MountDir:C:\imageMount
 
 ::把更新保存到WIM文件里并且卸载WIM文件
-Dism /Unmount-Image /MountDir:C:\imageMount /commit
-::如果你不想保存，把/commit换成/discard 
+Dism /Unmount-Image /MountDir:C:\imageMount /commit ::如果你不想保存，把/commit换成/discard 
 {% endhighlight %}
 
 对于Windows镜像的修改，另外一个正经用途是**离线打补丁**。比如把Windows 8.1更新为Windows 8.1 Update，或者是把远程管理工具RSAT补充进去。
 
 Windows升级文件一般是一个`.msu`文件，不能直接往WIM里打，需要先把里面的`.cab`文件解压出来。
 {% highlight bat %}
-windows8.1-kb2919442-x64.msu /extract ::获得一个同名的cab文件windows8.1-kb2919442-x64.cab
+::获得一个同名的cab文件windows8.1-kb2919442-x64.cab
+windows8.1-kb2919442-x64.msu /extract
 {% endhighlight %}
 
 然后再往WIM的Windows释放：
@@ -144,5 +147,5 @@ Dism /unmount-image /mountdir:c:\imageMount /commit
 * [使用 DISM 预安装应用](https://technet.microsoft.com/zh-cn/library/dn387084.aspx)
 
 [wimspec]: http://www.microsoft.com/en-us/download/details.aspx?id=13096
-
+[source1]: https://technet.microsoft.com/en-us/library/dd799284(v=ws.10).aspx
 [pic1]: http://7xkxri.com1.z0.glb.clouddn.com/wimfile-1.gif

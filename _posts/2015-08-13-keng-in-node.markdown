@@ -155,6 +155,9 @@ n.use(function(e,r,s){e?(console.error(e.stack),s.send(500)):s.send(404)})
 
 ![](http://7xkxri.com1.z0.glb.clouddn.com/fix_bug.png)
 
+图片来源: [Sina App Engine官方微博](http://www.weibo.com/saet)
+{: .source}
+
 但是最终还是要去理解代码的含义，不能有侥幸心理。
 
 那再来看看UglifyJS2上关于裁剪函数无用变量的讨论，过程很曲折，甚至显得有点儿扯淡是不是；但其实一点儿也不，这是一个特别正常的讨论过程，这就是软件开发。要让大家对一个功能点的逻辑有共识，确实是很困难的，特别是这边界还在不断发展中的。上面这俩Issue都是2013年初开始的，那时function.length大概还是比较新的特性、使用的人、场景、意义还不显得很大；但是到了2015年看来，可能就完全不一样了。
@@ -166,7 +169,6 @@ n.use(function(e,r,s){e?(console.error(e.stack),s.send(500)):s.send(404)})
 [issue121]: https://github.com/mishoo/UglifyJS2/issues/121
 [fixargs]: https://github.com/mishoo/UglifyJS2/commit/ef2ef07cbd945c7a6456adedc413858145a9ed10
 [fixkeep]: https://github.com/mishoo/UglifyJS2/commit/ecfd881ac6f4f62b5e8a15664fccc86271c0d003
-
 
 
 

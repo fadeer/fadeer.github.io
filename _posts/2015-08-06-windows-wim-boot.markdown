@@ -17,6 +17,9 @@ WIMBoot全称是Windows Image File Boot、Windows映像文件启动，就是Wind
 
 ![][pic1]
 
+图片来源: [Windows Image File Boot (WIMBoot) Overview][source12]
+{: .source}
+
 * 重点是蓝绿色是我们常见的Windows分区内容，一般肯定是实体文件了，一个Windows 8.1初装完成后要占据近9G空间。
 * 而后面棕色的部分则是恢复分区使用的install.wim，一键恢复出厂设置就靠这个了。哇噻，原来品牌电脑是这么玩儿的。
 * WinRE是恢复环境（Windows Restore Environment），跟WinPE类似；winre.wim所使用的精简Windows镜像，对应WinPE的boot.img。
@@ -25,6 +28,9 @@ WIMBoot全称是Windows Image File Boot、Windows映像文件启动，就是Wind
 而使用WIMBoot时，是这样的：
 
 ![][pic2]
+
+图片来源: [Windows Image File Boot (WIMBoot) Overview][source12]
+{: .source}
 
 * 最主要的区别是蓝绿色的系统分区内容**从实体文件变成了指针文件**，而且占用空间一下小了很多。这就是WIMBoot的核心逻辑，Windows启动、运行用到的文件都是链接指向初始的install.wim里的文件，而系统运行、用户操作所新增、改写的文件都像以前一样保存在系统分区里。
 * custom.wim又是什么东西？这其实是PC生产商针对每个型号的PC，定制化的部分（包含更新的驱动和预安装的软件）。custom.wim可以当做是默认install.wim的增补，类似VHD的差分磁盘，但是记得WIM是基于文件的格式。于是典型的WIMBoot实际上是系统分区是**链接文件 -> custom.wim -> install.wim**。所以，如果Windows基础镜像install.wim是4个G，厂商定制部分custom.wim是3个G，那非WMIBoot时的install.wim也是得要7个G的，哇噻，原来品牌电脑是这么玩儿的，把我的32G的平板玩儿成8G的了。
@@ -118,9 +124,11 @@ Objects enumerated: 1
 
 {% highlight bat %}
 copy c:\wincd\install.wim c:\wmiboot.wim
+
 ::移除没必要的winre.wim
 dism /mount-image /imagefile:c:\wmiboot.wim /index:1 /mountdir:c:\mount
 move c:\mount\windows\system32\recovery\winre.wim c:\wincd\winre.wim
+
 ::优化镜像，增加WIMBoot支持
 dism /optimize-image /image:c:\mount /wimboot
 dism /unmount-image /mountdir:c:\mount /commit
@@ -143,6 +151,9 @@ DISM把指针文件之外的用户文件作为新增部分，抓取为custom.wim
 值得注意的是，放置install.wim和custom.wim文件的这个**镜像分区是不能动态扩大的**，难道是修改分区会造成WIM文件的位置变化，因而造成指针文件失效？因此要保持镜像分区够用即可。可是定制化部分弹性很大，不确定怎么办？见参考文章，这里主要的逻辑是借着系统分区倒腾一下，等custom.wim确定下来，再完成最后的部署工作，过程如下图：
 
 ![][pic3]
+
+图片来源: [Deploy WIMBoot Images][source3]
+{: .source}
 
 进一步折腾
 ----
@@ -172,6 +183,9 @@ c:\windows\system32\reagentc /setreimage /path m:\recoveryImages /target c:\wind
 [wadk81u]: http://www.microsoft.com/en-us/download/details.aspx?id=39982
 [create]: https://technet.microsoft.com/zh-cn/library/dn621983.aspx
 [winpe501]: https://technet.microsoft.com/zh-cn/library/dn613859.aspx
+
+[source12]: https://technet.microsoft.com/en-us/library/dn594399.aspx
+[source3]: https://technet.microsoft.com/en-us/library/dn594395.aspx
 
 [pic1]: http://7xkxri.com1.z0.glb.clouddn.com/wimboot-1.png
 [pic2]: http://7xkxri.com1.z0.glb.clouddn.com/wimboot-2.png
