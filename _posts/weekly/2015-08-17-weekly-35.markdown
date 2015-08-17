@@ -1,0 +1,56 @@
+---
+layout: post
+title:  "每周技术文章 No.35"
+date:   2015-08-17 17:00:00
+title2: "2015.8.10-16"
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [面向设计的半封装web组件开发](http://isux.tencent.com/half-package-web-components-for-design.html)，前端的困境和实践。“恰如礼服定制需要技术娴熟的制衣工人一样，web组件如果想走面向设计的高级定制策略，团队里一定要有类似的技术娴熟的前端人员”，JS里不写style是很好的原则。
+* [安卓手表 VS 苹果手表](http://mux.baidu.com/?p=1000122)，交互的比较。
+* [用Electron开发桌面应用](http://get.jobdeer.com/7870.get)，用JavaScript，Node.js和Eletron创建应用的详细指南，值得参考。
+* 有关浮动，[（一）浮动](http://segmentfault.com/a/1190000003069090)，[（二）清浮动](http://segmentfault.com/a/1190000003098600)，[（三）bug与hack](http://segmentfault.com/a/1190000003101429)。
+* 玩转CSS选择器[（一）使用方法介绍](http://segmentfault.com/a/1190000003088878)，基础知识。
+* [重拾CSS的乐趣（上）](https://github.com/cssmagic/blog/issues/52)，[重拾CSS的乐趣（下）](https://github.com/cssmagic/blog/issues/54)，很有意思的两篇，值得看看。更有乐趣的是，作者有个土么呛呛的[博客主页](http://www.cssmagic.net/)，但是不要被这个迷惑了，前面两篇也是出自他的博客，托管在Github的[Issue上的博客](https://github.com/cssmagic/blog/issues?q=is%3Aopen)，哈哈。有点儿扯但是很可行啊，自带标签系统、评论系统，还方便做博客话题之间的关联，哈哈，就是[订阅](https://github.com/cssmagic/blog/issues/8)确实不大方便。
+* [安全基础教育第二季：1.屡战屡败的找回密码](http://www.cnblogs.com/zhengyun_ustc/p/sec0201.html)，很生动的案例。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面领域
+----
+* [浅谈下一代Windows Server的RDS](http://rdsrv.blog.51cto.com/2996778/1675721)，[下一代RDS技术预览版RemoteFX实测体验](http://rdsrv.blog.51cto.com/2996778/1683695)，看看别人家的实验，都用上Nvidia Grid K2了。
+* [Ben Armstrong Speaking at OpenStack Day Seattle 2015](http://blogs.msdn.com/b/virtual_pc_guy/archive/2015/08/10/i-m-speaking-at-openstack-day-seattle-2015.aspx)，主要会讲一下Hyper-V跟OpenStack整合的状况，AD作为Kenstone验证支持、SMB作为Cinder存储后端、Hyper-V支持Open-vSwitch，当然还有Windows Container的话题。
+* [学习通过Docker使用Ceph构建可靠的S3服务](http://www.chenshake.com/learning-through-docker-ceph-build-reliable-s3-services/)。
+* [一些 REST 最佳实践](http://colobu.com/2015/08/10/some-REST-best-practices/)。
+* [阿里云RDS 数据库恢复工具Percona XtraBackup 实战心得](http://www.chenghuiyong.com/percona.html)，实践经验。
+* [你应该知道的 iTerm2 使用方法--MAC终端工具](http://wulfric.me/2015/08/iterm2/)，更关注的是这里提到的另一个客户端[mosh](https://mosh.mit.edu/)，mosh最主要的优点就是，断网了，休眠了，mosh的连接不会断。琢磨着这是不是包装了screen什么的，看了看，原来这是对等于SSH的独立实现，分Client、Server端，会话的保留是Server端的支持，跟screen无关。但是有人也琢磨能不能直接reattach mosh的Session，看[这个Issue讨论](https://github.com/mobile-shell/mosh/issues/394)貌似目前还不行。
+* HT泄露后续，[泄露数据表明韩国、哈萨克斯坦针对中国发起网络攻击](http://drops.wooyun.org/news/7937)。
+* GitHub发布了新的桌面客户端[GitHub Desktop](https://desktop.github.com/)，看界面还行，可以用下。另外我关心的是这是不是用Electron包装的啊。
+
+硬件设备，ARM、终端、移动、智能设备
+----
+<!--preview-end-->
+* [Android性能优化典范-第3季](http://hukai.me/android-performance-patterns-season-3/)，“这次一共12个短视频课程，包括的内容大致有：更高效的ArrayMap容器，使用Android系统提供的特殊容器来避免自动装箱，避免使用枚举类型，注意onLowMemory与onTrimMemory的回调，避免内存泄漏，高效的位置更新操作，重复layout操作的性能影响，以及使用Batching，Prefetching优化网络请求，压缩传输数据等等使用技巧。”。原始课程[youtube页面](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE)。
+* [iOS APP安全杂谈](http://drops.wooyun.org/tips/6826)，[iOS APP安全杂谈之二](http://drops.wooyun.org/tips/7838)，不明觉厉。
+
+市场、产品、项目
+----
+* [100条超实用微信营销技巧：公众号、朋友圈和微信营销](http://www.williamlong.info/archives/4325.html)：微信文章的打开率决定于文章标题，其次是文章摘要，再其次是首图；微信文章写好以后，要想到别人转发会是什么效果；不要在公众号文章底部放那种提醒分享、关注账号的图片，显得很low，关键是基本上没有效果；非原创文章，要注明出处和作者。
+* [在运营工作中常犯的70种错误](http://www.woshipm.com/operate/188772.html)，“抄袭，抄袭前不询问，抄袭后不承认”，哈哈。
+* [使网站显得业余的10个错误](http://colachan.com/post/3457)。“事实证明，对于初具雏形的业务，设计远比你想象得重要。当你运营线上业务时，访客的判断往往取决于设计中的小细节”。
+
+团队建设
+----
+* [最牛B的编码套路](http://www.techug.com/best-coding-pattern)，重要的并不是经验本身，而是“努力的学习”；“努力的学习”意味着，要**常常去处理那些刚好在你能力极限上**的问题，也就是那些对你来说有很大可能失败的事情。如果不经历一些失败的话，你可能就不会成长。你必须不断地挑战自我，超越自己的极限。另外看看[学习如何学习](http://limboy.me/essay/2015/08/14/learning-how-to-learn.html)。
+* [结对编程搞了两年，我学到了这些](http://www.techug.com/programme-learn)，当两个低级程序员结对，他们的主要目标应该是学习；当两个高级程序员结对，主要的目的就是生产；当高级程序员和低级程序员结对时，他们的主要目的是教学与学习。“**作为一名好的导师，应该充满耐心、自信和同理心**。我们想培养低级程序员，又不想把你知道的展示给他们。据我所见，好的编程导师在业界是十分紧缺的。每个人都忙着完成任务，或者他们只是没有好的沟通技巧把这件事做好。”
+* [为什么你应该尝试“全栈”](http://www.ifanr.com/551905)，“我并不觉得全栈会使得你全面平庸，**每种技术在做的时候都可以为其他的技术提供思路**，而在你了解各种技术的前提下，深入其中的某个技术，时常能够带来对其他技术的反哺。相反，了解的技术如果非常狭隘，很可能才是限制自己潜能的原因”。
+* [“授人以渔”的教你搭建个人独立博客](http://azureyu.com/blog/2015/08/15/HowToBulidBlog.html)，我博客的搭建就跟这过程差不多。“不要忘记初衷，在折腾之后，**表达写作，才是最重要的事情**”。
+
+图书
+----
+* [《交办的技术》](https://book.douban.com/subject/26388790/)，另一篇[读后感](http://www.huxiu.com/article/122637/1.html)。把工作硬塞给部属；慎选交办给部属的工作；切实传达交办工作的讯息；让部属的工作能力发挥到极致；绝不随便出手干预；定期与部属沟通工作现况；创建制度，提供支持。
+
+
+
