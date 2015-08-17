@@ -99,10 +99,15 @@ public static void main( String[] args ){
 
 ![][pic1]
 
+图片来源: https://iso.500px.com/
+{: .source}
+
 原始很大的图片，在高分辨率屏下效果应该不错；如果图片宽度不够，也要填满宽度，虽然会显得模糊：
 
 ![][pic2]
 
+图片来源: https://iso.500px.com/
+{: .source}
 
 更多元素
 ----
