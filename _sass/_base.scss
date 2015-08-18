@@ -171,10 +171,9 @@ blockquote {
  */
 pre,
 code {
-    font-family: $font-default;
+    font-family: $font-mono;
     padding: 1px 4px;
-    margin: 0 4px;
-    color: $code-color;
+    margin: 0 2px;
     border-radius: 3px;
     background-color: $code-color-bgl;
     
@@ -191,7 +190,7 @@ code {
 }
 
 pre {
-    line-height: 1.2;
+    line-height: 1.4;
     padding: 10px ($spacing-lr * 3 / 2);
     margin: 5px 0 0;
     overflow-x: auto;
@@ -200,8 +199,8 @@ pre {
     background-color: $code-color-bg;
 
     > code {
-        font-size: $small-font-size;
         font-family: $font-mono;
+        font-size: $small-font-size;
         color: $code-color;
     	background-color: $code-color-bg;
         border: 0;
