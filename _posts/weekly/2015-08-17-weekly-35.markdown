@@ -21,7 +21,7 @@ tags: Weekly Skill
 后端技术，操作系统、虚拟化、存储、网络、桌面领域
 ----
 * [浅谈下一代Windows Server的RDS](http://rdsrv.blog.51cto.com/2996778/1675721)，[下一代RDS技术预览版RemoteFX实测体验](http://rdsrv.blog.51cto.com/2996778/1683695)，看看别人家的实验，都用上Nvidia Grid K2了。
-* [Ben Armstrong Speaking at OpenStack Day Seattle 2015](http://blogs.msdn.com/b/virtual_pc_guy/archive/2015/08/10/i-m-speaking-at-openstack-day-seattle-2015.aspx)，主要会讲一下Hyper-V跟OpenStack整合的状况，AD作为Kenstone验证支持、SMB作为Cinder存储后端、Hyper-V支持Open-vSwitch，当然还有Windows Container的话题。
+* [Ben Armstrong Speaking at OpenStack Day Seattle 2015](http://blogs.msdn.com/b/virtual_pc_guy/archive/2015/08/10/i-m-speaking-at-openstack-day-seattle-2015.aspx)，主要会讲一下Hyper-V跟OpenStack整合的状况，AD作为Kenstone验证支持、SMB作为Cinder存储后端、Hyper-V支持Open-vSwitch，当然还有Windows Container的话题。*8.24更新*：[正式的演讲Demo](http://blogs.msdn.com/b/virtual_pc_guy/archive/2015/08/21/my-hyper-v-presentation-at-openstack-day-seattle-2015.aspx)和[PPT](https://github.com/BenjaminArmstrong/Presentations/blob/master/OpenStack%20+%20Containers%20+%20Hyper-V.PPTX?raw=true)。
 * [学习通过Docker使用Ceph构建可靠的S3服务](http://www.chenshake.com/learning-through-docker-ceph-build-reliable-s3-services/)。
 * [一些 REST 最佳实践](http://colobu.com/2015/08/10/some-REST-best-practices/)。
 * [阿里云RDS 数据库恢复工具Percona XtraBackup 实战心得](http://www.chenghuiyong.com/percona.html)，实践经验。
