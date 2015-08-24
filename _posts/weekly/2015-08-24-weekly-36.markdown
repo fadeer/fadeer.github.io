@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "每周技术文章 No.36"
+date:   2015-08-24 18:00:00
+title2: "2015.8.17-23"
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [界面设计中的动画原理：可理解的变速过渡效果-深入研究加速和减速](http://mux.baidu.com/?p=1000152)，交互基础知识。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面领域
+----
+* [Microsoft and Intel Storage Spaces Direct showcase at IDF](http://blogs.technet.com/b/filecab/archive/2015/08/18/microsoft-and-intel-storage-spaces-direct-showcase-at-idf.aspx)，16节点，4 PCIe SSD每节点，3拷贝分布存储，达成了4.2M  4K读IOPS。完整配置见[这里](http://blogs.technet.com/b/clausjor/archive/2015/08/18/microsoft-and-intel-showcase-storage-spaces-direct-with-nvm-express-at-idf-15.aspx)。
+* [Intel 第六代 Core 微架構，Skylake 資訊快速瀏覽](http://www.techbang.com/posts/25373-intel-i-of-the-sixth-generation-core-microarchitecture-skylake-information-release)，另外看看这个[逆向多线程](http://www.expreview.com/42462.html)的思路，还挺有意思的。
+* 微软发布了Windows Server 2016 Technical Preview 3，先看看[新特性](https://technet.microsoft.com/library/dn765472.aspx)，然后看几篇跟咱相关的文章：[在Windows Azure里创建Windows Docker环境](http://mp.weixin.qq.com/s?__biz=MzA3NTM1MzE4Nw==&mid=207821522&idx=1&sn=2048f2edc0f730409a82a8a73ef6de77&scene=0#rd)，重点使用RDP连接到这个Container的“桌面”，还可以运行图形程序。在Azure上搞这个实验挺方便啊，用咱的Azure练习账号就可以实践一下这个过程。另外看看[Do you need Hyper-V to try Windows Containers?](http://blogs.msdn.com/b/virtual_pc_guy/archive/2015/08/20/do-you-need-hyper-v-to-try-windows-containers.aspx)、还有Azure CTO的一篇[Containers: Docker, Windows and Trends](http://azure.microsoft.com/blog/2015/08/17/containers-docker-windows-and-trends/)，了解一下这方面的发展。[Remote Desktop Services in Windows Server 2016 TP3](http://blogs.msdn.com/b/rds/archive/2015/08/19/remote-desktop-services-in-windows-server-2016-technical-preview-3.aspx)，大多提过。
+* [Linux Integration Services 4.0 Update](http://blogs.technet.com/b/virtualization/archive/2015/08/20/linux-integration-services-4-0-update.aspx)，红帽系VM建议更新啊。
+* [为Ubuntu设计快速缩略图服务](http://www.infoq.com/cn/news/2015/08/Ubuntu-API)，这个服务实现值得学习。
+* 京东技术架构,[（一）构建亿级前端读服务](http://jinnianshilongnian.iteye.com/blog/2232271)，[（二）构建需求响应式亿级商品详情页](http://jinnianshilongnian.iteye.com/blog/2235572)。
+* [帅小伙、大叔、高富帅都怎么玩OpenStack？](https://www.ustack.com/blog/wan/) 三个案例很典型啊，后面问答也很好。
+* [Node.js之HelloWorld背后的大坑](http://www.jianshu.com/p/3c5897dd2b85)，8行的Hello World都可以学到这么多东西。
+* [Stream探究](http://segmentfault.com/a/1190000003479884)。
+
+硬件设备，ARM、终端、移动、智能设备
+----
+<!--preview-end-->
+* [移动端混合型应用项目有感](http://segmentfault.com/a/1190000003100767)，一个折腾的经历，“15个新人在4周内完成一个不会上线的小型项目”，这样的练习很有意义啊。标注是：“TL;DR: 如果没有把握解决混合应用的性能问题，请尽量使用 native 方式开发”。
+* [iOS 详细介绍 GCD](http://segmentfault.com/a/1190000003101343)，GCD 存在于一个 名为 libdispatch 的类库中，这个苹果官方的类库提供了在 iOS 和 OS X 多核设备执行并发代码的支持。GCD 可以通过延迟可能需要花费大量时间的任务，并让他们在后台（background）运行，从而提高应用的响应速度。
+* [Android大神](http://yeungeek.com/android%E5%A4%A7%E7%A5%9E/)。
+* 《iOS应用安全攻防实战》[第六章：无法销毁的文件](http://drops.wooyun.org/papers/8148)，身边儿的安全。
+
+市场、产品、项目
+----
+* [天津大爆炸，看看哪些大型数据中心受损了？](http://www.tmtpost.com/1393710.html) 灾备建设不能松懈！
+* [做了三年企业级 SaaS 的几点心得](http://36kr.com/p/5036630.html)。
+* 如何优雅的制作一套解决方案，[（上）方案背后的逻辑模型](http://www.woshipm.com/pmd/177804.html)，[（下）网站改版方案实例](http://www.woshipm.com/pmd/192366.html)。“所谓解决方案就是针对客户提出的需求（或你理解出的需求）一一做应答。你的技术能力能否令客户放心，你的配套服务能力能否让双方在合作过程中保持愉悦，这些都客户较为关心的点。需要注意的是，技术框架也好，功能点的设计也好，都要与你提出的“痛点”相互呼应，这才会**形成完整的思维逻辑流**（Thinking Flow）。每个抛出的问题都可以得到解答，这也会**让人觉得这的确是深思熟虑且为客户定制化开发的解决方案**。”
+* [面向目标 vs. 面向功能：选择正确的Product Roadmap](http://www.woshipm.com/pd/191144.html)，思路很好，产品不同阶段很有区别。
+
+团队建设
+----
+* [程序员7大软技能](http://www.techug.com/programmer-soft-skills-quiz)，鸡汤吧。我的表现更像是专业人士，而非业余的；我的专业特长能够让我与众不同；我会寻求导师的帮助，我会**找那些可以指导我或能给我宝贵见解的导师**；我知道如何专注于手头的任务，以及如何避免分心；我已经**养成了良好的习惯，甚至在我没有动力的时候也能让我保持继续**；我有一个靠谱的退休计划；我有一个健康的饮食计划，并能够每周坚持；我有**明确的健身和健康目标，并且知道如何实现这些目标**；我有正确的心态，我相信我自己和我的能力能让我实现我下定决心要做的事；我能**控制自己的情绪**：而不是让情绪控制我。
+* [如何建设全功能团队](http://insights.thoughtworkers.org/build-cross-functional-team/)，“如果**员工成长是必须的**，那么，帮助员工认识到工作的全貌也是必须的。角色轮换是一个很好的解决方案。在项目内部通过角色互换，不限角色的结对工作，加强不同角色，不同模块间的知识传递，打破技术壁垒，帮助员工从不同视角理解项目，锻炼技能，进而增加团队均衡生产的能力”。
+* [找到最完美Web开发程序员的5个技巧](http://www.techug.com/web-2)，前面那个新人小项目的过程，可能就是个很好的实践。
+* [开始使用 Vagrant](https://www.imququ.com/post/vagrantup.html)，“提供了一系列工具用于**开发环境的快速部署和迁移**，非常好用”，值得尝试。折腾是为了以后不折腾了，反复的折腾也是为了以后不再折腾了，来，我们折腾起来吧。
+
+
+
+
