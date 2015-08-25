@@ -102,6 +102,8 @@ Team-OA                        Microsoft Network Adapter Mult... False   0:0    
 
 看来还得对付用一阵时间了。
 
+*8.25更新*，翻翻VMQ原理，VMQ Deep Dive [Part1](http://blogs.technet.com/b/networking/archive/2013/09/10/vmq-deep-dive-1-of-3.aspx)、[Part2](http://blogs.technet.com/b/networking/archive/2013/09/10/vmq-deep-dive-2-of-3.aspx)、[Part3](http://blogs.technet.com/b/networking/archive/2013/10/22/vmq-deep-dive-3-of-3.aspx)。
+
 [KB2986895]: https://support.microsoft.com/en-us/kb/2986895
 [aidanfinn]: http://www.aidanfinn.com/2014/07/kb2986895-vms-lose-network-connection-on-ws2012-or-ws2012-r2-hyper-v-when-using-broadcom-1gbe-nics/
 [commonissue]: http://www.aidanfinn.com/2013/10/how-to-avoid-networking-issues-in-hyper-v/ 

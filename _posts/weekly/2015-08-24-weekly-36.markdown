@@ -20,7 +20,6 @@ tags: Weekly Skill
 * [Linux Integration Services 4.0 Update](http://blogs.technet.com/b/virtualization/archive/2015/08/20/linux-integration-services-4-0-update.aspx)，红帽系VM建议更新啊。
 * [为Ubuntu设计快速缩略图服务](http://www.infoq.com/cn/news/2015/08/Ubuntu-API)，这个服务实现值得学习。
 * 京东技术架构,[（一）构建亿级前端读服务](http://jinnianshilongnian.iteye.com/blog/2232271)，[（二）构建需求响应式亿级商品详情页](http://jinnianshilongnian.iteye.com/blog/2235572)。
-* [帅小伙、大叔、高富帅都怎么玩OpenStack？](https://www.ustack.com/blog/wan/) 三个案例很典型啊，后面问答也很好。
 * [Node.js之HelloWorld背后的大坑](http://www.jianshu.com/p/3c5897dd2b85)，8行的Hello World都可以学到这么多东西。
 * [Stream探究](http://segmentfault.com/a/1190000003479884)。
 
@@ -36,6 +35,7 @@ tags: Weekly Skill
 ----
 * [天津大爆炸，看看哪些大型数据中心受损了？](http://www.tmtpost.com/1393710.html) 灾备建设不能松懈！
 * [做了三年企业级 SaaS 的几点心得](http://36kr.com/p/5036630.html)。
+* [帅小伙、大叔、高富帅都怎么玩OpenStack？](https://www.ustack.com/blog/wan/) 三个案例很典型啊，后面问答也很好。
 * 如何优雅的制作一套解决方案，[（上）方案背后的逻辑模型](http://www.woshipm.com/pmd/177804.html)，[（下）网站改版方案实例](http://www.woshipm.com/pmd/192366.html)。“所谓解决方案就是针对客户提出的需求（或你理解出的需求）一一做应答。你的技术能力能否令客户放心，你的配套服务能力能否让双方在合作过程中保持愉悦，这些都客户较为关心的点。需要注意的是，技术框架也好，功能点的设计也好，都要与你提出的“痛点”相互呼应，这才会**形成完整的思维逻辑流**（Thinking Flow）。每个抛出的问题都可以得到解答，这也会**让人觉得这的确是深思熟虑且为客户定制化开发的解决方案**。”
 * [面向目标 vs. 面向功能：选择正确的Product Roadmap](http://www.woshipm.com/pd/191144.html)，思路很好，产品不同阶段很有区别。
 
