@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "项目会议现场"
+date:   2014-07-25 15:00:00
+author: fadeer
+categories: 生活
+tags: Sketch
+---
+
+![](http://7xkxri.com1.z0.glb.clouddn.com/2014-07-25%20170806.jpg)
+
+iPad mini 2, Paper, AluPen
+{: .source}
