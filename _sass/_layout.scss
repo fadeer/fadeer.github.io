@@ -326,6 +326,15 @@
         min-width: 100px;
         display: inline-block;
     }
+
+    .apost-life {
+	color: $life-color;
+    }
+
+    .apost-icon {
+        margin-left: 2px;
+        color: $life-color;
+    }
 }
 
 
@@ -365,8 +374,4 @@
     top: -100px; 
 }
 
-.apost-icon {
-    margin-left: 5px;
-    color: #F1883F;
-}
 
