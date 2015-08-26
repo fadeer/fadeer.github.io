@@ -96,6 +96,7 @@ Team-OA                        Microsoft Network Adapter Mult... False   0:0    
 
 有解决方案么？
 ----
+<!--preview-end-->
 之前提到了，关闭VMQ只是临时绕开的法子，Boardcom网卡上这问题能解决么？看看一些讨论：
 
 [All team NICs become disconnected MsLbfoSysEvtProvider 16949][disconnected]，这帖子也是从13年5月就开始讨论，目前也没有终结。有的换了Intel网卡，有的关了VMQ，最后有人提及HP SPP contains a v17 Broadcom driver新版驱动该解决了，但是惠普网站上今年6月[更新的17.0.0.3驱动][hpdriver]没看到有这方面描述。而这个[针对KB2986895的讨论][aidanfinn]里，有人在Dell的服务器上测试了17.0.0.3的驱动，并没有解决问题。

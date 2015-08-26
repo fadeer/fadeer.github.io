@@ -105,6 +105,7 @@ n.use(function(e,r,s){e?(console.error(e.stack),s.send(500)):s.send(404)})
 
 寻找问题真正的原因
 ----
+<!--preview-end-->
 来，上[UglifyJS2的github页面][ujs.git]看看，看有人遇到这问题么、是不是改了，哪版改的。Issue里果然有发现：
 
 [Broken function.length if last argument is unused. #188][issue188]，这遇到了跟咱同样的问题，通过function.length判断变量个数，但是无用的参数被截掉了。这个issue从2013年4月就开始讨论了：

@@ -24,7 +24,15 @@
         font-size: $title-font-size;
     }
     @include media-query($on-palm) {
-        font-size: $title-font-size * 0.55;
+        font-size: $title-font-size * 0.8333;
+        margin: 0 10px;
+    }
+    @include media-query(450px) {
+        font-size: $title-font-size * 0.6667;
+        margin: 0 5px;
+    }
+    @include media-query(350px) {
+        font-size: $title-font-size * 0.5833;
         margin: 0 5px;
     }
 
