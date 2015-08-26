@@ -11,19 +11,21 @@ $font-mono:	Monaco, Menlo, Consolas, Courier New, "Heiti SC", STHeiti, "Microsof
 
 $base-font-family: $font-default;
 $base-font-size:   16px;
+// 1.5~24px 1.375~22px 1.25~20px 1.125~18px 0.875~14px
 
-$title-font-size:  $base-font-size * 1.5; //24px
-$h-font-size: $base-font-size * 1.375; //22px
-$hh-font-size: $base-font-size * 1.25; //20px
-$hhh-font-size: $base-font-size * 1.125; //18px
-$small-font-size:  $base-font-size * 0.875; //14px
+$title-font-size:  $base-font-size * 1.5;
+$normal-font-size: $base-font-size;
+$small-font-size:  $base-font-size * 0.875;
+$h-font-size: $base-font-size * 1.375;
+$hh-font-size: $base-font-size * 1.25;
+$hhh-font-size: $base-font-size * 1.125;
 
 $base-line-height: 1.8;
 
 $spacing-unit:     30px;
 $spacing-lr:       20px;
 
-$text-color:       #111;
+$text-color:       #222;
 $background-color: #eee;
 $bg-color-t: #c6c6c6;
 $bg-color-b: #f3f3f3;

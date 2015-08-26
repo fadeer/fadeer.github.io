@@ -15,7 +15,7 @@ dl, dd, ol, ul, figure {
  */
 body {
     font-family: $font-default;
-    font-size: $base-font-size;
+    font-size: $normal-font-size;
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
@@ -153,9 +153,9 @@ a {
 blockquote {
     //color: $grey-color;
     background-color: #eee;
-    border-left: 4px solid $grey-color;
+    border-left: 4px solid #bbb;
     padding-left: $spacing-unit / 2;
-    //font-size: 18px;
+    //font-size: $small-font-size;
     //letter-spacing: -1px;
     //font-style: italic;
 

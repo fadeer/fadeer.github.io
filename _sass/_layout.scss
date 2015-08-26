@@ -180,7 +180,7 @@
 }
 
 .page-heading {
-    font-size: $base-font-size;
+    font-size: $normal-font-size;
 }
 
 .post-list {
@@ -223,14 +223,14 @@
 }
 
 .post-title2 {
-    font-size: $base-font-size;
+    font-size: $normal-font-size;
     color: $grey-color-dark;
     
     @include media-query($on-laptop) {
-        font-size: $base-font-size;
+        font-size: $normal-font-size;
     }
     @include media-query($on-palm) {
-        font-size: $base-font-size * 0.875;
+        font-size: $normal-font-size * 0.875;
         display: none;
     }
 }
@@ -262,15 +262,15 @@
     margin-bottom: $spacing-unit;
     
 	@include media-query($on-laptop) {
-        font-size: $base-font-size;
+        font-size: $normal-font-size;
     }
     @include media-query($on-palm) {
-        font-size: $base-font-size * 0.875;
+        font-size: $normal-font-size * 0.875;
     }
     
     h2 {
         font-size: $hh-font-size;
-        font-weight: 600;
+        //font-weight: 600;
 
         @include media-query($on-laptop) {
             font-size: $hh-font-size;
@@ -296,10 +296,10 @@
     margin-left: 0;
     
     @include media-query($on-laptop) {
-        font-size: $base-font-size;
+        font-size: $normal-font-size;
     }
     @include media-query($on-palm) {
-        font-size: $base-font-size * 0.875;
+        font-size: $normal-font-size * 0.875;
     }
 
     .apost-title {
@@ -311,10 +311,10 @@
         color: $grey-color-dark;
         
         @include media-query($on-laptop) {
-            font-size: $base-font-size;
+            font-size: $normal-font-size;
         }
         @include media-query($on-palm) {
-            font-size: $base-font-size * 0.875;
+            font-size: $normal-font-size * 0.875;
             display: none;
         }
 	}
