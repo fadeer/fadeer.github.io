@@ -10,8 +10,8 @@ layout: default
 
     {% if forloop.first %}
     <div class="area">
-    <article class="post-content">
-    <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
+    <article class="">
+    <h2 id="{{ this_year }}-ref" class="post-title">{{this_year}}年</h2>
     <ul class="archive">
     {% endif %}
 
@@ -37,8 +37,8 @@ layout: default
         </ul>
 
         <div class="area">
-        <article class="post-content">
-        <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
+        <article class="">
+        <h2 id="{{ next_year }}-ref" class="post-title">{{ next_year }}年</h2>
         <ul class="archive">
         {% endif %}
     {% endif %}

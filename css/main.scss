@@ -10,7 +10,7 @@ $font-default:	"Helvetica Neue","Microsoft YaHei", "WenQuanYi Micro Hei",Arial, 
 $font-mono:	Monaco, Menlo, Consolas, Courier New, "Heiti SC", STHeiti, "Microsoft Yahei", monospace;
 
 $base-font-family: $font-default;
-$base-font-size:   16px;
+$base-font-size:   15px;
 // 1.5~24px 1.375~22px 1.25~20px 1.125~18px 0.875~14px
 
 $title-font-size:  $base-font-size * 1.5;
@@ -20,7 +20,7 @@ $h-font-size: $base-font-size * 1.375;
 $hh-font-size: $base-font-size * 1.25;
 $hhh-font-size: $base-font-size * 1.125;
 
-$base-line-height: 1.8;
+$base-line-height: 1.6;
 
 $spacing-unit:     30px;
 $spacing-lr:       20px;
@@ -30,13 +30,15 @@ $background-color: #eee;
 $bg-color-t: #c6c6c6;
 $bg-color-b: #f3f3f3;
 $brand-color:      #1471CB; //#2880d5;
-$life-color: #D87530;
+$life-color: #DA2E2E;
+$meta-color: #469439;
 
 $code-color:	#eee;
-$code-color-bg: #333;
-$code-color-bgl: #DDD;
+$code-color-bg: #3D3D3D;
+$code-color-l:	#2B9819;
+$code-color-bgl: #f3f3f3;
 
-$grey-color:       #828282;
+$grey-color:       #888;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 

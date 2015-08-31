@@ -175,6 +175,7 @@ code {
     padding: 1px 4px;
     margin: 0 2px;
     border-radius: 3px;
+    color: $code-color-l;
     background-color: $code-color-bgl;
     
     @include media-query($on-laptop) {
@@ -190,7 +191,7 @@ code {
 }
 
 pre {
-    line-height: 1.4;
+    line-height: 1.2;
     padding: 10px ($spacing-lr * 3 / 2);
     margin: 5px 0 0;
     overflow-x: auto;
