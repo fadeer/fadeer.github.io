@@ -1,0 +1,56 @@
+---
+layout: post
+title:  "每周技术文章 No.37"
+date:   2015-08-31 12:00:00
+title2: "2015.8.24-30"
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* 教你读懂网络请求的瀑布图，[The SEO Professional's Guide to Waterfall Diagrams](https://moz.com/blog/the-seo-professional-s-guide-to-waterfall-diagrams)，基础知识。
+* [深聊软件设计中最基础的控件元素](http://www.uisdc.com/basic-elements-in-ui-design)，汽水瓶子盖的例子很生动啊；“**界面设计真正的艺术在于：解决正确的问题**”。
+* [折线转曲线](http://www.alloyteam.com/2015/08/zhe-xian-zhuan-qu-xian/)，这个有意思。
+* 前端开源项目的总结，[Github资源收集](http://segmentfault.com/a/1190000003510001)，虽然没啥解释，但是过一遍也就知道了。
+* [实现Promise](http://segmentfault.com/a/1190000003503540)，了解一下Promise的思路。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面领域
+----
+* [你了解实时计算吗？](http://www.cnblogs.com/foreach-break/p/what-is-real-time-computing-and-how.html)
+* [日志：每个软件工程师都应该知道的有关实时数据的统一概念](https://github.com/oldratlee/translations/blob/master/log-what-every-software-engineer-should-know-about-real-time-datas-unifying/README.md)，超长但必看，**程序员史诗般必读文章**。
+* 关于Windows DNS Server 2012R2解析性能的两篇，[Name Resolution Performance of Authoritative](http://blogs.technet.com/b/networking/archive/2015/08/13/name-resolution-performance-of-authoritative-windows-dns-server-2012-r2.aspx)，[Name Resolution Performance of a Recursive](http://blogs.technet.com/b/networking/archive/2015/08/19/name-resolution-performance-of-a-recursive-windows-dns-server-2012-r2.aspx)。
+* [PowerShell for Containers](https://msdn.microsoft.com/en-us/virtualization/windowscontainers/reference/powershell_overview)。
+* [混合云是旅途 公有云是彼岸](http://www.cbinews.com/cloud/news/2015-08-24/239984.htm)，“这是一场历时7年的公有云马拉松。Netflix从招聘网页开始，蚂蚁搬家，把自己数据中心的企业IT，从架构到职能，从片源搜索到大数据分析，一点一点步步为营迁移到亚马逊AWS。去年已完成包括账单和支付在内大部分系统云迁移，现在只剩最后一个月，Netflix将从自己的数据中心净身出户”。
+* [Event Report](https://blog.xenproject.org/2015/08/26/event-report-xen-project-developer-summit-2015/)，Xen Project Developer Summit 2015大会的一些内容，都是视频啊。
+* [Linux环境下使用rsyslog管理日志](http://segmentfault.com/a/1190000003509909)，见过但没琢磨过，学学。
+* 酷壳又继续Docker的技术分享了，最近这两篇正好是分层镜像的介绍，[AUFS](http://coolshell.cn/articles/17061.html)和[DeviceMapper](http://coolshell.cn/articles/17200.html)。
+* [基于TCPCopy的仿真压测方案](http://www.cnblogs.com/zhengyun_ustc/p/tcpcopy.html)，有用。
+* [WMI Attacks](http://drops.wooyun.org/tips/8189)，这个贴近“生活”了，利用WMI实现的后门，关键是这个行为对于系统、杀毒软件是正常的。后面提到的引文[深入挖掘Windows脚本技术](http://huaidan.org/archives/1087.html)，也值得看看，04年的啊。
+* [攻击洋葱路由(Tor)匿名服务的一些综述](http://drops.wooyun.org/papers/8265)，看来是还没破，呵呵。
+* [vBulletin rce 0day分析](http://drops.wooyun.org/papers/8261)，看看利用漏洞的思路。
+* DDoS两篇：[服务器预防DDoS攻击的方法](http://www.williamlong.info/archives/4339.html)，[端口映射:新的DDoS放大攻击](http://www.williamlong.info/archives/4338.html)。
+* [中国黑客的隐秘江湖](http://www.iheima.com/news/2015/0827/151700.shtml)，“**没有过切肤之痛，很难意识到安全的重要性，但真正意识到的时候，为时已晚**”。再来看[大麦网600多万用户账号密码泄露 数据已被售卖](http://security.zdnet.com.cn/security_zone/2015/0827/3060234.shtml)，看看漏洞历史，快成了屡教不改的典型了。
+
+硬件设备，ARM、终端、移动、智能设备
+----
+<!--preview-end-->
+* 来看几个Windows 10 IoT Enterprise（就是Windows Embedded的[后续版本](http://intelligentsystem.com/its-time-for-windows-10-iot/)）的瘦客户机，[VXL Itona LQ、IQ系列](http://www.vxl.net/Newsroom/newsroom.aspx?newsid=Njc%253d-zjUfCyxU5e4%253d)，[HP mt42](http://www.cnbeta.com/articles/424861.htm)，[Wyse 5020](http://www.dell.com/us/dfb/p/wyse-d-class/pd)。
+* 考虑Client端的桌面实现，基于Android也是有人在琢磨的，比如[Remix OS](http://www.jide.com/en/remixos)，和基于这个系统实现的“Android PC”，49刀的[Remix Mini](http://www.techbang.com/posts/24924-this-is-not-a-tv-box-which-is-an-android-pc)，看模样还不错啊。另外国内厂商推出[基于RK3288的办公平板](http://www.cnbeta.com/articles/424921.htm)，系统叫“Light Office OS”，看起来定制的程度就浅了些。这事儿吧，感觉还是有些拧巴，其实类似Chromebook，除了办公市场，教育也是个挺好的方向，[Chromebook开始大幅蚕食为苹果和微软统治的教育市场](http://www.cnbeta.com/articles/423129.htm)。
+* Android反编译三篇，太简要了，先有个印象吧：[反编译的工具和方法](http://yeungeek.com/2015/08/22/Android%E5%8F%8D%E7%BC%96%E8%AF%91%E4%B9%8B%E4%B8%80-%E5%8F%8D%E7%BC%96%E8%AF%91%E7%9A%84%E5%B7%A5%E5%85%B7%E5%92%8C%E6%96%B9%E6%B3%95/)，[Smali语法简介](http://yeungeek.com/2015/08/23/Android%E5%8F%8D%E7%BC%96%E8%AF%91%E4%B9%8B%E4%BA%8C-Smali%E8%AF%AD%E6%B3%95%E7%AE%80%E4%BB%8B/)，[代码混淆](http://yeungeek.com/2015/08/24/Android%E5%8F%8D%E7%BC%96%E8%AF%91%E4%B9%8B%E4%B8%89-%E4%BB%A3%E7%A0%81%E6%B7%B7%E6%B7%86/)。
+* 劫持网络摄像头，[Hacking ipcam like Harold in POI](http://drops.wooyun.org/papers/8298)。
+
+市场、产品、项目
+----
+* [深度解析德国工业4.0战略](http://cio.zdnet.com.cn/cio/2015/0821/3059668.shtml)。
+* 关于产品的冷启动，看看[蝉游记的实践](http://www.jianshu.com/p/2bf81f6ac3f8)，思路不错啊。
+* [个人云存储竞品分析报告](http://www.woshipm.com/evaluating/193650.html)。
+* [回顾MGS的“半世纪”故事线](http://www.cnbeta.com/articles/423399.htm)，会讲故事的产品经理，哈哈。
+
+团队建设
+----
+* 关于时间与注意力，[The difference between time and attention](https://signalvnoise.com/posts/3919-the-difference-between-time-and-attention)，我的注意力都在那儿了？
+* **知道创宇研发技能表**，更新到[v3.0](http://blog.knownsec.com/Knownsec_RD_Checklist/v3.0.html)了。
+
+
