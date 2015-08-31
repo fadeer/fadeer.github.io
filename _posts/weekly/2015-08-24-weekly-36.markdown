@@ -26,7 +26,7 @@ tags: Weekly Skill
 硬件设备，ARM、终端、移动、智能设备
 ----
 <!--preview-end-->
-* [移动端混合型应用项目有感](http://segmentfault.com/a/1190000003100767)，一个折腾的经历，“15个新人在4周内完成一个不会上线的小型项目”，这样的练习很有意义啊。标注是：“TL;DR: 如果没有把握解决混合应用的性能问题，请尽量使用 native 方式开发”。
+* [移动端混合型应用项目有感](http://segmentfault.com/a/1190000003100767)，一个折腾的经历，“15个新人在4周内完成一个不会上线的小型项目”，这样的练习很有意义啊。标注是：“如果没有把握解决混合应用的性能问题，请尽量使用 native 方式开发”。
 * [iOS 详细介绍 GCD](http://segmentfault.com/a/1190000003101343)，GCD 存在于一个 名为 libdispatch 的类库中，这个苹果官方的类库提供了在 iOS 和 OS X 多核设备执行并发代码的支持。GCD 可以通过延迟可能需要花费大量时间的任务，并让他们在后台（background）运行，从而提高应用的响应速度。
 * [Android大神](http://yeungeek.com/android%E5%A4%A7%E7%A5%9E/)。
 * 《iOS应用安全攻防实战》[第六章：无法销毁的文件](http://drops.wooyun.org/papers/8148)，身边儿的安全。
