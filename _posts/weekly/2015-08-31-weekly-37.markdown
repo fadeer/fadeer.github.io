@@ -23,7 +23,7 @@ tags: Weekly Skill
 * 关于Windows DNS Server 2012R2解析性能的两篇，[Name Resolution Performance of Authoritative](http://blogs.technet.com/b/networking/archive/2015/08/13/name-resolution-performance-of-authoritative-windows-dns-server-2012-r2.aspx)，[Name Resolution Performance of a Recursive](http://blogs.technet.com/b/networking/archive/2015/08/19/name-resolution-performance-of-a-recursive-windows-dns-server-2012-r2.aspx)。
 * [PowerShell for Containers](https://msdn.microsoft.com/en-us/virtualization/windowscontainers/reference/powershell_overview)。
 * [混合云是旅途 公有云是彼岸](http://www.cbinews.com/cloud/news/2015-08-24/239984.htm)，“这是一场历时7年的公有云马拉松。Netflix从招聘网页开始，蚂蚁搬家，把自己数据中心的企业IT，从架构到职能，从片源搜索到大数据分析，一点一点步步为营迁移到亚马逊AWS。去年已完成包括账单和支付在内大部分系统云迁移，现在只剩最后一个月，Netflix将从自己的数据中心净身出户”。
-* [Event Report](https://blog.xenproject.org/2015/08/26/event-report-xen-project-developer-summit-2015/)，Xen Project Developer Summit 2015大会的一些内容，都是视频啊。
+* Xen Project Developer Summit 2015大会的[演讲内容](https://blog.xenproject.org/2015/08/26/event-report-xen-project-developer-summit-2015/)，都是YouTube上的视频，不少国人面孔啊。部分PDF见[Linux Foundation](http://events.linuxfoundation.org/events/xen-project-developer-summit/program/slides)。
 * [Linux环境下使用rsyslog管理日志](http://segmentfault.com/a/1190000003509909)，见过但没琢磨过，学学。
 * 酷壳又继续Docker的技术分享了，最近这两篇正好是分层镜像的介绍，[AUFS](http://coolshell.cn/articles/17061.html)和[DeviceMapper](http://coolshell.cn/articles/17200.html)。
 * [基于TCPCopy的仿真压测方案](http://www.cnblogs.com/zhengyun_ustc/p/tcpcopy.html)，有用。
