@@ -15,7 +15,7 @@ $base-font-size:   15px;
 
 $title-font-size:  $base-font-size * 1.5;
 $normal-font-size: $base-font-size;
-$small-font-size:  $base-font-size * 0.875;
+$small-font-size:  $base-font-size * 0.933;
 $h-font-size: $base-font-size * 1.375;
 $hh-font-size: $base-font-size * 1.25;
 $hhh-font-size: $base-font-size * 1.125;
@@ -27,16 +27,19 @@ $spacing-lr:       20px;
 
 $text-color:       #222;
 $background-color: #eee;
-$bg-color-t: #c6c6c6;
-$bg-color-b: #f3f3f3;
+$bg-color-t: #b6b6b6;
+$bg-color-b: #f6f6f6;
 $brand-color:      #1471CB; //#2880d5;
-$life-color: #E04D40;
+$life-color: #BD3232;
 $meta-color: #777;
 
 $code-color:	#eee;
 $code-color-bg: #3D3D3D;
-$code-color-l:	#E04D40;
-$code-color-bgl: #f3f3f3;
+$code-color-l:	#BD3232;
+$code-color-bgl: #eaeaea;
+
+$bq-bg-color: #f3f3f3;
+$bq-border-color: #bbb;
 
 $grey-color:       #888;
 $grey-color-light: lighten($grey-color, 40%);

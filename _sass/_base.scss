@@ -152,8 +152,8 @@ a {
  */
 blockquote {
     //color: $grey-color;
-    background-color: #eee;
-    border-left: 4px solid #bbb;
+    background-color: $bq-bg-color;
+    border-left: 4px solid $bq-border-color;
     padding-left: $spacing-unit / 2;
     //font-size: $small-font-size;
     //letter-spacing: -1px;
