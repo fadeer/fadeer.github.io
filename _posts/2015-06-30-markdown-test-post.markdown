@@ -7,26 +7,52 @@ categories: 工作
 tags: jekyll markdown test
 ---
 
-这是一个测试帖，用来调试常见帖子元素的风格。比如：
+这是一个测试帖，用来调试常见帖子元素的风格。
 
-文字，段落
+段落，文字效果
 ----
+从WIM的诞生就可以看出，这主要是简化Windows的部署。我们回顾一下XP时代的Windows安装源，核心目录是光盘下的`i386`目录，里面一>堆`XX_`结尾的文件，本质上是也是个压缩文件（要不光盘空间怎么够），安装过程主要就是把`XX_`文件解压成`XXX`文件（比如`SY_`解压为`SYS`）放置到Windows目标路径下，这也太直白了。关键是文件太散碎了，坏一个不坑了。利用WIM文件，**安装过程就相当于解压>一个压缩文件**，速度能快很多，然后做下引导，完成了；后面的硬件兼容性由Windows运行起来自己搞定。
 
-When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume among the Powers of the earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation.
-在有关人类事务的发展过程中，当一个民族必须解除其和另一个民族之间的政治联系，并在世界各国之间依照自然法则和自然之造物主的意旨，接受独立和平等的地位时，出于人类舆论的尊重，必须把他们不得不独立的原因予以宣布。
+另外，前面提到了WIM支持单一文件存储，同时支持多索引，就是你可以**把多个Windows版本保存到一个安装介质里**（典型就是DVD光>盘，受4.7G容量限制），因为不同版本（比如标准版、企业版、数据中心版什么的，在加上多语言）的源文件绝大多数是相同的，所以整合到一起可以极大的节省空间，方便多版本测试，在安装过程中多一步来选择某一个要安装的版本。微软的MSDN下载往往提供这种源，开发者也可以利用后面的WIM工具自己制作多合一安装源。其实这事儿在XP时代也有，利用光盘格式的特性，把相同的文件只储存一份。当>初虽然没自己手动做过，但是体验过这好处啊。
 
-We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty, and the pursuit of Happiness.
-我们认为下面这些真理是不言而喻的：人人生而平等，造物者赋予他们若干不可剥夺的权利，其中包括生命权、自由权和追求幸福的权利。
-
-That to secure these rights, Governments are instituted among Men, deriving their just powers from the consent of the governed.
-为了保障这些权利，人类才在他们之间建立政府，而政府之正当权力，是经被治理者的同意而产生的。
-
+前面提到的这个Windows安装源是光盘`Source\install.wim`，你会发现这目录下还有个`boot.img`，就用到了WIM另一个特性，**支持启动**。或者说，是**Windows Loader支持从WIM这个压缩文件上启动系统**（咦，这事儿在Linux下很熟悉），光盘启动电脑，进入的图形安装环境的系统（WinPE，预安装环境）就是从`boot.img`启动来的。这个环境下用`diskpart`可以看到一个X盘，就是`boot.img`的内容（Windows、Program Files都有啊，就是一精简的Windows），一般定制WinPE环境也就是修改`boot.img`的内容。
 
 常见的语法高亮
 ----
+**Linux Bash**：
+{% highlight bash %}
+#只读方式挂载squashfs文件，只读是强制的，不加-r会多个警告而已
+mkdir ubuntu-core
+sudo mount -t squashfs -r -o loop ubuntu-core.squashfs /tmp/fadeer/ubuntu-core/
 
-**Javascript**，代码和正文保持纵向对齐：
-{% highlight javascript %}
+#创建可写文件系统目录，递归方式链接所有文件，根据文件数量需要些时间
+mkdir system-rw
+cp -rs /tmp/fadeer/ubuntu-core/* system-rw
+
+#看看效果，system-rw下所有目录都是实体，所有文件都是指向ubuntu-core的连接
+/tmp/fadeer$ ls ubuntu-core
+bin  etc  home  lib  lib64  opt  sbin  sys  usr  var
+/tmp/fadeer$ ls system-rw/
+bin  etc  home  lib  lib64  opt  sbin  sys  usr  var
+/tmp/fadeer$ ll system-rw/bin/ | tail -3
+lrwxrwxrwx  1 ys ys   33 Aug  6 17:04 zless -> /tmp/fadeer/ubuntu-core/bin/zless*
+lrwxrwxrwx  1 ys ys   33 Aug  6 17:04 zmore -> /tmp/fadeer/ubuntu-core/bin/zmore*
+lrwxrwxrwx  1 ys ys   32 Aug  6 17:04 znew -> /tmp/fadeer/ubuntu-core/bin/znew*
+{% endhighlight %}
+
+**Windows 批处理**，包含滚动:
+{% highlight bat %}
+Dism /Export-Image /SourceImageFile:c:\customImages\win8pro.wim /SourceIndex:1 /DestinationImageFile:c:\customImages\allinone.wim /DestinationName:"Windows 8 Professional"
+Dism /Export-Image /SourceImageFile:c:\customImages\win8ent.wim /SourceIndex:1 /DestinationImageFile:c:\customImages\allinone.wim /DestinationName:"Windows 8 Enterprise"
+Dism /Export-Image /SourceImageFile:c:\customImages\win81.wim /SourceIndex:1 /DestinationImageFile:c:\customImages\allinone.wim /DestinationName:"Windows 8.1"
+
+::然后看看最终的效果吧：
+Dism /Get-ImageInfo /imagefile:C:\customImages\allinone.wim
+{% endhighlight %}
+
+<!--preview-end-->
+**Javascript**，包含行号：
+{% highlight javascript linenos %}
 function start(){
 	num1++;
 	document.title = num1;
@@ -38,59 +64,36 @@ document.addEventListener("mouseup",function(){
 	this.removeEventListener("mousemove",start,false);
 });
 {% endhighlight %}
-<!--preview-end-->
-
-Linux **Bash**，包含横向滚动：
-{% highlight bash %}
-#!/bin/bash
-for fullpath in "$@"
-do
-    filename="${fullpath##*/}"                      # Strip longest match of */ from start
-    dir="${fullpath:0:${#fullpath} - ${#filename}}" # Substring from 0 thru pos of filename
-    base="${filename%.[^.]*}"                       # Strip shortest match of . plus at least one non-dot char from end
-    ext="${filename:${#base} + 1}"                  # Substring from len of base thru end
-    if [[ -z "$base" && -n "$ext" ]]; then          # If we have an extension and no base, it's really the base
-        base=".$ext"
-        ext=""
-    fi
-
-    echo -e "$fullpath:\n\tdir  = \"$dir\"\n\tbase = \"$base\"\n\text  = \"$ext\""
-done
-{% endhighlight %}
-
-**Java**， 包含行号：
-{% highlight java linenos%}
-public static void main( String[] args ){
-    Dog aDog = new Dog("Max");
-    foo(aDog);
-
-    if( aDog.getName().equals("Max") ){ //true
-        System.out.println( "Java passes by value." );
-
-    }else if( aDog.getName().equals("Fifi") ){
-        System.out.println( "Java passes by reference." );
-    }
-}
-{% endhighlight %}
 
 也可以在文字间加代码，比如`/etc/network/interfaces`这样。
 
-
-列表内容
+列表、引用
 ----
+一个标准Linux的部署，系统部分通常分为三块儿：
 
-* 第一项，内容。
-* 第二项，内容。
-* 第三项，内容，**重要的内容**。
-* 第四项，内容，[外部链接](http://www.google.com)。
-
+* 内核文件，一般在启动分区下`vmlinuz-{kernel.version}`；对比Windows的内核是`C:\Windows\System32\ntoskrnl.exe`。
+* 内存盘（Ramdisk）被引导文件加载起来的精简系统，通常也是压缩格式的，这文件一般叫`initrd.gz-{kernel.version}`，意思就是init（初始化时用的）、rd（内存盘）、gz（压缩的）。
+* 系统分区，一般是一个完整的分区，EXT4之类格式的，放置完整的Linux系统组件。
 
 这种把正文内容和引用的原始链接分开的方式不错，[参考1][链接1]和[参考2][链接2]，这样编辑markdown正文时，就不会被过长的[链接3]打断了。
 
-<!-- 下面就是原始的链接，不会直接出现在正文里 -->
-[链接1]:	http://www.google.com
-[链接2]:	http://www.google.com
-[链接3]:	http://www.google.com
+> Add option `keep_fargs`.
+>
+> By default it's `false`.  Pass `true` if you need to keep unused function arguments.
+>
+> Close #188.
+>
+> master (#1)  v2.4.24 … v2.4.13
+>
+> mishoo authored on 8 Feb 2014
+
+注意引文的换行也得单独引用。
+
+> I added a compressor option for it. To keep unused function arguments, pass keep_fargs: true to the compressor, for example:
+>
+> `uglifyjs file.js -m -c keep-fargs=true`
+>
+> I still believe that relying on this “feature” is silly, so it's disabled by default.
 
 
 富媒体内容
@@ -104,14 +107,25 @@ public static void main( String[] args ){
 
 原始很大的图片，在高分辨率屏下效果应该不错；如果图片宽度不够，也要填满宽度，虽然会显得模糊：
 
-![][pic2]
+![](http://7xkxri.com1.z0.glb.clouddn.com/fix_bug.png)
 
-图片来源: https://iso.500px.com/
+图片来源: [Sina App Engine官方微博](http://www.weibo.com/saet)
 {: .source}
 
-更多元素
+参考链接
 ----
-参考：[kramdown Syntax](http://kramdown.gettalong.org/syntax.html)
+* [Jekyll](http://jekyllrb.com/)
+* [Github Pages](https://pages.github.com/)
+* [Using Jekyll with Pages](https://help.github.com/articles/using-jekyll-with-pages/)
+* [Material Design Iconic Font by Sergey Kupletsky](http://zavoloklom.github.io/material-design-iconic-font/index.html)
+* [Pygments syntax highlighter](http://pygments.org/)
+* [Rouge a pure-ruby syntax highlighter](https://github.com/jneen/rouge)
+* [Kramdown Syntax](http://kramdown.gettalong.org/syntax.html)
+
+<!-- 文内引用链接，不会直接出现在正文里 -->
+[链接1]:	http://www.google.com
+[链接2]:	http://www.google.com
+[链接3]:	http://www.google.com
 
 [pic1]: http://7xkxri.com1.z0.glb.clouddn.com/test-1.jpg
 [pic2]: http://7xkxri.com1.z0.glb.clouddn.com/test-2.jpg
