@@ -6,11 +6,11 @@
 
 
 // Our variables
-$font-default:	"Helvetica Neue","Microsoft YaHei", "WenQuanYi Micro Hei",Arial, sans-serif;
+$font-default:	"Helvetica Neue", "Segoe UI", "Microsoft YaHei", "WenQuanYi Micro Hei",Arial, sans-serif;
 $font-mono:	Monaco, Menlo, Consolas, Courier New, "Heiti SC", STHeiti, "Microsoft Yahei", monospace;
 
 $base-font-family: $font-default;
-$base-font-size:   15px;
+$base-font-size:   16px;
 // 1.5~24px 1.375~22px 1.25~20px 1.125~18px 0.875~14px
 
 $title-font-size:  $base-font-size * 1.5;
@@ -36,10 +36,11 @@ $meta-color: #777;
 $code-color:	#eee;
 $code-color-bg: #3D3D3D;
 $code-color-l:	#BD3232;
-$code-color-bgl: #eaeaea;
+$code-color-bgl: #eee;
 
-$bq-bg-color: #f3f3f3;
-$bq-border-color: #bbb;
+$bq-color: #666;
+$bq-bg-color: #fff;
+$bq-border-color: #8FB9E2;
 
 $grey-color:       #888;
 $grey-color-light: lighten($grey-color, 40%);
