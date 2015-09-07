@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "每周技术文章 No.38"
+date:   2015-09-06 12:00:00
+title2: "2015.8.30-9.6"
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [前端技术的开放和封闭](https://github.com/jayli/jayli.github.com/issues/18)，**非常好的话题**。又一个博客放Github Issue里的。
+* [前端性能优化指南](http://segmentfault.com/a/1190000003646305)，当个好前端也不容易啊，但是GC方面没展开啊，所以看看[JavaScript内存泄露是如何发生的，以及如何去避免](http://segmentfault.com/a/1190000003641343)，这里提到“我发现虽然在 Chrome 中发生了 GC 事件，并且内存也降得很低，但在手机上（WebView）的确会存在越用越卡的现象”，看来单凭浏览器的智慧不能解决所有问题。
+* [CSS 属性 :before && :after的用法，伪类和伪元素的区别](http://segmentfault.com/a/1190000003710082)。
+* [React Component Lifecycle](http://segmentfault.com/a/1190000003691119)。
+* [HTTP/2 资料汇总](https://imququ.com/post/http2-resource.html)。
+* [初探 performance – 监控网页与程序性能](http://www.alloyteam.com/2015/09/explore-performance/)，“在开发环境下，其实我们自己打开 Chrome 的开发者工具，切换到网络面板，就能很详细的看到网页性能相关的数据。但当**我们需要统计分析用户打开我们网页时的性能如何时**，这些performance原始信息就有用啦”。
+* 牛逼的来了，**打造最美HTML5 3D机房**，[第一季](http://segmentfault.com/a/1190000002866653)，[第二季](http://segmentfault.com/a/1190000003711760)。作者[MonoLog](http://segmentfault.com/blog/mono)专注UI，前端数据可视化，最近研究HTML5，webGL 3D，思路和动手能力确实很值得佩服。再翻翻他之前关于HTML5的几篇，[彩虹爆炸图](http://segmentfault.com/a/1190000002775741)，[萌萌哒拓扑图分组](http://segmentfault.com/a/1190000002920762)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面领域
+----
+* **2015KCon黑客大会**，[PPT下载](https://github.com/knownsec/KCon/tree/master/KCon%202015)，好几个都挺感兴趣的。**《Talk Is Cheap：Web 2.0 云攻击》**，要补的课太多了；**《黑无止境 — 那些年我们绕过的锁》**大开眼界了，到处都有默认用户名密码啊，无密码VNC也真多啊；**《基于树莓派的渗透测试》**，看到“以社工等手段把树莓派送入内网”还觉得可笑，但是到后面的实现方式，也不那么好防啊。
+* [解析 Ceph: CephFS 进展](http://www.wzxue.com/cephfs-update/)，“CephFS 是 Ceph 世界里下一个被期待的重大事件，它使得 Ceph 在统一存储的路上可以跨出一大步来完成庞大生态系统的闭环化”。
+* [函数式JavaScript](http://blog.oyanglul.us/javascript/functional-javascript.html)，这部分没正经用过，总掌握不了。
+* [解读Node.js的cluster模块](http://www.alloyteam.com/2015/08/nodejs-cluster-tutorial/)，最近得用用，比较下性能。
+* [为什么人人都该懂点LLVM](http://geek.csdn.net/news/detail/37785)，不明觉厉。
+* Linux零碎：[crontab八诫](http://memoryboxes.github.io/blog/2015/08/07/crontab-eight-comm/)，经验啊；[Netcat命令](http://memoryboxes.github.io/blog/2015/08/26/netcat-command/)，之前只用来检测端口来着，原来还有这奇怪用法，呵呵。
+* [破解使用radius实现802.1x认证的企业无线网络](http://drops.wooyun.org/tools/8294)，“这里是的攻击是使用hostapd扮演一个无线访问点，然后通过打补丁的freeraidus wpe来捕捉密码hash，最后用asleep来离线破解密码，来对抗相对安全的使用radius服务器提供独立的用户名和密码实现的802.1x认证的企业无线网络环境”。
+* [WMI Backdoor](http://drops.wooyun.org/tips/8260)，进阶技巧了。“不在Client和Server留下任何文件、不改动注册表、仅使用powershell实现”。
+* [运维安全概述](http://drops.wooyun.org/%E8%BF%90%E7%BB%B4%E5%AE%89%E5%85%A8/8169)，**各种系统的弱口令，各种后台的弱口令，各种服务的弱口令**，这么多年了从来没有断过。
+
+硬件设备，ARM、终端、移动、智能设备
+----
+<!--preview-end-->
+* [华硕发布VivoStick微型PC](http://www.cnbeta.com/articles/426511.htm)，129刀，Intel Cherry Trail，2G内存，32G闪存，两个USB不错。
+* 手把手教你当微信运动第一名，[利用Android Hook进行微信运动作弊](http://drops.wooyun.org/tips/8416)，聪明才智都用这儿了。另见iOS方案，[“海蓝一键运动”-微信运动刷步数工具](http://weibo.com/1638974654/CzghACzRD)。
+
+市场、产品、项目
+----
+* [听Google设计团队讲述新logo是如何被设计出来的](http://www.geekpark.net/topics/213332)，换标这种事儿，要考虑各个团队的意见和各个产品的使用场景。另见[原文](https://design.google.com/articles/evolving-the-google-identity/)。
+
+团队建设
+----
+* [每个程序员和设计师必做的10项运动](http://www.codeceo.com/article/every-programmer-need-exercise.html)，必须掌握，呵呵。
+* [Sublime Text 全程指南](http://lucida.me/blog/sublime-text-complete-guide/)，去年文章，入门不错。学用上的插件，Nexus Theme，**BracketHighlighter括起当前区域很确实方便了**，终于不用再找下划线了。
+* [LINUX 101: 让你的 SHELL 更强大](https://linux.cn/article-5910-1.html)，“在我们的关于 shell 基础的指导下, 得到一个更灵活,功能更强大且多彩的命令行界面”，之前看到一个例子在提示符下显示当前git分支，真太方便了。
+* [新时代编程字体推荐](http://zhuanlan.zhihu.com/iconmoon/20194623)。
+* [怎样和开发人员相处](http://www.labazhou.net/2015/07/how-to-work-with-developers/)，一开始就有清晰的计划、解释需求产生的原因、立即说出冰冷残酷的真相、不要打断我们、每天会议时间不超过 5 分钟。另外，**如果你不购置开发人员想要的多余显示器，那么，你认为公司会获益吗？**，太对了。
+
+
+
+
