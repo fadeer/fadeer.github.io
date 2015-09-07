@@ -31,7 +31,7 @@ body {
  * Set `margin-bottom` to maintain vertical rhythm
  */
 h1, h2, h3, h4, h5, h6 {
-    margin-top: $spacing-unit *2 /3;
+    margin-top: $spacing-unit;
 }
 
 p, blockquote, pre,
@@ -154,8 +154,8 @@ blockquote {
     color: $bq-color;
     background-color: $bq-bg-color;
     border-left: 2px solid $bq-border-color;
-    padding-left: $spacing-unit / 3;
-    margin-left: $spacing-unit / 2;
+    padding-left: $spacing-unit *2 / 3;
+    margin-bottom: $spacing-unit / 2;
     //font-size: $small-font-size;
     //letter-spacing: -1px;
     //font-style: italic;
@@ -202,7 +202,7 @@ pre {
 
     > code {
         font-family: $font-mono;
-        font-size: $small-font-size;
+        font-size: $code-font-size;
         color: $code-color;
     	background-color: $code-color-bg;
         border: 0;
