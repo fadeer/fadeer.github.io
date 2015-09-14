@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "每周技术文章 No.39"
+date:   2015-09-14 18:00:00
+title2: "2015.9.7-13"
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [各种真机远程调试方法汇总](https://github.com/jieyou/remote_inspect_web_on_real_device)，“**真机远程调试**”（remote inspect web on real device），是指用桌面电脑（PC或MAC）远程连接上移动设备，通过类似Chrome浏览器开发人员工具的界面，来调试移动设备上运行的网页。前一阵看到的MIHTool应该是用的weinre方式，参考[用Weinre远程调试移动网页](https://imququ.com/post/remote-debugging-with-weinre.html)。
+* [诡异问题排查之「DataURI 引发的血案」](https://imququ.com/post/datauri-and-404.html)，看看分析问题的思路。
+* [基于HT for Web的3D树的实现](http://segmentfault.com/a/1190000003724016)。
+* [浅谈互联网公司业务安全](http://drops.wooyun.org/tips/8190)，概述。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面领域
+----
+* [Running Hyper-V on Nano in Windows Server 2016 TP3](http://blogs.msdn.com/b/virtual_pc_guy/archive/2015/09/08/running-hyper-v-on-nano-in-windows-server-2016-tp3.aspx)，**Nano
+Server**的登录界面真精简啊。
+* [Hyper-V Windows 10 虚机使用增强会话模式故障一例](http://goxia.maytide.net/read.php/1766.htm)，“要正常使用 Hyper-V 的增强会话模式，避免不必要的麻烦，务必满足用户RDP权限，并且为账号设置一个密码”，看看这个Bug的发现分析过程。
+* 通过demo学习OpenStack开发所需的基础知识，[API服务(1)](http://segmentfault.com/a/1190000003718598)，[API服务(2)](http://segmentfault.com/a/1190000003718606)，未完待续。
+* 看到FreeRDP的[Issue #2875](https://github.com/FreeRDP/FreeRDP/issues/2875)，讨论到**ARM下的画面刷新的性能**问题，正好也是我关心的。一方面是**FreeRDP对RDP协议**本身的处理，目前还都主要靠CPU软解，而GPU完全没有利用上，甚至在低端X86下也有问题，见[Issue #2858](https://github.com/FreeRDP/FreeRDP/issues/2858)，（这里提到一些可以利用上GPU解码的入口）。另一方面就是**桌面图形的渲染**，这方面X的机制在树莓派这种低端设备下同样不理想，因此才有了Wayland协议和Weston的实现，在树莓派下的早期测试，渲染效果和速度确实改善很多；而讨论中也提到了[Weston_RDP_access](https://wiki.tizen.org/wiki/Weston_RDP_access)，值得关注，但前景未知。另外这页面是**TIZEN**的，这不是三星曾经力推的开源移动系统么，难道他跟Ubuntu一样，都被Wayland坑了？
+* [网络排错大讲解](http://xpleaf.blog.51cto.com/9315560/1689438)，基础知识过一遍。
+* 我用爬虫一天时间“偷了”知乎一百万用户，[只为证明PHP是世界上最好的语言](http://blog.jobbole.com/88788/)，制造问题，解决问题，发现问题。
+* 攻完该防了，[WMI Defense](http://drops.wooyun.org/tips/8290)，“介绍如何通过Powershell调用WMI监视自身系统、记录入侵行为，并对WMI的检测工具做具体测试”。
+
+硬件设备，ARM、终端、移动、智能设备
+----
+<!--preview-end-->
+* [iOS 9优化安全：侧面载入（sideloading）应用安装不再那么简单了](http://www.cnbeta.com/articles/429351.htm)，“侧面载入应用是指用户在手机上下载iOS应用程序通过非App Store渠道进行安装。这有悖于苹果的安全策略，但是公司允许该操作存在的主要原因是iPhone最初涉足商业领域的时候，这些企业尝试部署自己的私有应用程序，所以当时主要为内部使用”。**企业证书的App安装**都算在这类里么？
+* [iOS统计打点那些事](http://limboy.me/ios/2015/09/09/ios-analytics.html)，打点，重要的统计数据的来源，看如此“简单”一功能如何发展、完善的。
+* WD推出PiDrive Kit套件，[讓Raspberry Pi也能輕鬆裝上硬碟](http://www.techbang.com/posts/26084-wd-launched-the-pidrive-kit-kits-make-raspberry-pi-can-easily-put-on-the-hard-drive)，现在做硬盘的也不容易啊，这样小众市场也支持了；为了贴近开发板的风格，硬盘也裸着了。
+
+市场、产品、项目
+----
+* [关于Lego乐高](http://www.ifanr.com/560394)，懂技术、重质量的产品经理，哈哈。
+* [电商交易背景知识合集（一）](http://www.cnblogs.com/zhengyun_ustc/p/paybg.html)，面向**交易领域的产品研发**人员，关于**在线支付，POS，第三方支付，清算，银企直连，快捷支付，对公对私，支付宝，对账**，这领域不知道，补补课。
+
+团队建设
+----
+* 使用git和github管理自己的项目，[基础操作学习](http://segmentfault.com/a/1190000003728094)，[真实开发环境的策略](http://segmentfault.com/a/1190000003739324)，同类文章很多，时不时看看也能提醒些新的用法。
+* ReThought，关于理想的开发团队，[(一): 如何构建理想的开发团队](http://segmentfault.com/a/1190000003728329)，[(二): 如何照顾团队中的新人](http://segmentfault.com/a/1190000003734131)。
+* [让你最痛苦的技术文档是如何制造出来的……](http://mp.weixin.qq.com/s?__biz=MzAxMzMxNDIyOA==&mid=214370853&idx=1&sn=1cc574a1c2e6abf98a09e12d9ef88006&scene=0#rd)，挺真实啊，评估文字的有效性，很难。
+* [你碰到过的最难调的 Bug 是什么样的？](http://www.zhihu.com/question/34787444) **哈哈，哈哈，哈哈**。这周好多追Bug的事儿啊，重点是思路，虽然有时事后才能看出思路来，呵呵。
+
+
+
+
