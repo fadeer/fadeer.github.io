@@ -24,7 +24,9 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
-
+html {
+    background-color: $background-color;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
