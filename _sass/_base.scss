@@ -21,7 +21,6 @@ body {
     color: $text-color;
     background-color: $background-color;
     background: -webkit-linear-gradient(top, $bg-color-t, $bg-color-b);
-    background-attachment: fixed;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -274,8 +273,15 @@ pre {
 }
 
 .source {
+    width: 100%;
+    margin-left: -($spacing-lr *3 /2);
+    margin-top: 0;
+    vertical-align: middle;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    padding: 2px ($spacing-lr *3 /2) 0;
     text-align: right;
     font-size: $small-font-size;
     color: #666;
+    background-color: #eee;
 }
 
