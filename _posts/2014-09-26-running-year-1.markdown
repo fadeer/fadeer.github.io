@@ -35,6 +35,11 @@ tags: Running
 
 另外就是一些讨论跑步的网站，比如[爱燃烧](http://iranshao.com/)，[豆瓣.喜欢跑步的人](http://site.douban.com/106644/room/10444/)。
 
+![](http://7xkxri.com1.z0.glb.clouddn.com/run-y1-3books.jpg)
+
+iPad mini 2, Procreate, Intuos Creative Stylus
+{: .source}
+
 但是，姿势的形成也不是一朝一夕的，核心的问题还是肌肉，肌肉力量和耐久的不够，不足以支持长时间的正确跑姿，往往跑不到一公里就开始变形了。正确的肌肉疲乏了，就要有周围的肌肉过分法力来支持，而这更容易形成错误的姿势。再加上呼吸、步伐节奏等问题，大脑关注的重点一直在这几方面循环进行。
 
 虽然有很多不完善，但是不断的进步也是跑步初期最吸引我坚持下来的部分。
