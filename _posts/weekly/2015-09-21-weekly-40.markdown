@@ -1,0 +1,52 @@
+---
+layout: post
+title:  "每周技术文章 No.40"
+date:   2015-09-21 12:00:00
+title2: "2015.9.14-20"
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [网页性能管理详解](http://www.ruanyifeng.com/blog/2015/09/web-page-performance-in-depth.html)，扫盲、补课贴。
+* 前端之React实战，[背景概述](http://segmentfault.com/a/1190000003745809)，[快速入门以及集成使用](http://segmentfault.com/a/1190000003745823)，[JSX介绍与使用](http://segmentfault.com/a/1190000003748270)，[组件](http://segmentfault.com/a/1190000003748289)，[交互与动态UI](http://segmentfault.com/a/1190000003748297)。
+* [剖析responsive image](http://segmentfault.com/a/1190000003744572)，这个用得上。
+* [网页设计师该向印刷设计学习的3件事](http://colachan.com/post/3462)，**让读者保持专注**、建立平衡感、创造可靠的设计。
+* [一款APP，从设计稿到切图](http://www.woshipm.com/pd/204032.html)，来看看正经APP美工的工作内容。
+* [JavaScript就要统治世界了？](http://segmentfault.com/a/1190000003767058) **JS工程师太坚强了**，哈哈。
+* [网页元素CSS居中实现完整攻略](http://segmentfault.com/a/1190000003761600)。
+* 关于**JSON Web Token**，[在Web应用间安全地传递信息](http://blog.leapoahead.com/2015/09/06/understanding-jwt/)，[理解使用JSON Web Token设计单点登录系统](http://blog.leapoahead.com/2015/09/07/user-authentication-with-jwt/)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* cloudbase继续整合Windows Server和OpenStack，这次是制作Nano Server的模板Image，然后创建实例，[OpenStack + Windows Nano Server](http://www.cloudbase.it/openstack-windows-nano-server/)。
+* [Redirecting Windows Special Folders to Work Folders](http://blogs.technet.com/b/filecab/archive/2015/09/17/redirecting-windows-special-folders-to-work-folders.aspx)，利用组策略，**把常见用户目录重定向到“工作目录”下**，这样方便在移动设备上共享文件，免了用户想着文件该放哪儿；但是方便和安全总要做个权衡。
+* [The Mysterious Case of Infrequent Network Connectivity Issues on 2 Hyper-V VMs Out of 40 Guests](https://blog.workinghardinit.work/2015/09/18/the-mysterious-case-of-infrequent-network-connectivity-issues-on-2-hyper-v-vms-out-of-40-guests/)，虚拟机案例，个别VM虚拟网卡被设置了VLAN ID为0，这是个非标准用法，造成了VM偶尔的网络中断。
+* [以Node应用为例谈如何管理Web应用的环境常量](http://blog.leapoahead.com/2015/09/04/managing-env-constants/)，有启发。
+* [Do you know how fast your disks are?](http://blogs.msdn.com/b/virtual_pc_guy/archive/2015/09/16/do-you-know-how-fast-your-disks-are.aspx) 里面提到的[DiskSpd](http://blogs.technet.com/b/josebda/archive/2014/10/13/diskspd-powershell-and-storage-performance-measuring-iops-throughput-and-latency-for-both-local-disks-and-smb-file-shares.aspx)有机会用上，另外这源码也托管[在GitHub上](https://github.com/microsoft/diskspd)。
+* [OpenStack、Kubernetes、Mesos谁主沉浮？](http://dockone.io/article/639) 
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [工控安全入门分析](http://drops.wooyun.org/tips/8594)，不明觉厉。
+* iOS安全系列，[HTTPS](http://oncenote.com/2014/10/21/Security-1-HTTPS/)，[HTTPS进阶](http://oncenote.com/2015/09/16/Security-2-HTTPS2/)，**每一个软件工程师都有义务保护用户数据的隐私和安全**，于是也得有必要的能力。
+* [Apple TV 人机界面指南](http://mux.baidu.com/?p=1000189)，SDK“未出”，交互设计先行；百度移动用户体验部也很给力。
+
+市场、产品、项目
+----
+* [一家轻公司需要怎样的云服务](http://www.geekpark.net/topics/213439)，e袋洗的实践。
+
+团队建设、安全
+----
+* 鸡汤，[为什么有些人用一年时间获得了你十年的工作经验？](http://ourcoders.com/thread/show/6643/) 另外，[哪里真有什么信息过剩，你过剩吸收的是垃圾，你需要的信息你根本没有获取够](http://ourcoders.com/thread/show/6651/)。
+* [局座(战略忽悠局局长)访谈](http://www.jfdaily.com/guonei/bw/201509/t20150914_1813776.html)，呵呵。
+* [我是如何对待学习编程这件事的](http://blog.leapoahead.com/2015/08/27/how-i-learn-as-a-software-engineer/)，“能真的学得精的人必然学得广，能真的学得广的人必然能学得精，而且能学得很快”。
+* [来自Facebook的高效工作指南](http://www.alibuybuy.com/posts/88425.html)，**保持专注，一心一用**；养成工作习惯，并持之以恒，你的身体会适应的；**有会议就尽早安排**；**当看到一个程序员冥思苦想时，不要过去打扰**，甚至一句问候都是多余的；必须清楚白天必须完成的那件事，是什么；**给所有事情都设定一个期限**；多记，多做笔记；
+* **XCodeGhost**，一众互联网大公司的热门APP被加了“后门”，根本原因是**开发者下载使用了非官方渠道的Xcode**，不着调啊。先来看几篇分析，[XCode编译器里有鬼 – XCodeGhost样本分析](http://drops.wooyun.org/news/8864)，貌似最早唐巧在他博客上提及有这情况，不少安全人员和APP开发者也就跟进了，这话题迅速成了热点。虽然作者“现身”，解释了原因，关闭了服务器，但这发布Xcode版本之全也是过于用心了。初步看来，目前的后门似乎影响不大，但也许是还没利用充分，[@图拉鼎：尽管恶意服务器已停止收集，但仍有风险](http://www.cnbeta.com/articles/431391.htm)，[涅槃团队：Xcode幽灵病毒存在恶意下发木马行为](http://drops.wooyun.org/papers/8973)。再回到程序员的角度，[风云的分析](http://blog.codingnow.com/2015/09/xcodeghost.html)中提到了，计算机病毒的一种就是附着在编译器中的“源码病毒”，但是少见也就很少提及了（程序员本该谨慎使用自己的工具嘛）；而且半年前，就有人提及[CIA也动过Xcode的心思](https://www.schneier.com/blog/archives/2015/03/how_the_cia_mig.html)，但是谁会下载第三方的Xcode呢？结果是，有，而且非常多，哈哈。这算社工渗透么，简单的不敢相信啊。**开发者犯的错，用户完全没有选择权**，所以，这个放在团队节里，做个“专业”的程序员。对了，不能多说了，[最近得去趟香港](https://www.v2ex.com/t/221969)，OSX跟Xcode都三个月没升级了，Android的SDK也都得更新一下了。
+
+
+
+
