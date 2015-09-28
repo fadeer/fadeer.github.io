@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "每周技术文章 No.41"
+date:   2015-09-28 12:00:00
+title2: "2015.9.21-27"
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [前后分离架构的探索之路](http://segmentfault.com/a/1190000003795517)，非常好的一段经历，看作者从“画图”的成为一个**靠谱的前端工程师**，这种**发现问题、寻找方法的积极性**特别棒。
+* [苹果旧金山字体的秘密](http://colachan.com/post/3463)，细节设计很多，不知苹方的设计过程怎样。
+* [持续集成是什么？](http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html)
+* [当DevOps“遇上”周期表](http://www.sdnlab.com/13656.html)，工具真是多啊，元素周期表都填满了啊。“**不要沉迷于工具带来的便利**，大多数DevOps工具都是自动化的工具，用任意script语言一样能写出同样的效果，**重要的是完全理解了这些工具背后的设计理念和使用时机**”。
+* [使用 SRI 增强 localStorage 代码安全](https://imququ.com/post/enhance-security-for-ls-code.html)。
+* [基于electron实现 个人微信号机器人/外挂](https://github.com/fritx/wxbot)，有想法儿，“意义: 个人号可充当公众号使用，关系增强/门槛降低/更多行为/自动化”。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [Microsoft Loves Linux Deep Dive #1](http://blogs.technet.com/b/server-cloud/archive/2015/09/22/microsoft-loves-linux-deep-dive-1-introduction-to-linux-and-freebsd-on-hyper-v.aspx)，**微软对Linux是真爱**系列，呵呵。这次是Linux（FreeBSD）下整合服务LIS（BIS）的介绍。
+* [OpenStack多Region实现](http://blog.csdn.net/linglong0820/article/details/48687547)，了解一下，[这个](http://www.chenshake.com/openstack-region-realize/)是概述。
+* [Citrix要结束XenClient产品](http://www.brianmadden.com/blogs/gabeknuth/archive/2015/09/24/to-the-surprise-of-nobody-citrix-is-ending-sales-of-xenclient.aspx)，10.1停止销售，明年12.12结束支持。XenClient是个终端虚拟化方案，用户的笔记本就直接跑Hypervisor，本地桌面也是虚拟机，可以跟数据中心的VDI实现“透明”的同步。当初刚出来是看着挺新鲜，但是觉得有点儿激进的，之前也有企业IT反映大量部署了这个产品，看来确实有方便的地方。但实际用起来，还是有些限制，比如文中提到的新硬件的支持。另外，评论里提到“XenClient ending, Moka5 ended.”，哦？
+* [4 Reasons Why OpenStack is VDI’s Newest Darling](https://www.mirantis.com/openstack-portal/external-news/4-reasons-openstack-vdis-newest-darling/)，OpenStack应用在VDI的优势在于，线性扩展、多租户、网络隔离、便宜；显然，很多人已经这么用起来了。
+* [Uber的可用性设计](http://highscalability.com/blog/2015/9/21/uber-goes-unconventional-using-driver-phones-as-a-backup-dat.html)，利用司机的手机缓存更多数据，在数据中心失效时，也可以完整的提供服务。用端的一些复杂度，换取了整个架构的精简。表面上这是一个用户体验的问题，但还有更深层次的原因。每个以人工智能为主题的电影，后面都得有这么一段儿：大楼被毁了，机房都炸了，但是一条人迹罕至的街道角落里有个快摔坏的手机，啪嚓，亮了，居然还有一格儿信号...
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [WINDOWS 10 CORE STARTER PACK FOR RASPBERRY PI 2](https://www.raspberrypi.org/blog/windows-10-core-iot-starter-pack/)，官方套装啊。
+* [Vysor – 无需root，用Chrome完全控制Android设备](http://www.appinn.com/vysor-control-android-from-chrome/)。
+* XcodeGhost后续，[Xcode非官方版本恶意代码污染事件的分析与综述](http://drops.wooyun.org/papers/9178)，这篇分析的挺充分的，包括：作用机理与影响，扩散、组织分析，Android风险预警（又躺枪了），全景的安全视野才能减少盲点；[你以为服务器关了这事就结束了？](http://drops.wooyun.org/papers/9024) XcodeGhost截胡攻击和服务端的复现（本人正在钓鱼执法），以及UnityGhost预警。另外，看看左耳朵耗子的[实践](http://sinacn.weibodangan.com/user/1401880315/?status=3889585115148029&utm_source=rss)，“用Google和Baidu搜索 “XCode 下载”，Google返回的第一条是Apple的Developer站点，第二条是Apple Store，然后才是非官方的。而Baidu的搜索结果呢？呵呵。”
+* 这次苹果开大会，最吸引我的就是**Apple Pencil**了，对，比新的Apple TV还高。来看Michael Rose的[这篇评论](https://mademistakes.com/articles/ipad-pro/)，这家伙绝对是iPad绘画的重度玩家，用Paper画过非常多的作品，电容笔也接触过很多。这里提到了**Procreate 3**年底要发布了，显然是iPad Pro + Pencil的支持。盼望着明年Apple可以把Pencil的屏幕支持下放到iPad mini上，那我就可以升级了。
+
+市场、产品、项目
+----
+* [京东的O2O逻辑](http://www.goingconcern.cn/article/8112)，我得看看这帮互联网公司是怎么变着方儿，要改变我消费习惯的。
+* [Google Now，Cortana和Siri是怎么预测你想干什么的？](http://www.pingwest.com/wanbao-2015-09-22/) 基本的结论是：“实现预测功能的多少，取决于你向这些软件共享了多少个人信息”，Google Now > Cortana > Siri；这就是个拿隐私换方便和免费的时代，趋势不可挡啊。
+* [乐高发展史后续](http://www.ifanr.com/563238)，也是挺不容易的。
+* [用户即算法](http://www.huxiu.com/article/126891/1.html)，“知乎这次站在了今日头条的对面”，就是**人肉选择还机器选择**的问题，这个话题我喜欢。就像我的新闻来源，也用过一阵像Zite那样的服务，根据个人阅读习惯逐渐优选文章；但是还是回归了RSS订阅，因为，关注的博客一篇都不想错过，偶尔“非主流”反倒好看；另外不同类型的内容会分级查看，有的就是看看标题，有的必然保存稍后深读，而这事儿由机器来干，总觉得不靠谱。
+
+团队建设、安全
+----
+* [看不见的成本](http://www.ikent.me/blog/5045)，“对于年轻人来说，最宝贵的是时间，最迫切需要的是技能。
+这是2个最根本的指标，**不要浪费时间在不能让你快速成长的事情上**”，这太对了。**只有你自己在乎你自己的时间，你的时间才会有可能值钱**。
+
+
