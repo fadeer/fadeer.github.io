@@ -41,7 +41,7 @@ Server**的登录界面真精简啊。
 团队建设
 ----
 * 使用git和github管理自己的项目，[基础操作学习](http://segmentfault.com/a/1190000003728094)，[真实开发环境的策略](http://segmentfault.com/a/1190000003739324)，同类文章很多，时不时看看也能提醒些新的用法。
-* ReThought，关于理想的开发团队，[(一): 如何构建理想的开发团队](http://segmentfault.com/a/1190000003728329)，[(二): 如何照顾团队中的新人](http://segmentfault.com/a/1190000003734131)。
+* ReThought，关于理想的开发团队，[(一): 如何构建理想的开发团队](http://segmentfault.com/a/1190000003728329)，[(二): 如何照顾团队中的新人](http://segmentfault.com/a/1190000003734131)。*9.28更新*，[(三): 说说代码](http://segmentfault.com/a/1190000003773058)。
 * [让你最痛苦的技术文档是如何制造出来的……](http://mp.weixin.qq.com/s?__biz=MzAxMzMxNDIyOA==&mid=214370853&idx=1&sn=1cc574a1c2e6abf98a09e12d9ef88006&scene=0#rd)，挺真实啊，评估文字的有效性，很难。
 * [你碰到过的最难调的 Bug 是什么样的？](http://www.zhihu.com/question/34787444) **哈哈，哈哈，哈哈**。这周好多追Bug的事儿啊，重点是思路，虽然有时事后才能看出思路来，呵呵。
 

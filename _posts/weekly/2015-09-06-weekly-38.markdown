@@ -16,7 +16,7 @@ tags: Weekly Skill
 * [React Component Lifecycle](http://segmentfault.com/a/1190000003691119)。
 * [HTTP/2 资料汇总](https://imququ.com/post/http2-resource.html)。
 * [初探 performance – 监控网页与程序性能](http://www.alloyteam.com/2015/09/explore-performance/)，“在开发环境下，其实我们自己打开 Chrome 的开发者工具，切换到网络面板，就能很详细的看到网页性能相关的数据。但当**我们需要统计分析用户打开我们网页时的性能如何时**，这些performance原始信息就有用啦”。
-* 牛逼的来了，**打造最美HTML5 3D机房**，[第一季](http://segmentfault.com/a/1190000002866653)，[第二季](http://segmentfault.com/a/1190000003711760)。作者[MonoLog](http://segmentfault.com/blog/mono)专注UI，前端数据可视化，最近研究HTML5，webGL 3D，思路和动手能力确实很值得佩服。再翻翻他之前关于HTML5的几篇，[彩虹爆炸图](http://segmentfault.com/a/1190000002775741)，[萌萌哒拓扑图分组](http://segmentfault.com/a/1190000002920762)。
+* 牛逼的来了，**打造最美HTML5 3D机房**，[第一季](http://segmentfault.com/a/1190000002866653)，[第二季](http://segmentfault.com/a/1190000003711760)。作者[Mono](http://segmentfault.com/blog/mono)专注UI，前端数据可视化，最近研究HTML5，webGL 3D，思路和动手能力确实很值得佩服。再翻翻他之前关于HTML5的几篇，[彩虹爆炸图](http://segmentfault.com/a/1190000002775741)，[萌萌哒拓扑图分组](http://segmentfault.com/a/1190000002920762)。
 
 后端技术，操作系统、虚拟化、存储、网络、桌面领域
 ----
