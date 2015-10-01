@@ -127,7 +127,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
 }
 
-
+h2 {
+    border-left: 4px solid $brand-color;
+    padding-left: 8px;
+}
 
 /**
  * Links
