@@ -6,31 +6,21 @@ layout: default
 
     <div class="area">
         <header class="post-header">
-        <h2 class="post-title">关于我</h2>
+        <h1 class="post-title">关于我</h1>
         </header> 
 	<article class="post-content">
-		{% capture mdMe %}{% include md.fadeer %}{% endcapture %}
+		{% capture mdMe %}{% include _fadeer.md %}{% endcapture %}
 		{{ mdMe | markdownify }}
 	</article> 
     </div>
 
     <div class="area">
         <header class="post-header">
-        <h2 class="post-title">关于这个博客</h2>
+        <h1 class="post-title">关于这个博客</h1>
         </header> 
 	<article class="post-content">
-		{% capture mdBlog %}{% include md.blog %}{% endcapture %}
+		{% capture mdBlog %}{% include _blog.md %}{% endcapture %}
 		{{ mdBlog | markdownify }}
-	</article> 
-    </div>
-
-    <div class="area">
-        <header class="post-header">
-        <h2 class="post-title">关于订阅</h2>
-        </header> 
-	<article class="post-content">
-		{% capture mdRss %}{% include md.rss %}{% endcapture %}
-		{{ mdRss | markdownify }}
 	</article> 
     </div>
 
