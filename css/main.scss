@@ -10,7 +10,7 @@ $font-default:	"San Francisco", "Helvetica Neue", "Segoe UI", "PingFang SC", "Mi
 $font-mono:	Monaco, Menlo, Consolas, Courier New, "Heiti SC", STHeiti, "Microsoft Yahei", monospace;
 
 $base-font-family: $font-default;
-$base-font-size:   15px;
+$base-font-size:   16px;
 // 1.5~24px 1.375~22px 1.25~20px 1.125~18px 0.875~14px
 
 $title-font-size:  24px; //$base-font-size * 1.5;
@@ -29,7 +29,7 @@ $spacing-lr:       20px;
 $text-color:       #222;
 $background-color: #f3f3f3;
 $bg-color-t: #c3c3c3 90%;
-$bg-color-b: #f3f3f3;
+$bg-color-b: #fff;
 $brand-color:      #1471CB; //#2880d5;
 $life-color: #BD3232;
 $meta-color: #777;

@@ -141,6 +141,10 @@
     margin-bottom: $spacing-unit;
 }
 
+.footer-info {
+    margin: 0;
+}
+
 .footer-col-1 {
     width: -webkit-calc(35% - (#{$spacing-unit} / 2));
     width:         calc(35% - (#{$spacing-unit} / 2));
