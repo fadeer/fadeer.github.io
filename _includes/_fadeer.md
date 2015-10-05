@@ -1,3 +1,6 @@
+关于我
+----
+
 我，天津人，爱好众多，但都不太深入，比如户外、骑行、画画、听歌、吃饭、烘培、咖啡、跑步、电脑、移动设备... 也是一个**程序员**，从大学毕业就干了这行，也算是兴趣所在。这十几年做过很多方面的东西，但都不太深入，比如：
 
 * Linux的自动安装，环境定制，基础服务管理。
@@ -15,6 +18,5 @@
 
 **不常用**联系方式：
 
-* 微博，[往前走_不要往两边看](http://weibo.com/fadeer)
-* 邮箱，[Gmail](mailto://fadeer@gmail.com)
-* 邮箱，[Hotmail](mailto://fadeer@hotmail.com)
+* 微博：[往前走_不要往两边看](http://weibo.com/fadeer)
+* 邮箱：<a><i class="zmdi zmdi-google-glass" /></a> [fadeer@gmail.com](mailto:fadeer@gmail.com)，<a><i class="zmdi zmdi-email" /></a> [fadeer@hotmail.com](mailto:fadeer@hotmail.com)

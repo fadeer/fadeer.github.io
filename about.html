@@ -5,9 +5,6 @@ layout: default
 <div class="home">
 
     <div class="area">
-        <header class="post-header">
-        <h1 class="post-title">关于我</h1>
-        </header> 
 	<article class="post-content">
 		{% capture mdMe %}{% include _fadeer.md %}{% endcapture %}
 		{{ mdMe | markdownify }}
@@ -15,9 +12,6 @@ layout: default
     </div>
 
     <div class="area">
-        <header class="post-header">
-        <h1 class="post-title">关于这个博客</h1>
-        </header> 
 	<article class="post-content">
 		{% capture mdBlog %}{% include _blog.md %}{% endcapture %}
 		{{ mdBlog | markdownify }}
