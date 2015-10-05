@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "每周技术文章 No.42"
+date:   2015-10-05 18:00:00
+title2: "2015.9.28-10.4"
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [关于单页面应用一些随想](http://segmentfault.com/a/1190000003811700)，哈哈，看得很爽的吐槽文啊。“结论”是**跟进技术、加强基础**。
+* [从纵向到横向！设备转向设计的基础知识](http://www.uisdc.com/designing-orientation-portrait-landscape)。
+* [为什么页面跟设计稿差距这么大？是啊！为毛啊？](http://www.uisdc.com/design-just-stay-design)，哈哈，“说多了都是泪”，这个就应该结对儿开发。
+* [React 数据流管理架构之 Redux 介绍](http://www.alloyteam.com/2015/09/react-redux/)。
+* [JavaScript 原型系统的变迁，以及 ES6 class](http://segmentfault.com/a/1190000003798438)。
+* [传统 Ajax 已死，Fetch 永生](http://segmentfault.com/a/1190000003810652)，该替代的就替代好了。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [软件开发环境应用Docker](http://www.larrycaiyu.com/2015/09/14/docker-is-buddy-for-your-design-environment.html)，解决实际问题的一个例子。
+* [你的云服务是设计良好的么？](https://aws.amazon.com/blogs/aws/are-you-well-architected/) 考虑的方向包括安全、弹性扩充、性能的实现效率、优化成本，来看看AWS的[设计指南](http://d0.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)。
+* [哪种监控工具才是运维人的最爱？](http://chenguang.blog.51cto.com/350944/1698721) 这是对OSSIM的介绍，聚合、分析、集中展示，参考[Ossim5.0使用预览](http://chenguang.blog.51cto.com/350944/1636741)。
+* [Windows 10 安全相关视频](https://channel9.msdn.com/Series/Windows-10--Enterprise-Mobility-60-Second-Update-for-sysadmins/Windows-10-Security)。
+* 如果不小心扩展了带快照的VHDX、VHD咋办，[来学学](https://blog.workinghardinit.work/2015/10/01/expanding-vhd-or-vdhx-files-that-have-checkpoints-is-considered-harmful/)。
+* Open vSwitch 2.4 on Hyper-V  - [Part 1](http://www.cloudbase.it/open-vswitch-24-on-hyperv-part-1/)，添加支持Open vSwitch的虚拟网络，如何跟OpenStack整合。
+* [Github的清点对象算法](http://www.ruanyifeng.com/blog/2015/09/git-bitmap.html)。
+* Linux 挖坑不埋指南，[甲篇](http://segmentfault.com/a/1190000003812059)、[乙篇](http://segmentfault.com/a/1190000003816031)，作者从Gentoo的角度看Liinux，这个分支之前接触的很少，了解一下。相关的还有[初探 ebuild](http://segmentfault.com/a/1190000003819421)。
+* 那些年我们一起脱过的衣裳 - [脱壳(上)](http://drops.wooyun.org/binary/8640)。
+* [OS X平台的Dylib劫持技术（上）](http://drops.wooyun.org/tips/9249)，“通过利用OS X动态库loader的未文档化的技术和几种特性，攻击者将精心制作的包含恶意代码的动态链接库加载进存在漏洞的程序中”。
+* [DUKES----持续七年的俄罗斯网络间谍组织大起底](http://drops.wooyun.org/papers/9292)，“Duke网络间谍小组手头掌握有充足的资源，他们目标明确，行动有条理。我们认为，Duke小组至少从2008年开始就为俄罗斯联邦效力，帮助俄罗斯收集情报，从而制定外交和安全政策。” **说的跟真事儿赛的**。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [React Native for Android 入门老虎](http://www.race604.com/react-native-for-android-start/)。
+
+市场、产品、项目
+----
+* [《In The Plex》](http://www.huxiu.com/article/127218/1.html)，这本迄今为止最全面解析Google却迟迟没有中文版的书。
+* [量化绘画：程序和绘画之间的化学反应](http://36kr.com/p/5038073.html)，有趣的项目。绘画是每个人都可习得的技能？这几乎是肯定的。每次说到这个事儿，我都会想起那些画师十年进化图；如果你感觉自己几乎没这根神经，别着急，你有十年时间把这事儿做好，结尾会很精彩的。“画家的观察模式开启...”
+
+团队建设、安全
+----
+* [再谈技术的价值](http://36kr.com/p/5038068.html)，“在相当多的情况下，优秀的技术保障往往没有存在感，其价值只有出问题的时候才会被人想起来”，云淡风轻和刷存在感都很重要啊。
+* [编码之道：取个好名字很重要](http://www.phpxs.com/post/4261)，命名能直白的反映设计思路，**写下任何一行代码的时候，心里都要想着这代码是三个月之后的自己看的**。
+* [为什么技术团队应该写博客？](http://bxbxbai.gitcafe.io/2015/09/29/why-a-team-should-write-a-blog/) “可以有技术沉淀，可以促进技术交流，**写作是为了更好的思考**”；如果你不能把事情说清楚，说明你还没搞明白。
+
+
