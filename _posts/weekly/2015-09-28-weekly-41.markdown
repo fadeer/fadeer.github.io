@@ -19,7 +19,7 @@ tags: Weekly Skill
 
 后端技术，操作系统、虚拟化、存储、网络、桌面、安全
 ----
-* [Microsoft Loves Linux Deep Dive #1](http://blogs.technet.com/b/server-cloud/archive/2015/09/22/microsoft-loves-linux-deep-dive-1-introduction-to-linux-and-freebsd-on-hyper-v.aspx)，**微软对Linux是真爱**系列，呵呵。这次是Linux（FreeBSD）下整合服务LIS（BIS）的介绍。
+* [Microsoft Loves Linux Deep Dive #1](http://blogs.technet.com/b/server-cloud/archive/2015/09/22/microsoft-loves-linux-deep-dive-1-introduction-to-linux-and-freebsd-on-hyper-v.aspx)，**微软对Linux是真爱**系列，呵呵。这次是Linux（FreeBSD）下整合服务LIS（BIS）的介绍。*10.5更新*，[#2](http://blogs.technet.com/b/server-cloud/archive/2015/09/30/microsoft-loves-linux-deep-dive-2-linux-and-freebsd-integration-services-core-features.aspx) ，Linux下整合服务详细功能。
 * [OpenStack多Region实现](http://blog.csdn.net/linglong0820/article/details/48687547)，了解一下，[这个](http://www.chenshake.com/openstack-region-realize/)是概述。
 * [Citrix要结束XenClient产品](http://www.brianmadden.com/blogs/gabeknuth/archive/2015/09/24/to-the-surprise-of-nobody-citrix-is-ending-sales-of-xenclient.aspx)，10.1停止销售，明年12.12结束支持。XenClient是个终端虚拟化方案，用户的笔记本就直接跑Hypervisor，本地桌面也是虚拟机，可以跟数据中心的VDI实现“透明”的同步。当初刚出来是看着挺新鲜，但是觉得有点儿激进的，之前也有企业IT反映大量部署了这个产品，看来确实有方便的地方。但实际用起来，还是有些限制，比如文中提到的新硬件的支持。另外，评论里提到“XenClient ending, Moka5 ended.”，哦？
 * [4 Reasons Why OpenStack is VDI’s Newest Darling](https://www.mirantis.com/openstack-portal/external-news/4-reasons-openstack-vdis-newest-darling/)，OpenStack应用在VDI的优势在于，线性扩展、多租户、网络隔离、便宜；显然，很多人已经这么用起来了。
