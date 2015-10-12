@@ -24,11 +24,11 @@ tags: Weekly Skill
 * [哪种监控工具才是运维人的最爱？](http://chenguang.blog.51cto.com/350944/1698721) 这是对OSSIM的介绍，聚合、分析、集中展示，参考[Ossim5.0使用预览](http://chenguang.blog.51cto.com/350944/1636741)。
 * [Windows 10 安全相关视频](https://channel9.msdn.com/Series/Windows-10--Enterprise-Mobility-60-Second-Update-for-sysadmins/Windows-10-Security)。
 * 如果不小心扩展了带快照的VHDX、VHD咋办，[来学学](https://blog.workinghardinit.work/2015/10/01/expanding-vhd-or-vdhx-files-that-have-checkpoints-is-considered-harmful/)。
-* Open vSwitch 2.4 on Hyper-V  - [Part 1](http://www.cloudbase.it/open-vswitch-24-on-hyperv-part-1/)，添加支持Open vSwitch的虚拟网络，如何跟OpenStack整合。
+* Open vSwitch 2.4 on Hyper-V  - [Part 1](http://www.cloudbase.it/open-vswitch-24-on-hyperv-part-1/)，添加支持Open vSwitch的虚拟网络，如何跟OpenStack整合。*10.12更新*：[Part 2](http://www.cloudbase.it/open-vswitch-24-on-hyperv-part-2/)。
 * [Github的清点对象算法](http://www.ruanyifeng.com/blog/2015/09/git-bitmap.html)。
 * Linux 挖坑不埋指南，[甲篇](http://segmentfault.com/a/1190000003812059)、[乙篇](http://segmentfault.com/a/1190000003816031)，作者从Gentoo的角度看Liinux，这个分支之前接触的很少，了解一下。相关的还有[初探 ebuild](http://segmentfault.com/a/1190000003819421)。
 * 那些年我们一起脱过的衣裳 - [脱壳(上)](http://drops.wooyun.org/binary/8640)。
-* [OS X平台的Dylib劫持技术（上）](http://drops.wooyun.org/tips/9249)，“通过利用OS X动态库loader的未文档化的技术和几种特性，攻击者将精心制作的包含恶意代码的动态链接库加载进存在漏洞的程序中”。
+* [OS X平台的Dylib劫持技术（上）](http://drops.wooyun.org/tips/9249)，“通过利用OS X动态库loader的未文档化的技术和几种特性，攻击者将精心制作的包含恶意代码的动态链接库加载进存在漏洞的程序中”。*10.12更新*：[（下）](http://drops.wooyun.org/tips/9425)。
 * [DUKES----持续七年的俄罗斯网络间谍组织大起底](http://drops.wooyun.org/papers/9292)，“Duke网络间谍小组手头掌握有充足的资源，他们目标明确，行动有条理。我们认为，Duke小组至少从2008年开始就为俄罗斯联邦效力，帮助俄罗斯收集情报，从而制定外交和安全政策。” **说的跟真事儿赛的**。
 
 硬件设备，ARM、终端、移动、智能设备、安全
