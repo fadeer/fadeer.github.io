@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "每周技术文章 No.43"
+date:   2015-10-12 22:00:00
+title2: "2015.10.5-11"
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [React中的Portal组件](http://segmentfault.com/a/1190000003821401)，“通过这个Portal的概念实现了React式的模态窗”，进一步推荐的是[react-overlays](https://github.com/react-bootstrap/react-overlays)。
+* [WeUI（微信官方UI库）发布](http://www.qianduan.net/weui-released-wechat-official-ui-library/)，“微信团队里的几个小伙子把微信里面web app的UI，按照设计规范给梳理了一遍，并将之开源了出来”。见[GitHub WeUI](https://github.com/weui/weui)，稍后还会有[react-weui](https://github.com/weui/react-weui)。
+* [JavaScript闭包的底层运行机制](http://blog.leapoahead.com/2015/09/15/js-closure/)。
+* [奥森图标（Font Awesome）](http://www.thinkcmf.com/font/index.html)，完全免费，可以用于商业用途的**图标字体**，目前[479款图标](http://www.thinkcmf.com/font/icons)，可做备用。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* Hyper-V Linux Guest，[Linux Dynamic Memory and Live Backup](http://blogs.technet.com/b/server-cloud/archive/2015/10/07/microsoft-loves-linux-deep-dive-3-linux-dynamic-memory-and-live-backup.aspx)，这两个功能在生产环境下是必须的，特别是备份。
+* [Virtual Network Appliances I Use for Hyper-V Labs](https://blog.workinghardinit.work/2015/10/08/virtual-network-appliances-i-use-for-hyper-v-labs/)，作者分享了构建基于Hyper-V实验环境用到的一些虚拟机节点，穷人的装备，值得借鉴：[VyOS](http://vyos.net/wiki/Main_Page)作为路由，[OPENsense](https://opnsense.org/about/about-opnsense/)或[IPFire](http://www.ipfire.org/features)作为防火墙。
+* Troubleshoot WinRM with PowerShell -- [Part 1](http://blogs.technet.com/b/heyscriptingguy/archive/2015/10/05/troubleshoot-winrm-with-powershell.aspx)，说不定还能用上。
+* [Everything you ever wanted to know about 3D Graphics Remoting is in TeamRGE's new white paper](http://www.brianmadden.com/blogs/gabeknuth/archive/2015/10/07/everything-you-ever-wanted-to-know-about-3d-graphics-remoting-is-in-teamrge-s-new-white-paper.aspx)，这是对TeamRGE这90多页白皮书的解读，原文内容包括图形系统、2D、3D的特点、远程桌面下的支持；几家典型协议、产品的对比，值得仔细看看。
+* [BadUsb----结合实例谈此类外设的风险](http://drops.wooyun.org/tips/9336)，“目前的效果是**只需要5秒钟之内**，可过某pc装机量5亿的杀软，**电脑闪一下屏幕就可以拔下U盘了**，剩下的交给后台的PowerShell进程，实现的功能有获取电脑的基本信息，Invoke-mimikatz抓密码，桌面截屏，集成LaZagne获取系统存储的密码，递归获取桌面所有txt doc类 xls类文件，最终打成压缩包，可通过邮箱或者ftp发送”。作者很有动手能力啊，讨论也很热闹，可见**这是个很有可行性的方案**，呵呵。怎么防？“对了，**你们不是做桌面云的么？**” “是是，但是U盘重定向目前还不支持，估计下一版才行，还得...” "就要这一版的！"
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [Android开发最佳实践](http://hukai.me/android-dev-patterns/)，官方[新课程](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc-lJo_RGGXL2Psr8vVCTWjM)，“涉及到一些平时开发过程中应该保持的良好习惯以及如何使用最新的[Android Design Support Library](http://android-developers.blogspot.com/2015/05/android-design-support-library.html)来快速实现官方推荐的Material Design样式的应用”，都涉及Android 6.0了，我先看看热闹吧。
+* [Android-x86现已基于5.1.1 Lollipop：支持UEFI和64位内核](http://www.cnbeta.com/articles/436381.htm)，得空试试。
+* [谈谈App混合开发](http://bxbxbai.gitcafe.io/2015/08/16/talk-about-bybird-app/)，怎么切分很有意思啊。
+* [深扒：教育部强推、坐拥1.9亿学生信息，超级应用IME风险调查](http://www.huxiu.com/article/127419/1.html)，好么，又见高大上的应用了。
+
+市场、产品、项目
+----
+* [减少改稿15招！从开发角度聊聊如何洞悉隐性需求？](http://www.uisdc.com/inside-out-implicit-demand) 隐性需求，很现实的问题；与其躲避，不如早作打算。
+* DigitalOcean CS 总监讲述[如何从头构建一个 Customer Success 团队](http://36kr.com/p/5038157.html)，看起来很有用。
+* [产品小白观世界，在线医疗行业](http://www.woshipm.com/it/213591.html)，这是对[《2015年中国在线医疗行业研究报告》](http://report.iresearch.cn/2434.html)的一个知识整理。
+* [Elon Musk 的花招](http://36kr.com/p/5038095.html)，**加速世界向可持续交通的转变**，脑洞大开，为什么不呢。
+* [深扒水军的前世今生](http://www.huxiu.com/article/127432/1.html)，补课了；然后再看微信阅读量，都感觉不真实了。
+
+团队建设、安全
+----
+* 基于VPS架设VPN的[科学上网全攻略](http://sr1.me/think-when-god-laugh/2015/10/07/set-up-pptpd-server-of-openvz-platform-and-scientifically-surf-the-internet-in-china.html)，备忘一下，希望不至于折腾这个。
+* [如何对基础不好的遗留系统做脱胎换骨的改造？](http://36kr.com/p/5038263.html) 多好的话题，到了“标题党”手里就成了“下次老板让你重构系统，让他看看这篇文章”，哈哈。作者的经验是：一定要有非常优秀的业务人员和开发人员、“推倒重来” 往往不如 “逐步改良”。
+* [程序员累了怎么办？](http://www.codeceo.com/article/programmer-tied.html) 作者的建议是：“吃好、睡好、不要劳累过度、番茄工作法、运动”。保持节奏很重要，太忙了容易倦怠，太闲了容易懈怠。
+* [最好的 10 部关于互联网的纪录片](http://www.geekpark.net/topics/213564)。
+
+
+
