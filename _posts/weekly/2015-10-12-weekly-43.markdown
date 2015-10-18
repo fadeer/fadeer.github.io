@@ -13,7 +13,7 @@ tags: Weekly Skill
 * [React中的Portal组件](http://segmentfault.com/a/1190000003821401)，“通过这个Portal的概念实现了React式的模态窗”，进一步推荐的是[react-overlays](https://github.com/react-bootstrap/react-overlays)。
 * [WeUI（微信官方UI库）发布](http://www.qianduan.net/weui-released-wechat-official-ui-library/)，“微信团队里的几个小伙子把微信里面web app的UI，按照设计规范给梳理了一遍，并将之开源了出来”。见[GitHub WeUI](https://github.com/weui/weui)，稍后还会有[react-weui](https://github.com/weui/react-weui)。
 * [JavaScript闭包的底层运行机制](http://blog.leapoahead.com/2015/09/15/js-closure/)。
-* [奥森图标（Font Awesome）](http://www.thinkcmf.com/font/index.html)，完全免费，可以用于商业用途的**图标字体**，目前[479款图标](http://www.thinkcmf.com/font/icons)，可做备用。
+* [奥森图标（Font Awesome）](http://www.thinkcmf.com/font/index.html)，完全免费，可以用于商业用途的**图标字体**，目前[479款图标](http://www.thinkcmf.com/font/icons)，可做备用。*10.18更新*，还是看源头的[Font Awesome](http://fortawesome.github.io/Font-Awesome/)吧，4.4已经[585个图标](http://fortawesome.github.io/Font-Awesome/icons/)了。
 
 后端技术，操作系统、虚拟化、存储、网络、桌面、安全
 ----
