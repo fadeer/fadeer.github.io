@@ -1,0 +1,54 @@
+---
+layout: post
+title:  每周技术文章 No.44
+date:   2015-10-18 20:00:00
+title2: 2015.10.12-18
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* HTML5 3D机房又更新了，[新增资产管理、动环监控](http://segmentfault.com/a/1190000003863028)。
+* [超实用的响应式排版快速指南](http://www.uisdc.com/responsive-typography-quick-tutorial)，这个磨合好了也挺不容易的。
+* 基础知识：[CSS 定位 浮动](http://segmentfault.com/a/1190000003856280)，
+* 交互设计的未来：[技术的改变使交互设计的可能性愈加丰富](http://www.woshipm.com/ucd/218930.html)，一些交互细节和思考。然后看看[滑动条设计：拇指法则](http://mux.baidu.com/?p=1000417)。
+* 字谈字畅 004：[苹方鼎谈](http://www.typeisbeautiful.com/2015/10/9617/)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [Windows Insider Preview: Nested Virtualization](http://blogs.technet.com/b/virtualization/archive/2015/10/13/windows-insider-preview-nested-virtualization.aspx)，不容易啊，嵌套虚拟化这功能，VMware Workstation有了好久了啊。
+* 美团大众点评合并了，不过更关心技术方面的事儿，看看[背后技术力量的对比回顾](http://www.infoq.com/cn/news/2015/10/meituan-dianping-tech)，包括**云架构，数据架构，前端，移动端，个性化推荐**。
+* HT泄露后续，[HT漏洞大范围挂马，上百万电脑中招](http://drops.wooyun.org/papers/9784)，利用的flash漏洞CVE-2015-5122，最近有Flash弹出升级，生吧。
+* [关于 Web 安全，99% 的网站都忽略了这些](http://segmentfault.com/a/1190000003852910)。
+* [RESTFUL API 安全设计指南](http://drops.wooyun.org/web/9737)，这个有用。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [盘点国内程序员不常用的热门iOS第三方库](http://segmentfault.com/a/1190000003849085)，看完,还敢自称”精通iOS开发”吗?
+* iOS应用架构谈，关于[本地持久化方案及动态部署](http://casatwy.com/iosying-yong-jia-gou-tan-ben-di-chi-jiu-hua-fang-an-ji-dong-tai-bu-shu.html)。
+* [Bluetooth Low Energy 嗅探](http://drops.wooyun.org/tips/9651)，“不过后来和小伙伴们聊了一下，才意识到这一切的前提条件是你得在第一次匹配的时候抓到所有的关键包（如果你只有1个ubertooth意味着你只有1/3的机会）。不过遗憾的是很多设备在完成第一次的匹配之后就会记忆彼此。下次通讯时不会再重新进行匹配”。
+
+市场、产品、项目
+----
+* **恐惧营销**：[如何科学地吓唬消费者](http://www.woshipm.com/operate/219029.html)，这太有用了，哈哈。其实最常见的场景是，**如何科学地吓唬小朋友**。
+* [让用户对你的APP从讨厌变为忠实只需以下几步](http://www.woshipm.com/operate/216773.html)，面向用户的沟通思路，“挑货人才是买货人、这锅我背、一份简单的执行安排”。
+* [蚂蚁金服下的到底是一盘什么棋？](http://www.ifanr.com/573392)
+* [如何给软件开发项目估价？](https://blog.coding.net/blog/How-to-estimate-the-program) “无论何种方式，都需要你**明确需求，明确需求，明确需求**！重要的事情说三遍。所以你找别人报价的时候，千万不要只扔过去“**开发一个类似于 xxxx 这样的 APP 需要多少钱？**”，你不会得到你想要的答案的，**回答这样的问题是不负责任的**。不过，这倒不失为一种过滤服务方的一种方法：）”。
+
+团队建设、安全
+----
+* [技术高手如何炼成](http://www.cnblogs.com/zhengyun_ustc/p/upgrade.html)，“**认真构建完整的知识体系**”；“**顺着一个Topic钻进去**，锻炼自己的预研能力”；“**疯狂回答技术问题**”；“RCA/总结”。
+* 荣誉，还是苦逼？[也议全栈工程师和DevOps](http://segmentfault.com/a/1190000003865176)，基本还是苦逼，哈哈。
+* 优秀开发者的最缺的技能是什么？[好的文笔！](http://www.pingwest.com/engineer-who-is-good-at-writing/) 为嘛？因为这会帮助他们更清楚地向经理，老板和潜在客户**解释他们的工作**，也更容易让这些人给予自己**恰当的回报**。
+* 然后，来看看一高级程序员的写作水平如何了， [几缕代码与闲思](https://github.com/lifesinger/lifesinger.github.io/issues/223)，“技术团队最大的危机，经常来自 Leader 的老去”；“技术人员的发展，最难的是突破自己的迷障”。还有四火的[三百篇文字纪念](http://www.raychase.net/3386)，“这些东西，最大的受众永远是自己，给自己一个尽量保持清醒的动力。每一周都对自己做过的和将要做的事情有思考和判断”。
+* [Getting (the Right) Stuff Done](http://blog.learningbyshipping.com/2015/10/12/getting-the-right-stuff-done/)，不容易，逐渐改善。
+
+图书
+----
+* [《中国为什么有前途：对外经济关系的战略潜能》](http://www.duokan.com/book/46282)，这就像技术方向、或产品方向；是否站在一个“有前途”的分支上，有时候不得不了解一下啊。
+* 然后，身体是革命的本钱，这个也要从细节做起，来看[《知乎圆桌·牙齿保卫战》](http://www.duokan.com/book/96175)，呵呵。
+
+
