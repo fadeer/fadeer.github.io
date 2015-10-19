@@ -18,6 +18,6 @@
 
 **不常用**联系方式：
 
-* [<i class="fa fa-weibo" /> 往前走_不要往两边看](http://weibo.com/fadeer)
-* [<i class="fa fa-send" /> fadeer@gmail.com](mailto:fadeer@gmail.com)
-* [<i class="fa fa-send" /> fadeer@hotmail.com](mailto:fadeer@hotmail.com)
+* [<i class="fa fa-weibo"></i> 往前走_不要往两边看](http://weibo.com/fadeer)
+* [<i class="fa fa-send"></i> fadeer@gmail.com](mailto:fadeer@gmail.com)
+* [<i class="fa fa-send"></i> fadeer@hotmail.com](mailto:fadeer@hotmail.com)
