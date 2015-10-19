@@ -20,14 +20,14 @@ tags: Weekly Skill
 ----
 * [Windows Insider Preview: Nested Virtualization](http://blogs.technet.com/b/virtualization/archive/2015/10/13/windows-insider-preview-nested-virtualization.aspx)，不容易啊，嵌套虚拟化这功能，VMware Workstation有了好久了啊。
 * 美团大众点评合并了，不过更关心技术方面的事儿，看看[背后技术力量的对比回顾](http://www.infoq.com/cn/news/2015/10/meituan-dianping-tech)，包括**云架构，数据架构，前端，移动端，个性化推荐**。
-* HT泄露后续，[HT漏洞大范围挂马，上百万电脑中招](http://drops.wooyun.org/papers/9784)，利用的flash漏洞CVE-2015-5122，最近有Flash弹出升级，生吧。
+* HT泄露后续，[HT漏洞大范围挂马，上百万电脑中招](http://drops.wooyun.org/papers/9784)，利用的flash漏洞CVE-2015-5122，最近有Flash弹出升级，升吧。
 * [关于 Web 安全，99% 的网站都忽略了这些](http://segmentfault.com/a/1190000003852910)。
 * [RESTFUL API 安全设计指南](http://drops.wooyun.org/web/9737)，这个有用。
 
 硬件设备，ARM、终端、移动、智能设备、安全
 ----
 <!--preview-end-->
-* [盘点国内程序员不常用的热门iOS第三方库](http://segmentfault.com/a/1190000003849085)，看完,还敢自称”精通iOS开发”吗?
+* [盘点国内程序员不常用的热门iOS第三方库](http://segmentfault.com/a/1190000003849085)，看完，还敢自称“精通iOS开发”吗?
 * iOS应用架构谈，关于[本地持久化方案及动态部署](http://casatwy.com/iosying-yong-jia-gou-tan-ben-di-chi-jiu-hua-fang-an-ji-dong-tai-bu-shu.html)。
 * [Bluetooth Low Energy 嗅探](http://drops.wooyun.org/tips/9651)，“不过后来和小伙伴们聊了一下，才意识到这一切的前提条件是你得在第一次匹配的时候抓到所有的关键包（如果你只有1个ubertooth意味着你只有1/3的机会）。不过遗憾的是很多设备在完成第一次的匹配之后就会记忆彼此。下次通讯时不会再重新进行匹配”。
 
