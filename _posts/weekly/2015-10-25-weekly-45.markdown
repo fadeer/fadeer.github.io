@@ -1,0 +1,55 @@
+---
+layout: post
+title:  每周技术文章 No.45
+date:   2015-10-25 20:00:00
+title2: 2015.10.19-25
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [全局CSS的终结](http://www.alloyteam.com/2015/10/8536/)，使用的是Webpack的[css-loader](https://github.com/webpack/css-loader#local-scope)。
+* 然后就连续看到几个关于Webpack的实践，比如：[Webpack 用来做模块热替换](http://segmentfault.com/a/1190000003872635)，Webpack 做 Node.js 代码热替换，[第一步](http://segmentfault.com/a/1190000003888845)。
+* [threejs构建web三维视图入门教程](http://segmentfault.com/a/1190000003883472)，暂时用不上，了解一下。
+* [JavaScript类型识别](http://segmentfault.com/a/1190000003873132)。
+* [web里计算FPS](http://www.alloyteam.com/2015/10/web-computing-fpstranslation/)，“保持FPS稳定的是很重要的事情”。
+* [界面之下：还原真实的 MV* 模式](http://segmentfault.com/a/1190000003871577)，总结的挺好。
+* [使用 Wireshark 调试 HTTP/2 流量](https://imququ.com/post/http2-traffic-in-wireshark.html)，有用。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* China Linux Storage & Filesystem 2015（中国Linux存储和文件系统研讨会？），[第一天](http://tech.donghao.org/2015/10/20/china-linux-storage-filesystem-2015-workshop-first-day/)，[第二天](http://tech.donghao.org/2015/10/20/china-linux-storage-filesystem-2015-workshop-second-day/)，话题涉及Ceph、ScyllaDB、Seastar、Docker、Ext4、[冷存储](http://events.linuxfoundation.org/sites/events/files/slides/LFVault2015_Alibaba.pdf)、Cache、NVDIMM，大半演讲者来自阿里巴巴啊。
+* [使用fio测试磁盘I/O性能](http://segmentfault.com/a/1190000003880571)，“fio是测试IOPS的非常好的工具，用来对硬件进行压力测试和验证，支持13种不同的I/O引擎，包括:sync,mmap, libaio, posixaio, SG v3, splice, null, network, syslet, guasi, solarisaio 等等”。
+* [各大公司容器云的技术栈对比](http://www.cnblogs.com/zhengyun_ustc/p/dockerstack.html)，这个不错，重点是Docker这新技术在老项目上如何引入啊，另外就是运维工具、自动化工具的选用。
+* [盘点 OSX 上最佳的 DevOps 工具](http://segmentfault.com/a/1190000003875416)，好几个用得上的。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [中国芯暗流涌动，龙芯、飞腾他们都在走什么样的路？](http://www.leiphone.com/news/201509/VO1kgwnzoGXG5G5O.html) 希望Hard和Normal模式的产品离消费者越来越近。
+* oneBoard pro+智能键盘电脑的一个[评测](http://www.leiphone.com/news/201510/LCtIGRizu9jTeXLX.html)，青轴键盘+RK3288、2G、16G。
+* [Android GC 那点事](http://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw==&mid=400021278&idx=1&sn=0e971807eb0e9dcc1a81853189a092f3&scene=0#rd)，这怎么让我想起了[《草原一家亲》](http://movie.douban.com/subject/1779354/) 里一个笑话，"Android的用户们，**如果你们感觉到App的运行有一丝丝流畅，请不要慌张，这一切都是会过去的**"。
+* iOS 比 Android 还不安全？[记一次和阿里资深安全工程师蒸米的交流](http://blog.devtang.com/blog/2015/10/22/talk-with-zm-about-ios-security/)，“毕竟开发者不是安全工程师，安全工程师们也不会开发，所以漏洞是在所难免的”，随着个人能力、项目价值的提高，安全方面的技术也是要不断积累的。
+
+市场、产品、项目
+----
+* 电商交易背景知识合集[第二季](http://www.cnblogs.com/zhengyun_ustc/p/paybg2.html)，这回是几个**异常处理逻辑**，这一般比正常的还重要。
+* [伪基站是如何行骗、还有防骗指南](http://www.huxiu.com/article/128769/1.html)，看看产业链如何。
+* [一篇文章带你俯瞰VR行业全景](http://www.leiphone.com/news/201510/uuzXmjAULLOR9W9Q.html)，不知是否靠谱，稍微了解一下。另外，[VR、AR、MR有嘛区别？](http://www.vr186.com/vr_news/vr_technical_area/1575.html)
+* [YouTube 视频的广告为什么可以跳过？对广告商的负面影响大吗？](http://www.woshipm.com/pd/222820.html) 从用户的角度，“不看完就可以跳过广告”真是不错的体验；原来，我同时提交了一条用于精准投放的数据。
+* [PE投资尽职调查的10大要诀](http://www.goingconcern.cn/article/8489)，通用来看，任何有价值的项目、团队，也要思考这些方面吧。另外，[21张PPT，做出能融到钱的路演BP](http://www.goingconcern.cn/article/8490)。
+
+团队建设、安全
+----
+* [如何练就高效率团队](http://2014.54chen.com/blog/2015/10/21/dont-guess-can-do-team/)，**不要猜**+**我能做**，这也太简单了？
+* [Before you code, write](https://medium.com/swlh/before-you-code-write-243cdcca5cf4)，想好了再干；再来看看[Readme驱动开发](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html)；又想到之前微博看到一段：“amazon说他们**做新产品/新功能之前**，PM先写3个文档：**产品发布新闻稿、FAQ、用户手册**——而且**都是文字，不能带图，不能超过2页**”，嗯，靠谱。
+* [浅析一对一沟通](http://www.infoq.com/cn/articles/analysis-of-one-to-one-communication)，“本质上来说，一对一沟通就是构建一个私密的、轻松的、真诚的、有效的环境，两个人在一起讨论问题和相互学习”。
+* [程序员技术晋升非正式攻略](http://timyang.net/misc/promotion-tips/)，“明白**自己核心价值所关注的事情**，将更多的精力**投入**到自己关注的事情上去，并产生相应的**成果及影响**，这个比一个晋升结果意义要大得多”。
+* [Tech Lead的三重人格](http://insights.thoughtworkers.org/thoughtworks-practice-part8/)，**技术决策者、流程监督人、干扰过滤器**，要坚持实践。
+
+图书
+----
+* [《知乎周刊·家庭心理学》](http://www.duokan.com/book/98371)，心理学是个挺重要的能力，大部头看不进去，那翻翻鸡汤也好，[不敢和家人说的话，心理学家替我们说了](http://zhuanlan.zhihu.com/Weekly/20268950)。
+
