@@ -1,0 +1,52 @@
+---
+layout: post
+title:  每周技术文章 No.46
+date:   2015-11-02 20:00:00
+title2: 2015.10.26-11.1
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [Web应用组件化的权衡](https://github.com/xufei/blog/issues/22)，又是一个深度思考。
+* [Immutable 详解及 React 中实践](http://segmentfault.com/a/1190000003910357)，"Shared mutable state is the root of all evil（共享的可变状态是万恶之源）"，看看Immutable怎么解决的。
+* Web基础补课，[Sass 安装与使用](http://segmentfault.com/a/1190000003912703)；[React服务器端渲染实践小结](http://www.alloyteam.com/2015/10/8783/)，首屏的服务端渲染得用起来。
+* [如何利用设计让等待变得「快一点」？](http://www.woshipm.com/pd/227816.html) 
+* iOS 9人机界面指南翻译，[（一）UI设计基础](http://isux.tencent.com/ios9-guideline-ch1.html)。
+* [This Is How You Design Your Mobile App for Maximum Growth](http://firstround.com/review/this-is-how-you-design-your-app-for-maximum-growth/)，这些实践挺好。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [Hyper-Converged OpenStack on Windows Nano Server](https://cloudbase.it/hyper-c/)，基本是Cloudbase最近的工作总结吧。基于**微软的的超融合方案**：计算服务是**Windows Nano Server + Hyper-V**，最小化Host操作系统；存储服务是**Storage Spaces Direct + SMB3**；网络服务是**Open vSwitch**。Cloudbase除了实现这三个服务跟OpenStack的整合，还利用Ubuntu的[Juju项目](http://www.ubuntu.com/cloud/tools/juju)（[官网](https://jujucharms.com/)）实现了**部署的自动化**，这样方案就很完整了。印象中，Cloudbase“主业”之一就是微软产品的企业服务，利用[Juju](https://cloudbase.it/juju/)支持了一些上层业务的部署，比如[Exchange Server](https://cloudbase.it/cbsl_project/exchange/)，[SQL Server](https://cloudbase.it/cbsl_project/sql-server/)，[Failover Clustering](https://cloudbase.it/cbsl_project/wsfc/)，甚至还包括[VDI](https://cloudbase.it/cbsl_project/vdi/)（这个就是RDS么？也许，现在信息还太少）。
+* 关于超融合方案，看看微软自己的说法：[Moving forward in the cloud world with software-defined storage](http://blogs.technet.com/b/windowsserver/archive/2015/10/29/moving-forward-in-the-cloud-world-with-software-defined-storage.aspx)。
+* [Using WinRM on Linux](http://blogs.technet.com/b/heyscriptingguy/archive/2015/10/27/using-winrm-on-linux.aspx)，用的就是[pywinrm](https://github.com/diyan/pywinrm)，年初找WCF替代方案时评估过这个，看看活跃度还行。
+* 关于用Kafka+Spark Streaming搭建简单的**数据处理**平台，先看看[kafka设计与原理详解](http://segmentfault.com/a/1190000003922549)，然后是[Kafka文档阅读笔记（一）](http://segmentfault.com/a/1190000003912925)。
+* **OpenStack东京开大会**了，看几篇评论：[一个演讲者的感受](http://yeasy.blogspot.hk/2015/10/openstack-summit-2015-tokyo.html)，“云计算的技术基础是计算虚拟化，然而**成功能否，根本取决于网络**”；[第一天现场干货](https://www.ustack.com/news/openstack-summit%EF%BC%8D1/)；[存储最新技术细节](https://www.ustack.com/news/openstack-summit-cehp/)；[Neutron最新技术细节](https://www.ustack.com/news/openstack-summit-neutron/)。
+* [青云 NAS 共享存储服务上线](https://log.qingcloud.com/?p=1121)，协议支持NFS和Samba，看看[性能](https://docs.qingcloud.com/guide/vnas.html#nasio)。
+* [Bashlite恶意软件阴魂未散:智能设备面临新考验](http://drops.wooyun.org/papers/9990)，ShellShock漏洞的利用，“其新版本不光会影响到设备的性能，占用大量网络资源，还有可能会造成隐私泄露等危害，360QVM小组提醒各智能设备厂商做好防范措施，**固件使用高版本的BASH，且不要使用弱口令作为验证手段**”。
+* 关于[Hubot](https://hubot.github.com/)，自动化任务机器人，先看看[别人怎么用的](http://www.wired.com/2015/10/the-most-important-startups-hardest-worker-isnt-a-person/)。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [物联网安全拔“牙”实战——低功耗蓝牙（BLE）初探](http://drops.wooyun.org/tips/10109)，地上戳个“充电桩”，“靠近1分钟，增加5000步，支持小米手环等”，呵呵。
+* [DIY GoPro相机稳定器，一下省了一千多块钱](http://www.leiphone.com/news/201510/I5OnS1sWMVDzP5uA.html)，很有动手能力啊。
+* 看几个Braswell平台的[类NUC产品](http://www.techbang.com/posts/39613-variety-of-small-computers-update-braswell-platform-specifications-summary)，还有[ECS LIVA Core实测](http://www.techbang.com/posts/39470-ecs-liva-measured-core-mini-computers-macbook-equipped-with-core-m-processor)，模样挺显好，但是不便宜啊。
+* [现在你可以定制自己的树莓派了](http://techcrunch.cn/2015/10/29/custom-pi)，“硬件厂商可以通过这项定制服务重新配置主板的布局，增减接口数量，更改板载内存大小，以及加入额外的功能——比如额外的输入/输出、集成电源管理和无线模块；最小订单量为 3000 台至 5000 台之间”。
+
+市场、产品、项目
+----
+* [你以为差的只是一个程序员？其实是缺一种跨界沟通能力](http://36kr.com/p/5039141.html)，“**不同领域认知的不同，对技能诉求的不同，以及彼此的信息不对称，蕴藏着太大的市场机会**”，你以为你以为的就是你以为的？呵呵。
+* [如果微信不火了，企业还有什么渠道可选？](http://www.woshipm.com/operate/225531.html) 媒体也有那么多细分。
+* [创业公司天使轮、A轮、B轮……IPO融资时如何分配股权？](http://www.goingconcern.net/article/8503) 本质上还是价值不断被认可的过程。
+
+团队建设、安全
+----
+* [程序员与黑客2](http://mp.weixin.qq.com/s?__biz=MzA3NTEzMTUwNA==&mid=400140051&idx=1&sn=50ada120843cb4057ebb224d595f964d&scene=0#rd)，程序员必看必会啊，都是特别基础的好习惯，[PPT](https://raw.githubusercontent.com/evilcos/papers/master/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%B8%8E%E9%BB%91%E5%AE%A22.pptx)，顺便回顾一下[上集](https://github.com/evilcos/papers/raw/master/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%B8%8E%E9%BB%91%E5%AE%A2.ppt)。
+* 鸡汤，[理想的程序员只比你多了6个一点点](http://www.phpxs.com/post/4338)，**专注眼下、思考力与推动力、Never Say No、投资未来、善用工具、管理时间**。
+* [如何做好脖子颈椎的日常运动保健？](http://www.zhihu.com/question/25121874/answer/66491964) 必学必会，两个答案都不错。
+
+
+
