@@ -1,0 +1,51 @@
+---
+layout: post
+title:  每周技术文章 No.47
+date:   2015-11-09 20:00:00
+title2: 2015.11.02-08
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [前端开发者手册](https://dwqs.gitbooks.io/frontenddevhandbook/content/index.html)，这是目前**前端开发者**的完整说明。
+* [React.js生态系统概览](http://www.inkpaper.io/blog/post/2015/10/18/navigating-the-react-ecosystem.html)，[React生命周期的管理艺术](http://zhuanlan.zhihu.com/purerender/20312691)，[React v0.14 概览](http://undefinedblog.com/react-v0-14/)，[浅谈 React 中的 Transaction](http://undefinedblog.com/what-happened-after-set-state/)。
+* 新关注的博客christianalfoni，心态挺好的开发者，补课了几篇，[Webpack and React is awesome](http://www.christianalfoni.com/articles/2014_12_13_Webpack-and-react-is-awesome)，[The ultimate Webpack setup](http://www.christianalfoni.com/articles/2015_04_19_The-ultimate-webpack-setup)，[Why we are doing MVC and FLUX wrong](http://www.christianalfoni.com/articles/2015_08_02_Why-we-are-doing-MVC-and-FLUX-wrong)，[Taking the next step with React and Webpack](http://www.christianalfoni.com/articles/2015_10_01_Taking-the-next-step-with-react-and-webpack)。
+* [9种状态的设计](http://colachan.com/post/3468)，“随着不同页面、用户操作、数据更新还有任何你应用的状态改变，这些状态都会反复出现。深思熟虑地设计这些变化，就能为用户创造优美的体验，无论他们身处何种情况”。Facebook那个假文章的加载体验不错。
+* 基础知识，[深入了解viewport和px](http://tgideas.qq.com/webplat/info/news_version3/804/7104/7106/m5723/201509/376281.shtml)，[TLS 握手优化详解](https://imququ.com/post/optimize-tls-handshake.html)。
+* [高清ICON SVG解决方案（上）](http://isux.tencent.com/svg-icon-part-one.html)，[（下）](http://isux.tencent.com/svg-icon-part-two.html)，精益求精，锯齿少一点儿是一点儿。
+* 设计规范如何写？[看看别人家的例子](http://www.woshipm.com/ucd/228968.html)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [Google Borg论文的读书笔记](http://www.alauda.cn/2015/11/03/google-borg/)，“Borg 是在传说中流传已久的 Google 内部集群管理系统，现在火热的 Mesos 和 Kubnetes 都是源自于 Borg；Google 还是对外隐藏了很多比较关键的设计，读到最后我觉得 Google 放出来就是像推广他的 k8s 项目”。[论文原文](http://research.google.com/pubs/pub43438.html)。
+* [Nutanix与联想的超融合战略合作](http://server.zdnet.com.cn/server/2015/1106/3067025.shtml)了，[这是](http://www.nutanix.com/2015/11/04/nutanix-and-lenovo/) Nutanix官方的说明。这事儿真得[感谢戴尔](http://server.zdnet.com.cn/server/2015/1105/3066894.shtml)？四大服务器厂商的超融合方案，**惠普+StoreVirtual、戴尔+VMware、联想+Nutanix、思科+Simplivity**，有道理。
+* 容器私有云和持续发布都要解决哪些基础问题，[第一集](http://www.cnblogs.com/zhengyun_ustc/p/dockernow.html)。
+* [微博推荐架构的演进](http://www.infoq.com/cn/articles/evolution-of-micro-blog-recommendation)，折腾。
+* [BetaBot 木马分析](http://drops.wooyun.org/papers/10260)，作为一个专业木马，“该木马具备破坏杀软、自保护、BotKiller、Userkit(Ring3 Rootkit)、自定义注入技术、防其他木马感染、、DDoS、网络监视/阻塞、USB设备感染、SOCKS4代理、自校验保护、过UAC、反Sandbox等功能”，这用户体验可能比有些桌面应用都好。
+* [“大灰狼”远控木马分析及幕后真凶调查](http://drops.wooyun.org/papers/10294)，“社工”是项必要技能，哈哈。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [WormHole虫洞漏洞分析报告](http://drops.wooyun.org/papers/10061)，亡羊补牢才是新常态啊；而我更关注[WormHole分析第二弹](http://drops.wooyun.org/papers/10180)里讨论的话题，**为什么会有这样的后门？是不是有更安全的方案？**
+* [树莓派+Kali Linux：搭建一个偷WiFi密码的黑客站](http://www.leiphone.com/news/201511/8MvqtOU2gQajRWTx.html)，**我们会教你们使坏**，如果我们能熟悉它们，**就能更好地战胜邪恶**。上来**先改Root默认密码**，多么好的习惯。
+
+市场、产品、项目
+----
+* [苹果悄悄上线室内定位应用“Indoor Survey”](http://www.pingwest.com/apple-indoor-survey/)。
+* [产品运营最怕的六件事！运营的“痛点”在哪里？](http://www.woshipm.com/operate/229133.html)，**运营工作没方向、重产品而轻运营、队友不给力、人力不到位、执行力不够、没有自知之明**。其实，**每个职能都会有这些痛点**，呵呵。
+* [唯一衡量微信增长的方式，就是对用户生活影响深度](http://www.woshipm.com/it/231362.html)，**对于一个典型的微信用户，这分析的也太彻底了!？**
+* 凯文·凯利最新演讲：[未来20年科技的必然走向](http://mp.weixin.qq.com/s?__biz=MzA4MjAxODMzMA==&mid=400294559&idx=2&sn=b0e635056741ac35476aac6424c0bd3d)，不明觉厉。“无论你在哪一个行业，化学、地产、开发、农业以及运输，这都不重要，**最主要的创新和颠覆，不是在这个行业或领域，实际上是从外界进来的**”。
+* [這個被蘋果封殺的遊戲，或許會是你在手機上玩的最後一款遊戲](http://www.techbang.com/posts/39671-this-was-blocked-by-apple-game-might-be-the-last-one-to-play-on-your-phone-game)。S.M.T.H，全称Send Me To Heaven，挺有创意的，特别是它贴心的防作弊机制，哈哈，好在现在还有[安卓版](https://play.google.com/store/apps/details?id=com.carrotpop.www.smth&hl=en)的。
+
+团队建设、安全
+----
+* [DHH：再想想，什么才算创业成功？](http://36kr.com/p/5039392.html) David Heinemeier Hansson，Basecamp、Ruby On Rails、《Rework》的作者，这整个就是一个吐槽贴啊，不过结论是我最近关注的**“Web 是有史以来最伟大的创业平台。这里有着最低的准入门槛，最广泛的受众面”**。
+* [好设计师 vs. 优秀设计师](http://beforweb.com/node/778)，“我才没对抗他们，我只是想搞清楚他们真正需要解决的问题。好的设计师会接受任务然后快速而精准的实现出来交给需求方，优秀的设计师则一定要**首先挖掘出对方真正的目标是什么**”。产品、程序的设计也是这个道理。
+* [买卖与朋友](http://www.chouyu.com.cn/?p=664)，“只有很少数的专业型好友，能把持的住分寸，保持自己达人的角色，保持住被认可的程度”，是不容易。
+* [为什么软件外包开发不再可行](http://www.infoq.com/cn/news/2015/11/Teame-io-software)，这讨论确实很热闹，我觉得重点是花钱要解决什么问题？**不是图便宜，是为了购买专业知识，弥补自己团队的某些短板**。
+* 关于自建vpn，[挑选供应商](http://www.haidongji.com/2015/11/06/%E8%87%AA%E5%BB%BAvpn%E4%B9%8B%E4%B8%80%EF%BC%9A%E6%8C%91%E9%80%89%E4%BE%9B%E5%BA%94%E5%95%86/)，[保护你的机器](http://www.haidongji.com/2015/11/06/%E8%87%AA%E5%BB%BAvpn%E4%B9%8B%E4%BA%8C%EF%BC%9A%E4%BF%9D%E6%8A%A4%E4%BD%A0%E7%9A%84%E6%9C%BA%E5%99%A8/)，[搭建openvpn service和生成客户端Profile](http://www.haidongji.com/2015/11/06/%E8%87%AA%E5%BB%BAvpn%E4%B9%8B%E4%B8%89%EF%BC%9A%E6%90%AD%E5%BB%BAopenvpn-service%E5%92%8C%E7%94%9F%E6%88%90%E5%AE%A2%E6%88%B7%E7%AB%AFprofile/)，[安装启动客户端](http://www.haidongji.com/2015/11/06/%E8%87%AA%E5%BB%BAvpn%E4%B9%8B%E5%9B%9B%EF%BC%9A%E5%AE%89%E8%A3%85%E5%90%AF%E5%8A%A8%E5%AE%A2%E6%88%B7%E7%AB%AF/)。
+
