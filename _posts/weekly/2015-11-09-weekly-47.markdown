@@ -49,3 +49,7 @@ tags: Weekly Skill
 * [为什么软件外包开发不再可行](http://www.infoq.com/cn/news/2015/11/Teame-io-software)，这讨论确实很热闹，我觉得重点是花钱要解决什么问题？**不是图便宜，是为了购买专业知识，弥补自己团队的某些短板**。
 * 关于自建vpn，[挑选供应商](http://www.haidongji.com/2015/11/06/%E8%87%AA%E5%BB%BAvpn%E4%B9%8B%E4%B8%80%EF%BC%9A%E6%8C%91%E9%80%89%E4%BE%9B%E5%BA%94%E5%95%86/)，[保护你的机器](http://www.haidongji.com/2015/11/06/%E8%87%AA%E5%BB%BAvpn%E4%B9%8B%E4%BA%8C%EF%BC%9A%E4%BF%9D%E6%8A%A4%E4%BD%A0%E7%9A%84%E6%9C%BA%E5%99%A8/)，[搭建openvpn service和生成客户端Profile](http://www.haidongji.com/2015/11/06/%E8%87%AA%E5%BB%BAvpn%E4%B9%8B%E4%B8%89%EF%BC%9A%E6%90%AD%E5%BB%BAopenvpn-service%E5%92%8C%E7%94%9F%E6%88%90%E5%AE%A2%E6%88%B7%E7%AB%AFprofile/)，[安装启动客户端](http://www.haidongji.com/2015/11/06/%E8%87%AA%E5%BB%BAvpn%E4%B9%8B%E5%9B%9B%EF%BC%9A%E5%AE%89%E8%A3%85%E5%90%AF%E5%8A%A8%E5%AE%A2%E6%88%B7%E7%AB%AF/)。
 
+图书
+----
+* *11.11 更新*，[《跑步，该怎么跑》](http://www.duokan.com/book/60691)，1块1到手！
+
