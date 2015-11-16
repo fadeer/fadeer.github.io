@@ -1,0 +1,47 @@
+---
+layout: post
+title:  "每周技术文章 No.48"
+date:   2015-11-16 12:00:00
+title2: 2015.11.9-15
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [程序员必知之前端演进史](http://segmentfault.com/a/1190000003973286)，“如果你不花点时间整理一下过去，顺便预测一下未来，那么你就是在白搭”。时不时想一想，做个判断，然后再继续折腾。
+* [读懂 ECMAScript 规格](http://es6.ruanyifeng.com/#docs/spec)，“如果你遇到疑难的语法问题，实在找不到答案，这时可以去查看规格文件，了解语言标准是怎么说的。**规格是解决问题的最后一招**”。
+* [使用 Nginx 优化面向侧面的架构](http://segmentfault.com/a/1190000003979712)。
+* 补课，[你会用setTimeout吗](http://tangguangyao.github.io/2015/11/10/%E4%BD%A0%E4%BC%9A%E7%94%A8setTimeout%E5%90%97/)，[连接React和Redux](http://segmentfault.com/a/1190000003964265)，[yield和yield*](http://segmentfault.com/a/1190000003982531)，[Webpack入门](http://segmentfault.com/a/1190000003985797)，[Webpack基本使用](http://segmentfault.com/a/1190000003985802)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [你还在进行虚拟桌面的“性能调优”么？](http://www.brianmadden.com/blogs/brianmadden/archive/2015/11/11/what-if-any-quot-performance-tweaks-quot-do-you-do-to-desktop-images-for-vdi-rdsh-desktops.aspx) 这大约还是一个持久化桌面讨论的延续，用户、管理员的最终体验和基础架构服务能力的权衡。评论里的一个近期测试，优化还是能取得30%效果的。相关几个工具、文章：[VMware OS Optimization Tool](https://labs.vmware.com/flings/vmware-os-optimization-tool)，[说明文档](http://www.vmware.com/files/pdf/VMware-View-OptimizationGuideWindows7-EN.pdf)，支持到2012R2这代；[Windows 10 Optimization – Part 1](http://virtualfeller.com/2015/11/03/windows-10-optimization-part-1/)，[Part 2](http://virtualfeller.com/2015/11/09/windows-10-optimization-part-2/)。
+* [域渗透——Local Administrator Password Solution](http://drops.wooyun.org/tips/10496)，这是攻守相长啊，用上什么新东西都得琢磨一下安全问题。
+* [解密IFTTT的数据架构](http://www.infoq.com/cn/news/2015/11/ifttt-data-infrastructure)，**IFTTT这个几乎没有存在感的服务，很好用**。
+* [Linux and UNIX Monitoring with Operations Manager](http://blogs.technet.com/b/server-cloud/archive/2015/11/10/microsoft-loves-linux-deep-dive-8-linux-and-unix-monitoring-with-operations-manager.aspx)，通过在整合服务监控Guest Linux的性能指标，cpu、内存、网络、磁盘、进程、日志文件，基础的都有了。
+* [前后端分离了，然后呢？](http://icodeit.org/2015/06/whats-next-after-separate-frontend-and-backend/) “前后端分离是一件容易的事情，而且团队可能在短期可以看到很多好处，但是如果不认真处理集成的问题，分离反而可能会带来更长的集成时间”。作者实践的后端服务契约，有启发。
+* [使用Tor绕过防火墙进行远程匿名访问](http://drops.wooyun.org/tips/10377)，“假设Alice想通过企业网络跟生病的奶奶在facebook上聊天。但不幸的是，企业的老板太没有同情心了。不允许员工在企业网络访问facebook。作为一个孝顺的孙女，Alice带来了一个存放了Tor客户端的U盘”。
+* **WMI 的攻击，防御与取证分析**技术之[防御篇](http://drops.wooyun.org/tips/10346)，这话题最近讨论很多啊。
+* [Redis 未授权访问配合 SSH key 文件利用分析](http://blog.knownsec.com/2015/11/analysis-of-redis-unauthorized-of-expolit/)，看看“全球无验证可直接利用Redis TOP 10国家与地区”，中国排第一啊。Redis安全模型的观念是: “**请不要将 Redis 暴露在公开网络中, 因为让不受信任的客户接触到Redis是非常危险的**”。另见，[Redis后门植入分析报告](http://drops.wooyun.org/tips/10462)。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* Google第二代**深度学习引擎TensorFlow开源**，看看[图文介绍](http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=400301663&idx=1&sn=c83c92328c9c936b1fb39cece6e852f6)和[深度解析](http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=400401592&idx=1&sn=ca5442585b863a5e2df22ad5fdfde3c6&scene=2&srcid=1110HOsAUtnj6iDHhu8LJxUU&from=timeline&isappinstalled=0#wechat_redirect)了解一下。
+* [Android UI：机智的远程动态更新策略](http://segmentfault.com/a/1190000003984408)，过于机智了会不会被商店下架，这算不算自带升级功能？
+* Android电脑Remix Mini[开发布会](http://www.ifanr.com/582375)了，399全志4核，2G+16G。从这个[初步评测](http://36kr.com/p/5039642.html)和[体验](http://www.pingwest.com/remix-mini-is-an-android-pc-in-a-box/)看，**值得一试啊**，这受打击的不是Windows而是ChromeOS啊，呵呵。“实时多任务”之后，内存确实更不够用了。“可以肯定的是，**未来是属于apps的**，而非exe的”。[中文论坛](https://bbs.jide.com/forum.php?mod=forumdisplay&fid=58);淘宝不少预售的，“此系统是基于安卓系统深度开发的，模仿WINDOWS系统的操作模式，不能安装WINDOWS电脑应用软件，请看清楚再拍”！多么人性化的提示，哈哈。
+
+市场、产品、项目
+----
+* [我所理解的大数据个性化推荐](http://www.blogchong.com/post/127.html)，虽然用不上，但提及的几个话题挺有意思，在其他业务场景也会有类似的选择。比如**评测方法选择、冷启动、衡量标准、AB分流切换**，还有**实际的折腾过程**。嗯，**这文章看的很爽**。顺便看看[拨开大数据的迷雾](http://www.blogchong.com/post/126.html)。
+* [吃鱼屎的可持续性蔬菜](http://jandan.net/2015/11/12/diet-fish-poo.html)，这个很熟悉啊，哈哈。
+* [为每条生产线配个 dataBOX™盒子，这是可口可乐们的工业 4.0](http://36kr.com/p/5039422.html)，参考[官网](http://www.industrategy.com/)。
+
+团队建设、安全
+----
+* [caoz谈能力成长 - 取舍之道](http://mp.weixin.qq.com/s?__biz=MzI0MjA1Mjg2Ng==&mid=400320941&idx=1&sn=b3883278d2d58b760e3dadbfef225a95)，“你先排工期，基于工期去优化产品设计，决定取舍，不追求说第一个版本的完美度，但是追求效率，并且保证**核心功能在第一个版本都能充分体现**”；“技术人员应该**明白应用场景的边界在哪里**，有针对性的取舍”。
+* [互联网个人数据的安全生存指南](https://blog.eood.cn/data-security)，“现在我们的生活都依赖大量电子设备，其中保存的数据也是你的财产的一部分，丢失或者被入侵之后损失往往比实物的损失更大”。
+* [我们真的缺前端工程师吗？](http://icodeit.org/2015/06/do-we-really-short-for-front-end-developer/) 嗯，是缺优秀的前端工程师，现在优秀的定义越来越饱满了。而真正的**工程师（那些会系统思考，并总是想着解决问题的人）**，几个都不嫌多。
+
