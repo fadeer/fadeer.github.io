@@ -14,7 +14,7 @@ tags: Weekly Skill
 * [Immutable 详解及 React 中实践](http://segmentfault.com/a/1190000003910357)，"Shared mutable state is the root of all evil（共享的可变状态是万恶之源）"，看看Immutable怎么解决的。
 * Web基础补课，[Sass 安装与使用](http://segmentfault.com/a/1190000003912703)；[React服务器端渲染实践小结](http://www.alloyteam.com/2015/10/8783/)，首屏的服务端渲染得用起来。
 * [如何利用设计让等待变得「快一点」？](http://www.woshipm.com/pd/227816.html) 
-* iOS 9人机界面指南翻译，[（一）UI设计基础](http://isux.tencent.com/ios9-guideline-ch1.html)。*11.16更新：*[(二)：设计策略](http://isux.tencent.com/ios9-guideline-ch2.html)。
+* iOS 9人机界面指南翻译，[（一）UI设计基础](http://isux.tencent.com/ios9-guideline-ch1.html)。*11.16更新*，[(二)：设计策略](http://isux.tencent.com/ios9-guideline-ch2.html)。*11.30更新*，[(三)：iOS 技术 (上)](http://isux.tencent.com/ios9-guideline-ch3-1.html)。
 * [This Is How You Design Your Mobile App for Maximum Growth](http://firstround.com/review/this-is-how-you-design-your-app-for-maximum-growth/)，这些实践挺好。
 
 后端技术，操作系统、虚拟化、存储、网络、桌面、安全

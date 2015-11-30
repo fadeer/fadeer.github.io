@@ -22,7 +22,7 @@ tags: Weekly Skill
 ----
 * [Google Borg论文的读书笔记](http://www.alauda.cn/2015/11/03/google-borg/)，“Borg 是在传说中流传已久的 Google 内部集群管理系统，现在火热的 Mesos 和 Kubnetes 都是源自于 Borg；Google 还是对外隐藏了很多比较关键的设计，读到最后我觉得 Google 放出来就是像推广他的 k8s 项目”。[论文原文](http://research.google.com/pubs/pub43438.html)。
 * [Nutanix与联想的超融合战略合作](http://server.zdnet.com.cn/server/2015/1106/3067025.shtml)了，[这是](http://www.nutanix.com/2015/11/04/nutanix-and-lenovo/) Nutanix官方的说明。这事儿真得[感谢戴尔](http://server.zdnet.com.cn/server/2015/1105/3066894.shtml)？四大服务器厂商的超融合方案，**惠普+StoreVirtual、戴尔+VMware、联想+Nutanix、思科+Simplivity**，有道理。
-* 容器私有云和持续发布都要解决哪些基础问题，[第一集](http://www.cnblogs.com/zhengyun_ustc/p/dockernow.html)。
+* 容器私有云和持续发布都要解决哪些基础问题，[第一集](http://www.cnblogs.com/zhengyun_ustc/p/dockernow.html)。*11.30更新*，[第二集](http://www.cnblogs.com/zhengyun_ustc/p/dockernow2.html)。
 * [微博推荐架构的演进](http://www.infoq.com/cn/articles/evolution-of-micro-blog-recommendation)，折腾。
 * [BetaBot 木马分析](http://drops.wooyun.org/papers/10260)，作为一个专业木马，“该木马具备破坏杀软、自保护、BotKiller、Userkit(Ring3 Rootkit)、自定义注入技术、防其他木马感染、、DDoS、网络监视/阻塞、USB设备感染、SOCKS4代理、自校验保护、过UAC、反Sandbox等功能”，这用户体验可能比有些桌面应用都好。
 * [“大灰狼”远控木马分析及幕后真凶调查](http://drops.wooyun.org/papers/10294)，“社工”是项必要技能，哈哈。
