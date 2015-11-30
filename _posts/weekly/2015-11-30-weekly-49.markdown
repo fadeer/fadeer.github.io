@@ -1,0 +1,62 @@
+---
+layout: post
+title:  "每周技术文章 No.49"
+date:   2015-11-30 20:00:00
+title2: "2015.11.15-29"
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [致我们终将组件化的Web](http://www.alloyteam.com/2015/11/we-will-be-componentized-web-long-text/)，了解一下这个演变过程。
+* [为可视化数据寻找适合的配色](http://colachan.com/post/3472)，嗯，配一组颜色是的有些方法来支持，一个个瞎试不叫事儿啊。
+* [高效的 “box-shadow” 动画](http://segmentfault.com/a/1190000004053696)，**只有很少的属性**才能避免在动画的过程[不断的重绘](http://csstriggers.com/)；一层负责呈现盒子，一层负责盒子阴影的过度动画，只对阴影的 opcity 执行动画。另外，看看[如何评价页面的性能](http://taobaofed.org/blog/2015/11/09/web-performance/)。
+* Express一些最佳实践，[应用结构](http://segmentfault.com/a/1190000004019233)，[生产环境下的安全性](http://segmentfault.com/a/1190000003996618)，[性能和可靠性](http://segmentfault.com/a/1190000004026112)。
+* 杂项：[React 组件之间如何交流](http://segmentfault.com/a/1190000004044592)，[提升TLS 性能30%？谈谈在 Node.JS 上的 OSCP Stapling 实践](http://segmentfault.com/a/1190000004045710)，[node.js读写excel文件](http://segmentfault.com/a/1190000004062768)，[Flux VS Single State Tree](http://www.christianalfoni.com/articles/2015_11_16_Flux-vs-Single-State-Tree)，[Node.js 在双十一中有哪些应用，表现如何？](http://www.zhihu.com/question/37379084)。
+* [JavaScript相关开发工具](https://medium.com/javascript-scene/must-see-javascript-dev-tools-that-put-other-dev-tools-to-shame-aca6d3e3d925#.hx431htef)，另外看看来自微软的[Node.js开发指南](https://github.com/Microsoft/nodejs-guidelines)。
+* [HTTP/2：新的机遇与挑战](https://imququ.com/post/http2-new-opportunities-and-challenges.html)。
+* [Web前端慢加密](http://drops.wooyun.org/tips/10665)，“过去，提交的是明文密码；现在，提交的则是明文密码的慢加密结果”，这思路不错。
+* 聊聊电脑上最熟悉的陌生字体 ARIAL [（上）](http://www.uisdc.com/arial-font-introduction-1)和[（下）](http://www.uisdc.com/arial-font-introduction-2)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* iPad Pro + **Citrix M1 鼠标** + XenDesktop，[这才是生产力组合](https://www.citrix.com/blogs/2015/11/16/can-the-ipad-pro-replace-a-laptop-with-citrix-plus-x1-mouse-it-can/)？现在生产力环境的标准，对于大多数人还是Windows应用+鼠标啊；iPad Pro的桌面分辨率是1600x1200，也许过不多久就能支持iPad三屏了，扩展、复制模式均可，哈哈。
+* [RPiTC Beta 1.99下载](http://rpitc.blogspot.com/2015/11/beta-199-out.html)，启动时间[只用5.253秒](http://rpitc.blogspot.com/2015/11/rpitc2-beta-199-startup-time.html)？
+* [老牌桌面“应用”服务商Workspot借Nutanix基础架构进入VDI服务市场](http://www.brianmadden.com/blogs/brianmadden/archive/2015/11/24/workspot-enters-the-full-vdi-market-using-nutanix-s-hci-platform.aspx)，直接“VDI 2.0”，这也算后发优势吧。另外看看[远程显示协议大战结束了么？](http://www.brianmadden.com/blogs/guestbloggers/archive/2015/11/25/are-the-display-protocol-wars-finally-over.aspx) **RDP/RemoteFX能满足大多数场景了**，HTML5浏览器端还值得一争？
+* Amazon EC2发布了[Dedicated Hosts](https://aws.amazon.com/about-aws/whats-new/2015/11/now-available-amazon-ec2-dedicated-hosts-and-the-ability-to-use-existing-server-bound-licenses/)服务，这下可以独占主机了，好处包括使用自己的License（特别是对物理Socket授权那种），减少其他用户争抢，参考[完整说明](https://aws.amazon.com/blogs/aws/now-available-ec2-dedicated-hosts/)。
+* Windows Server 2016出TP4了，看看[新变化](http://blog.vttechnology.com/2015/11/windows-server-2016-technical-preview-4.html)。
+* **IaaS vs. PaaS vs. CaaS如何选择？**[（上）：从Bare Metal到IaaS](http://www.alauda.cn/2015/11/17/iaas-paas-caas-1/)，[（下）：从PaaS到CaaS](http://www.alauda.cn/2015/11/24/iaas-vs-paas-vs-caas-2/)。“有趣的是，**很多PaaS的提供商都运行在IaaS之上**，比如最受欢迎的是Heroku运行在AWS上。同时**PaaS所依赖的底层技术又是CaaS的标准交付物**”。‌‌
+* [Docker 监控实战](http://segmentfault.com/a/1190000004052782)。
+* [Java RESTful框架的性能比较](http://colobu.com/2015/11/17/Jax-RS-Performance-Comparison/)，“因为追求轻量级，便于发布到docker容器中，我也不会考察JBOSS, Tomcat这样的JEE容器， 而是选用jetty, undertow这样的嵌入式容器”。
+* HT泄露后续，[广告联盟变身挂马联盟](http://drops.wooyun.org/papers/10597)。
+* [Windows更新+中间人=远程命令执行](http://drops.wooyun.org/tips/10558)，呵呵，真能琢磨。
+* [HTTP API Design Guide](https://github.com/interagent/http-api-design)。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [tvOS视差按钮的ObjC实现](http://segmentfault.com/a/1190000004048940)，有趣。
+* [劫持GPS定位&劫持WIFI定位](http://drops.wooyun.org/tips/10580)，“要想伪造成功，你伪造出的SSID必须要远远多于正常SSID数目，也就是说你在一个能够WIFI定位的地方要想伪造定位基本不可能成功，因为身边正常的SSID太多了，不过你仍然可以通过手机WIFI连接菜单看到我们伪造出的SSID名称，能看到名称就说明实验原理成功了”。
+* [《树莓派官方指南》](https://www.raspberrypi.org/blog/official-raspberry-pi-projects-book/)，[PDF](https://www.raspberrypi.org/magpi-issues/Projects_Book_v1.pdf)下载。
+
+市场、产品、项目
+----
+* [用户要A你就给A？](http://36kr.com/p/5039938.html) 哦，不不不；用户说A的时候我们根本不考虑的；直到他AAA的时候，我们才知道，这个A对他可能真的有点儿重要。哈哈。
+* 10亿日活跃用户的背后，[Facebook的大牛们都做了什么？（上）](http://www.leiphone.com/news/201509/L3Kr7NS0RoyZ9t0s.html)，[（中）](http://www.leiphone.com/news/201511/5zy1fpVix4ncWvnp.html)，[（下）](http://www.leiphone.com/news/201511/egQAOzoaf5oDikw3.html)。这是**关于Growth Hacking的话题**，再从另一个角度看看这事儿，Facebook 和 Twitter 的 “增长黑客” 告诉你[用户增长的那点事（上）](http://36kr.com/p/5040088.html)，[（下）](http://36kr.com/p/5040204.html)。
+* [浅谈工业级物联网项目架构设计及实施](http://mp.weixin.qq.com/s?__biz=MzAwNjMxNjQzNA==&mid=401190639&idx=1&sn=49e6f38e28e9096cfbc72cf4479d0177&scene=0)。
+* [揭秘地下网络黑产链：为什么普通黑客也能月入80000美元?](http://www.leiphone.com/news/201511/UPC7tZTKIaPHncL7.html)
+* [Google支持串流App](http://insidesearch.blogspot.tw/2015/11/new-ways-to-find-and-stream-app-content.html)，现在移动端App当道，但是对于搜索引擎来说，获取App内的数据就有障碍了；目前Google的搜索可以索引一部分应用内的数据，现在更进一步，你可以从这数据为入口，直接进入到App里，不用安装，而是直接[以流的方式来交互使用](http://cn.engadget.com/2015/11/19/google-app-streaming)。这实际上是个**托管运行的App**，我觉着，这才是未来的服务。
+* [推荐系统基础知识储备](http://www.blogchong.com/post/129.html)，不明觉厉。
+
+团队建设、安全
+----
+* [从自我驱动到带领10人团队](http://insights.thoughtworkers.org/how-to-be-a-professional-team-lead/)。
+* [程序员的思考：分享即提高](http://mp.weixin.qq.com/s?__biz=MzAwMjMxNzQ0MQ==&mid=400688911&idx=1&sn=6c1899b1bb9ae8e22eed457fc9909080#rd)，**通过分享，收获最大的是你自己**。作者博客的副标题，“**如果你没有感觉到时间不够用时，你多半正在虚度光阴**”。
+* [Linux取证一二事](http://www.jianshu.com/p/feef8fe9b8b5)，哈哈，话题很有意思，文章写的更精彩。“本文为阅书有感而作，一本是来自LinuxLeo网站提供的《Linux取证入门的书》；一本是来自Brain Carrier的经典的《File System Forensic Analysis》；一本是CFTT项目测试各种取证工具并总结的取证工具《handbook大全(2015版)》。你可以在[这里](https://github.com/Urinx/Books/tree/master/Forensic)获取这三本书。”
+* [一个Android程序员的故事](http://www.leiphone.com/news/201511/Lx3YlfKw984jDFED.html)。
+* [《2015年，中国软件开发者白皮书》](http://img.bss.csdn.net/201511191154311279.pdf)，看看程序员这个群体的状况。
+
+
+
