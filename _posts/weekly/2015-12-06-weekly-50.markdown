@@ -1,0 +1,46 @@
+---
+layout: post
+title:  每周技术文章 No.50
+date: 2015-12-06 20:00:00
+title2: 2015.11.30-12.6
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [UI设计师工作必备的七个设计神器](http://www.woshipm.com/ucd/244996.html)，MarkMan看着真方便啊。
+* [测试框架 Mocha 实例教程](http://www.ruanyifeng.com/blog/2015/12/a-mocha-tutorial-of-examples.html)，“现在最流行的JavaScript测试框架之一，在浏览器和Node环境都可以使用”。
+* [动态加载js文件的正确姿势](https://github.com/someus/how-to-load-dynamic-script)。
+* [页面白屏与瀑布流分析方法](http://taobaofed.org/blog/2015/12/02/waterfall-analyze/)，精打细算，必须的。
+* React相关，[深入理解 react-router 路由系统](http://segmentfault.com/a/1190000004075348)，[不可思议的 react diff](http://segmentfault.com/a/1190000004003055)，[React Mixin 的前世今生](http://segmentfault.com/a/1190000004034031)，[为什么虚拟DOM更优胜一筹](http://www.cnblogs.com/rubylouvre/p/5012458.html)，avalon的作者对比了目前视图更新的几种方式。
+* [天猫双11前端分享 - 大规模 Node.js 应用](https://github.com/tmallfe/tmallfe.github.io/issues/28)，”node 只是工具，在每一个具体的业务场景下都有最合适的使用方法，而随着业务的发展，node 能做的事情也在变化，我们期望它能在之后能在更多的场景下落地“。
+* [变种XSS：持久控制](http://drops.wooyun.org/web/10798)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* Hyper-Converged OpenStack on Windows Nano Server - [Part 2](https://cloudbase.it/hyper-c-part-2/)，Server 2016 TP4 + S2D的配置过程。
+* [在 Windows 10 上解决 RDCMan v2.7 Unknown disconnection reason 3848 故障](http://goxia.maytide.net/read.php/1777.htm)，应该用得上，备忘。
+* [基于 OpenStack 的 NAS 服务](https://www.ustack.com/blog/openstack-nas/)，使用的OpenStack里的[Manila](https://wiki.openstack.org/wiki/Manila/Incubation_Application)项目，可以看看[这个概览](http://community.netapp.com/fukiw75442/attachments/fukiw75442/virtualization-and-cloud-articles-and-resources/698/1/Manila%20Overview.pdf)，大致机制是利用计算节点创建NAS服务节点、初始化节点比如配置预留的网络段等、通过SSH配置目标Share目录，NFS、CIFS或其他共享协议，都是靠Linux生态来支持的。由于服务节点实在OpenStack生态下，NAS服务底层存储的分布式也是自然的了。
+* [Node.js 服务端实践之 GraphQL 初探](http://taobaofed.org/blog/2015/11/26/graphql-basics-server-implementation/)，值得尝试。[GraphQL](https://github.com/facebook/graphql)，“a query language created by Facebook for describing data requirements on complex application data models”，甚至[GraphQL is the King. Long Live the King! (R.I.P. REST)](https://medium.com/@scbarrus/graphql-is-the-king-long-live-the-king-r-i-p-rest-cf04ce38f6c#.ebssg76cc)，是嘛？
+* 远程入侵原装乘用车，[（上）](http://drops.wooyun.org/papers/9974)，[（中）](http://drops.wooyun.org/papers/9975)，[（下）](http://drops.wooyun.org/papers/9976)，安全就要这样积极主动才行，特别是那些wifi、蜂窝网络都能支持的高级车，呵呵。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [58 years on, Norwich City Hall finally gets a new computer](https://twitter.com/CanaryWorf/status/669814382210215937?nav=true)，很精彩的对比。58年了，这楼还在呢？... 哦不，是58年了，电脑居然变得那么小了，还强大了那么多倍。
+* [卖了几个月家庭机器人，情况怎么样？](http://36kr.com/p/5040427.html)，“用户反馈非常正面，80%的应用都是围绕着孩子，20%左右是围绕着老人，用户的黏性也不错，用户平均每天 6-8 次通话，每周累计通话 75 分钟，周活跃终端比例达到 90%”，这状态还可以啊。另外看看这个[远程陪伴机](http://www.leiphone.com/news/201512/4PdNP2FK68M5BIuh.html)，利用旧手机，远程操作方向，思路也挺好。
+
+市场、产品、项目
+----
+* [原来不止是创业者，VC 们也会刷数据](http://36kr.com/p/5040463.html)，是啊，VC也是一行，也有竞争，也得创新，[创业公司才搞创新？这年头，VC也要紧跟节奏](http://www.huxiu.com/article/132819/1.html)。
+
+团队建设、安全
+----
+* [《火星救援》中你应该知道的5个高可用系统故障恢复原则](http://timyang.net/architecture/martian-failure-recovery-rules/)，这也是触类旁通了。“故障信息的透明性原则、故障突发性对应的解决时限性原则、故障中解决方案的技术决定性原则、充分利用系统预留扩展能力的原则、简单粗暴处理原则”。
+* [100 小时定律](http://36kr.com/p/5040467.html)，”**大多数学科只需要 100 小时的积极学习即可变得比绝对新手有竞争力得多**；学习必须积极和审慎，你的阅读和练习必须有一个仔细考虑过的学习和改进目标“。[原文](http://codingvc.com/the-100-hour-rule/)。
+* [当好领导的秘诀，直截了当](http://firstround.com/review/radical-candor-the-surprising-secret-to-being-a-good-boss/)？ caring personally & challenging directly，得空细看。
+
+
+
