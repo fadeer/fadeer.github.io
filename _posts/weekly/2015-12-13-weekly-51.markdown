@@ -1,0 +1,50 @@
+---
+layout: post
+title:  每周技术文章 No.51
+date: 2015-12-14 12:00:00
+title2: 2015.12.7-13
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [十年来感受的前端技术变化](https://github.com/xufei/blog/issues/28)，又是一篇前端历史回顾。
+* [为什么说DOM操作很慢](http://leozdgao.me/why-dom-slow/)。
+* [关于ES6的模块设计思想](http://benjamn.github.io/empirenode-2015/#/)。
+* [懒人必备的移动端定宽网页适配方案](http://segmentfault.com/a/1190000004114309)。
+* [less编写css代码](http://segmentfault.com/a/1190000004137275)。
+* [性能优化模式](http://tech.meituan.com/performance_tuning_pattern.html)，这事儿一提模式就高大上了，不过总结的不错。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [利用 CompactOS 减少 Windows 10 磁盘占用量](http://goxia.maytide.net/read.php/1779.htm)，“这一功能被微软官方解释为 WIMBOOT 的进化”。
+* [50刀以内，基于树莓派2的ThinClient设备](https://www.citrix.com/blogs/2015/12/10/citrix-raspberry-pi2-thinlinx-high-res-graphics-client-for-50/)，这是来自Citrix博客的推荐，之前XenApp 7.6 分辨率1600×1200是[可以达到19FPS](http://www.martinrowan.co.uk/2015/10/citrix-receiver-linux-raspberry-pi-2-using-raspbian-jessie/)，但是这个结果没能利用上HDX协议的H264优化。而来自ThinLinx的树莓派优化方案，应该可以取得更好的效果，有视频演示，但是没有具体的FPS值。这个[TLXOS-RPi系统](https://tls.thinlinx.com/store/index.php/thinclient/tlxos-rpi-firmware-license.html)的成本是10刀，当然也包含集中管理套件。
+* [Linux性能分析的前60秒](http://segmentfault.com/a/1190000004104493)，这个经验理顺了很有用，[原文](http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html)来自netflix的技术博客。
+* 米特吧大数据技术沙龙第一期举办[感想以及现场照片](http://www.blogchong.com/post/131.html)，[PPT](http://www.mite8.com/thread-467-1-1.html)分享。
+* [Cybercrime in the Deep Web](http://drops.wooyun.org/news/10913)，“众包暗杀”，我们可以猜测这是一个钓鱼网站，呵呵。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [自制自动岗哨机枪，制霸办公室无压力](http://www.leiphone.com/news/201512/SaPD97oLqSktTXqk.html)，看看这动手能力。
+* [吉湾电子研发桌面云终端专用 CPU](http://36kr.com/p/5040565.html)，无论商业结果如何，值得鼓励。
+
+市场、产品、项目
+----
+* [实时股票分析系统的架构与算法](http://www.infoq.com/cn/news/2015/12/open-source-reference-architectu)，这才是大数据啊。
+* 纯银V的[产品问答](http://www.jianshu.com/p/3125edabab44)，说的挺直白。
+
+团队建设、安全
+----
+* [让我们来谈谈分工](http://coolshell.cn/articles/17295.html)，**当你面对一些难题的时候，比如线上的故障，或是一个复杂的软件生产活动，你是要加更多的流程更多的人呢，还是要用技术解决问题呢**？**作为工作的人**，当你选择工作或任务的时候，你是选择做支持性的工作，还是做产出性的工作？你是选择做劳动密集型重复工作，还是做知识密集型的创新性的工作？**作为老板**，你是想通过分工释放低端员工的生产力，还是通过科技或技术去创造更NB的生产力？
+* [状况共有](http://uicss.cn/in-line/) = 目标共存 + 信息共享，“**执行不力的原因，往往是决策前不沟通**”。这让我想起看《24小时》，基本一小时一次的同步会议啊。
+* [一个歪果仁CTO在中关村科技园的创业历程](http://get.ftqq.com/8217.get)，呵呵，[原文](https://medium.com/@chonantsai/a-cto-s-startup-journey-in-beijing-zhongguancun-science-park-59ff71f4417b#.82g7jqel4)在Medium。
+* [常用 Git 命令清单](>http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)，备忘。
+* 为什么现代社会里的「拖延」看起来越来越严重了？[不，拖延症很可能压根不是网络时代病，而只是转型期要经历的一种阵痛](http://www.zhihu.com/question/36924593/answer/74072360)。
+* [什么是【真正的】兴趣爱好？以及它有啥好处？](https://program-think.blogspot.com/2015/12/Hobbies-and-Interests.html) 这个话题挺好，人总得有点儿能够全身心投入进去的事儿，比如，睡觉。
+* [为什么有些大公司技术弱爆了？](http://www.zhihu.com/question/32039226) 和 [扒一扒知乎上的帖子——“为什么有些大公司技术弱爆了？”](http://www.raychase.net/3529)，软件开发这事儿，基本上很难，哈哈。
+* [作为一个程序员，进步完全取决于自己](http://mp.weixin.qq.com/s?__biz=MjM5NzMyMjAwMA==&mid=401268306&idx=1&sn=3eb48ec9f939478f5955a55872145aae)，“始终让自己接受教育并跟上时代的发展，这应该是你自己的责任，而不是公司的问题”。
+
+
