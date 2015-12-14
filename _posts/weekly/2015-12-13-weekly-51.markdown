@@ -11,19 +11,17 @@ tags: Weekly Skill
 前端技术，界面、交互、安全
 ----
 * [十年来感受的前端技术变化](https://github.com/xufei/blog/issues/28)，又是一篇前端历史回顾。
-* [为什么说DOM操作很慢](http://leozdgao.me/why-dom-slow/)。
-* [关于ES6的模块设计思想](http://benjamn.github.io/empirenode-2015/#/)。
+* 前端补课，[为什么说DOM操作很慢](http://leozdgao.me/why-dom-slow/)，[关于ES6的模块设计思想](http://benjamn.github.io/empirenode-2015/#/)，[less编写css代码](http://segmentfault.com/a/1190000004137275)。
 * [懒人必备的移动端定宽网页适配方案](http://segmentfault.com/a/1190000004114309)。
-* [less编写css代码](http://segmentfault.com/a/1190000004137275)。
 * [性能优化模式](http://tech.meituan.com/performance_tuning_pattern.html)，这事儿一提模式就高大上了，不过总结的不错。
 
 后端技术，操作系统、虚拟化、存储、网络、桌面、安全
 ----
-* [利用 CompactOS 减少 Windows 10 磁盘占用量](http://goxia.maytide.net/read.php/1779.htm)，“这一功能被微软官方解释为 WIMBOOT 的进化”。
-* [50刀以内，基于树莓派2的ThinClient设备](https://www.citrix.com/blogs/2015/12/10/citrix-raspberry-pi2-thinlinx-high-res-graphics-client-for-50/)，这是来自Citrix博客的推荐，之前XenApp 7.6 分辨率1600×1200是[可以达到19FPS](http://www.martinrowan.co.uk/2015/10/citrix-receiver-linux-raspberry-pi-2-using-raspbian-jessie/)，但是这个结果没能利用上HDX协议的H264优化。而来自ThinLinx的树莓派优化方案，应该可以取得更好的效果，有视频演示，但是没有具体的FPS值。这个[TLXOS-RPi系统](https://tls.thinlinx.com/store/index.php/thinclient/tlxos-rpi-firmware-license.html)的成本是10刀，当然也包含集中管理套件。
-* [Linux性能分析的前60秒](http://segmentfault.com/a/1190000004104493)，这个经验理顺了很有用，[原文](http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html)来自netflix的技术博客。
+* [利用 CompactOS 减少 Windows 10 磁盘占用量](http://goxia.maytide.net/read.php/1779.htm)，“这一功能被微软官方解释为 WIMBOOT 的进化”，得空尝试一下。
+* [50刀以内，基于树莓派2的ThinClient设备](https://www.citrix.com/blogs/2015/12/10/citrix-raspberry-pi2-thinlinx-high-res-graphics-client-for-50/)，这是来自Citrix博客的推荐，之前XenApp 7.6下，**分辨率1600×1200是[可以达到19FPS](http://www.martinrowan.co.uk/2015/10/citrix-receiver-linux-raspberry-pi-2-using-raspbian-jessie/)**，但是这个结果没能利用上HDX协议的H264优化。而来自**ThinLinx的树莓派优化方案**，评价是1080P下视频没有明显的延迟，文中有视频演示，但是没有具体的FPS值。这个[TLXOS-RPi系统](https://tls.thinlinx.com/store/index.php/thinclient/tlxos-rpi-firmware-license.html)的**成本是10刀**，当然也包含集中管理套件，扩展看看TLXOS的[主要支持设备](http://www.thinlinx.com/product.html)，NUC、Intel PC棒、树莓派2、Rockchip（Firefly的RK3288？），当然还有标准PC。
+* [Linux性能分析的前60秒](http://segmentfault.com/a/1190000004104493)，**这个经验理顺了很有用**，[原文](http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html)来自netflix的技术博客。
 * 米特吧大数据技术沙龙第一期举办[感想以及现场照片](http://www.blogchong.com/post/131.html)，[PPT](http://www.mite8.com/thread-467-1-1.html)分享。
-* [Cybercrime in the Deep Web](http://drops.wooyun.org/news/10913)，“众包暗杀”，我们可以猜测这是一个钓鱼网站，呵呵。
+* [Cybercrime in the Deep Web](http://drops.wooyun.org/news/10913)，探寻神网；“众包暗杀，我们可以猜测这是一个钓鱼网站”，呵呵。
 
 硬件设备，ARM、终端、移动、智能设备、安全
 ----
@@ -34,7 +32,7 @@ tags: Weekly Skill
 市场、产品、项目
 ----
 * [实时股票分析系统的架构与算法](http://www.infoq.com/cn/news/2015/12/open-source-reference-architectu)，这才是大数据啊。
-* 纯银V的[产品问答](http://www.jianshu.com/p/3125edabab44)，说的挺直白。
+* 来自纯银V的[知心怪蜀黍产品问答](http://www.jianshu.com/p/3125edabab44)，说的挺直白。“什么？专题不能缓存？那就是个bug啊！” 哈哈；“这个行业里，最缺的不是人才，而是产品方向”；“叫好不叫座这种事情，在互联网上是不存在的，相当于产品失败”。
 
 团队建设、安全
 ----
@@ -45,6 +43,6 @@ tags: Weekly Skill
 * 为什么现代社会里的「拖延」看起来越来越严重了？[不，拖延症很可能压根不是网络时代病，而只是转型期要经历的一种阵痛](http://www.zhihu.com/question/36924593/answer/74072360)。
 * [什么是【真正的】兴趣爱好？以及它有啥好处？](https://program-think.blogspot.com/2015/12/Hobbies-and-Interests.html) 这个话题挺好，人总得有点儿能够全身心投入进去的事儿，比如，睡觉。
 * [为什么有些大公司技术弱爆了？](http://www.zhihu.com/question/32039226) 和 [扒一扒知乎上的帖子——“为什么有些大公司技术弱爆了？”](http://www.raychase.net/3529)，软件开发这事儿，基本上很难，哈哈。
-* [作为一个程序员，进步完全取决于自己](http://mp.weixin.qq.com/s?__biz=MjM5NzMyMjAwMA==&mid=401268306&idx=1&sn=3eb48ec9f939478f5955a55872145aae)，“始终让自己接受教育并跟上时代的发展，这应该是你自己的责任，而不是公司的问题”。
+* [作为一个程序员，进步完全取决于自己](http://mp.weixin.qq.com/s?__biz=MjM5NzMyMjAwMA==&mid=401268306&idx=1&sn=3eb48ec9f939478f5955a55872145aae)，“始终让自己**接受教育并跟上时代的发展，这应该是你自己的责任**，而不是公司的问题”。
 
 
