@@ -1,0 +1,46 @@
+---
+layout: post
+title:  每周技术文章 No.52
+date: 2015-12-21 20:00:00
+title2: 2015.12.14-20
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [2015 年 JavaScript 开发者调查报告](http://www.css88.com/archives/5863)，34.8%经常写测试；Npm 接管客户端依赖管理体系，拥有 60% 的选票；首选的 JavaScript 加载工具，webpack比browserify领先了7个百分点；最常用的库，jQuery 依旧强劲，占据票数 50% 以上；ES6已经接近30%广泛使用了；至于文本编辑器，炒锅一半喜欢Sublime Text。
+* [玩转 React Transition](http://zhuanlan.zhihu.com/purerender/20419592)，用上了一些ReactCSSTransitionGroup，还没深究。[React Components, Elements, and Instances](https://facebook.github.io/react/blog/2015/12/18/react-components-elements-and-instances.html)，说起来React官方文档写的挺充分的，重要的话题和点基本都有提到。
+* [小记 · 去 jQuery 项目](http://zhuanlan.zhihu.com/purerender/20405900)，讨论很热闹啊，[中文版文档](https://github.com/oneuijs/You-Dont-Need-jQuery/blob/master/README.zh-CN.md)可以作为知识过一遍，至于怎么用，看项目了。
+* [手机淘宝 521 性能优化项目揭秘](http://www.infoq.com/cn/articles/mobile-taobao-521-performance-optimization-project)，另外看看[前端性能优化 - 资源预加载](http://bubkoo.com/2015/11/19/prefetching-preloading-prebrowsing/)。
+* [来看PS欺骗设计师视觉的四个方面](http://www.uisdc.com/photoshop-spoof-designer)，**视觉一致**还是物理一致的例子。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [StatsD！次世代系统监控的核心](http://segmentfault.com/a/1190000004148785)，有些设计启发思路，比如基于UDP的数据传输，上下游的服务生态。过一阵可以细研究下。
+* [一个适合小公司用的 data pipeline 工具](http://segmentfault.com/a/1190000004148653)，也许有用。
+* [关于选择VDI监控平台的6点考虑](https://www.citrix.com/blogs/2015/12/14/six-vital-factors-for-choosing-a-vdi-monitoring-platform/)，比如不要想一个产品都搞定；不只是桌面业务，基础架构各层都要监控；报表可能比漂亮的监视面板更重要。完整的报告见[PDF](https://assets.extrahop.com/uploads/resources/downloads/white-papers/monitoring-virtual-desktops-brian-madden.pdf)。
+* [XenDesktop环境下的Win10优化指南](https://www.citrix.com/blogs/2015/12/17/windows-10-optimization-for-xendesktop/)，整体能提高20%用户密度。转过前两个，现在完整了：[1.默认应用](http://virtualfeller.com/2015/11/03/windows-10-optimization-part-1/)，[2.服务](http://virtualfeller.com/2015/11/09/windows-10-optimization-part-2/)，[3.计划任务](http://virtualfeller.com/2015/11/16/windows-10-optimization-part-3-scheduled-tasks/)，[4.用户界面](http://virtualfeller.com/2015/11/19/windows-10-optimization-part-4-user-interface/)，[5.运行时](http://virtualfeller.com/2015/12/01/windows-10-optimization-part-5-runtime/)，[6.发行前](http://virtualfeller.com/2015/12/03/windows-10-optimization-part-6-release/)，[7.ICA](http://virtualfeller.com/2015/12/09/windows-10-optimization-part-7-ica/)。
+* [Linux入侵检测基础](http://drops.wooyun.org/%E8%BF%90%E7%BB%B4%E5%AE%89%E5%85%A8/11106)，备忘一下。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [21:基于树莓派的廉价挖矿机](http://techcrunch.cn/2015/12/17/mining-and-learning-with-the-21-bitcoin-computer)，看起来树莓派只是控制端，核心是上面单独一个板子和芯片，还配有“巨大”的散热片和风扇，所以从35刀涨到400刀还是有道理的，但是供电也就在5V3A。估算挖一个比特币需要4000天，重点是支持块环链技术的发展应用，用户可以**即插即用地参与到比特币网络中**。好吧，这**买的不是矿机而是情怀**。
+* [「轻娱乐」之首选，Remix mini 体验分享](http://www.dgtle.com/article-12907-1.html)，看这体验挺靠谱，真想买个试试。
+* [react-native布局篇](http://segmentfault.com/a/1190000004154982)，了解一下。[ReactNative的架构设计](http://segmentfault.com/a/1190000004161358)，这也是琢磨View之外的逻辑如何设计，模拟的redux。
+
+市场、产品、项目
+----
+* [一图看懂创业圈潜规则](http://www.goingconcern.cn/article/8740)，哈哈。
+
+团队建设、安全
+----
+* [如何做一个有洞察力的人](http://liuyuntian.com/2015/12/14/how-to-develope-your-insight.html)，不明觉厉啊。
+* [程序员困境](http://36kr.com/p/5040630.html)，“如果你在很长时间内就跟这一种代码打交道，并没有将触角伸向外面的世界，很快你就会发现自己置于悲惨境地。在公司或者团队里，你被尊称为**专家**，但是很不幸的，在这个市场上你将无法找到一份胜任的工作。这就是所谓的**专家陷阱**”。项目的土要勤翻翻才是有生命力的，呵呵。
+* [会分类才能做好工作](http://www.cnblogs.com/zhengyun_ustc/p/5047273.html)，粗看起来是个表格，注明了关键的点。但本质还是GTD方面的技术，分析、排序、集中力量做事、回顾。但是吧，这方法论一多了，就容易忘了初衷，简单的表格也许更好。引文有同感，“你真正没有能力解决的问题绝对不会超过10%。**50%是你根本没有搞清楚问题是什么**，20%是你根本没有殚精竭虑去找解决问题的方法，20%是你根本没有竭尽全力去找能解决问题的人帮忙”。
+* [想学烘焙，是野路子还是学院派](http://zhuanlan.zhihu.com/sansan/20337854)，不不，把它看完，你没点错。哎哎，你真改行烤面包去啦？
+
+
+
