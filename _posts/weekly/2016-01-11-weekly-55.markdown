@@ -1,0 +1,52 @@
+---
+layout: post
+title:  每周技术文章 No.55
+date: 2016-01-11 20:00:00
+title2: 2016.1.4-10
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [CSS之各种居中](http://guowenfh.github.io/2016/01/06/css-position-middle/)，此技能不熟练。
+* [前端性能调优](http://segmentfault.com/a/1190000004277530)，看看分析过程。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [Docker 2015年度回顾](http://geek.csdn.net/news/detail/49046)，功能增加，更加适合企业**多样化的应用场景**；**安全性**得到大大提升；让镜像更加**标准化**，传输更加高效、安全。希望今年能把Docker用起来，解决一些现实问题。另见[Docker 持续集成过程中的性能问题及解决方法](http://oilbeater.com/docker/2016/01/02/use-docker-performance-issue-and-solution.html)。
+* [2016年OpenStacker的正确打开方式](https://www.ustack.com/news/2016-openstacker-kick-off/)，随着OpenStack使用者越来越多，服务商**互操作**支持会是对整个生态很有好处。
+* [Node.js 对 ES6 的支持](http://taobaofed.org/blog/2016/01/07/find-back-the-lost-es6-features-in-nodejs/)，目前的4.x LTS，很多新语法都可以用上了。
+* [node实现watcher的困境](http://segmentfault.com/a/1190000004281522)。
+* [ReFS vNext Block Cloning and ODX](https://blog.workinghardinit.work/2016/01/04/refs-vnext-block-cloning-and-odx/)，即便在本地存储上，ReFS对虚拟磁盘的创建和合并也有加速作用。
+* [利用 NetBIOS 协议名称解析及 WPAD 进行内网渗透](http://drops.wooyun.org/pentesting/11799)，利用 NetBIOS 名称解析进行基于 WPAD 的中间人攻击**本质上还是利用了 Windows 系统的名称解析顺序和 NetBIOS 协议的特点**，有乐趣的还是这探寻服务机制的过程。
+* [JavaScript Backdoor](http://drops.wooyun.org/tips/11764)，“在cmd下利用rundll32.exe加载JavaScript代码，代码运行后会反弹一个Http Shell，而特别的地方在于当运行完cmd命令后，后台会一直存在进程rundll32.exe用来同Server持续连接，整个过程不需要写入文件，隐蔽性大大提高”。
+* [小议Linux安全防护(一)](http://drops.wooyun.org/%E8%BF%90%E7%BB%B4%E5%AE%89%E5%85%A8/11801)，基础知识，必学必会。
+* [设计安全的账号系统的正确姿势](http://blog.coderzh.com/2016/01/03/security-design/)，必备知识，很多细节值得注意，终极目标是：[即使被拖库，也可以保证密码不泄露](http://blog.coderzh.com/2016/01/10/a-password-security-design-example/)。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [烟雾弹攻击！DIY巨型便携式空气炮](http://www.leiphone.com/news/201601/ZBIeleZ2cYFjneSi.html)，效果不错。
+* [Remix Mini更详细的评测](http://www.geekpark.net/topics/214362)，我还是稍等下个[Remix OS PC版](http://www.jide.com/remixos-for-pc)的先玩玩好了。
+* [ReactiveCocoa 讨论会](http://blog.devtang.com/blog/2016/01/03/reactive-cocoa-discussion/)。
+* [iOS 8.1.2 越狱过程详解及相关漏洞分析](http://drops.wooyun.org/papers/12045)。介绍了越狱的过程，越狱所使用的漏洞，以及漏洞的利用思路；iOS 8.1.2 越狱过程中使用了 7 个漏洞，其中用户空间 4 个，内核空间 3 个；实际越狱工具的开发中，产品化是一个重要方面，具体来说主要指：稳定性；兼容性。
+* [Hybrid APP架构设计思路](https://github.com/chemdemo/chemdemo.github.io/issues/12)，不明觉厉，另见，[Android架构文章合集](https://github.com/Juude/Awesome-Android-Architecture)。
+* [用脚本快速查看自己被多少微信好友删除](http://segmentfault.com/a/1190000004251795)，这才是程序员的方法，评论有亮点，有人都看出商机了，哈哈。
+
+市场、产品、项目
+----
+* [怎样成为一名产品经理](http://www.leiphone.com/news/201601/i68G4ssC4AkkKkgE.html)，有些建议很实在。“你曾经**作为工程师主持过一个项目，达到了什么效果**，以此证明了领导协作能力”；“你曾经在某个设备的**研发中改进改良了一处设计，提高了多少效率**，以此证明了创新和设计能力”；“你曾经**针对设备运行中的具体反馈数据做出了更多调整方案**，以此证明了对数据的分析处理能力”；学习足够多的知识；**试着做点事情**。
+* [开上帝视角，其实你也能](http://36kr.com/p/5041920.html)，如何科学的利用信息不对称。
+* 罗振宇跨年演讲全文：[何须转型，只需生长](http://www.woshipm.com/it/260862.html)，不熟悉的角度，学学。另见[《时间的朋友》完整版](http://www.woshipm.com/it/260617.html)。
+
+团队建设、安全
+----
+* 外国鸡汤，[How to be awesome Swift developer](http://blog.krzyzanowskim.com/2015/12/28/how-to-be-awesome-swift-developer/)，通用来讲，如何掌握一门新技术。多试验、不好也不不做强，尝试新东西，阅读其他开发者博客，通过上手来学习，探寻内部实现。
+* [如何持久化你的项目经历](http://icodeit.org/2016/01/how-to-summarize-privious-project/)，很重要的话题，思考**我在项目里学到了什么？**；在办公室内演讲，**分享、交流技术话题的收获**；练习**讲故事，将项目的某个方面通俗的讲给其他人听**，清晰，明白。
+* 关于协作，[FACEBOOK设计团队是如何开设计评论会的](http://www.uisdc.com/critique-in-facebook-design-process)，团队成员面对每个设计项目能如何**真正意义上的“评论”**而不是以挑刺为主的“批评”，如何不出现糊弄人的和稀泥的状况。建立**清晰的角色和定位**，确保每个人都能**理解并认同要解决的问题**，专注于**提出反馈**而非一味批评，让**电脑和手机保持关机**。
+* [该如何面对我们的父母](http://www.luanxiang.org/blog/archives/2205.html)，“当你真正非常用心地去做一件事情，而且是三番五次地用心去做，而且容忍对方犯一些小错的时候，必然会得到善意的回报”，很多事情都要有这个耐心的过程。
+
+
+
