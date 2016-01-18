@@ -1,0 +1,51 @@
+---
+layout: post
+title:  每周技术文章 No.56
+date: 2016-01-18 20:00:00
+title2: 2016.1.11-17
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [Flux 架构入门教程](http://www.ruanyifeng.com/blog/2016/01/flux.html)，看看Facebook自己组织代码和安排内部逻辑的思路。
+* [flex布局基础](http://segmentfault.com/a/1190000004320409)，比较全面。另见，[就是要用CSS实现页面布局](http://www.alloyteam.com/2016/01/let-see-css-world/)。
+* [无线性能优化：FPS 测试](http://taobaofed.org/blog/2016/01/13/measuring-fps/)。
+* [CSS Modules 详解及 React 中实践](http://zhuanlan.zhihu.com/purerender/20495964)。
+* [研究首屏时间？你先要知道这几点细节](http://www.alloyteam.com/2016/01/points-about-resource-loading/)。
+* [微信网页开发者工具发布](https://www.qianduan.net/wechat-release-wechat-web-develop-debugger/)，貌似有用，[官方文档](https://mp.weixin.qq.com/wiki/10/e5f772f4521da17fa0d7304f68b97d7e.html)。
+* [webpack使用优化](https://github.com/lcxfs1991/blog/issues/2)，备忘。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [理解Docker单机容器网络](http://tonybai.com/2016/01/15/understanding-container-networking-on-single-host)，这个还得等具体动手用起来才有感觉，后面这小工具不错啊。
+* [Remote Desktop Protocol (RDP) 10 AVC/H.264 improvements in Windows 10 and Windows Server 2016 Technical Preview](http://blogs.msdn.com/b/rds/archive/2016/01/11/remote-desktop-protocol-rdp-10-avc-h-264-improvements-in-windows-10-and-windows-server-2016-technical-preview.aspx)，得空还得看看FreeRDP对H.264的支持。
+* [支付宝前端团队详解基于Node.jsWeb框架Chair](http://yq.aliyun.com/articles/2921)。
+* **生产环境中的 Node.js** - [Node 地下铁第 1 次线下沙龙总结](http://taobaofed.org/blog/2016/01/12/node-subway-beijing/)，有PPT和现场视频。另见，[记一次 Node.js 应用内存暴涨分析](http://taobaofed.org/blog/2016/01/14/nodejs-memory-leak-analyze/)。
+* [从活动目录获取域管理员权限的各种姿势](http://drops.wooyun.org/tips/12021)，只要攻击者**已经获得内网中一台（或几台）机器的权限**并且获得了**普通域用户的账户**，然后就**有很多方法能在活动目录中获得域管理员权限**了。值得细看看。
+* [JavaScript后门深层分析](http://drops.wooyun.org/tips/12074)，看看原理，挺能琢磨的啊。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [谷歌 GMS 的进阶姿势说明](http://sspai.com/32596)，关于**opengapps的使用介绍**，看着还比较方便了。
+* [基于Windows 10平台的PM2.5检测器制作](http://www.cnblogs.com/dearsj001/p/Windows10PMDetector.html)，PM2.5检测部分是SDS011传感器+蓝牙模块+Arduino供电；接收端是树莓派2+蓝牙+Win10 IOT读取数据并提供网页查看数据。
+* [Android性能优化典范 - 第4季](http://hukai.me/android-performance-patterns-season-4/)。
+* [微缩景观世界·街景](http://www.appinn.com/miniatur-wunderland/)，这是**世界上最大的铁路模型动态场景**『微缩景观世界』同样 Google 街景合作推出的微缩街景，探索全球最大铁路模型展览中心的神奇魅力。“这个展馆在德国汉堡，花上半天都看不完，而且还在追加新的区域，绝赞！”。谷歌地图[入口](http://www.google.com/maps/about/behind-the-scenes/streetview/treks/miniatur-wunderland/#intro)。
+
+市场、产品、项目
+----
+* [为什么说「免费的其实是最贵的」？](http://www.leiphone.com/news/201601/FDcprc80hiOE7v2Y.html) KK的《必然》的一部分解读，“有**8种『比免费更好的特征』会是未来能够产生商业价值的点**，是不会因为可复制性就减弱的，**反而会因为可复制性而加强**”，作者配上的例子很好懂。
+* [To B or not to B, that's not a question](http://blog.sina.com.cn/s/blog_453d02200102w27k.html)，企业级软件，也要思考“我的产品为什么客户解决了什么问题，怎么解决，对客户的价值是什么”。
+* [核心开发者宣布比特币实验失败了](http://www.solidot.org/story?sid=46893)，不知结论是否靠谱，但是“中国的矿工控制了比特币，仅仅两个矿池的算力就超过整个比特币网络的50%。超过95%的算力控制在上面这幅图中的人手”这状况听着也挺夸张的。感觉上网络货币的交流机制应该比挖矿这种货币生产过程更有价值。
+* [从博客开始，如何一步步发布产品](http://36kr.com/p/5042239.html)，另见[原文](http://www.craigkerstiens.com/2015/12/26/from-blog-posts-to-launches/)。
+* [三年建构了生态：读《微信力量》](http://weiwuhui.com/6983.html)，“2015年6月份，员工超过2万人的海底捞原来那个OA访问只有81次，但它的企业号的访问数字是：87万”。“其实硬件本身并非多么重要，重要的是硬件产生的数据以及与数据相伴相生的服务，才是用户真正关心的”。
+
+团队建设、安全
+----
+* [Musicbox：网易云音乐命令行版本](https://linuxtoy.org/archives/musicbox-neteasemusic-in-terminal.html)，用着还可以啊，另见[Github仓库](https://github.com/darknessomi/musicbox)。
+* [保存代码段的利器Gist & GistBox](http://segmentfault.com/a/1190000004302628)，貌似不错啊。
+
+
