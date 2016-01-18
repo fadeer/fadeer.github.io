@@ -23,7 +23,7 @@ tags: Weekly Skill
 * [利用 NetBIOS 协议名称解析及 WPAD 进行内网渗透](http://drops.wooyun.org/pentesting/11799)，利用 NetBIOS 名称解析进行基于 WPAD 的中间人攻击**本质上还是利用了 Windows 系统的名称解析顺序和 NetBIOS 协议的特点**，有乐趣的还是这探寻服务机制的过程。
 * [JavaScript Backdoor](http://drops.wooyun.org/tips/11764)，“在cmd下利用rundll32.exe加载JavaScript代码，代码运行后会反弹一个Http Shell，而特别的地方在于当运行完cmd命令后，后台会一直存在进程rundll32.exe用来同Server持续连接，整个过程不需要写入文件，隐蔽性大大提高”。
 * [小议Linux安全防护(一)](http://drops.wooyun.org/%E8%BF%90%E7%BB%B4%E5%AE%89%E5%85%A8/11801)，基础知识，必学必会。
-* [设计安全的账号系统的正确姿势](http://blog.coderzh.com/2016/01/03/security-design/)，必备知识，很多细节值得注意，终极目标是：[即使被拖库，也可以保证密码不泄露](http://blog.coderzh.com/2016/01/10/a-password-security-design-example/)。
+* [设计安全的账号系统的正确姿势](http://blog.coderzh.com/2016/01/03/security-design/)，必备知识，很多细节值得注意，终极目标是：[即使被拖库，也可以保证密码不泄露](http://blog.coderzh.com/2016/01/10/a-password-security-design-example/)。*2016.1.18更新*，[被脱裤也不怕 - 反馈总结](http://blog.coderzh.com/2016/01/13/password-security-additional)。
 
 硬件设备，ARM、终端、移动、智能设备、安全
 ----
