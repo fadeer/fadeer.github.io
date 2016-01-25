@@ -10,8 +10,9 @@ tags: Weekly Skill
 
 前端技术，界面、交互、安全
 ----
-* [移动端页面布局及字体大小该如何设置](http://segmentfault.com/a/1190000004344753)，看来如果想让不同设备、屏幕下的文字看起来都比较合适，就是的分别适配大小啊。
+* [移动端页面布局及字体大小该如何设置](http://segmentfault.com/a/1190000004344753)，看来如果想让不同设备、屏幕下的文字看起来都比较合适，就是得分别适配大小啊。
 * [深入理解CSS中的层叠上下文和层叠顺序](http://www.zhangxinxu.com/wordpress/?p=5115)，讨论的很细致，表达能力很强，呵呵。
+* [前端工程师都会喜欢的5个JavaScript库](http://www.codeceo.com/article/5-useful-javascript-libs.html)。
 * Angular2开发指南--[翻译系列总览](https://github.com/gf-rd/blog/issues/21)。
 * [Mixin 已死，Composition 万岁](http://efe.baidu.com/blog/mixins-are-dead-long-live-the-composition/)。
 * [ReactJS组件间沟通的一些方法](http://www.alloyteam.com/2016/01/some-methods-of-reactjs-communication-between-components/)，最后也比较了Transdux。
@@ -19,20 +20,24 @@ tags: Weekly Skill
 后端技术，操作系统、虚拟化、存储、网络、桌面、安全
 ----
 * [创业型公司如何做好监控报警](http://36kr.com/p/5042226.html)，不错的实践，基于现有监控聚合服务，在根据自己业务的需要做一些二次开发。
+* [python获取zabbix监控图](http://sandy521.blog.51cto.com/5728588/1736876)，一段脚本实现自动抓取图片，并组装成html，通过定时邮件发送，实现日报自动化。动手就是好的。
 * [Glance源码深入解读](https://www.ustack.com/blog/glance%EF%BC%8Dyuanma/)，OpenStack平台的镜像服务的实现概要。
 * [Docker 架构私有云的机遇和挑战](https://blog.coding.net/blog/docker-opportunities-challenges)，Docker化的目标和大步骤都是相似的，但是具体实践就各有各的选择。
 * [Steth](https://github.com/openstack/steth)，UnitedStack的SDN网络工程师团队开发的分布式网络诊断工具项目，正式被[合并入OpenStack“大帐篷”模式项目集](https://www.ustack.com/news/unitedstack-steth-has-been-merge-to-big-tent/)。
+* [某医药公司HP-EVA4400数据恢复报告](http://zhangyu.blog.51cto.com/197148/1736177)，EVA发现磁盘性能不足以也会判定下线，如果磁盘寿命接近极限，建议换掉；如果EVA控制器模块不稳定，建议更换；其他分析条带、LUN、数据完整性的过程要注意保存原始状态，避免破坏。
+* Windows Server 2012 R2 Hyper-V[更新列表](http://www.hyper-v.nu/archives/hvredevoort/2016/01/windows-server-2012-hotfixes-update/#utm_source=feed&utm_medium=feed&utm_campaign=feed)，分类是：[Hyper-V](https://support.microsoft.com/en-us/kb/3135020)，[Failover-Cluster](https://support.microsoft.com/en-us/kb/2920151)，[File Services](https://support.microsoft.com/en-us/kb/2899011)。
 * [npm 模块安装机制简介](http://www.ruanyifeng.com/blog/2016/01/npm-install.html)。
-* [理解 Promise 的工作原理](https://blog.coding.net/blog/how-do-promises-work)，原来Promise的规范也有几种。
+* [理解 Promise 的工作原理](https://blog.coding.net/blog/how-do-promises-work)，原来**Promise的规范**也有几种。另见[JavaScript Promise迷你书](http://liubin.org/promises-book/)。
 * [MD5碰撞的演化之路](http://drops.wooyun.org/papers/12396)，术业有专攻啊。
 * 域渗透——[Pass The Ticket](http://drops.wooyun.org/tips/12159)。
 * [APT2015—中国高级持续性威胁研究报告](http://drops.wooyun.org/papers/12315)，就 APT 组织的攻击手法进行分析，包括战术、技术与步骤，太高极了。
-* [一维条形码攻击技术(Badbarcode)](http://drops.wooyun.org/tips/12183)，且不论实际的成功率有多高，但是这攻击手法很接地气啊，哈哈。
+* [一维条形码攻击技术(Badbarcode)](http://drops.wooyun.org/tips/12183)，且不论实际的成功率有多高，但是**这攻击手法很接地气啊**，哈哈。
 
 硬件设备，ARM、终端、移动、智能设备、安全
 ----
 <!--preview-end-->
 * [RPiTC2 release 1.99](http://rpitc.blogspot.com/2016/01/rpitc2-release-199-out.html)，另外他的[RPiTC Builder](https://github.com/Gibbio/RPiTC_Builder)，可以裁剪出一个自定义的ThinClient环境出来，干的不错。
+* [把你的iOS应用迁移到WP上](https://blogs.windows.com/buildingapps/2016/01/20/building-a-simple-app-with-the-windows-bridge-for-ios/)，这会是Windows Bridge for iOS的系列文章，微软还没死心呢。另外msdn上的视频[How to Convert your iOS app to Windows](https://channel9.msdn.com/Blogs/One-Dev-Minute/How-to-Convert-your-iOS-app-to-Windows)。
 
 市场、产品、项目
 ----
@@ -42,8 +47,16 @@ tags: Weekly Skill
 
 团队建设、安全
 ----
-* [选拔具备 “努力”、“专注”、“协作” 等特质的人才的最佳面试问题清单](http://36kr.com/p/5042552.html)，这都是非技术的话题，对于要找到一个能够顺利融入团队的新人，这些可能比目前拥有的技术知识更重要。
-* [白领的消亡](http://www.ruanyifeng.com/blog/2016/01/white-collar.html)，来，坚持做个码农，以成为智能机器人的加载器而努力，哈哈。
+* [选拔具备 “努力”、“专注”、“协作” 等特质的人才的最佳面试问题清单](http://36kr.com/p/5042552.html)，这都是非技术的话题，对于要**找到一个能够顺利融入团队的新人**，这些可能比目前拥有的技术知识更重要。
+* [白领的消亡](http://www.ruanyifeng.com/blog/2016/01/white-collar.html)，来，坚持做个码农，以成为智能机器人的加载器而奋斗，哈哈。
 
 
+
+
+
+
+* []()，
+* []()，
+* []()，
+* []()，
 
