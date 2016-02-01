@@ -1,0 +1,46 @@
+---
+layout: post
+title:  每周技术文章 No.58
+date: 2016-02-01 20:00:00
+title2: 2016.1.25-31
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* 当我说前端基础时，我在说什么？-- [最近几年在前端圈的观察和反思](http://www.weibo.com/p/1001603933000810243086)，“这些年产生了一系列的工具和框架...等都是典型的非前端社区从自身习惯出发的产物”；；“新一波不同技能树的转型同行或者说半同行们，会不会在宣扬它们的解决方案时，让技术的传承出现了断层”；“csser出身的同学在这样的环境下如何跟上时代？...新入行的同学们，对css和组件的基本功是否会引起足够重视？”，看出来各有各的难处。知乎上关于这篇的[讨论](https://www.zhihu.com/question/39659757)，角度很丰富啊。另外[这篇](http://weibo.com/1693534972/DeAL1tRvy?type=comment#_rnd1454317828376)，关于Bootstrap和Nodejs的比喻很精彩。
+* JS 一定要放在 Body 的最底部么？[聊聊浏览器的渲染机制](http://segmentfault.com/a/1190000004292479)，基础知识。
+* [JavaScript中的严格模式](http://segmentfault.com/a/1190000004394829)，应该默认用起来。
+* [Node.js 的 promise，generator 和 event](http://segmentfault.com/a/1190000004355281)，备忘。
+* [React.js 2016 最佳实践](http://www.alloyteam.com/2016/01/reactjs-best-practices-for-2016/)，基本上就是前端React这个分支的典型用法了。
+* [webpack 自动发现 entry 的配置和引用方式](http://www.cnblogs.com/rubylouvre/p/5158923.html)，参考。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [阿里云消息队列服务ONS的Node.js SDK](http://segmentfault.com/a/1190000004363689)，值得参考。
+* [AWS/AliYun东西向网络性能摸底](http://t.51gocloud.com/?p=1544)，看起来阿里的IO优化型实例也就是1G的带宽。
+* [Ceph 生态系统](http://www.wzxue.com/ceph-ecosystem/)。
+* [Yahoo的流计算引擎对比测试](http://ifeve.com/yahoo%E7%9A%84%E6%B5%81%E8%AE%A1%E7%AE%97%E5%BC%95%E6%93%8E%E5%9F%BA%E5%87%86%E6%B5%8B%E8%AF%95/)，Yahoo的工程师，“为了给我们的内部客户提供最好的流计算引擎工具，我们想知道Storm擅长什么和它与其他系统相比哪些还需要提高，测试了三个最流行的和有希望的平台（Storm，Flink和Spark）”，并且将[测试用例](https://github.com/yahoo/streaming-benchmarks)开源在Github上。
+* [Zabbix高可用，实现zabbix的无缝切换，无故障时间](http://yigemeng.blog.51cto.com/8638584/1738174)，用keepalived做服务切换，用innotify和Unison做文件实时同步。
+* [在 Node.js 中利用 js-xlsx 处理 Excel 文件](http://segmentfault.com/a/1190000004395728)。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* 10美元的开发板[Orange Pi PC发售](http://www.eeboard.com/news/10%E7%BE%8E%E5%85%83%E5%9B%9B%E6%A0%B8%E8%BF%B7%E4%BD%A0%E5%BC%80%E5%8F%91%E6%9D%BForange-pi-pc%E5%8F%91%E5%94%AE/)，全志H7，四核1.2G，512内存，百兆口，单USB，HDMI。
+* [浅析手机抓包方法实践](http://drops.wooyun.org/tips/12467)，基础知识。
+* [iOS客户端hack的两种姿势](http://drops.wooyun.org/mobile/12466)，不明觉厉。
+
+市场、产品、项目
+----
+* [5 Ways to Compete With [Big] Incumbents](http://blog.learningbyshipping.com/2016/01/29/5-ways-to-compete-with-big-incumbents/)，如何与大玩家竞争？避免追赶、求全；找到市场或组织的中间地带；大企业策略转换负担大；集中创造产品深度、然后逐渐扩大范围；创造解决方案，进而创造不同的工作方式。
+
+团队建设、安全
+----
+* [给Java说句公道话](http://www.yinwang.org/blog-cn/2016/01/18/java/)。
+* [如何提升开发团队水平](https://medium.com/@gammons/4-awesome-ways-to-level-up-your-dev-team-32ab43f90678#.s6n56oq7u)，当然，也包括团队凝聚力。**午餐交流会**包括新闻分享、技术话题、流程改进；**视频观看与讨论**；**读书交流会**；鼓励团队成员**在其他技术会议上做分享**。但是这些没有解决开始的问题啊，“如果队员们都升级了，但是跑了，咋办？”；“那如果大家一直没进步，但是都留下来了，怎么样？”，哈哈。
+
+
+
