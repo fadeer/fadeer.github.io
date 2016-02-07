@@ -1,0 +1,48 @@
+---
+layout: post
+title:  每周技术文章 No.59
+date: 2016-02-08 8:00:00
+title2: 2016.2.1-7
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [前端数据驱动的价值](https://segmentfault.com/a/1190000004400337)。
+* [如何写一份全面易读的交互说明文档](http://www.uisdc.com/professional-interaction-design-document)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [Microsoft Azure Stack首个技术预览版发布](https://azure.microsoft.com/en-us/blog/announcing-the-first-technical-preview-of-microsoft-azure-stack/)，这已经不是混合云了，是企业内外一体的云，只是不同区域而已。现在可以[下载](https://azure.microsoft.com/en-us/overview/azure-stack/try/)，接近10G，用户可以构建一个[单机POC环境](https://azure.microsoft.com/en-us/documentation/articles/azure-stack-poc/)，基本的[环境需求](https://azure.microsoft.com/en-us/documentation/articles/azure-stack-deploy/)和[部署过程](https://azure.microsoft.com/en-us/documentation/articles/azure-stack-run-powershell-script/)。其实我更关心的是Azure Stack的存储部分，先看看[POC架构](https://azure.microsoft.com/en-us/documentation/articles/azure-stack-architecture/)，服务组件真不少，而且存储服务还是直接跑在Host上的；而底层存储可以选择虚拟磁盘、Storage Space和S2D，鉴于POC是基于Server2016TP4构建的（预打包的VHDX），那么直接上S2D（POC支持4块盘）应该更方便吧，参考[(Doc) Azure-consistent Storage Scenario Validation Guide](http://download.microsoft.com/download/A/3/0/A301E0CF-06D3-47BD-AA65-4B3108D5974D/Azure%20Stack%20Azure-consistent%20Storage%20Validation%20Guide.docx)。从评论里看，Azure Stack计划在今年Q4达到GA，挺快啊；目前收费模式还没最终确定，呵呵。另见视频介绍：[Introduction & Feature Overview](https://channel9.msdn.com/Shows/TechNet+Radio/TNR1635)。
+* [Server 2016下Hyper-V Manager的改进](https://blogs.msdn.microsoft.com/virtual_pc_guy/2016/02/01/changes-to-remote-management-using-hyper-v-manager/)，表面看起来是连接Hyper-V可以即时输入登陆信息了；但本质的改变是，Hyper-V Manager依赖了PowerShell的封装，对Host的远程管理也就通过WinRM来实现了。
+* [每天使用Docker是什么感受？](http://mp.weixin.qq.com/s?__biz=MzA4MzQ1NjQ5Nw==&mid=401327607&idx=1&sn=eb46f602dda9b9437d19ab2cb0793465) 
+* 云服务难免遇到问题，但事后的分析和信息透明很重要，看看[Linode受DDoS攻击后的分析](https://blog.linode.com/2016/01/29/christmas-ddos-retrospective/)。
+* [资源包的设计](http://blog.codingnow.com/2016/01/assets.html)，游戏里确实总见这类包，了解一下。
+* [服务质量衡量抽象心经](http://2014.54chen.com/blog/2016/02/02/service-memo/)，重要的话题，**一群错综复杂的服务，如何去衡量质量，如何去快速找到问题**。服务抽象为主调方和被调方；提前商定好超时，以一分钟为单位计算成功率；连续三分钟的成功率低于三个九，报警。
+* 关于[Webshell](http://drops.wooyun.org/papers/12598)。
+* [域渗透——Security Support Provider](http://drops.wooyun.org/tips/12518)。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [VR 与 AR：解读下一个通用计算平台](http://36kr.com/p/5043046.html)，PC，手机，这会是新一代硬件么？什么，Gram Turismo要支持PS VR了？买买买。
+* [2015年，“白菜价”的开发板都有哪些？](http://www.leiphone.com/news/201602/JHGXBcWoQWlXCNug.html)
+
+市场、产品、项目
+----
+* [“野蛮人”OpenStack为何胜利？](https://www.ustack.com/news/2015-openstack-review-annual/) "为了**进入实际生产环境改变了存在的形态**，为了满足企业级需求几近“野蛮”地扩张自己，**为了谋求前进道路上更多的肯定空前地开放胸怀去包容和融合**"；“从2012年到2015年，并不是说OpenStack运作的有多么出色，但CloudStack总是无法**在正确的时间做出正确、具有历史感的决策**”；“在产业方向确认之后，无论是OpenStack社区，还是OpenStack生态圈的厂商，都**开始把主要的精力放在产品体系改进、客户实践层面**，而OpenStack技术的普及期已经宣告结束”。
+* [散户末日？对冲基金已携人工智能进入股市](http://tech2ipo.com/10027378)，创业公司 Aidyia 将他们管理的对冲基金里的所有股票交易完全交给了人工智能（AI）来进行交易，期间没有任何人类干预行为，**如果我们都死了，人工智能还是会照常交易**。这就是，所有重复性的工作都是应该自动化的，这解放了人；反过来也提高了对人的要求，**傻钱都不好赚了**？哈哈。见[原文](http://www.wired.com/2016/01/the-rise-of-the-artificially-intelligent-hedge-fund)，评论有亮点。
+* [编写产品文档的秘诀](https://mng.lincolnwdaniel.com/the-secret-to-writing-killer-product-copy-4f23b7d0c842#.q4tx4rbjl)，没错，**产品文档写的是人话**是个基础的要求，而且值得投入。得空我的给老婆讲明白我到底是做什么的，嗯，然后是我妈。
+* 最近Google的围棋智能AlphaGo，这篇[谷歌围棋算法存在巨大缺陷，达不到人类最高水平](http://www.guancha.cn/chenjing/2016_02_01_349900.shtml)，分析的挺仔细，特别是计算机决策、计算部分，**都算算不过来，不算可能被坑**，在选择均等的情况下，如果不是随机，那就可能成为AI的性格？哈哈。期待与李世石对决，还有盘面的分析。
+* [第三方数据那点事](http://weiwuhui.com/7010.html)，“我们喜欢数据，这点不假。但我们喜欢的是作为结论的数据，而不是作为方法的数据”。
+
+团队建设、安全
+----
+* [Win下必备神器之Cmder](https://segmentfault.com/a/1190000004408436)，看起来不错，见[官网](http://cmder.net/)。相似的还有[Babun](http://babun.github.io/)。
+* [GitHub Pages now faster and simpler with Jekyll 3.0](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0)，终于可以升级了。
+
+
+
+
