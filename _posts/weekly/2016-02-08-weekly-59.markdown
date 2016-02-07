@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  每周技术文章 No.59
-date: 2016-02-08 8:00:00
+date: 2016-02-07 17:00:00
 title2: 2016.2.1-7
 author: fadeer
 categories: 工作
@@ -42,7 +42,5 @@ tags: Weekly Skill
 ----
 * [Win下必备神器之Cmder](https://segmentfault.com/a/1190000004408436)，看起来不错，见[官网](http://cmder.net/)。相似的还有[Babun](http://babun.github.io/)。
 * [GitHub Pages now faster and simpler with Jekyll 3.0](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0)，终于可以升级了。
-
-
 
 
