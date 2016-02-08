@@ -20,7 +20,8 @@ tags: jekyll markdown todo
 常见的语法高亮
 ----
 **Linux Bash**：
-{% highlight bash %}
+
+~~~ bash
 #只读方式挂载squashfs文件，只读是强制的，不加-r会多个警告而已
 mkdir ubuntu-core
 sudo mount -t squashfs -r -o loop ubuntu-core.squashfs /tmp/fadeer/ubuntu-core/
@@ -38,21 +39,23 @@ bin  etc  home  lib  lib64  opt  sbin  sys  usr  var
 lrwxrwxrwx  1 ys ys   33 Aug  6 17:04 zless -> /tmp/fadeer/ubuntu-core/bin/zless*
 lrwxrwxrwx  1 ys ys   33 Aug  6 17:04 zmore -> /tmp/fadeer/ubuntu-core/bin/zmore*
 lrwxrwxrwx  1 ys ys   32 Aug  6 17:04 znew -> /tmp/fadeer/ubuntu-core/bin/znew*
-{% endhighlight %}
+~~~
 
 **Windows 批处理**，包含滚动:
-{% highlight bat %}
+
+~~~ powershell
 Dism /Export-Image /SourceImageFile:c:\customImages\win8pro.wim /SourceIndex:1 /DestinationImageFile:c:\customImages\allinone.wim /DestinationName:"Windows 8 Professional"
 Dism /Export-Image /SourceImageFile:c:\customImages\win8ent.wim /SourceIndex:1 /DestinationImageFile:c:\customImages\allinone.wim /DestinationName:"Windows 8 Enterprise"
 Dism /Export-Image /SourceImageFile:c:\customImages\win81.wim /SourceIndex:1 /DestinationImageFile:c:\customImages\allinone.wim /DestinationName:"Windows 8.1"
 
 ::然后看看最终的效果吧：
 Dism /Get-ImageInfo /imagefile:C:\customImages\allinone.wim
-{% endhighlight %}
+~~~
 
 <!--preview-end-->
-**Javascript**，包含行号：
-{% highlight javascript linenos %}
+**Javascript**，不包含行号：
+
+~~~ javascript
 function start(){
 	num1++;
 	document.title = num1;
@@ -63,7 +66,7 @@ document.addEventListener("mousedown",function(){
 document.addEventListener("mouseup",function(){
 	this.removeEventListener("mousemove",start,false);
 });
-{% endhighlight %}
+~~~
 
 也可以在文字间加代码，比如`/etc/network/interfaces`这样。
 
