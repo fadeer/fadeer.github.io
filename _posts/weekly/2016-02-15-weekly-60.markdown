@@ -1,0 +1,35 @@
+---
+layout: post
+title:  每周技术文章 No.60
+date: 2016-02-15 20:00:00 +8000
+title2: 2016.2.8-14
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [React 测试入门教程](http://www.ruanyifeng.com/blog/2016/02/react-testing-tutorial.html)，用到了[官方测试工具库](https://facebook.github.io/react/docs/test-utils.html)和[Enzyme](https://github.com/airbnb/enzyme)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [Netflix终于全部迁移到公有云上了](https://media.netflix.com/en/company-blog/completing-the-netflix-cloud-migration)，2008~2016.1啊。
+* [我从 4 年网页监控中所学到的](http://www.codeceo.com/article/monitor-4-years-web-page.html)。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+* [Raspberry Pi 2 获得试验性 VC4 开源驱动支持](https://linuxtoy.org/archives/raspberrypi2-gets-experimental-vc4-opensource-driver-support.html)，“具体应用场景中 Iceweasel 汇报有 Basic 加速了，WebGL 渲染器也被识别”。
+
+市场、产品、项目
+----
+* [细数《南方公园》的“黑科技”](http://www.ifanr.com/618794)，南方公园作为一个另类产品，还是很成功的，哈哈。
+* [如何保护眼睛？浅谈在 Mac 和 iOS 设备上的护眼策略](http://sspai.com/32925)。
+
+团队建设
+----
+* [程序员到底是一个什么职业？](http://www.weibo.com/ttarticle/p/show?id=2309403939907201539934) 怎样才是一个好工程师，**工程的本质不是创造，而是去风险化；工程的另一个要求是进度控制和质量控制**。至于“选择最适合需求和团队的方案，考虑开发效率和系统效率的均衡”，总不是那么简单。
+* [研发团队的角色和构成](http://www.raychase.net/3651)，这篇写出了很多作者的观察，也提到了工程师的职责，“做性能优化，这件事情应该由工程师来完成，并且**对于性能的考量要放到平时的设计编码中去**，而不是突击指望专职的“性能优化工程师”来搞定”。
+* [技术的执念](http://icodeit.org/2016/02/pitfall-of-technology/)，嗯，信息源的整理很重要，性价比低的干脆就去掉，耽误不了什么的。你每天看这些新闻，能找到媳妇么？
+
+
