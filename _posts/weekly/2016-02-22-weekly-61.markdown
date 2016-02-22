@@ -1,0 +1,43 @@
+---
+layout: post
+title:  每周技术文章 No.61
+date: 2016-02-22 22:00:00 +8000
+title2: 2016.2.15-21
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [前端知识普及之页面加载](https://segmentfault.com/a/1190000004466407)。
+* [js文件加载优化](https://segmentfault.com/a/1190000004448625)。
+* [CI上的Web前端性能测试](http://icodeit.org/2016/02/performance-testing-in-ci/)。
+* [NPM 与前端包管理](https://github.com/cssmagic/blog/issues/57)。
+* [iOS 9人机界面指南(四)：UI元素](http://isux.tencent.com/ios9-guideline-ch4.html)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [Ceph：pg peering过程分析](https://www.ustack.com/blog/ceph%EF%BC%8Dpg-peering/)；Peering，互为副本的三个pg的元数据达到一致的过程。
+* [在不需要知道密码的情况下 Hacking MSSQL](http://drops.wooyun.org/tips/12749)，“总结一下分成以下几个步骤： 1. 嗅探MSSQL查询数据包 2. 生成篡改原始数据包替换为自己的任意SQL语句的filter文件 3. 发起中间攻击，利用filter替换原始数据包执行任意SQL命令”。
+* [Linux服务器应急事件溯源报告](http://drops.wooyun.org/tips/12972)。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [在非越狱手机上进行App Hook](http://drops.wooyun.org/papers/12803)，来看看iOS安全人员是如何抢红包的。
+
+市场、产品、项目
+----
+* [一些令你瞠目结舌的爬虫技巧](http://www.phpxs.com/post/4688)，放在产品分类，是因为这歪打正着的商业模式，哈哈。
+* [亚马逊的云服务会吞噬美国的 IT 产业吗？](http://36kr.com/p/5043332.html)
+
+团队建设
+----
+* [初创公司领导者如何摆脱「甩锅文化」](http://tech2ipo.com/10027744)，嗯，这事儿到处都有，因为看起来管用。建议的重点是：**对事不对人；设计时间线，还原事件全部经过；形成书面报告**；后面的「遗憾、原因和补救」，确实也是客户希望看到的。
+* [视界不同，世界不同](http://mp.weixin.qq.com/s?__biz=MzI0MjA1Mjg2Ng==&mid=401611900&idx=1&sn=6b5ff41ab4d7bfeec019af063d1bd687&scene=21)，“你做技术，把代码提交了，bug解决了，任务完成了，蛮好蛮好，这是一个常态；但你写代码的时候多想几个为什么，**这个需求的最终目的是什么**，其产品形态中的**哪些诉求是可以深挖的，哪些是可以简化的**，哪些未来是需要考虑扩展的，哪些是权宜之计不用太费精力的，多想一些你的职业道路就会宽一些”。
+* [“ 职业程序员 ” 不必那么 “ 职业 ”](http://36kr.com/p/5043342.html)。
+* [不想成为管理者的工程师，如何取得职业上的发展](http://www.theeffectiveengineer.com/blog/secret-to-growing-software-engineering-career)，集中在能创造最大价值的事情上，有挑战显然也得有成果啊。注释太直白了，呵呵。
+
+
+
