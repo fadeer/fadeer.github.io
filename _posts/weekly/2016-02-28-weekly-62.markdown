@@ -28,7 +28,7 @@ tags: Weekly Skill
 ----
 <!--preview-end-->
 * [波士顿动力发布新一代双足机器人Atlas，表现惊艳](http://newseed.pedaily.cn/201602/201602251323545_all.shtml)，看雪地那段，平衡调整的不错啊。看看它[怎么一步步进化来的](http://www.leiphone.com/news/201602/iLlGY3meJxPaVtDT.html)，当然，也许它[可能没你想像的那么牛逼](http://www.leiphone.com/news/201602/OEOZFJwP9xqBFzl4.html)。
-* [树莓派3主板曝光](http://www.leiphone.com/news/201602/IXwlkRqF7yx15eZR.html)，增加2.4G的WiFi和蓝牙，甚至猜测是64位1.2G核心，如果真的话再入手一个。
+* [树莓派3主板曝光](http://www.leiphone.com/news/201602/IXwlkRqF7yx15eZR.html)，增加2.4G的WiFi和蓝牙，甚至猜测是64位1.2G核心，如果真的话再入手一个。*更新*，树莓派四周年，[官方发布3代](https://www.raspberrypi.org/blog/raspberry-pi-3-on-sale/)，32位系统下1.2G比现在二代快50-60%，64位系统还需要一段时间评估；另见[视频对比](https://www.youtube.com/watch?v=Y2Z6b64eh2E)。
 
 市场、产品、项目
 ----
