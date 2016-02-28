@@ -1,0 +1,43 @@
+---
+layout: post
+title:  每周技术文章 No.62
+date: 2016-02-28 20:00:00
+title2: 2016.2.22-28
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [2016十家公司前端面试小记](http://www.codeceo.com/article/2016-10-company-interview.html)，可以当做部分前端基础知识。
+* [细说 CSS margin](https://segmentfault.com/a/1190000004483340)。
+* [Canvas 2D 最佳实践（性能篇）](http://taobaofed.org/blog/2016/02/22/canvas-performance/)。
+* [redux middleware 详解](http://zhuanlan.zhihu.com/purerender/20597452)，这在项目里应该会用上。
+* [react-router的实现原理](http://zhenhua-lee.github.io/react/history.html)
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [Stack Overflow的架构（2016）](http://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/)，这么常用的网站，机器也不多嘛，还都是物理机；15年[更新了批新机器](http://blog.serverfault.com/2015/03/05/how-we-upgrade-a-live-data-center/)。服务核心是IIS+SQL Server，创始人曾调侃**如果我能回到过去，我要告诉年轻时的自己一件事，也是唯一的一件事，就是“学会Unix”**，哈哈。其实StackOverflow只用一台IIS都行，这个够用就好。
+* [Container生态技术一览](http://mp.weixin.qq.com/s?__biz=MzA4MzQ1NjQ5Nw==&mid=401588339&idx=1&sn=174727525d5006cd205a10a59905be74#rd)。
+* 年度十佳 DevOps 博客文章：[前篇](https://segmentfault.com/a/1190000004487864)，[后篇](https://segmentfault.com/a/1190000004497822)，原文见[The Top 10 DevOps Posts of 2015](https://insights.sei.cmu.edu/devops/2016/01/fabric-ansible-docker-and-chaos-monkey-the-top-10-devops-posts-of-2015.html)。
+* [Linux 守护进程的启动方法](http://www.ruanyifeng.com/blog/2016/02/linux-daemon.html)，面向Node写服务的，如果不正经注册服务脚本怎么办，好几个命令用法都是补课了。
+* 验证码的前世今生：[前世篇](http://www.freebuf.com/articles/network/97030.html)。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [波士顿动力发布新一代双足机器人Atlas，表现惊艳](http://newseed.pedaily.cn/201602/201602251323545_all.shtml)，看雪地那段，平衡调整的不错啊。看看它[怎么一步步进化来的](http://www.leiphone.com/news/201602/iLlGY3meJxPaVtDT.html)，当然，也许它[可能没你想像的那么牛逼](http://www.leiphone.com/news/201602/OEOZFJwP9xqBFzl4.html)。
+* [树莓派3主板曝光](http://www.leiphone.com/news/201602/IXwlkRqF7yx15eZR.html)，增加2.4G的WiFi和蓝牙，甚至猜测是64位1.2G核心，如果真的话再入手一个。
+
+市场、产品、项目
+----
+* [20 个能立刻提高转化率的修改](https://strace.co/cn/post/20-cro-tops/)，产品页面、文案方面的细节。
+
+团队建设、安全
+----
+* [设计实践与敏捷研发体系](http://i25zt5.lawrence-gd.diancloud.cn/design-and-new-it-org/)，**如何用正确的方式做软件** -> **做正确的软件**。
+* [创业公司的运营人员如何培养良好的工作习惯？](http://36kr.com/p/5043587.html) 为何这类文章总差不多、总看起来挺有用、但还是总用不起来？哈哈。
+
+
+
