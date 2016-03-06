@@ -1,0 +1,41 @@
+---
+layout: post
+title:  每周技术文章 No.63
+date: 2016-03-06 22:00:00
+title2: 2016.2.29-3.6
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [浅谈Web缓存](http://www.alloyteam.com/2016/03/discussion-on-web-caching/)。
+* [iframe,我们来谈一谈](https://segmentfault.com/a/1190000004502619)，好多实践。
+* [React+Node+Express构建服务器端渲染](https://www.smashingmagazine.com/2016/03/server-side-rendering-react-node-express/)，几张图不错。
+* 移动设备上，[一个像素的border怎么实现](https://segmentfault.com/a/1190000004538413)，文章描述的很细致，学习。
+* [逼真的HTML5 3D水波动画](http://www.codeceo.com/article/html5-3d-wave-animation.html)，效果真好啊，好像移动端还执行不了。
+* [（可能是）最低成本的创业公司技术栈方案](http://weibo.com/ttarticle/p/show?id=2309403950016476635122)，这是保守还是激进？
+* [Express结合Webpack的全栈自动刷新](https://segmentfault.com/a/1190000004505747)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [Hypervisor Top-Level Functional Specification](https://msdn.microsoft.com/en-us/virtualization/hyperv_on_windows/develop/tlfs)，新集合入口。
+* [Red Hat OpenStack官方培训笔记](http://wsgzao.github.io/post/openstack/)，基础知识，另外红帽这[中文PPT](https://www.slideshare.net/slideshow/embed_code/key/BNyD2WObWHUVc0)还不错。
+* [思维导图之iptables](http://www.178linux.com/11720)，必备技能啊。
+* [域渗透——Skeleton Key](http://drops.wooyun.org/tips/12670)，域控附加万能密码。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [苹果铅笔入门教程](http://blog.csdn.net/kmyhy/article/details/50773910)，不少技术细节和体验的优化。对我来说还是先搞个设备画画比较实在，呵呵。
+* [iOS远程hot patch的优点和风险](http://drops.wooyun.org/tips/13248)。
+
+团队建设、安全
+----
+* [Facebook工程师是如何高效工作的](http://36kr.com/p/5044048.html)，“状态保存”是最常遇到的状况，哈哈。
+* [技术好和不好，对游戏公司来说，究竟差别是什么](http://36kr.com/p/5043998.html)，“典型差异就是，发行能不能更轻松”，就是坑有多少、多深呗。
+* 鸡汤，[聊聊职场规划那些事儿](http://zhuanlan.zhihu.com/mactalk/20602131)，
+
+
+
