@@ -1,0 +1,45 @@
+---
+layout: post
+title:  每周技术文章 No.64
+date: 2016-03-13 22:00:00 +8000
+title2: 2016.3.7-13
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [数据可视化获奖作品精选 2015 Information is Beautiful Awards](http://mp.weixin.qq.com/s?__biz=MzA5NDExMTAzNA==&mid=402129517&idx=1&sn=2f5f8db45b5ea1744d760c5dfd36fea2)，确实很精彩。
+* [设计用研的敏捷之道](https://isux.tencent.com/agile-user-research-for-design.html)。
+* [GraphQL and Relay 浅析](http://zhuanlan.zhihu.com/purerender/20638731)，这个是不是真的可以减轻业务变化时的整体负担，得真正跑跑才知道。另见[响应式 GraphQL 结构](http://gold.xitu.io/entry/56de66fe731956005c46782a)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* 微软对Linux是真爱系列有了重大进展，首先是**SQL Server on Linux**，这作为2016的新特性[发布](https://blogs.microsoft.com/blog/2016/03/07/announcing-sql-server-on-linux/)出来，完整信息见[官方页面](https://www.microsoft.com/en-us/server-cloud/sql-server-on-linux.aspx)。然后还发布了用于路由器和交换器的操作系统[SONiC](https://azure.microsoft.com/en-us/blog/microsoft-showcases-“software-for-open-networking-in-the-cloud-sonic-”/)。
+* [美团云分布式块存储系统Ursa的设计与实现](http://tech.meituan.com/block-store.html)，简单对比了Ceph、Sheepdog、GFS等分布式文件系统，简要介绍了美团Ursa分布式块存储系统的设计策略。另外可以对比[青云对象存储解决方案应用与实践](http://www.infoq.com/cn/articles/QingStore2016)。
+* [并发之痛 Thread，Goroutine，Actor](http://jolestar.com/parallel-programming-model-thread-goroutine-actor/)，开阔思路。
+* [Node 应用的 Systemd 启动](http://www.ruanyifeng.com/blog/2016/03/node-systemd-tutorial.html)，用过但很粗糙，补课。另见Systemd的[操作命令](http://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-commands.html)和[基本用法](http://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-part-two.html)。
+* [RAID磁盘阵列配置和调优小结](https://segmentfault.com/a/1190000004584127)，结论是RAID50综合比RAID10好些？
+* [可靠 UDP 传输](http://blog.codingnow.com/2016/03/reliable_udp.html)，不要太纠结标题。
+* [中国菜刀仿冒官网三百万箱子爆菊记](http://drops.wooyun.org/news/13471)，很精彩。
+* [主机被入侵分析过程报告](http://drops.wooyun.org/tips/13647)，查找思路和一些工具命令需要积累，比如外部开放端口、计划任务、rootkit检测、查找最近修改过的文件、过滤日志等。
+* [乌克兰电网攻击纪实](http://www.easyaq.com/news/international/3599.html)，像小说一样。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [深入源码探索 ReactNative 通信机制](http://bugly.qq.com/bbs/forum.php?mod=viewthread&tid=663)。
+* [iOS 视图控制器转场详解](http://blog.devtang.com/2016/03/13/iOS-transition-guide/)，貌似大作，先留着。
+
+市场、产品、项目
+----
+* AlphaGo和李世石的围棋比赛到周末已经3:1了，剧情跌宕起伏啊。乐趣在于电脑高效下法被不同方式的解读，和李世石不断变化的策略尝试，这真是最强算法与最强大脑的竞争啊。不懂围棋，但看看一些业内人士解读总有乐趣，比如[这两盘棋 ，没人会比李世石做得更好！](http://mp.weixin.qq.com/s?__biz=MzI2NDAxNzU3NA==&mid=402685543&idx=1&sn=b8772e7f5472298e31a257bd7955fe84&scene=0#wechat_redirect)而至于算法这边，那更跟不上了，[深挖围棋AI技术（上）](http://geek.csdn.net/news/detail/58910)和[（下）](http://geek.csdn.net/news/detail/59308)，科普了不少内容。
+
+团队建设、安全
+----
+* [在创业公司做架构师，你需要解决哪些问题？](http://36kr.com/p/5044216.html)，如果考虑到一个产品和对应团队的健康，这些事儿都少不了。
+* 最近纯银V在简书上分享了不少经验文章，比如[创业招聘经验贴](http://www.jianshu.com/p/b6e8e6214dbc?utm_campaign=maleskine&utm_content=note&utm_medium=writer_share&utm_source=weibo)，另外几篇关于产品模型的思考也非常值得看看，**产品模型=商业模式+产品架构+运营体系**，产品的边界在哪里？直接去他[主页](http://www.jianshu.com/users/c22ccc510fb9/latest_articles)上看吧。
+
+
+
