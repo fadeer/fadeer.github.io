@@ -1,0 +1,32 @@
+---
+layout: post
+title:  每周技术文章 No.65
+date: 2016-03-21 22:00:00 +8000
+title2: 2016.3.14-20
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [HTML5视频的那些事儿](http://yanhaijing.com/html/2016/03/12/html5-video/)，做完善也不少事儿啊。
+* [nodeJS多进程](https://segmentfault.com/a/1190000004621734)，不深但是写的挺完整。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [iPad Pro代替笔记本两个月体验](https://www.citrix.com/blogs/2016/03/17/ipadpro-as-a-laptop-replacement-2-month-report/)，整体感觉良好，当然，代替笔记本**重要可行因素**是[Citrix X1 Mouse](https://www.citrix.com/products/mouse/overview.html)，哈哈，虽然是广告贴，但却是Citrix难得的亮点。
+* 点评的[服务化设计模式实践](http://blog.brucefeng.info/post/service-design-patterns-practices)，另外回顾一下[我们需要什么样的微服务](http://blog.brucefeng.info/post/which-kind-microservice-weneed)。
+* [Dropbox出走亚马逊云服务](http://tech2ipo.com/10028290)，Netflix往公有云上迁，Dropbox往自己数据中心迁，哈哈。Diskotech盒子配图有点儿U90的意思。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+* [AceDeceiver成为首个可利用苹果DRM设计漏洞感染iOS设备的木马](http://drops.wooyun.org/mobile/13918)，很久没用PC管理过设备了。
+* [JSPatch 近期新特性解析](http://blog.cnbang.net/tech/3038/)，不明觉厉。
+
+团队建设、安全
+----
+* [运维DBA的消亡](https://dbarobin.com/2016/03/20/withering-away-of-dba/)。
+
+
+
