@@ -1,0 +1,43 @@
+---
+layout: post
+title:  每周技术文章 No.66
+date: 2016-03-28 21:00:00 +8000
+title2: 2016.3.21-27
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [React 同构实践与思考](http://zhuanlan.zhihu.com/purerender/20669111)，页面渲染与路由的前后端一致化。
+* [CSS direction属性简介与实际应用](http://www.zhangxinxu.com/wordpress/2016/03/css-direction-introduction-apply/)，就只反转按钮顺序的事儿，这个是快些。
+* [前端XSS报警机制](http://drops.wooyun.org/web/13970)，前端防御XSS是建立在后端忘记做过滤，没有做过滤，疏忽做过滤的基础上的...
+* [前端通信进阶](https://segmentfault.com/a/1190000004682473)，AJAX、JSONP、SSE、WebSocket、CORS。
+* [第二届前端开发者年度大会总结](https://segmentfault.com/a/1190000004653381)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [Supercharging performance of your Hyper-V](http://cloudtidings.com/2016/03/22/supercharging-performance-of-your-hyper-v-%E2%80%8F/)，关于HyperV的性能配置与监控，[PDF](http://www.altaro.com/assets/Supercharging-Hyper-V-Performance-ebook.pdf)里提到的一些工具和链接比较有用。
+* [容器、虚拟机与Docker概念全解析](https://segmentfault.com/a/1190000004681086)，基础知识，整理的挺好。
+* [Docker应用的性能与监控](http://www.alauda.cn/2016/03/23/docker-monitor/)，参考，[PPT](http://vdisk.weibo.com/s/FdIh4Kv1nhLf7)。
+* [加快网络速度-TCP优化](https://segmentfault.com/a/1190000004670986)，基础知识推动优化改善的好例子。
+* [通过源码解析 Node.js 中一个文件被 require 后所发生的故事](https://segmentfault.com/a/1190000004695582)，嗯，就应该耐下心看源码。
+* [Jerry Qu博客 Nginx 配置之完整篇](https://imququ.com/post/my-nginx-conf.html)，HTTPS 和 HTTP/2 完整配置。
+* [第三方微信营销平台的安全隐患](http://drops.wooyun.org/tips/14016)，看漏洞记录，这问题是被微擎直接忽略了。
+* [关于这次的 kik，left-pad，和 npm 事件](https://segmentfault.com/a/1190000004672227)，什么事儿都有个度。“养成新的习惯，开始为你发布的代码做预打包吧”。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [NanoPi M1](http://www.techbang.com/posts/42158-only-350-yuan-open-source-with-hdmi-mini-computer-nanopi-m1)，Allwinner H3 Cortex-A7 1.2G四核，512MB，3USB，100兆网卡，11刀。
+* [Docker Sensor Fu on a Raspberry Pi](http://blog.hypriot.com/post/docker-sensor-fu-on-a-raspberry-pi/)，这里的Hypriot还真用过，没有直接用完整系统，而是在raspbian上装的Hypriot Docker Debian Packages，还得空跑实际应用。[更新](http://blog.hypriot.com/downloads/)挺频繁的，另外Hub上也发布了不少[镜像](https://hub.docker.com/search/?isAutomated=0&isOfficial=0&page=1&pullCount=0&q=Hypriot&starCount=1)。
+* [315晚会报道的无人机是怎么被劫持的？](http://drops.wooyun.org/papers/14060) 过程很有趣啊。
+
+团队建设、安全
+----
+* [一个前端开发者的自我修养](http://www.codeceo.com/article/front-developer-training.html)，作者的探索方式真实简单粗暴啊。
+* [OpenStack 部署分布式应用的一个坑](http://yeasy.blogspot.com/2016/03/openstack.html)，“这就需要提供服务的团队要做到比客户更懂自己的业务，这是赢得客户信任的一个极大的优势。懂得从客户需求到业务流程到底下各种技术栈的灵活运用，这才是优秀的技术人员”。
+
+
+
