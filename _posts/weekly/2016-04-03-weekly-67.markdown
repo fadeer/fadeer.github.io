@@ -1,0 +1,38 @@
+---
+layout: post
+title:  每周技术文章 No.67
+date: 2016-04-04 22:00:00 +8000
+title2: 2016.3.28-4.3
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [在js开发中，如何减少if else语句的使用](https://segmentfault.com/a/1190000004829656)，语言小技巧。
+* [React开发移动端h5应用踩过的坑们](http://chatting8.com/?p=871)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [vSphere HTML5 Web Client](http://www.yellow-bricks.com/2016/03/29/cool-fling-vsphere-html5-web-client/)，网页版的vSphere单机管理工具，当然也包括VM Console支持。
+* 微软Build 2016大会，最新鲜的主题大概就是[Ubuntu on Windows](http://blog.dustinkirkland.com/2016/03/ubuntu-on-windows.html)了，另见[会议视频和PPT](https://channel9.msdn.com/Events/Build/2016)。
+* [Data Deduplication in Windows Server 2016](https://blogs.technet.microsoft.com/filecab/2016/04/01/data-deduplication-in-windows-server-2016/)，优化任务启用多线程了，所以支持卷容量到64TB了。
+* [如何实现微服务架构中的服务发现？](http://mp.weixin.qq.com/s?__biz=MzA4MzQ1NjQ5Nw==&mid=402298258&idx=1&sn=d7f6ed085266f079e4ee455e1886fe3e)
+* [Windows批处理(cmd/bat)常用命令小结](http://wsgzao.github.io/post/windows-batch/)，基础知识，时不时能用上点儿。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+* [探索react native首屏渲染最佳实践](http://www.alloyteam.com/2016/03/best-practice-in-react-native/)，“react native框架给了我们新的能力，使得我们可以用javascript开发原生app。当我们走入react native应用的深水区，开始对他进行各方面细致的优化时，我们在原来web端积累的最佳实践依然有效，诸如缓存的使用、元素复用、延迟加载、异步加载等方法依然会起到很好的效果”。另见[Dive into React Native performance](https://code.facebook.com/posts/895897210527114/dive-into-react-native-performance)。
+* [FBI vs Apple:FBI侥幸拿下这一局](http://weibo.com/ttarticle/p/show?id=2309403959919610039908)，分析的比较清晰。
+
+市场、产品、项目
+----
+* [APM 已经爬到顶峰 未来又将如何？](http://tech2ipo.com/10028789)
+
+团队建设、安全
+----
+* [程序员有哪些电脑技能让外行感到神奇？](http://www.codeceo.com/article/programmer-wonderful.html) 最后一个动手能力很强啊。
+* [熬夜并不值得程序员炫耀](http://www.codeceo.com/article/sleep-deprivation-not-honor.html)，“软件开发很少是短途冲刺，大多是马拉松。而且是多场马拉松”。
+
+
