@@ -1,0 +1,47 @@
+---
+layout: post
+title:  每周技术文章 No.68
+date: 2016-04-10 22:00:00 +8000
+title2: 2016.4.4-4.10
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)，另有[ES5](https://github.com/airbnb/javascript/tree/master/es5)版本。
+* [也谈webpack及其开发模式](https://segmentfault.com/a/1190000004888589)。
+* [浅入浅出Monads](https://segmentfault.com/a/1190000004895315)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [企业级IaaS架构的深度解析](http://www.infoq.com/cn/articles/depth-analysis-of-enterprise-iaas-architecture)，讨论的挺广泛，不少来自实践的判断。
+* [Spark在美团的实践](http://tech.meituan.com/spark-in-meituan.html)，学学。
+* [Ceph中的容量计算与管理](https://www.ustack.com/blog/ceph－rongliang/)。
+* [Login VSI & VMware show simple tuning of Windows 10 settings can increase VDI density almost 50%!](https://www.brianmadden.com/blogs/brianmadden/archive/2016/04/06/login-vsi-amp-vmware-show-simple-tuning-of-windows-10-settings-can-increase-vdi-density-almost-50.aspx)，在VMware [OSOT](https://labs.vmware.com/flings/vmware-os-optimization-tool)44%的基础上，LoginVSI实现了[Windows 10 VM密度增加50%](https://www.loginvsi.com/blog/520-the-ultimate-windows-10-tuning-template-for-any-vdi-environment)的提升。
+* [逆天的Ubuntu on Windows 10](http://markwin.blog.51cto.com/148406/1761675)，盆盆跟Win7下的Subsystem for Unix-based Application做对比，每次看到这样的分析，都在提醒我其实很多Windows的基础知识是非常欠缺的。
+* [Estimating Azure RemoteApp network bandwidth usage](http://microsoftplatform.blogspot.com/2016/04/estimating-azure-remoteapp-network.html)。
+* [Hubot 的简单用法](https://segmentfault.com/a/1190000004855149)，Hubot 这开源聊天机器人，有很多用于自动化的案例。
+* [特殊条件数据传输](http://drops.wooyun.org/tips/14568)，拿到数据的方式确实可以，要利用一切可以利用的通路。
+* [深度揭秘：伪基站短信诈骗产业传奇始末！](http://drops.wooyun.org/news/14647) 了解一下。“信使团队会购买伪基站设备，开车去人口密集而且管理松懈的二三线城市扫街；另外，地区的选择也挺多说法，比如天津因当地伪基站发信收入少，信使都不愿意去…”
+
+市场、产品、项目
+----
+<!--preview-end-->
+* [通过Hygieia的DevOps仪表板展现交付管道的端到端聚合视图](http://www.infoq.com/cn/news/2016/04/hygieia)，有些细节值得参考。另见[Git仓库](https://github.com/capitalone/Hygieia)。
+* [为什么苹果、小米、FB这些品牌，现在都不酷了？](http://36kr.com/p/5045550.html) 作者认为的酷是“打破不合理的社会常规，并且让众多人感知”，听着挺有道理。貌似现在酷的是电动汽车、可回收火箭、VR眼镜；从另一个角度看，可能还有老干妈，哈哈。
+
+团队建设、安全
+----
+* [职场老兵告诉你如何创新](http://36kr.com/p/5045516.html)，“寻求一致意见并非良策、中途不要反复寻求反馈、别墨守成规”，创新也是一种试错吧。另见[原文](http://www.fastcompany.com/3058271/lessons-learned/three-lessons-on-innovation-i-learned-during-my-12-years-at-apple?utm_source=wanqu.co&utm_campaign=Wanqu+Daily&utm_medium=social)。
+* [湾区日报的文章都是从哪来的？](https://wanqu.co/blog/2016-04-04-source-of-good-articles.html) 非常值得学习的个人项目啊，作者在中文受众里推荐英文佳作的努力也很有意义，坚持多读就会越来越顺畅。另一方面，湾区日报选择的文章也确实被很多的中文科技网站翻译转载，比如上面的就是。
+* [七年阿里老人谈新人成长](http://geek.csdn.net/news/detail/65891)，这四个方面分析的在理。
+* [所有的编程技术都会成为历史](http://blog.coderzh.com/2016/04/05/programming-languages/)，作者分享了自己的语言转换历程。
+
+图书
+----
+* [《精进：如何成为一个很厉害的人》](https://book.douban.com/subject/26761696/)，貌似多看还得稍后，先来看看前言[我想用《精进》这本书，和大家一起探讨成材道路上的那些问题](http://zhuanlan.zhihu.com/p/20708805)。“所以我希望在这本书里，我展现了一些你原先未曾想到、未尝看到又殊为重要的东西，这些东西开始一点点撬动你头脑中某些坚固或者凝结已久的结构，使它们开始松动”。
+
+
+
