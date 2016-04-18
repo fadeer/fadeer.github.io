@@ -1,0 +1,36 @@
+---
+layout: post
+title:  每周技术文章 No.69
+date: 2016-04-18 22:00:00 +0800
+title2: 2016.4.11-4.17
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [JavaScript中的不可变性(Immutability)](https://segmentfault.com/a/1190000004906518)。
+* [前端JavaScript调试技巧总结](http://www.codeceo.com/article/javascript-debug-skills.html)，除了Alert和Console，剩下就是Chrome调试功能详解啊。
+* [谈谈 HTTP/2 的协议协商机制](https://imququ.com/post/protocol-negotiation-in-http2.html)，补课。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [如何定位 Node.js 的内存泄漏](http://taobaofed.org/blog/2016/04/15/how-to-find-memory-leak/)，其中[devtool](https://github.com/Jam3/devtool)就值得试试。
+* [Hyper-V. CSV 集群共享卷进入5120暂停状态‏及临时解决方案](https://cloudtidings.com/2016/04/16/hyper-v-csv-volumes-pause-states-5120%E2%80%8F-workaround/)，这是补丁KB3126593引起的问题，如果不移除这个补丁就暂时关闭防火墙的日志功能，这什么原理？另见[Troubleshooting Cluster Shared Volume Auto-Pauses – Event 5120](https://blogs.msdn.microsoft.com/clustering/2014/12/08/troubleshooting-cluster-shared-volume-auto-pauses-event-5120/)。
+* [Linux上下文切换监控](http://colobu.com/2016/04/12/context-switching-monitor/)。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+* React Native最佳学习模版，[F8 App开源了](https://segmentfault.com/a/1190000004942617)，React Native + Redux + Relay + GraphQL 开发低强度应用典型案例，见[github](https://github.com/fbsamples/f8app)。
+
+团队建设、安全
+----
+* 优秀设计主管必备的品质，[上篇](http://colachan.com/post/3493) 和 [下篇](http://colachan.com/post/3495)，来看看别人家的设计团队，哈哈。当然很多角度都是可借鉴的，“通过与之相称的、有意义的问题，给设计师带来挑战；学习上的支持；**当我们为其他人腾出时间，合作就能取得最大成功**；公开赞赏他人，表示我们注意到了别人努力的成果；**不要在你想要打造的团队上放弃或妥协**；”。
+* [当我们犯错时 - 如何知道自己正在犯错？](http://beforweb.com/node/825)。“在由人际关系所构成的世界当中，人们比你所想象的更具包容性。相比于掩盖真相、混淆是非，人们更欣赏坦诚。团队看到你勇于承认错误并承担责任的时刻便是信任被重建的时刻。一开始可能不太容易，对话过程会很艰难，但最终你会让大家看到，即便你搞砸了，但你会承担下来，修复问题，汲取教训，并继续向前”。
+
+图书
+----
+* [带着画笔去旅行：旅行主题手绘技法](http://www.duokan.com/book/51309)，哈哈。
+
+
