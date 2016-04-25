@@ -1,0 +1,35 @@
+---
+layout: post
+title:  每周技术文章 No.70
+date: 2016-04-25 22:00:00 +0800
+title2: 2016.4.18-4.24
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* Neutron DVR —Dive into Human Defined DVR [（一）](https://www.ustack.com/blog/neutron-dvr-dive/) 和 [（二）](https://www.ustack.com/blog/neutron-dvr-dive-2/)，“在一个DVR的环境里，手动创建虚拟机，手动创建各种Linux网络设备，手动添加各种流表，完成新建虚拟机和在DVR模式下的虚拟机的DHCP，二层，三层通信”。
+* [netdata：实时监视 Linux 系统性能](https://linuxtoy.org/archives/netdata.html)，看linuxtoy的监控[演示页面](http://n.linuxtoy.org)效果很不错啊。
+* [docker镜像仓库harbor快速部署和使用](https://www.ustack.com/blog/docker/)，有用，但是这本身就占了5个容器，还得找些别的比较一下。
+* [微服务系统中的服务发现机制](https://segmentfault.com/a/1190000004960668)。
+* [GitHub CSP (Content Security Policy)应用的经验分享](http://drops.wooyun.org/papers/15120)。
+* [渗透Hacking Team过程](http://drops.wooyun.org/pentesting/15117)，之前HT泄露的的过程，很多基础知识。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+* [破解微软智能手环](http://drops.wooyun.org/wireless/15139)。
+* [UDOO X86 开发版](http://www.techbang.com/posts/42647-windows10-output-of-3-picture-udoo-x86-mini-computer-development-boards)，赛扬N3160 四核，4G内存，8G eMMC，还内嵌一个Arduino 101开发版，可以用于控制主板启动。
+* [构建 F8 App / React Native 开发指南（中文版）](http://f8-app.liaohuqiu.net)。
+
+市场、产品、项目
+----
+* [聊天机器人其实是微型app](https://wanqu.co/2016-04-18-bot-is-the-wrong-name-and-why-people-who-think-they-are-silly-are-wrong-lightspeed-venture-partners-medium.html)，“bot-first startup 的思路”，通过主流帐号系统的关联，弱化了用户注册的侵入感，还一下获得了丰富的用户数据。
+
+团队建设、安全
+----
+* [玩转 BTSync 的技巧](https://linuxtoy.org/archives/tips-while-playing-btsync.html)，分布式网盘使用经验。
+
+
+
