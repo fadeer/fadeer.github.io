@@ -1,0 +1,46 @@
+---
+layout: post
+title:  每周技术文章 No.71
+date: 2016-05-01 22:00:00 +0800
+title2: 2016.4.25-5.1
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [也谈多终端屏幕适配](https://segmentfault.com/a/1190000005012919)。
+* [无线性能优化：Composite](http://taobaofed.org/blog/2016/04/25/performance-composite/)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* 微软更新了[Windows Server 2016 Technical Preview 5](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-technical-preview)，我最关心还是S2D部分：[Storage Spaces Direct新特性](https://blogs.technet.microsoft.com/filecab/2016/04/27/s2dtp5new/)，支持配置Rack范围、最小三节点部署、支持NVMe, SSD and HDD三级存储。另见分级存储[详细配置](https://blogs.technet.microsoft.com/filecab/2016/04/28/s2dtp5nvmessdhdd/)。
+* Nodejs相关，[通过源码解析 Node.js 中 events 模块里的优化小细节](https://segmentfault.com/a/1190000005004884)，[你可能想知道的 Node 子进程模块](https://segmentfault.com/a/1190000005004946)。
+* [Redis高级用法](https://segmentfault.com/a/1190000005007692)，备忘。
+* [巅峰对决 - 框架的性能比较](http://colobu.com/2016/04/25/performance-comparison-of-frameworks/)，值得再回顾一下。
+* 阿里云Node.js SDK for all OpenAPIs，[waliyun](https://github.com/willin/waliyun)。
+* 两年前看《数据中心2013:硬件重构与软件定义》时，就对存储系统特别是硬盘的很多尝试特别感兴趣，觉得硬盘厂商还是挺有忧患意识的，呵呵。特别是网线连接对象存储的硬盘，但也没了解到后续的发展。最近，[西部数据和Ceph把这个“概念”变成了现实](http://ceph.com/community/500-osd-ceph-cluster/)。首先是西数的硬盘上附加了一块完整的ARM板子，包含2核A9 1.3G CPU、1G内存、双1G网口。在这基础上运行了一个Debian Jessie和Ceph核心，因此一块硬盘就成了一个Ceph OSD节点。他们构建了一个504个硬盘（OSD）、4PB容量的存储系统。
+* [WebSocket连接的负载均衡](http://www.codeceo.com/article/websocket-load-balanced.html)，有用。
+* [过去六年在小米搞(wa)错(keng)的几个技术细节](http://2014.54chen.com/blog/2016/04/26/mistake-in-six-years/)。
+* [Fiddler的灵活使用](http://drops.wooyun.org/tips/15201)，自动化过滤、保存完整请求。另见，[Wireshark的Statistics统计工具功能详解与应用](http://weibo.com/p/1001603969561769685651)。
+* [企业级无线渗透之PEAP](http://drops.wooyun.org/wireless/15269)，一些基础知识，补课。
+* [一个论坛挂马的奇异反转](http://drops.wooyun.org/news/15451)。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [Chromium OS for SBC](http://www.chromiumosforsbc.org)，这就是开源版的Chrome OS， 目前可[下载](http://www.chromiumosforsbc.org/download/)的0.5版本支持树莓派2和3。Chrome下有什么RDP端么？或者干脆Html5吧，哈哈。
+* 微信双开还是微信定时炸弹？[关于非越狱iOS上微信分身高危插件ImgNaix的分析](http://drops.wooyun.org/mobile/15406)，“从这个样本中，我们已经看到在非越狱iOS上的攻防技术已经变的非常成熟了”，好可怕啊...
+* [玩转 BTSync 与 WD MyCloud](https://linuxtoy.org/archives/how-to-btsync-wdmycloud-nas.html)，这个可以动手跑起来。
+
+市场、产品、项目
+----
+* [Chromebook也许很快就能运行所有的Android应用](http://digi.163.com/16/0425/14/BLGLFJM600162OUT.html)，这是被RemixOS这类Android“错误”用法倒逼的么？呵呵。
+
+团队建设、安全
+----
+* [Windows management for hacker](https://blog.log4d.com/2016/04/windows-management-for-hacker/)，效率工具。
+
+
+
