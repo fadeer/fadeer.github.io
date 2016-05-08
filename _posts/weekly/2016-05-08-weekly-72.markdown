@@ -1,0 +1,31 @@
+---
+layout: post
+title:  每周技术文章 No.72
+date: 2016-05-08 20:00:00 +0800
+title2: 2016.5.2-8
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [Promise 反模式](http://taobaofed.org/blog/2016/05/03/promise-anti-patterns/)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [API返回结果设计经验与总结](http://tutuge.me/2016/05/02/design-json-api-respoense/)，有些经验值得借鉴。
+* [Windows Container Networking](https://blogs.technet.microsoft.com/virtualization/2016/05/05/windows-container-networking/)。
+* [The top three tips for effective sorting in PowerShell](https://blogs.technet.microsoft.com/heyscriptingguy/2016/05/03/the-top-three-tips-for-effective-sorting-in-powershell/)，好用。
+* [WSC、JSRAT and WMI Backdoor](http://drops.wooyun.org/tips/15575)，有攻有防的分析。
+* [伪AP检测技术研究](http://drops.wooyun.org/wireless/15128)，补课。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+* Android性能优化典范 - [第5季](http://hukai.me/android-performance-patterns-season-5/)。
+
+团队建设、安全
+----
+* [AFTER A YEAR OF USING NODEJS IN PRODUCTION](http://geekforbrains.com/post/after-a-year-of-nodejs-in-production)，关于语言选择的讨论，这种事儿最后的结果总是“看情况”，即便是大多数时候正确的语言（比如Java？），在其他情况下还是有更高效的其他选择。
+
+
