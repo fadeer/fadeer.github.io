@@ -1,0 +1,53 @@
+---
+layout: post
+title:  每周技术文章 No.73
+date: 2016-05-16 22:00:00 +0800
+title2: 2016.5.9-15
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [Vue.js的监听实现](https://segmentfault.com/a/1190000005082164)。
+* [通过源码解析 Node.js 中高效的 timer](https://segmentfault.com/a/1190000005082085)。
+* [常用正则表达式](http://www.uisdc.com/regular-expression-lifting-efficiency)。
+* [Fetch API: 异步请求新解决方案](http://zhenhua-lee.github.io/http/fetch.html)。
+* [Webpack——令人困惑的地方](https://github.com/chemdemo/chemdemo.github.io/issues/13)，[babel 到底将代码转换成什么鸟样？](https://github.com/lcxfs1991/blog/issues/9) 这个探索很棒。
+* [Box-Shadow 没那么简单啦](https://segmentfault.com/a/1190000005094319)，挺能琢磨的。
+* 125个提升网页可用性的优化小技巧，很多实践的思考点，[原文](http://www.nickkolenda.com/user-experience/?utm_source=designernews#ux-category1)是完整的，译文分了这几部分，[一](http://www.uisdc.com/125-website-usability-optimize-1)，[二](http://www.uisdc.com/125-website-usability-optimize-2)，[三](http://www.uisdc.com/125-website-usability-optimize-3)，[四](http://www.uisdc.com/125-website-usability-optimize-4)，
+* [写给想做前端的你](https://segmentfault.com/a/1190000005085629)，感觉写的比较务实。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [Docker从上手到差点放弃](http://mp.weixin.qq.com/s?__biz=MzA4Nzg5Nzc5OA==&mid=2651659581&idx=1&sn=c5ca9f41d7d8e415b5ef961fee9fafac)，这个实践真不错，我们使用了工具、工具反过来塑造了我们，系统组件的容器化是个必要的过程。
+* UnitedStack对OpenStack奥斯汀峰会36个Session的介绍和评论，[网络架构](https://www.ustack.com/news/austin-session-guides-01/)，[功能与工具](https://www.ustack.com/news/austin-session-guides-02/)，[网络开发](https://www.ustack.com/news/austin-session-guides-03/)，[创新技术](https://www.ustack.com/news/austin-session-guides-04/)。
+* [数据库原理基础知识](http://blog.jobbole.com/100349/)，补课。
+* [Linux堆内存管理深入分析（上）](http://jaq.alibaba.com/community/art/show?spm=a313e.7916642.0.0.kGQ3Do&articleid=315)，补课。
+* 关于函数式编程，[函数式编程离我们有多远？](https://www.h5jun.com/post/functional-how-far.html) [高阶函数对系统的“提纯”](https://www.h5jun.com/post/higher-order-function-play-with-pure-function.html)，很多时候不纯只是还没习惯。
+* [保护你的API（上）](http://icodeit.org/2016/05/about-session-and-security-api-1/) 和 [（下）](http://icodeit.org/2016/05/about-session-and-security-api-2/)，**这个必须有**。
+* [邪恶的CSRF](http://drops.wooyun.org/web/15556)。
+* [勒索软件Locky最新传播载体分析](http://drops.wooyun.org/news/15607)，**这载体就是Office啊**。
+* [APT 洋葱狗行动（Operation OnionDog）分析报告](http://drops.wooyun.org/news/15658)，不明觉厉。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [Pine64 初评](https://linuxtoy.org/archives/pine64-preview.html)，“既然 SoC 是全志出品，估计你也猜到了其 Linux 的支持水平：能用，但问题不少。”同感，目前这些小板的Linux社区都不跟树莓派的比，差很多啊。看[官方论坛](http://forum.pine64.org/)也有RemixOS板块，这个如果能顺畅跑起来还是可以用一用的。再回到全志的Linux，[遗留开发者调试后门](http://www.solidot.org/story?sid=48191)这什么情况。
+* 来看看[raspbian最近版本的改进](https://www.raspberrypi.org/blog/another-update-raspbian/)，蓝牙的使用管理确实方便了。
+
+市场、产品、项目
+----
+* [李想：三十而立，创业16年的10个经验](http://mp.weixin.qq.com/s?__biz=MzA5ODcyMTkxNg==&mid=208255965&idx=1&sn=352b795a034c882749671dc14fc370a7)。
+* [新版MATERIAL DESIGN 官方动效指南](http://www.uisdc.com/material-motion-design-guideline)，[（二）](http://www.uisdc.com/material-motion-design-guideline-2)，更多的见[原文](https://www.google.com/design/spec/motion/material-motion.html)，图示的都比较清楚。
+
+团队建设、安全
+----
+* [关于团队管理的一些思考](http://www.ikent.me/blog/5100)，“潜规则，才是最管用的规则”；“团队必须建立人才梯队，没有梯队就没有正向的竞争意识”；“团队要对内抱团，对外融合”；“更主动一些，学会示弱，把事情完成”。
+* [怎样写出优秀的研究论文](http://whatbeg.com/2016/05/10/how2wtpaper.html)，这事儿对外国人也不容易啊。
+* [提高学习改进记忆的科学方法](http://www.codeceo.com/article/way-to-improve-memory.html)，**自主寻回学习**，主动在项目中实践，总结和讲解都是很好用的。
+
+
+
+
