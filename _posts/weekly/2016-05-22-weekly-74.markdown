@@ -1,0 +1,42 @@
+---
+layout: post
+title:  每周技术文章 No.74
+date: 2016-05-22 22:00:00 +0800
+title2: 2016.5.16-22
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* 关于交互设计的一个真实故事，[老大要回家](http://colachan.com/post/3503)，无论最后产品的选择如何，这样场景的体会、思考都是非常重要的。
+* [CSS3 filter:drop-shadow滤镜与box-shadow区别应用](http://www.zhangxinxu.com/wordpress/2016/05/css3-filter-drop-shadow-vs-box-shadow/)。
+* [关于动画，你需要知道的](https://www.h5jun.com/post/animations-you-should-know.html)，基础知识。
+* 微信,QQ这类IM app怎么做——[谈谈Websocket](http://www.jianshu.com/p/bcefda55bce4)。
+* [还在为无缝滚动而烦恼？是时候彻底get到这个知识点了](https://segmentfault.com/a/1190000005138317)，另见[高性能滚动 scroll 及页面渲染优化](http://www.cnblogs.com/coco1s/p/5499469.html)。
+* [单文件组件下的vue，可以擦出怎样的火花](https://segmentfault.com/a/1190000005168085)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [为故障和失败做设计](http://icodeit.org/2016/05/design-for-failure/)，代码里80%都是保护，还能不能好好写点儿功能了？
+* [理解Unikernels](http://tonybai.com/2016/05/16/understanding-unikernels/)，之前在Xen的博客上看到过Unikernels的讨论，后来看到OSv的想法也很新鲜。
+* Open vSwitch 2.5 on Hyper-V (OpenStack) – [Part 1](https://cloudbase.it/open-vswitch-2-5-hyper-v-part-1/)，“updated version of the OVS Hyper-V virtual switch forwarding extension, providing fully interoperable GRE, VXLAN and STT encapsulation between Hyper-V and Linux, including KVM based virtual machines”。
+* [VMware原先的C# Client端正式结束开发了](http://www.yellow-bricks.com/2016/05/19/c-client-officially-dead/)，就到6.0了，取而代之是之前发布的html5的版本，为了能支持更多的设备，这是更好的选择。另见[官方说明](http://blogs.vmware.com/vsphere/2016/05/goodbye-vsphere-client-for-windows-c-hello-html5.html)。
+* [资深程序员都了解的代码复用法则](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=2653547118&idx=1&sn=733737f71a751feea5c2d2ca5ea3adbe)。
+* Spark官方文档，[Spark Streaming编程指南](http://ifeve.com/spark-streaming-2/)，另见[Hadoop学习资源集合](https://yq.aliyun.com/articles/47860)。
+* [新姿势之Docker Remote API未授权访问漏洞分析和利用](http://drops.wooyun.org/papers/15892)，这就像Redis的端口开放，做部署时还是要想一下的。
+
+市场、产品、项目
+----
+<!--preview-end-->
+* 关于付费经验这个模式，看看[如何玩“全民奇葩说”还躺着赚钱](http://www.ifanr.com/657406)。其实之前也看到了一些付费邮件列表和付费技术群，这个大方向，这篇[一斤知识该卖多少钱？](http://mp.weixin.qq.com/s?timestamp=1463626845&src=3&ver=1&signature=rc2HDYCTxZ54ecVgjNHajTu6zqzsmpYAWqCHHO5n9hJ0ka5MRTtF62rp3KI-gGkQrRzRBv6hS4tWTNfXpXt30Oa-vmokKLjNoJ0a31VINdibgw2C182MjRtz6BYph6rlp*IkcmRDgrcz6ju5-pXAd69NjTS-QSjP2cAgUft5l*8=)讨论的不错。另见[Content is King, But Context is God](https://medium.com/@garyvee/content-is-king-but-context-is-god-72fa91d601aa#.3a6vs5rxy)。
+
+团队建设、安全
+----
+* [一个普通员工如何让团队变得更好](http://www.joelonsoftware.com/articles/fog0000000332.html)，01年的老文章，但是观点很好，缺什么别抱怨，自己动手实践起来。
+* [我的 Linux 一万小时](https://lex.sh/linux10khrs/)，非主业技能，很可能就是这个状态。所以[Shell 编程之语法基础](https://linuxtoy.org/archives/shell-programming-basic.html)这类东西更像是个速查手册啊。
+* [技术是如何劫持我们的思考的](https://medium.com/@tristanharris/how-technology-hijacks-peoples-minds-from-a-magician-and-google-s-design-ethicist-56d62ef5edf3#.8asmkwc5i)。
+
+
+
