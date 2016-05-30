@@ -24,7 +24,7 @@ tags: Weekly Skill
 * [Docker从上手到差点放弃](http://mp.weixin.qq.com/s?__biz=MzA4Nzg5Nzc5OA==&mid=2651659581&idx=1&sn=c5ca9f41d7d8e415b5ef961fee9fafac)，这个实践真不错，我们使用了工具、工具反过来塑造了我们，系统组件的容器化是个必要的过程。
 * UnitedStack对OpenStack奥斯汀峰会36个Session的介绍和评论，[网络架构](https://www.ustack.com/news/austin-session-guides-01/)，[功能与工具](https://www.ustack.com/news/austin-session-guides-02/)，[网络开发](https://www.ustack.com/news/austin-session-guides-03/)，[创新技术](https://www.ustack.com/news/austin-session-guides-04/)。
 * [数据库原理基础知识](http://blog.jobbole.com/100349/)，补课。
-* [Linux堆内存管理深入分析（上）](http://jaq.alibaba.com/community/art/show?spm=a313e.7916642.0.0.kGQ3Do&articleid=315)，补课。
+* [Linux堆内存管理深入分析（上）](http://jaq.alibaba.com/community/art/show?spm=a313e.7916642.0.0.kGQ3Do&articleid=315)，补课。*5.30更新*，[（下）](http://jaq.alibaba.com/community/art/show?spm=a313e.7916642.220000NaN1.4.486fs0&articleid=334)。
 * 关于函数式编程，[函数式编程离我们有多远？](https://www.h5jun.com/post/functional-how-far.html) [高阶函数对系统的“提纯”](https://www.h5jun.com/post/higher-order-function-play-with-pure-function.html)，很多时候不纯只是还没习惯。
 * [保护你的API（上）](http://icodeit.org/2016/05/about-session-and-security-api-1/) 和 [（下）](http://icodeit.org/2016/05/about-session-and-security-api-2/)，**这个必须有**。
 * [邪恶的CSRF](http://drops.wooyun.org/web/15556)。
