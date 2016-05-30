@@ -1,0 +1,52 @@
+---
+layout: post
+title:  每周技术文章 No.75
+date: 2016-05-30 23:00:00 +0800
+title2: 2016.5.23-29
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* Vue构建单页应用最佳实战，[上](https://segmentfault.com/a/1190000005009052) 和 [下](https://segmentfault.com/a/1190000005268225)。
+* [H5视频直播扫盲](http://www.alloyteam.com/2016/05/h5-camera-literacy/)，另见[视频播放的那些事](http://taobaofed.org/blog/2016/05/23/video-player/)。
+* [寻找头绪：编写可维护的 JavaScript](https://www.h5jun.com/post/untangling-spaghetti-code-writing-maintainable-javascript.html)，有些工具还是得用起来。
+* [怎么样构建HTML表单](https://segmentfault.com/a/1190000005367735)，基础知识。另有[原生表单组件](https://segmentfault.com/a/1190000005367760)。
+* [那些年我们踩过的乱码坑](https://segmentfault.com/a/1190000005347080)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [基于Kubernetes和OpenStack的开源项目在物联网的应用](https://segmentfault.com/a/1190000005346321)。
+* [基于WinSrv2016(TP)构建的“超融合基础架构”](http://rdsrv.blog.51cto.com/2996778/1782766)，看看别人的练习。
+* [linux下tomcat安全配置](http://drops.wooyun.org/运维安全/15888)，值得过滤一下。另见[MySQL和PostgreSQL数据库安全配置](http://drops.wooyun.org/运维安全/16067)。
+* [Node源码解析 – buffer](http://zhenhua-lee.github.io/node/buffer.html)。
+* [勒索软件TeslaCrypt关闭，公开主密钥](http://www.solidot.org/story?sid=48297)，“杀毒软件ESET的研究人员在这之前已经注意到TeslaCrypt似乎要关门，正在切换到其它勒索软件，因此通过TeslaCrypt支付网站的聊天工具询问他们是否能释出主密钥。出乎他意料的是，[对方同意了](http://www.bleepingcomputer.com/news/security/teslacrypt-shuts-down-and-releases-master-decryption-key/)”。无论黑白，技术是通用的，于是[小窥TeslaCrypt密钥设计](http://drops.wooyun.org/tips/16060)。
+* [内网渗透思路探索 之新思路的探索与验证](http://drops.wooyun.org/tips/16116)。
+* [CPL文件利用介绍](http://drops.wooyun.org/tips/16042)，在安全专家眼里，Windows是这样儿的。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [The Business Desktop PC Is About to Be Displaced by a Pi](https://www.citrix.com/blogs/2016/05/24/low-cost-desktop-virtualization-is-as-easy-as-citrix-hdx-ready-pi/)，这里推荐的**HDX Ready Pi**设备，来自[ViewSonic的SC-T25](http://www.viewsonic.com/us/sc-t25.html)，本质上是树莓派3 + ThinLinx的TLXOS系统，针对Cirtix的优化是，将HDX的H264解码卸载到了树莓派的硬解芯片上。可以对比的是，Cirtix官方提供的ARM版客户端，并没有提供H264硬解功能，当然评论里Citrix员工也说有些场景H264是不太需要的...
+* [Android将正式支持Raspberry Pi 3](http://www.solidot.org/story?sid=48361)，目前就是AOSP里多了个树莓派3的设备树，还是“有望支持”更合适些。
+* [React Native 一周年回顾](http://www.oschina.net/translate/react-native-a-year-in-review)，另见[原文](https://code.facebook.com/posts/597378980427792/react-native-a-year-in-review/)。
+
+市场、产品、项目
+----
+* [复杂产品的设计策略](http://www.aliued.cn/2016/05/23/【译文】复杂产品的设计策略.html)，更看重的是前半部分，在早期就跟客户、产品负责任等形成有效的设计反馈，从而尽早形成比较一致的思路是非常值得的一个事儿；后半部分在设计实践方面讨论了几个常见话题。
+* [苹果与Google的文化之咒](http://36kr.com/p/5047484.html)，“总认为以前行得通的将来也永远行得通，哪怕情况已经发生了变化”，很多事情都这样嘛，这就是经验啊。
+* 关于产品，[克制的力量](http://36kr.com/p/5047457.html)。
+* [超越触控的手势交互](http://colachan.com/post/3505)，开阔思路。
+
+团队建设、安全
+----
+* [不理解编译器工作原理的人不算优秀的程序员](https://wanqu.co/2016-05-24-rich-programmer-food.html?s=social)。
+* 外国鸡汤，[How do I get to the next level](http://www.yellow-bricks.com/2015/02/24/how-do-i-get-to-the-next-level/)，[Part 2](http://www.yellow-bricks.com/2016/05/26/get-next-level-part-2/)。
+* [如何指导新人 - Mentor 指导手册](http://blog.devtang.com/2016/05/26/mentor-guide/)，从程许愿到导师，不容易。
+* [无他，但手熟尔](http://icodeit.org/2016/05/practise-in-programming/)，“精通了高效率搜索之后，你会产生一种你精通搜索到的知识本身的错觉”；“在一个领域待久了，你所使用的关键字准确度自然要比新人高一些，仅此而已”。哈哈，真是这样。
+* [绝知此事要躬行，继续谈我们该怎么学习](http://mp.weixin.qq.com/s?__biz=MjM5MjUwNzIyMA==&mid=2649940341&idx=1&sn=8cbf3208574e60d29c4c31bc83afe41c&scene=0#wechat_redirect)，看看“狠心”学东西是怎样的。
+
+
+
