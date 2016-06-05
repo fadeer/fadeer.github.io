@@ -1,0 +1,43 @@
+---
+layout: post
+title:  每周技术文章 No.76
+date: 2016-06-05 23:00:00 +0800
+title2: 2016.5.30-6.5
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [聊一聊淘宝首页和它背后的一套](http://www.barretlee.com/blog/2016/06/02/thing-about-taobao-homepage/)，经验总结。除了PHP到Node.js的转换，工程化的内容也值得参考。
+* [CSS单词换行and断词，你真的完全了解吗](http://www.alloyteam.com/2016/05/css-word-for-word-breaker-do-you-really-understand/)。
+* [React移动web极致优化](http://www.alloyteam.com/2016/05/react-mobile-web-optimization/)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [What’s new in Mitaka for Hyper-V](https://cloudbase.it/whats-new-mitaka-hyper-v/)。
+* 来自有云的[《深入理解OpenStack自动化部署》](https://www.ustack.com/news/openstack-automation-deployment-2016-ebook-released/)电子书。
+* [Azure Stack ARM模板介绍](http://mp.weixin.qq.com/s?__biz=MzA3NTM1MzE4Nw==&mid=2649617229&idx=1&sn=6a690043bcb3a56c59c05ccbcbc19656&scene=0)，在Azure Resource Manager这个二代API上，微软才真正统一了Azure和Azure Stack，接口一致的混合云。
+* [延续性究竟是什么？](https://www.h5jun.com/post/what’s-in-a-continuation.html)
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+* [微软中国发布基于 Azure 的物联网开发套件](http://tech2ipo.com/10030366)，“包含了开发板、扩展板、摄像头、麦克风、温湿度传感器、光传感器、LED 灯、Micro SD 存储卡、WIFI 模块等各种配套部件”，太到位了，哈哈。既然是为了推销IoT Hub，这套应该免费。
+
+市场、产品、项目
+----
+* [一条数据狗的上海房价研究](https://yq.aliyun.com/articles/38618)，学以致用。这样的事儿做下去，总会有不常见的结论的。
+
+团队建设、安全
+----
+<!--preview-end-->
+* [那些免费代理悄悄做的龌蹉事儿](http://www.hekaiyu.cn/hacker/1527.html)。
+* [运营湾区日报每个月要花多少钱](https://wanqu.co/blog/2016-06-02-cost.html)，每天要投入两个小时呢，持续下来不容易。
+* [我们如何为三万人的公司横向伸缩 GitLab](https://ruby-china.org/topics/30146)，来自支付宝的实践。
+* 鸡汤，[为什么开源可以提高程序员的编程技能？](http://www.codeceo.com/article/opensource-hone-programming.html)
+* [From node-webkit to Electron 1.0](http://cheng.guru/blog/2016/05/13/from-node-webkit-to-electron-1-0.html)，原来node-webkit早期核心作者和Electron的主创是同一人啊，厉害。知乎上有作者回答的[中文版](https://www.zhihu.com/question/36292298/answer/102418523)。特别是项目早期推广阶段，另见[我的开源项目从0到1024的过程](https://segmentfault.com/a/1190000005640523)。
+* [技改之路：从单块应用到微服务，我的血泪总结](http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=2659597250&idx=1&sn=a5c36d68f96271b10589cf049a8d7f3b)，这个讨论的实在。
+
+
+
