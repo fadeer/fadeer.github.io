@@ -1,0 +1,40 @@
+---
+layout: post
+title:  每周技术文章 No.77
+date: 2016-06-12 23:00:00 +0800
+title2: 2016.6.6-6.12
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* 打造最美HTML5 3D机房，[第四季](https://segmentfault.com/a/1190000005699001)，作者已经不满足于机房了，开始描绘仓库、工厂，最终成了一个“从地球到设备端口”的多层次、大型综合3D机房系统。哈哈，厉害。
+* [44个 Javascript 变态题解析](https://github.com/xiaoyu2er/blog/issues/1)，基础知识的灵活运用，还有个[下](https://github.com/xiaoyu2er/blog/issues/3)。
+* [CSS Modules 用法教程](http://www.ruanyifeng.com/blog/2016/06/css_modules.html)，为了工程的考虑，CSS也不那么直白了。
+* [用 CSS 隐藏页面元素的 5 种方法](https://www.h5jun.com/post/five-ways-to-hide-elements-in-css.html)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [websocket 协议解析 [RFC6455]](https://segmentfault.com/a/1190000005680323)，只见过猪跑。
+* [途牛无线权限系统的架构设计与实践](https://segmentfault.com/a/1190000005686776)。
+* [Docker and HPE (Hewlett Packard Enterprise)](https://blog.docker.com/2016/06/docker-enterprise-hpe/)，这个成型的商业产品看着还行，HP的[SiteScope](https://saas.hpe.com/en-us/software/sitescope)看着还不错，“a web-based monitoring solution that can monitor more than 100 types of IT infrastructure components such as servers, operating systems, network devices, network services, applications, and application components”，得空了解一下。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+* [蘑菇街App Chromium网络栈实践](http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=2651112324&idx=1&sn=34b15399d6519340f66410445f033e85#rd)。
+
+市场、产品、项目
+----
+* [一份让老板满意而且有价值的运营方案什么样子？](http://www.heyangnote.com/2016/06/yyfa1.html)，不明觉厉，还有个[下](http://www.heyangnote.com/2016/06/yyfa2.html)。
+* 程维，[“分享经济发展中国”](https://mp.weixin.qq.com/s?__biz=MzIwNjQwMzc5NQ==&mid=100000008&idx=1&sn=d101a96496310bdd2ef1fc23037ba282)。
+* 没有任何行业可以忽视人工智能——[EmTech Digital 峰会干货整理](https://zhuanlan.zhihu.com/p/21295321)。
+
+团队建设、安全
+----
+* [每个单元测试必须回答的 5 个问题](https://www.h5jun.com/post/5-questions-every-unit-test-must-answer.html)
+* [使用原理视角看 Git](https://segmentfault.com/a/1190000005695097)，这个分析真好。
+
+
+
