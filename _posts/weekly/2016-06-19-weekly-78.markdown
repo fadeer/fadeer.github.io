@@ -1,0 +1,39 @@
+---
+layout: post
+title:  每周技术文章 No.78
+date: 2016-06-19 23:00:00 +0800
+title2: 2016.6.13-19
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [我是如何对待写静态页这项工作的](https://segmentfault.com/a/1190000005745001)，有时够用就好。什么？嘛叫够用？这怎么能够用呢？这以后....
+* [在浏览器中快速探测IP端口是否开放](https://segmentfault.com/a/1190000005746121)，用WebSocket扫描端口，这可以啊。
+* [Web Audio API的使用](https://segmentfault.com/a/1190000005715615)。
+* [粘连 Footer 的 5 种方法](https://www.h5jun.com/post/sticky-footer-five-ways.html)，用的上。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [Docker化运维方式](http://jm.taobao.org/2016/06/08/docker-maintenance/)，以tomcat为例，分析了Docker化的步骤，目标是应用的快速、方便、可靠的部署和迁移。不过tomcat都8.0了，看来也不是什么太古老的应用，哈哈。
+* [配置文件的构成和管理](https://segmentfault.com/a/1190000005751982)。
+* [Cache应用中的服务过载案例研究](http://tech.meituan.com/avalanche-study.html)，目前没那么大压力，思路可以借鉴。
+* [配置一台服务器的前5分钟](https://plusbryan.com/my-first-5-minutes-on-a-server-or-essential-security-for-linux-servers)，到现在也没习惯用Key访问SSH，是懒还是没被坑过。
+* [DNS 原理入门](http://www.ruanyifeng.com/blog/2016/06/dns.html)，基础知识补课。
+* [BadTunnel：跨网段劫持广播协议](http://drops.wooyun.org/papers/16925)，
+
+市场、产品、项目
+----
+* [From side project to profitable company](https://medium.com/@johnaveri/monitorbook-from-side-project-to-profitable-company-a-journey-into-sales-3bed8a4b759c#.ve2l0c68m)，看一个从程序员到担负起销售角色的过程。
+
+团队建设、安全
+----
+* 来自Google的[Shell代码规范](https://google.github.io/styleguide/shell.xml)。
+* [从业余项目中学习](http://colachan.com/post/3507)，一个完整的项目，可以培养很多方面的能力。
+* [人生做出的选择越多，友谊的小船翻得越快？](http://www.cnblogs.com/zhengyun_ustc/p/effort-justification.html) 认知失调在团队中的应用，哈哈。
+* KentZhu的两碗鸡汤，[头碗302](http://www.ikent.me/blog/5106) 和 [二碗616](http://www.ikent.me/blog/5108)，直白，很好。“所谓执行力，换个角度看，就是要适应并学会写命题作文”，“汇报工作说结果，请示工作说方案，总结工作说好坏，布置工作说流程，关心下级问私事儿”，“最先暴露出来的原因，一般都是无关紧要的原因”，“资源是永远都不够用的，我们必须学会在资源不够用的状态下完成任务”。
+
+
+
