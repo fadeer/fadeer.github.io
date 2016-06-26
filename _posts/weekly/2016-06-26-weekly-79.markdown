@@ -1,0 +1,40 @@
+---
+layout: post
+title:  每周技术文章 No.79
+date: 2016-06-26 23:00:00 +0800
+title2: 2016.6.20-26
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [我所知道的关于 script 标签的一切](https://www.h5jun.com/post/everything-i-know-about-the-script-tag.html)，最后垃圾代码小技巧。
+* [客户端存储（Client-Side Storage）](https://segmentfault.com/a/1190000005798773)，补课。
+* [WEB 中的文件下载](https://segmentfault.com/a/1190000005769118)，关于Content-Type和Content-Disposition。
+* [渲染性能](https://segmentfault.com/a/1190000005754881)，很多细节，性能是设计出来的。
+* [Spying on the DOM](https://www.h5jun.com/post/spying-on-the-dom.html)，关于DOM的单元测试，这么搞确实方便了，不过jQurey确实造成了麻烦。
+* [现在算法是新锐前端框架成功的重要因素](http://www.cnblogs.com/rubylouvre/p/5610241.html)，这样的内容放在前端范围已经不合适了？呵呵。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [微软最新混合云SDN技术分享](http://mp.weixin.qq.com/s?__biz=MzA3NTM1MzE4Nw==&mid=2649617245&idx=1&sn=8c488efd40022fb4d2ad106a165d916d)。
+* [陌陌通讯协议的学习](http://www.biaodianfu.com/momo.html)，由XMPP转向了类Redis协议，然后是深入的监控。
+* [Node.js 中的队列](https://segmentfault.com/a/1190000005799902)。
+* [物联网的一种参考架构](http://www.infoq.com/cn/articles/internet-of-things-reference-architecture)，[第二篇 现实用例](http://www.infoq.com/cn/articles/internet-of-things-reference-architecture-2)。
+* [Docker安全](https://segmentfault.com/a/1190000005794220)，补课基础知识。
+* [Lumins Technolgies一年来在生产中使用Kubernetes的经验](https://segmentfault.com/a/1190000005777143)。
+* 智能运维，[如何做好持续集成——Jenkins on Mesos 实践](https://segmentfault.com/a/1190000005790435)，这个实践真好。
+* 关于蚂蚁金服的研发协作体系，及其持续集成实践，[Cloud Engine 大杀器如何炼成](http://www.cnblogs.com/zhengyun_ustc/p/ce.html)。“我们的一支小分队与支付宝一起并肩作战了三个月，**近距离观察了他们的研发协作和应用发布过程**。回来后，志全、老白、明骏给大家分享了所见所闻，我们试图从中找到云纵研发协作和持续集成的未来之路。不久之后，田志全明确了切入方式，云纵 CloudEngine 开始开发。”
+* [企业级无线渗透与无线数据浅析](http://drops.wooyun.org/wireless/16971)。
+
+市场、产品、项目
+----
+* [散户们, 你们的末日到了](http://mp.weixin.qq.com/s?__biz=MzAwNTE1NjMxMg==&mid=2649527741&idx=1&sn=606cb236611d404f68beee4e0e73ed31)，这是在哄傻小子玩儿么？
+* 站在VR世界的大门前 - [主流VR平台交互特性浅析](http://beforweb.com/node/839)，这个真得亲自体验一下。
+
+团队建设、安全
+----
+* 鸡汤，[你事业的上限究竟在哪里？](http://mp.weixin.qq.com/s?__biz=MjM5NjMwMjYxNA==&mid=2650025225&idx=3&sn=7b7a65edba36b06b15c6f7a118234daf)
+
