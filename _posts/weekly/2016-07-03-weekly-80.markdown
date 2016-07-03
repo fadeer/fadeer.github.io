@@ -1,0 +1,41 @@
+---
+layout: post
+title:  每周技术文章 No.80
+date: 2016-07-03 23:00:00 +0800
+title2: 2016.6.27-7.3
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [聊一聊前端功能统计那些事儿](https://segmentfault.com/a/1190000005861012)，运营必要的数据支持。
+* [Vuejs的一些总结](https://segmentfault.com/a/1190000005832164)，实践经验。
+* [Web 字体的选择和运用](https://blog.coding.net/blog/Web-Fonts)，例子夸张了点儿，呵呵。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [如何部署软件](https://blog.coding.net/blog/deploying-software)，花一些时间让自己的部署变得尽可能单调、直接、无压力。
+* [你女儿也能看懂的插画版 Kubernetes 指南](http://www.codeceo.com/article/kubernetes-guide.html)，画的可以啊，平时储备点儿产品吉祥物玩具还是有用的。然后再看看这个过程[实际做起来](https://segmentfault.com/a/1190000005851655)是怎样的。
+* [微服务转型绕不开的坑——日志记录](https://segmentfault.com/a/1190000005826480)。
+* [Redis 和 Memcached 的区别详解](http://www.biaodianfu.com/redis-vs-memcached.html)。
+* [浅析HTTPS中间人攻击与证书校验](http://drops.wooyun.org/tips/17078)。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+* [iPad 生产力指南](http://sspai.com/34707)，好多，下一代iPad组合应该是9.7寸的Pro和Pencil。
+
+市场、产品、项目
+----
+* [盘点全球最知名的45个AI项目](http://zhidx.com/p/50474.html)。
+
+团队建设、安全
+----
+* [为什么离不开 Stackoverflow](http://selfboot.cn/2016/06/26/why_need_to_read_stackoverflow/)，“提问的智慧、不同的方案、工具的使用、可能的盲区”。其实最后的建议最中肯，**英语精确描述问题 + 用Google去搜索**，哈哈。
+* [使用 Electron 开发一款理财计算器](http://blog.callmewhy.com/2016/07/01/make-calculator-with-electron/)，一个个人项目，5天时间， Webpack+Vue+MDL+Electron，直到[上架MAC应用商店](https://itunes.apple.com/cn/app/id1123317466?mt=12)，当然也是[开源](https://github.com/callmewhy/financial-calculator)的。
+* [一个靠谱的前端开源项目需要什么？](https://segmentfault.com/a/1190000005859766)，Readme、代码风格、测试、持续集成，一个可维护的项目这些也是必须的。
+* [如何当好经理？](http://www.36kr.com/p/5048943.html)
+* [Sublime Text 3 笔记](http://yanhaijing.com/tool/2016/06/30/my-sublime3/)。
+
+
