@@ -1,0 +1,54 @@
+---
+layout: post
+title:  每周技术文章 No.81
+date: 2016-07-10 23:00:00 +0800
+title2: 2016.7.4-10
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [更好的表单交互设计](https://uxdesign.cc/design-better-forms-96fadca0f49c)，关于排列、提示文字、信息直观等方面，其实很多已经是现在的惯例了。
+* [Immutable.js 初识](https://segmentfault.com/a/1190000005920644)，总看，为什么还没用上！
+* X5 对web标准支持速查表，[版本对比](http://res.imtt.qq.com/tbs/incoming20160607/home.html)，[HTML5支持](http://res.imtt.qq.com/qqbrowser_x5/h5/features.htm)。
+* [别把 (Flexbox) 栅格想得太复杂](https://www.h5jun.com/post/don-039-t-overthink-it-flexbox-grids-css-tricks.html)。
+* [简单了解HTML5中的Web Notification桌面通知](http://www.zhangxinxu.com/wordpress/2016/07/know-html5-web-notification/)。
+* [支付宝前端应用架构的发展和选择](https://github.com/sorrycc/blog/issues/6)，从 roof 到 redux，再到 dva。
+* [强迫症的模块化](http://efe.baidu.com/blog/an-obsessive-view-on-modularization/)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [OpenStack合力Kubernetes打造IoT平台](http://www.infoq.com/cn/news/2016/07/OpenStack-Kubernetes-IoT)，看看开源厂商的思路，基础的原则是：**基于现有开源方案**、**IoT网关没有硬件厂商绑定**、**IoT网关适用于不同用例**。然后他们做了个智能城市的案例和会场案例，看看这些开源项目是怎么掺乎进来的，呵呵。树莓派2作为IoT网关（避免硬件绑定）；上面通过docker运行实际业务、统一管理当然是Kubernetes（这就实现了IoT网关变更业务的灵活性）；IoT网关上传数据也是MQTT协议；云端服务显然要跑在OpenStack管理的IaaS服务上，这里包括监控数据库服务Graphite、数据可视化服务Grafana和LeonardoCMS等；考虑到多租户的网络问题OpenContrail提供的SDN服务也带上玩儿。另见 [原文](http://superuser.openstack.org/articles/openstack-and-kubernetes-join-forces-for-an-internet-of-things-platform) 和 [PPT](http://www.slideshare.net/JakubPavlik1/smartcity-iot-on-kubernetes-and-openstack)。
+* Ceph Monitor的 [基础架构与模块详解](https://www.ustack.com/blog/ceph-monitor/)、[数据管理](https://www.ustack.com/blog/ceph-monitor-2/)。
+* [PHP微信公众号后台开发](https://segmentfault.com/a/1190000005919544)，自学案例，Yii2是个什么？
+* [WhatsApp被收购时的架构](http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html)，一篇顶三篇，重点是架构和调优部分。另见[性能测试应该怎么做？](http://coolshell.cn/articles/17381.html)
+* Node.js Stream，[基础篇](http://tech.meituan.com/stream-basics.html)。
+* [Babel for ES6? And Beyond!](https://www.h5jun.com/post/babel-for-es6-and-beyond.html)，这个玩儿法就深入了，我们可以创造自己的语法糖了。
+* [libuv 设计概述](https://segmentfault.com/a/1190000005873917)。
+* [系统之锹sysdig：Linux服务器监控和排障利器](https://linux.cn/article-4341-1.html)，这看起来不错啊。
+* [消息队列设计精要](http://tech.meituan.com/mq-design.html)，不明觉厉。
+* [一篇文章，掌握所有开源数据库的现状](http://mp.weixin.qq.com/s?__biz=MzA5NzkxMzg1Nw==&mid=2653159940&idx=1&sn=8dae7a9184290fcc164fc9afe46ee78f)。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* Das Keyboard 5Q 键盘，[利用键帽支持信息显示](http://www.techbang.com/posts/44515-glare-keyboard-not-only-good-looking-das-keyboard-5q-also-can-notify-the-important-issues)，这个程序员不合用啊；还是谣传的MPB多功能交互区靠谱，呵呵。
+* 使用树莓派制作的[可穿戴相机](https://www.raspberrypi.org/blog/wearable-pi-zero-camera/)，哈哈，Zero板子 + 官方摄像头 + 锂电池，剩下就是壳子问题了。
+
+市场、产品、项目
+----
+* [VR UI设计案例学习](http://beforweb.com/node/840)。
+* 人工智能/机器学习现状，[From not working to neural networking](http://www.economist.com/news/special-report/21700756-artificial-intelligence-boom-based-old-idea-modern-twist-not)。
+
+团队建设、安全
+----
+* [如何跳出死循环？](http://mp.weixin.qq.com/s?__biz=MjM5MjUwNzIyMA==&mid=2649940372&idx=1&sn=140513f20980deb839621a009d4da412&scene=0#wechat_redirect) 这是个挺好的话题。
+
+图书
+----
+* [《The Truth》读后感（Part 3 - PUA）](http://chinese.catchen.me/)，**如果你找不到团队里的猪队友是谁，那你就是猪队友**，哈哈。原来作者还有这么两篇读后感，[关于「如何追女生」的回答摘要](http://chinese.catchen.me/2012/06/blog-post_06.html)、[关于「如何追男生」的回答摘要](http://chinese.catchen.me/2012/06/blog-post_08.html)。
+
+
+
