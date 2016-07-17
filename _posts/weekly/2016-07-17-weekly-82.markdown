@@ -1,0 +1,50 @@
+---
+layout: post
+title:  每周技术文章 No.82
+date: 2016-07-17 23:00:00 +0800
+title2: 2016.7.11-17
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [AUTOLAYOUT入门教程！一稿适配所有IOS设备的神器](http://www.uisdc.com/auto-layout-ios-tool)，现在设计师也不容易啊，也得与时俱进。
+* [表单中的勾选框和开关](http://colachan.com/post/3510)。
+* [雪碧图在缩放场景下的特殊处理](http://efe.baidu.com/blog/sprite-scale/)，现在图省事儿，都用现成的字体了。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [Making Facebook self-healing: Automating proactive rack maintenance](https://code.facebook.com/posts/629906427171799/making-facebook-self-healing-automating-proactive-rack-maintenance)，示意图做的不错。
+* [Hyper-V+SOFS群集实战分享](http://mp.weixin.qq.com/s?__biz=MzA3NTM1MzE4Nw==&mid=2649617267&idx=1&sn=887351ff2431abe0697148087c745fa1)，什么时候能用上。
+* [Which Linux Integration Services should I use in my Linux VMs?](https://blogs.technet.microsoft.com/virtualization/2016/07/12/which-linux-integration-services-should-i-use-in-my-linux-vms/) 提到的[参考文章](https://technet.microsoft.com/windows-server-docs/compute/hyper-v/supported-linux-and-freebsd-virtual-machines-for-hyper-v-on-windows)里还是有不少经验要更新的，比如[Ubuntu的建议](https://technet.microsoft.com/windows-server-docs/compute/hyper-v/supported-ubuntu-virtual-machines-on-hyper-v)。
+* [初识 Linux 文件权限](https://linux.cn/article-7460-1.html)。
+* SQL SERVER全面优化，[写出好语句是习惯](http://blog.jobbole.com/103474/)，这个，不懂啊。
+* [Mybatis使用陷阱](https://segmentfault.com/a/1190000005960205)。
+* Node.js Stream，[进阶篇](http://tech.meituan.com/stream-internals.html)。
+* [R语言为量化而生](http://blog.fens.me/r-finance/)，了解一下。
+* [揭开苹果EFI固件密码重置与SCBO文件的神秘面纱](http://drops.wooyun.org/tips/17477)，不明觉厉。
+* [CTF中那些脑洞大开的编码和加密](http://drops.wooyun.org/tips/17609)，基础知识。另见，作者博客[原文](https://www.hackfun.org/CTF/coding-and-encryption-of-those-brain-holes-in-CTF.html)。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [拥有300万安装量的应用是如何恶意推广刷榜的？](http://drops.wooyun.org/mobile/17675) 免费Wifi还是钓鱼的好饵啊。
+* [干掉Intel、AMD？国产处理器架构都有哪些？](http://www.expreview.com/48230.html)
+* [聊一聊移动调试那些事儿](https://segmentfault.com/a/1190000005964730)，至于真机测试，谁都不容易，看看[Facebook的玩儿法](http://www.cnbeta.com/articles/519835.htm)，都用上机架了。
+
+市场、产品、项目
+----
+* [为什么国外的 App 乃至互联网产品通常都很简陋？](https://www.zhihu.com/question/46981059/answer/103824268) 这个角度不错。
+* [让配色更加顺畅，你需要记住的7条定律](http://www.uisdc.com/color-principle-need-know)。
+
+团队建设、安全
+----
+* 常用思维模式大全，[（上）](http://36kr.com/p/5049291.html)、[（中）](http://36kr.com/p/5049310.html)、[（下）](http://36kr.com/p/5049375.html)，很多都是被讨论过的经验，应该尝试理解和加以练习。另见[原文](https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d#.slf73lxcg)。
+* [多机共享键鼠软件横向测评](http://blog.shrp.me/Multi-Computer-Mouse-and-Keyboard-sharing.html)，以前也只是知道Synergy。
+* [在公众号中优雅地呈现代码](http://www.barretlee.com/blog/2016/07/14/codes-in-wechat/)，这是个问题。
+* [Excel 到底有多厉害？](http://www.zhihu.com/question/27588491/answer/90603436)
+* 酷壳，[为什么我不在微信公众号上写文章](http://coolshell.cn/articles/17391.html)，关于文章传播，这才是分享的意义。
+
+
