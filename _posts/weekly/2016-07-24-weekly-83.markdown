@@ -1,0 +1,39 @@
+---
+layout: post
+title:  每周技术文章 No.83
+date: 2016-07-24 23:00:00 +0800
+title2: 2016.7.18-24
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* 如何用Node.js给网页截图，可以用[PhantomJS做Webkit渲染](https://davidwalsh.name/get-webpage-screenshot)，或者用[SlimerJS做Gecko渲染](https://davidwalsh.name/slimerjs-screenshots)。另外，讨论里提到前端测试框架[ghostjs](https://github.com/kevingrandon/ghostjs)也包装了这两个实现。
+* [多屏互动 —— H5 中级进阶](https://segmentfault.com/a/1190000005988744)，例子很炫，我主要看重手机作为多屏控制的机制。
+* [作曲家与听众](http://efe.baidu.com/blog/composers-and-audiences/)，外国人的前端吐槽贴，例子讽刺很到位，哈哈。
+* [聊聊JavaScript中的二进制数](http://yanhaijing.com/javascript/2016/07/20/binary-in-js/)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* “埋点”到底要不要？[源自数据采集的痛苦、幻想与失望](http://www.pmcaff.com/article/index/318932218316928)，“不知道怎么采”、“埋点混乱”、“数据团队和业务工程团队的配合问题”；虽然有困难，但这事儿必须做啊，目标是**从拍脑袋决策逐步向数据驱动决策做出转变**。
+* [Docker1.12+Swarm构建动态微服务应用](https://segmentfault.com/a/1190000006027785)，这个例子不错啊，树莓派Docker集群+Swarm的动态调度构建的微服务，得空玩一下。
+* [大搜车NodeJS日志规范化与分析监控](http://f2e.souche.com/blog/ri-zhi-gui-fan-hua-yu-fen-xi-jian-kong/)。
+* [Linux netstat命令详解](http://www.cnblogs.com/ggjucheng/archive/2012/01/08/2316661.html)，备忘。
+* [Java中的纤程库 - Quasar](http://colobu.com/2016/07/14/Java-Fiber-Quasar/)。
+* Uber的技术栈，[Part 1 基础服务](https://eng.uber.com/tech-stack-part-one/)，[Part 2 边界服务](https://eng.uber.com/tech-stack-part-two/)。
+* 乌云看不了了，所以来看看美国人民的网络安全科幻文章[The Big Hack](http://nymag.com/daily/intelligencer/2016/06/the-hack-that-could-take-down-nyc.html)，集合了目前发现过的攻击手段，都跟日常生活有关，比如汽车、医院、水电基础设施等。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+* [Google I/O 2016 笔记之图像压缩](https://segmentfault.com/a/1190000006031248)，讲的挺清楚。
+* 包建强：[为什么我说Android插件化从入门到放弃？](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650993300&idx=1&sn=797fa87ef528cff3a50e77806cf9f675) 不明觉厉。
+
+团队建设、安全
+----
+* [工作五年，后面四年重复着第一年的活儿？](http://www.barretlee.com/blog/2016/07/21/donnot-repeat-yourself/) 这前端技术贴实际是个鸡汤，哈哈。核心思想是，如果一个事儿总是反复发生，那一定是打开的姿势不对了。
+* [软件开发中的上帝模式与农民模式](http://blog.devtang.com/2016/07/20/programming-worlds-farmer-and-god/)，唐巧这比喻不错。
+* [湾区日报是如何运作的？](https://wanqu.co/b/7/2015-05-24-behind-the-scenes.html)，这是2016年版了，更新了不少，特别是监控和数据分析部分。
+
+
