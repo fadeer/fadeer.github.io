@@ -1,0 +1,38 @@
+---
+layout: post
+title:  每周技术文章 No.84
+date: 2016-07-31 23:00:00 +0800
+title2: 2016.7.25-31
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [选择一个 HTTP 状态码不再是一件难事](http://www.zcfy.cc/article/choosing-an-http-status-code-stop-making-it-hard-8211-racksburg-904.html)，回顾一下。
+* [Medium’s CSS is actually pretty f***ing good](https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06#.dprroa11p)，哈哈，值得学习。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [缓存更新的套路](http://coolshell.cn/articles/17416.html)。
+* Hyper-V Shielded VMs inOpenStack，[Part 1](https://cloudbase.it/hyperv-shielded-vms-part-1/)，[Part 2](https://cloudbase.it/hyper-v-shielded-vms-part-2/)，Shielded VMs是启用了虚拟TPM和BitLocker加密的二代虚拟机。
+* [Gluster分布式存储总结与实践](http://cmdschool.blog.51cto.com/2420395/1828450)，参考。
+* [分布式队列编程：模型、实战](http://tech.meituan.com/distributed_queue_based_programming.html)。
+* [Docker For Mac And Windows Is Now Generally Available](https://blog.docker.com/2016/07/docker-for-mac-and-windows-production-ready/)，前阵开始在Mac用了下，真是非常方便。之前还有一版基于VirtualBox的实现叫Docker Toolbox；但是新版的[Docker for Mac](https://docs.docker.com/docker-for-mac/)基于OSX的虚拟化支持，用起来就自然多了。
+* [高性能的消息框架 go-disruptor](http://colobu.com/2016/07/22/using-go-disruptor/)，最近用上了几个用Go开发的服务，看来值得练练写写了。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+* [树莓派 JS 库实现持续集成的“黑科技”](https://www.h5jun.com/post/pi-and-tdd.html)，模拟GPIO输入来完成自动测试，不错。
+* [理解 iOS 的内存管理](http://blog.devtang.com/2016/07/30/ios-memory-management/)，当主流语言都“高级化”了，程序员不需要再关心New/Release了；那然后呢，这还是一项需要掌握的基础技能么？
+* [Facebook iOS App技术演化十年之路](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650993357&idx=1&sn=51683b149e4c29e0095a33161511cafb)。
+
+团队建设、安全
+----
+* 小米大树，“记录整个小米六年的研发工作中实际遇到的困难，以及这一大群人如何不可避免的走向大公司氛围，又如何慢慢打破定势”。[part1:基础架构之痛](http://2014.54chen.com/blog/2016/07/29/mi/)，这个过程很现实啊，开源项目就是拐棍，为了赶快站起来；如果能活到跑快，那拐棍还得赶紧换成自行车。
+* [浅谈程序员的英语学习](http://www.cnblogs.com/haoyifei/p/5687235.html)。
+* [大型项目程序配置管理演化之路](http://insights.thoughtworkers.org/large-project-configuration-management/)，我们到哪一步了？
+
+
+
