@@ -1,0 +1,56 @@
+---
+layout: post
+title:  每周技术文章 No.85
+date: 2016-08-08 08:00:00 +0800
+title2: 2016.8.1-7
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [移动端H5图片上传的那些坑](https://segmentfault.com/a/1190000006140042)，原来上传图片是通过canvas压缩的啊。
+* [简单聊聊CSS选择器中的正则表达式](http://www.zhangxinxu.com/wordpress/2016/08/regular-expression-in-css-selector/)，CSS都有正则了...
+* [优化数据表格设计](http://colachan.com/post/3516)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [如何破解YouTube视频推荐算法](https://zhuanlan.zhihu.com/p/21797132)，看看一个“数据”理解、分析的案例。记得之前还有篇文章提到，YouTube上上传一批雪花式的视频，怀疑是用来分析YouTube的压缩算法的。
+* [The Linux Document Project](http://www.tldp.org/HOWTO/html_single/)，很多Linux基础的HOWTO。
+* [GraphQL 核心概念](https://segmentfault.com/a/1190000006132986)，[graphql-js 浅尝](https://segmentfault.com/a/1190000006157615)，这个介绍比较得看。
+* [京东MySQL监控之Zabbix优化、自动化](http://wangwei007.blog.51cto.com/68019/1833332)，值得参考。
+* [IM 去中心化概念模型与架构设计](https://segmentfault.com/a/1190000006138752)，Gossip 协议的应用。
+* [揭秘谷歌每周20亿+容器背后的管理技术](https://segmentfault.com/a/1190000006144082)。
+* [分布式队列编程优化篇](http://tech.meituan.com/distributed_queue_based_programming-optimization.html)。
+* [SQL Server 内存数据库原理解析](http://www.cnblogs.com/shanksgao/p/5068891.html)，另外，深入解析SQL Server并行执行原理及实践 [(上)](http://www.cnblogs.com/shanksgao/p/5497106.html) 和 [(下)](http://www.cnblogs.com/shanksgao/p/5530107.html)。
+* [快速掌握dockerfile](https://segmentfault.com/a/1190000006186977)，这个介绍的简单。
+* [阿里天池大赛：最后一公里急速配送](https://segmentfault.com/a/1190000006193084)，看看人家都玩儿什么呢。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* 剖析 Android 6.0 存储架构，[源码篇](http://gityuan.com/2016/07/17/android-io/)，[架构篇](http://gityuan.com/2016/07/23/android-io-arch/)。
+* [Building Docker 1.12 on a Raspberry Pi](http://blog.hypriot.com/post/building-docker-directly-on-a-raspberry-pi/)，排队，要玩儿起来。
+* [Activity你真的熟悉吗？看了才知道](http://www.jianshu.com/p/c21216bf5f82)。用上安卓手机之后我有个困扰，就是打开一个程序看到启动画面，然后突然后悔点回了桌面，稍等会儿应用的主界面还会弹出来。咦，以前的红米貌似没这体验？难道是太慢不响应回到桌面？
+* 树莓派的[从U盘启动](https://www.raspberrypi.org/blog/pi-3-booting-part-i-usb-mass-storage-boot/) 和 [从网络启动](https://www.raspberrypi.org/blog/pi-3-booting-part-ii-ethernet-all-the-awesome/)，网线供电+启动，这样换设备就是分分钟的事儿啊。然后评论里就有人提及板子原生POE支持的可能了，电压转换是个问题，可能不会太小。
+
+市场、产品、项目
+----
+* [做设计碰到一堆指指点点的客户怎么办？](http://www.uisdc.com/face-client-finger-pointing) “但只要你说的有理有据，而且与展示、目标都匹配，这个成功率应该是极高的”。另外，完善自己的能力，创造最匹配的方案也是持续要做的。
+* Facebook 广告系统比谷歌先进在哪里？看看 [北冥乘海生](http://www.zhihu.com/question/29847912/answer/114248526) 和 [欧阳辰](http://www.zhihu.com/question/29847912/answer/101025439) 的回答，原来目前移动原生广告是这样的。
+* [有哪些值得推荐的数据可视化工具？](http://www.zhihu.com/question/19929609/answer/113377180)
+* [站在互联网创业的角度看社会投资](https://kenengba.com/post/3483.html)。
+* [VR晕眩原因及解决方法](http://www.longluo.me/blog/2016/07/15/VR-Dizzy-And-Solutions/)，不知道目前VR头盔对戴眼镜的优化如何，也许以后近视镜也都是VR机制的了，呵呵。
+
+团队建设、安全
+----
+* [你的身体正在尝试告诉你的35个健康秘密](http://article.yeeyan.org/view/35200/493430)，为了爱护脊柱，维持脊柱正直不弯，**请把手机抬高与你的视线齐平**。
+* 深度学习 UFLDL [学习笔记](https://segmentfault.com/a/1190000006123500)。
+* [我从团体经验里学到了什么](https://zhuanlan.zhihu.com/p/21619153)，心理学方向的团队活动都那么不一样，哈哈。
+* [git的reset和checkout的区别](https://segmentfault.com/a/1190000006185954)，理解一下HEAD、Index、Working Directory三个区域。
+* [论版本号的正确打开方式](http://taobaofed.org/blog/2016/08/04/instructions-of-semver/)。
+* [我脑海中的优秀技术团队](http://www.html-js.com/article/3667)，另见[内部创新的难点和机遇](http://www.geekpark.net/topics/216329)。
+
+
+
