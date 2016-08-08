@@ -101,6 +101,7 @@ export LESS_TERMCAP_us=$'\E[04;38;5;146m' # begin underline
 
 ZSH
 ----
+<!--preview-end-->
 OSX 目前系统已经内建 zsh 5.0了，所以直接安装oh-my-zsh就好：
 {% highlight bash %}
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -155,6 +156,5 @@ cntlm -f
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 * [Mac 下配置终端环境 iTerm2 + Zsh + Oh My Zsh + tmux](http://www.dreamxu.com/mac-terminal/)
 * [终极 Shell](http://macshuo.com/?p=676)
-* []()
-* []()
+
 
