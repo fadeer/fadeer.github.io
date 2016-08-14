@@ -1,0 +1,43 @@
+---
+layout: post
+title:  每周技术文章 No.86
+date: 2016-08-14 23:00:00 +0800
+title2: 2016.8.8-14
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [如何打造公司级公共前端团队](http://www.infoq.com/cn/articles/how-to-build-company-class-public-front-end-team)，感觉前端在各个技术栈是最值得统一的了。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [团队中的 Node.js 实践](https://segmentfault.com/a/1190000006216937)。另见[高质量 Node.js 微服务的编写和部署](https://segmentfault.com/a/1190000006166385)。
+* [RestQL：现代化的 API 开发方式](http://tech.meituan.com/koa-restql.html)，减轻“数据操作”相关API工作量的一个实践。
+* [一文读懂hadoop、hbase、hive、spark分布式系统架构](http://www.shareditor.com/blogshow/?blogId=96)。
+* [Docker 1.12 Swarm 模式剖析](http://yeasy.blogspot.com/2016/08/docker-112-swarm.html)，当个索引，需要深入看看Swarm。另外参考[Kubernetes的系统架构与设计理念](http://www.infoq.com/cn/articles/kubernetes-and-cloud-native-applications-part01)。
+* [针对Docker容器的监控指标](http://www.infoq.com/cn/news/2016/08/containermetrics)。
+* [聊一聊排序算法](http://www.barretlee.com/blog/2016/08/11/algorithms-of-sort/)。
+* [Strata Hadoop world2016 PPT](https://zhuanlan.zhihu.com/p/21915006)，看看有大数据的公司怎么开展工作的，至于没有的，那就算了吧。
+* [为什么多线程是个坏主意](http://ifeve.com/why-threads-bad/)，这是1995年的[老文](https://web.stanford.edu/~ouster/cgi-bin/papers/threads.pdf)了，想想现在怎样了？
+* [“维基解密成员” 讲述如何攻破民主党的邮箱](http://www.ifanr.com/698599)，就怕贼惦记。
+
+市场、产品、项目
+----
+* PSVR真人体验[（上）](http://vr.chuang.pro/10031775)，[（下）](http://vr.chuang.pro/10031777)，我想体验一下VR版的 Gran Turismo 是怎样的。
+* [高德API+Python解决租房问题](https://segmentfault.com/a/1190000006230152)，这个动手实验真是不错啊，关键是通过高德获得比较准确的路程时间。
+* [别开发 app 了](https://kenengba.com/post/3489.html)，看个公众号案例。
+
+团队建设、安全
+----
+<!--preview-end-->
+* [用 ASUS Merlin 路由器 VPN 科学上网](https://haoel.github.io/)，比较全面的介绍，在墙外呆了两周，回来我是不是也来个AC68U用用。
+* [为什么你有10年经验，但成不了专家？](http://www.woshipm.com/zhichang/392023.html) “真正决定水平高低的，并不是工作时间，而是真正用于刻意练习的时间”；“使用『刻意练习』，就意味着你经常无法轻松地完成工作、无法轻松地读书，意味着你高度集中精力，意味着你需要不停地思考、总结、反馈，并且做自己不习惯、不舒服和反直觉的事情”；“但是一旦你长时间至少在一个领域进行了刻意练习，你最终取得的成果将是非常巨大的”。
+* [这个工具很好 - 微软快速助手](http://goxia.maytide.net/read.php/1793.htm)，日常可以代替TeamViewer么？
+* 打造高效个性Terminal之 [iTerm](https://segmentfault.com/a/1190000006248131) 和 [zsh](https://segmentfault.com/a/1190000006248107)，OSX基础配置。
+* [我们用Excel做需求文档](http://www.woshipm.com/pmd/386446.html)，能说清楚就好。
+
+
+
