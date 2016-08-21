@@ -1,0 +1,46 @@
+---
+layout: post
+title:  每周技术文章 No.87
+date: 2016-08-21 22:00:00 +0800
+title2: 2016.8.15-21
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [HTTP 协议入门](http://www.ruanyifeng.com/blog/2016/08/http.html)，基础知识。
+* [React 实践心得：react-redux 之 connect 方法详解](http://taobaofed.org/blog/2016/08/18/react-redux-connect/)，[自定义 Redux 中的 combineReducers](http://scarletsky.github.io/2016/08/20/write-your-own-combine-reducers-in-redux/)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [谈谈 Nginx 的 HTTP/2 POST Bug](https://imququ.com/post/nginx-http2-post-bug.html)，原理+分析；另外，“简而言之，Nginx 认为 HTTP/2 功能本身尚未稳定，要部署 HTTP/2 就应该使用 Nginx 主线版，而不是稳定版”。
+* [PowerShell开源、支持Linux了](https://blogs.msdn.microsoft.com/powershell/2016/08/18/powershell-on-linux-and-open-source-2/)，甚至可以[SSH到远程机器直接开启PS回话](http://www.powershellmagazine.com/2016/08/18/open-source-powershell-on-windows-linux-and-osx/)了，又或者先用[Docker跑起来PowerShell](https://channel9.msdn.com/Shows/msftazure/Run-PowerShell-Natively-on-Linux-with-Docker)试试看。
+* [runit 快速入门](https://segmentfault.com/a/1190000006644578)，之前通过Phusion的[baseimage](https://github.com/phusion/baseimage-docker)接触到了runit服务管理，略有了解，补课一下。
+* [Docker与高安全性的微服务](http://www.infoq.com/cn/news/2016/08/secure-docker-microservices)，当个索引。
+* Docker 实践，[（一）：了解架构](https://segmentfault.com/a/1190000006448568)。
+* 运维监控平台之zabbix详解[（一）](http://huaxin.blog.51cto.com/903026/1838438) 和 [（二）](http://huaxin.blog.51cto.com/903026/1839313)，不用但是可做对比。另外，[Nagios 监控 SNMP 温度计](http://beanxyz.blog.51cto.com/5570417/1840160)，直接读MIB文件，这感觉自然点儿。
+* [一次心惊肉跳的服务器误删文件的恢复过程](http://www.cnblogs.com/zhouyu629/p/3734494.html)，又是`# rm -rf /*`，“于是找来脱机备份的数据库，发现备份文件只有1kb，里面只有几行熟悉的mysqldump注释（难道是crontab执行的备份脚本有问题），最接尽的备份也是2013年12月份的了”，一般写成文章的都这种情况。
+* [浅析 I/O 模型及其设计模式](http://blog.jobbole.com/104638/)。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [微信 iOS SQLite 源码优化实践](http://dev.qq.com/topic/57b58022433221be01499480)。
+* [微信热补丁 Tinker 的实践演进之路](http://dev.qq.com/topic/57ad7a70eaed47bb2699e68e)。
+* HypriotOS [Release 1.0 ](https://github.com/hypriot/image-builder-rpi/releases/tag/v1.0.0)了，最近用一用。
+
+市场、产品、项目
+----
+* 手机录像稳拍神器——[智云Smooth II 三轴稳定器](http://www.igao7.com/news/201608/G0KAq09S7zhCUgMV.html)，且不论价格，这个可以有。
+* [pvp 游戏如何解决玩家匹配等待时间过长的问题](http://blog.codingnow.com/2016/08/pvp_match.html)，这个运营的思路挺好啊。
+
+团队建设、安全
+----
+* [我眼中软件工程里的常识](https://segmentfault.com/a/1190000006636138)，这是个通用的话题，尝试理解+沟通吧；另外引文也很有趣，呵呵。
+* [那些年我赶过的时髦技术趋势](http://weibo.com/ttarticle/p/show?id=2309404009795043653572)，看看作者关于机器学习的历程，想想就像技术成熟度曲线似的，如果你很早介入一个领域，就会经历这个过程。
+* [这多年来我一直在钻研的技术](http://coolshell.cn/articles/17446.html)，有趣的是关于**解决公司问题的模式：技术知识点->系统架构->软件工程->公司管理->人->公司文化**，哈哈有道理。另见，[关于高可用的系统](http://coolshell.cn/articles/17459.html)，很重要的话题，评论有亮点。
+
+
+
