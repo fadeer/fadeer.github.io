@@ -33,7 +33,7 @@ tags: Weekly Skill
 团队建设、安全
 ----
 <!--preview-end-->
-* [用 ASUS Merlin 路由器 VPN 科学上网](https://haoel.github.io/)，比较全面的介绍，在墙外呆了两周，回来我是不是也来个AC68U用用。
+* [用 ASUS Merlin 路由器 VPN 科学上网](https://haoel.github.io/)，比较全面的介绍，在墙外呆了两周，回来我是不是也来个AC68U用用。*Update 8.22*，貌似目前PPTP干扰大些，可以考虑[架设IKEV2/L2TP的VPN](https://github.com/quericy/one-key-ikev2-vpn)。
 * [为什么你有10年经验，但成不了专家？](http://www.woshipm.com/zhichang/392023.html) “真正决定水平高低的，并不是工作时间，而是真正用于刻意练习的时间”；“使用『刻意练习』，就意味着你经常无法轻松地完成工作、无法轻松地读书，意味着你高度集中精力，意味着你需要不停地思考、总结、反馈，并且做自己不习惯、不舒服和反直觉的事情”；“但是一旦你长时间至少在一个领域进行了刻意练习，你最终取得的成果将是非常巨大的”。
 * [这个工具很好 - 微软快速助手](http://goxia.maytide.net/read.php/1793.htm)，日常可以代替TeamViewer么？
 * 打造高效个性Terminal之 [iTerm](https://segmentfault.com/a/1190000006248131) 和 [zsh](https://segmentfault.com/a/1190000006248107)，OSX基础配置。
