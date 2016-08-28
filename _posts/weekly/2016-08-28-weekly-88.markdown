@@ -1,0 +1,43 @@
+---
+layout: post
+title:  每周技术文章 No.88
+date: 2016-08-28 22:00:00 +0800
+title2: 2016.8.22-28
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* 数百个 HTML5 例子学习 HT 图形组件，[拓扑图篇](http://www.hightopo.com/blog/461.html)和 [WebGL 3D 篇](http://www.hightopo.com/blog/504.html)，这服务到位。另见一旧文[基于HT for Web的Web SCADA工控移动应用](http://www.hightopo.com/blog/402.html)。
+* [Netflix的AB测试之道](http://colachan.com/post/3519)，图放字儿左边还是右边，凭设计者爱好？不，凭用户数据。
+* [开始使用 ECC 证书](https://imququ.com/post/ecc-certificate.html)，[HTTP Alternative Services 介绍](https://imququ.com/post/http-alt-svc.html)。
+* [UXRen翻译《完美像素手册第3版》](http://uxren.cn/?p=43235)，另见[原文](https://ustwo.com/blog/the-ustwo-pixel-perfect-precision-handbook-3/)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [Docker插件机制详解](https://yq.aliyun.com/articles/59420)，通过插件扩展使用网络存储数据卷映射给容器，这个不错；另外，Docker 1.13以后的集群插件部署支持也可期待。
+* [markdown 编译原理](http://villainhr.com/page/2016/08/26/markdown%20%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86)。
+* [Zookeeper ZAB 协议分析](http://blog.jobbole.com/104985/)。
+* [爬虫性能：NodeJs VS Python](https://segmentfault.com/a/1190000006741610)，结论是多线程效率差不多，但解析网页还是Nodejs舒服。
+* [从HTTP响应头看各家CDN缓存技术](https://segmentfault.com/a/1190000006673084)，淘宝、微信、网易云音乐、微博... 还有[苹果](https://segmentfault.com/a/1190000006739522)。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+* [关于 iOS 9.3.5 背后的漏洞](http://tech2ipo.com/10032085)。
+* [Using Docker on a Raspberry Pi as an IoT hub](http://sample.org.uk/blog/post/rpi_docker_iot)，在Raspebrry Pi运行包含Docker操作系统HypriotOS，使用Node-RED作为集成层，MQTT作为消息总线、InfluxDB作为数据库的物联网平台。
+
+市场、产品、项目
+----
+* [你爱读的那些成功学鸡汤，或许都是 Bullshit](http://tech2ipo.com/10032016)，关于鸡汤这类产品。
+
+团队建设、安全
+----
+<!--preview-end-->
+* [详解代理自动配置 PAC](http://www.barretlee.com/blog/2016/08/25/pac-file/)，补课几个没见过的配置。
+* [使用ShadowSocks科学上网及突破公司内网](http://www.chinagfw.org/2016/08/shadowsocks.html)。
+* [Nicholas C. Zakas：我收到的最好的职业建议](http://www.biaodianfu.com/the-best-career-advice-ive-received.html)，“我们称其为“开环运行”，意味着在最少的监督下你完成工作并且仍然对组织和公司有一个整体的积极影响”；“选择那些对你要紧的事情，对这些进行推进，其它的事情让他们赢。没有必要赢取每一次争论”；“找到从某一方面（无论是技术上还是组织能力上等方面）比你明智的人，然后“黏”上他”。
+
+
+
