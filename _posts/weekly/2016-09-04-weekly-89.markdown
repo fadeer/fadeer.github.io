@@ -1,0 +1,38 @@
+---
+layout: post
+title:  每周技术文章 No.88
+date: 2016-09-04 22:00:00 +0800
+title2: 2016.8.29-9.4
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* 关于SQL Server高可用实战案例 - [架构优化](http://www.cnblogs.com/double-K/p/5803956.html)，从 SQL server 2008 R2 的读写分离方案，**升级到SQL SERVER 2014 的 AlwaysOn 方案**，来**实现本地高可用、读写分离，异地灾备**等，并应用部分2014的新功能，如内存优化表等**提升系统性能和并发能力**。作者的实践很有价值，用到的评估工具[Expert for SQL Server](http://zhuancloud.com/ReceptionViews/Install.html)也很不错嘛。关于工具的使用见作者[详解](http://www.cnblogs.com/double-K/p/5538249.html)。
+* [深度剖析容器之“状态”](https://segmentfault.com/a/1190000006773438)。
+* [使用Apache Slider管理Docker集群](http://www.bigcloud.online/?p=274)，了解一下Docker怎么应用于Hadoop的；原来Hadoop的[二代集群框架YARN](http://www.aboutyun.com/thread-6785-1-1.html)就是利用容器技术来管理应用执行的。
+* [滴滴出行业务系统的架构升级](https://github.com/DDFE/DDFE-blog/issues/6)，这过程分析的挺详细。
+* [Pinterest 在 AWS 上使用 MySQL 的性能优化](http://blog.jobbole.com/105225/)。
+* [PV Calls: a new paravirtualized protocol for POSIX syscalls](https://blog.xenproject.org/2016/08/30/pv-calls-a-new-paravirtualized-protocol-for-posix-syscalls/)，对于Container里的APP，如果知道运行在VM里并加以利用，还是有好处的。这跟当初HVM、PV的意思类似啊。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+* [来自 Slack 的应用推送最佳实践](http://firstround.com/review/what-you-must-know-to-build-savvy-push-notifications/)，及时的、个人化的、可行动的消息推送，用户行动的转化率才是最终的效果；当然，转化为删应用也是效果，哈哈。
+* Android性能优化典范 - [第6季](http://hukai.me/android-performance-patterns-season-6/)。
+* [移动客户端中高效使用 SQLite](http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=2653577674&idx=1&sn=b1136f8fa3b823c8ed1c2f1df060bf1d)。
+* 英特尔发布物联网[构建模块平台Joule](http://www.infoq.com/cn/news/2016/09/intel-joule-iot-module)，四核Atom T5700 1.7G、4G 内存、16G eMMC、11AC，370刀啊。另见[用户指南](https://software.intel.com/en-us/intel-joule-getting-started)。
+* [DOCKER COMES TO RASPBERRY PI](https://www.raspberrypi.org/blog/docker-comes-to-raspberry-pi/)，既然Docker都官方[支持raspbian](https://github.com/docker/docker/pull/24815)了，那基金会也要发文标识一下啊。
+
+市场、产品、项目
+----
+* [倾听家用电器的“声音”](http://36kr.com/p/5052251.html)，它会在家庭配电箱内的主要断路器附着上传感器，然后读取那些电路连接的所有电器的用电情况。在采集到数据之后，再通过放进配电箱的一个橙色盒子，利用WiFi把信息上传到云端，供进一步分析；所不同的是Sense的系统每秒记录的数据点达到了100万个，这个频率比其他的智能电表要高得多；Sense后端的分析算法能够检测出各种独特的电流信号，从而识别出运行的是什么电器设备，比如洗碗机、烤箱、干洗机、车库门、电视、炉灶、空调等，以及这些电器的用电情况，而且不需要这些电器是智能的；电流的指纹或信号与声学特征或声频信号十分类似。
+
+团队建设、安全
+----
+* [软件架构入门](http://www.ruanyifeng.com/blog/2016/09/software-architecture.html)，一个[《Software Architecture Patterns》](http://www.oreilly.com/programming/free/files/software-architecture-patterns.pdf)的读书笔记。
+* [平方根倒数速算法中的神奇数字 0x5f3759df](http://blog.jobbole.com/105295/)。
+* [丁香园冯大辉离职引发期权之争](http://www.williamlong.info/archives/4715.html)，作为吃瓜群众，我更关心Fenng对于CTO作用的思考，[《浅谈如何抓住技术浪潮变革的红利》](http://36kr.com/p/5052135.html)。
+
+
