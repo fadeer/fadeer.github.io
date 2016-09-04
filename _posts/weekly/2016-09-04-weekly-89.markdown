@@ -23,7 +23,7 @@ tags: Weekly Skill
 * Android性能优化典范 - [第6季](http://hukai.me/android-performance-patterns-season-6/)。
 * [移动客户端中高效使用 SQLite](http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=2653577674&idx=1&sn=b1136f8fa3b823c8ed1c2f1df060bf1d)。
 * 英特尔发布物联网[构建模块平台Joule](http://www.infoq.com/cn/news/2016/09/intel-joule-iot-module)，四核Atom T5700 1.7G、4G 内存、16G eMMC、11AC，370刀啊。另见[用户指南](https://software.intel.com/en-us/intel-joule-getting-started)。
-* [DOCKER COMES TO RASPBERRY PI](https://www.raspberrypi.org/blog/docker-comes-to-raspberry-pi/)，既然Docker都官方[支持raspbian](https://github.com/docker/docker/pull/24815)了，那基金会也要发文标识一下啊。
+* [DOCKER COMES TO RASPBERRY PI](https://www.raspberrypi.org/blog/docker-comes-to-raspberry-pi/)，既然Docker都官方[支持raspbian](https://github.com/docker/docker/pull/24815)了，那基金会也要发文表示一下啊。
 
 市场、产品、项目
 ----
