@@ -1,0 +1,45 @@
+---
+layout: post
+title:  每周技术文章 No.90
+date: 2016-09-11 22:00:00 +0800
+title2: 2016.9.5-11
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [从iOS 10设计指南变化看设计的新趋势](https://isux.tencent.com/ios-10-design-trends.html)，未来的设计将更注重产品的**内容和操作体验**，降低其他因素对用户使用上的干扰。
+* [Spotify官网的用户体验变迁（2006-2016）](http://colachan.com/post/3520)。
+* [如何实现 font-size 的响应式](https://segmentfault.com/a/1190000006824046)，手机、平板、桌面，博客字大小的问题我也纠结好久了。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* 基础知识补课，[systemd启动过程](https://linux.cn/article-5457-1.html)，[VFS文件系统结构分析](http://blog.chinaunix.net/uid-20528014-id-4094714.html)，[简述Linux的启动过程](https://segmentfault.com/a/1190000006872609)，[你应该知道的计算机网络知识](http://www.jianshu.com/p/21b5cbac0849)，[HTTP 2.0 的那些事](http://mrpeak.cn/blog/http2/)，[改变世界的TCP/IP协议（珍贵多图）](https://segmentfault.com/a/1190000006841961)。
+* [js-csp 可以开始尝试了](https://segmentfault.com/a/1190000006865102)，开阔思路；另见[快速介绍 JavaScript 中的 CSP](https://segmentfault.com/a/1190000006873358)。
+* [如何在本地调试远程服务器上的Node代码](https://segmentfault.com/a/1190000006825072)。
+* [基于 Docker 1.12 Swarm 的集群管理开发实践](https://segmentfault.com/a/1190000006839113)，另见，[什么是服务发现？](https://segmentfault.com/a/1190000006835319) 
+* [分布式RPC框架性能大比拼](http://colobu.com/2016/09/05/benchmarks-of-popular-rpc-frameworks/)，dubbo、motan、rpcx、gRPC、thrift的性能比较。
+* [Amazon为何能做到持续交付](https://zhuanlan.zhihu.com/p/22295409)，
+
+市场、产品、项目
+----
+* [利用机器学习分类黄瓜](http://www.leiphone.com/news/201609/dHgxLbz96OQqVN8z.html)，这例子实在，树莓派、Arduino、TensorFlow 都用上了。
+* [运维经理的运维经验总结](http://blog.jobbole.com/105387/)，看着不复杂哈，但是这么散碎，都做到位也不易。
+* [上海地铁数据可视化](https://segmentfault.com/a/1190000006835220)。另见，[Stack Overflow“数据科学家”工作一年总结](http://www.infoq.com/cn/articles/overflow-stack-data-scientist-work-summary)。
+
+团队建设、安全
+----
+<!--preview-end-->
+* KentZhu的[微信生活](http://www.ikent.me/blog/5129)，有些用方法确实有道理。微信是真实关系的映射，所以逻辑也应相似，谁规定了要互相认识才能开始说话呢？
+* [在工作中异步沟通](https://medium.freecodecamp.com/live-asynchronously-c8e7172fe7ea#.5b2960sb3)，“巧妙避开会议，**邮件说不清楚的事情，开会一般也说不清楚**”，哈哈有道理啊。
+* [技术团队风格指南](https://zhuanlan.zhihu.com/p/22266609)。
+* [如何设计一次培训](http://icodeit.org/2016/09/how-to-design-a-training/)，这话题不错。
+* [Shadowsocks 从零开始一站式翻墙教程](http://www.chinagfw.org/2016/09/shadowsocks.html)。
+* 老流氓 CNNIC 的接班人 - [聊聊“沃通/WoSign”的那些破事儿](https://program-think.blogspot.com/2016/09/About-WoSign.html)。
+* [Google Hacking————你真的会用Google吗？](https://zhuanlan.zhihu.com/p/22161675) 回顾一下Google搜索可用的参数。
+* 鸡汤范儿的，[你有什么道理后悔没有早点知道？](http://www.zhihu.com/question/23819007/answer/107332874) **人生任何一个阶段的“筛选”都只是一种形式**，别被这些一时的标准迷惑。定义你最终归宿的，一定是你**能力和欲望综合的那个真实的你**。那么**认识自己**这件事情，恐怕越早开始越好，因为越早，你就可以以越小的代价去选择你是应当离开，还是应当留下。
+
+
+
