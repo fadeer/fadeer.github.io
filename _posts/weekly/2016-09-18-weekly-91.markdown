@@ -1,0 +1,48 @@
+---
+layout: post
+title:  每周技术文章 No.91
+date: 2016-09-18 22:00:00 +0800
+title2: 2016.9.12-18
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [我被Facebook设计师批得有点惨，却也很享受](https://zhuanlan.zhihu.com/p/22105113)，这个**设计互评（design critique）**的机制还挺好。**找到真正的问题所在，远比找到正确的答案更有效。**
+* [更靠谱的横竖屏检测方法](https://segmentfault.com/a/1190000006889504)，过程比方法重要。
+* [JavaScript中三种GBK/GB2312编解码方案对比](https://segmentfault.com/a/1190000006919102)。
+* [从height:100%不支持聊聊CSS中的“死循环”](http://www.zhangxinxu.com/wordpress/2016/09/talking-about-css-infinite-endless-loop/)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [The GitHub GraphQL API](http://githubengineering.com/the-github-graphql-api/)，为什么支持GraphQL？GitHub 的 REST API 请求占用了60%的数据库访问，API的伸缩性很必要了；另外对API访问的检测和管理也有很多需求。这时GraphQL就是很好的选择了，我也想用用。
+* 跟我一起写shell补全脚本，[Bash篇](http://blog.jobbole.com/105731/)，[Zsh篇](http://blog.jobbole.com/105735/)。
+* [三年后，我们从 Docker 转到了 RKT](https://segmentfault.com/a/1190000006908484)。
+* [Java之CPU的分支预测(Branch Prediction)模型](https://segmentfault.com/a/1190000006889989)，这例子不错啊，很说明问题。
+* [Bruce Schneier 警告有人正在学习搞垮互联网](http://www.solidot.org/story?sid=49700)，“...如此反复，攻击者通过这种刺探发现防御方失败的确切点”。另见[原文](https://www.schneier.com/blog/archives/2016/09/someone_is_lear.html)。两边评论文风很不同啊，哈哈。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+* [折腾 Raspberry Pi + HomeKit 手记](http://andelf.github.io/blog/2016/09/16/play-homekit-with-ios-10-and-raspberry-pi/)，利用逆向的 HAP（HomeKit Accessory Protocol）协议，将树莓派模拟成智能家居设备，使用 iOS 10 新的家庭 App 来控制。得空可以试试。
+* [微信支付 一步一个坑的APP支付！](https://segmentfault.com/a/1190000006886519)
+* [移动APP漏洞自动化检测平台建设](https://security.tencent.com/index.php/blog/msg/109)，不明觉厉。
+* [iOS逆向工程之给App脱壳](http://www.cnblogs.com/ludashi/p/5725743.html)。
+
+市场、产品、项目
+----
+<!--preview-end-->
+* [绝对公平？破解北京机动车摇号的秘密](http://www.cnblogs.com/buptzym/p/5705752.html)，分析的有意思。“数据很重要，比数据更重要的是结构，比结构更重要的是模式，比模式更重要的是洞见，比洞见更重要的是执行去解决问题”。另见，[etlpy: 并行爬虫和数据清洗工具（开源）](http://www.cnblogs.com/buptzym/p/5320552.html)。
+* [可能吧公众号的文章是如何排版的？](https://kenengba.com/post/3507.html) 工具化的实践不错。
+* [Shop Heroes 的经济系统](http://blog.codingnow.com/2016/09/shop_heroes_ecosystem.html)，“我隐约感觉的到设计者希望设计出一个**以玩家交易税收为主体的商业模式**”，看作者描述挺有意思。
+
+团队建设、安全
+----
+* [我是如何学习编程的](http://danluu.com/learning-to-program/)，20年的经历，软硬件都有涉及，挺有趣。作者三个最重要的“meta-skills”是什么？**调试技术、错误追踪、如何入手解决复杂问题**。
+* [我见过最有趣的代码注释，都在这里了](http://blog.jobbole.com/105813/)。
+* [无休止加班的成因](http://blog.jobbole.com/105770/)，“主要原因是每个人都没有推辞工作的权利，只有离职的权利”，呵呵。
+* [什么是工程师文化？](http://coolshell.cn/articles/17497.html) “对于996和加班这个事，对于工程师来说从来都不是问题，在解决技术问题或是创造的时候，工程师是个很自觉的群体，基本不需要有别人驱动”，确实如此。另见，[程序员爱写脚本是种病](http://mp.weixin.qq.com/s?__biz=MjM5MTE4Nzk1NA==&mid=2650741610&idx=1&sn=e18fb66cebfeddd646d500c95d539315)。
+
+
+
