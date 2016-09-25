@@ -1,0 +1,41 @@
+---
+layout: post
+title:  每周技术文章 No.92
+date: 2016-09-25 22:00:00 +0800
+title2: 2016.9.19-25
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [中文进行繁简转换](http://www.biaodianfu.com/convert-chinese-characters-between-the-simplified-and-traditional-sets.html)，有固定用法在，这还是得查表啊。“在ZhengZhu等维基人的努力下，**维基百科自2004年底开始逐步发展**出一套比较成熟的简繁转换方案”。
+* [:target 伪类使用技巧](http://www.css88.com/archives/6256)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* ACM通信专业组 SIGCOMM 年度会议[内容概览](http://blog.sina.com.cn/s/blog_4caedc7a0102wl0e.html)，高性能网络处理、FPGA、流量调度、无线背向散射。
+* RDS for Windows Server 2016 的一些[更新](https://blogs.technet.microsoft.com/enterprisemobility/2016/09/22/new-ms-mechanics-video-with-the-latest-updates-to-rds-for-windows-server-2016/)，图形性能、Connection Broker性能、Azure部署的优化。
+* [Kubernetes部署的最佳安全实践](https://segmentfault.com/a/1190000006975003)。
+* [How Dropbox securely stores your passwords](https://blogs.dropbox.com/tech/2016/09/how-dropbox-securely-stores-your-passwords/)，用户密码的安全存储，靠谱服务必备技能。
+* [顶级 Swift 服务端框架对决 Node.js](http://gold.xitu.io/entry/57e296af0bd1d000570ee3b4/)，Swift突然就成了全栈语言的第二选择了，呵呵。另见[原文](https://medium.com/@rymcol/benchmarks-for-the-top-server-side-swift-frameworks-vs-node-js-24460cfe0beb#.mck5plw75)。
+* [发现 Node.js 中的内存泄漏](http://www.codeceo.com/article/nodejs-memory-leak.html)，“事实上，应用并没有泄露任何内存，而是 GC 甚至没有开始回收已取消引用的对象”，这个内容使用的默认值是 1.5G。
+* [CDN的原理以及其中的一些技术](http://www.cstdlib.com/tech/2015/08/18/what-is-cdn/)。
+
+市场、产品、项目
+----
+* [大数据职位画像](http://www.blogchong.com/post/145.html)，通过对大数据方向职位的分析，来看看市场的需求。
+* [一个关于产品经理如何被虐的小游戏](https://kenengba.com/post/3512.html)，这脑洞不错，终于**说服开发**了。
+* [微信小程序资源汇总整理](https://segmentfault.com/a/1190000006986886)，讨论分析已经很多啦；想试试，从[官方教程](https://mp.weixin.qq.com/debug/wxadoc/dev/index.html)开始。另见[微信原生视觉体验的基础样式库](https://weui.io/)。
+
+团队建设、安全
+----
+* [Google SRE 的四大核心思想及在其他行业的应用](http://mp.weixin.qq.com/s?__biz=MzA4Nzg5Nzc5OA==&mid=2651662235&idx=1&sn=4336e85ed6cb8e2f6f8f1fdd30a2ed67)，关于Google的运维经验。
+* [测试的道理](http://www.yinwang.org/blog-cn/2016/09/14/tests)。
+* [手机丢失后支付宝微信里的处理方法](http://www.williamlong.info/archives/4732.html)，必备技能。
+* [是什么使一名好程序员变得伟大](https://www.h5jun.com/post/what-makes-a-good-developer-great.html)，“写简洁的代码，最后再整理一遍并为它撰写文档”；“认识到她所在团队的专业知识的价值并在需要的时候充分挖掘团队的力量”；“自己定制工作来提高效率并改进她的工作环境和工作流”。
+* [有些事儿，工程师可能今生仅此一次](http://www.cnblogs.com/zhengyun_ustc/p/topicStudy.html)，“针对某一个课题，深入思考，多方调研，做试验证明，很多工程师可能今生仅此一次：他大学毕业时做毕业论文的那次…………”，“所以，我们要“训练”，强制性要求你从**定义问题**开始，训练自己**主动搜索、主动链接、主动构建知识、主动试验、有始有终**的能力”。
+
+
+
