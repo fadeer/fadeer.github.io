@@ -37,11 +37,12 @@ WIM相关工具和日常操作
 接下来我们看看WIM的日常操作和使用场景
 
 **WIM文件的挂载与修改保存**，这一般是放进去里面几个绿色软件什么的。
-{% highlight bat %}
-::挂载WIM文件，这一步需要点儿时间，似乎在建立索引，别着急。
-Dism /Mount-Image /ImageFile:C:\images\install.wim /index:1 /MountDir:C:\imageMount ::如果你光想看看，也可以加上只读参数/ReadOnly
 
-::看看镜像内容，跟Windows系统分区一样一样的。
+~~~ powershell
+# 挂载WIM文件，这一步需要点儿时间，似乎在建立索引，别着急。
+Dism /Mount-Image /ImageFile:C:\images\install.wim /index:1 /MountDir:C:\imageMount # 如果你光想看看，也可以加上只读参数/ReadOnly
+
+# 看看镜像内容，跟Windows系统分区一样一样的。
 C:\>dir c:\imageMount
  Volume in drive C has no label.
  Volume Serial Number is BE5F-31B8
@@ -58,72 +59,78 @@ C:\>dir c:\imageMount
                0 File(s)              0 bytes
                7 Dir(s)  39,253,848,064 bytes free
 
-::往里拷点儿软件
+# 往里拷点儿软件
 xcopy C:/greenSoftware C:\imageMount /s /i
 
-::这时新增的文件还都在暂存区，你需要提交到WIM文件里
+# 这时新增的文件还都在暂存区，你需要提交到WIM文件里
 Dism /Commit-Image /MountDir:C:\imageMount
 
-::把更新保存到WIM文件里并且卸载WIM文件
-Dism /Unmount-Image /MountDir:C:\imageMount /commit ::如果你不想保存，把/commit换成/discard 
-{% endhighlight %}
+# 把更新保存到WIM文件里并且卸载WIM文件
+Dism /Unmount-Image /MountDir:C:\imageMount /commit # 如果你不想保存，把/commit换成/discard 
+~~~
 
 对于Windows镜像的修改，另外一个正经用途是**离线打补丁**。比如把Windows 8.1更新为Windows 8.1 Update，或者是把远程管理工具RSAT补充进去。
 
 Windows升级文件一般是一个`.msu`文件，不能直接往WIM里打，需要先把里面的`.cab`文件解压出来。
-{% highlight bat %}
-::获得一个同名的cab文件windows8.1-kb2919442-x64.cab
+
+~~~ powershell
+# 获得一个同名的cab文件windows8.1-kb2919442-x64.cab
 windows8.1-kb2919442-x64.msu /extract
-{% endhighlight %}
+~~~
 
 然后再往WIM的Windows释放：
-{% highlight bat %}
+
+~~~ powershell
 Dism /mount-image /imagefile:c:\images\install.wim /index:1 /mountdir:c:\imageMount
 
-::添加补丁包
+# 添加补丁包
 Dism /add-package /packagepath:c:\msu\windows8.1-kb2919442-x64.cab /image:c:\imageMount /logpath:dism.log
 
-::优化镜像内容
+# 优化镜像内容
 Dism /image:c:\imageMount /cleanup-image /startcomponentcleanup /resetbase
 
 Dism /unmount-image /mountdir:c:\imageMount /commit
-{% endhighlight %}
+~~~
 
 接下来，最主要的，制作好的WIM文件要释放到系统分区，来完成**Windows的安装过程**。这个一般要在WinPE下进行：
-{% highlight bat %}
+
+~~~ powershell
 Dism /apply-image /imagefile:X:\sources\install.wim /index:1 /ApplyDir:C:\
-{% endhighlight %}
+~~~
 真省事儿，就这么一步。当然在WinPE环境下，WIM文件的来源不止是安装光盘或者U盘，也可以是网络上的路径，基于WADK的自动部署就是这样。
 
 对应的，**抓取一个定制好的Windows系统分区**是这样，记得先Sysprep一般化：
-{% highlight bat %}
+
+~~~ powershell
 Dism /Capture-Image /ImageFile:N:\custom-windows8.wim /CaptureDir:C:\ /Name:"Customized Windows 8"
-{% endhighlight %}
+~~~
 
 最后，之前提到的**WIM文件支持多合一**安装源，我们之前的操作也都是指定了使用WIM中的第一个内容`/index:1`。现在看看如何把多个自定义的Windows合并到一个WIM文件里，为了管理方便，多个Windows镜像会加上易识别的命名：
-{% highlight bat %}
+
+~~~ powershell
 Dism /Export-Image /SourceImageFile:c:\customImages\win8pro.wim /SourceIndex:1 /DestinationImageFile:c:\customImages\allinone.wim /DestinationName:"Windows 8 Professional"
 Dism /Export-Image /SourceImageFile:c:\customImages\win8ent.wim /SourceIndex:1 /DestinationImageFile:c:\customImages\allinone.wim /DestinationName:"Windows 8 Enterprise"
 Dism /Export-Image /SourceImageFile:c:\customImages\win81.wim /SourceIndex:1 /DestinationImageFile:c:\customImages\allinone.wim /DestinationName:"Windows 8.1"
 
-::然后看看最终的效果吧：
+# 然后看看最终的效果吧：
 Dism /Get-ImageInfo /imagefile:C:\customImages\allinone.wim
-{% endhighlight %}
+~~~
 
 进一步折腾
 ----
 之前我们离线往WIM里添加了RSAT管理包；但是这只是往Windows里附加了功能并没有开启，那离线开启Windows功能是这样的：
-{% highlight bat %}
+
+~~~ powershell
 Dism /mount-image /imagefile:c:\images\install.wim /index:1 /mountdir:c:\imageMount
 
-::先看看支持哪些Feature
+# 先看看支持哪些Feature
 Dism /Image:C:\imageMount /Get-Features
 
-::开启功能，以Failover-Cluster管理工具为例，/ALL是开启依赖的父功能
+# 开启功能，以Failover-Cluster管理工具为例，/ALL是开启依赖的父功能
 Dism /Image:C:\imageMount /Enable-Feature /FeatureName:RSAT-Clustering-Mgmt /All
 
 Dism /unmount-image /mountdir:c:\imageMount /commit
-{% endhighlight %}
+~~~
 
 更多的比如Windows所含驱动的管理，离线预安装应用程序等，看看后面的参考文章吧。
 
