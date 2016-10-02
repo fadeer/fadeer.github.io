@@ -1,0 +1,54 @@
+---
+layout: post
+title:  每周技术文章 No.93
+date: 2016-10-02 22:00:00 +0800
+title2: 2016.9.26-10.2
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [参数化设计与字体战争：从 OpenType 1.8 说起](http://www.typeisbeautiful.com/2016/09/10968/)，“OpenType 可变字体，是数码字体近十年来最伟大的进展”。数码字体40年的发展，分久必合啊，这种基础技术还是统一的好些。也看到好的思路，最终做成产品，让目标用户舒服的用上得有多难，OpenType Variable Font的征途也是刚刚开始。
+* [讲一讲 Canvas 究竟是个啥](https://blog.coding.net/blog/what-is-canvas)。
+* 不完全国际化&本地化手册，[理论篇](https://segmentfault.com/a/1190000007006835)，[实战篇](https://segmentfault.com/a/1190000007016427)，[拓展篇](https://segmentfault.com/a/1190000007026962)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* 微软开[Ignite大会](https://myignite.microsoft.com/videos)呢，主要关注的有[Windows Server 2016](https://blogs.technet.microsoft.com/hybridcloud/2016/09/26/announcing-the-launch-of-windows-server-2016/)、[Azure Stack](https://blogs.technet.microsoft.com/hybridcloud/2016/09/26/new-ideas-new-solutions-new-technical-preview-of-azure-stack/)，[RDS](https://i-technet.sec.s-msft.com/en-us/windows-server-docs/compute/remote-desktop-services/media/rds-poster-download.png)，[Azure Monitor](https://azure.microsoft.com/en-us/blog/announcing-the-public-preview-of-azure-monitor/)。
+* 借着Server 2016发布，Docker的动作也很大啊，[发布跟微软的商业合作](https://blog.docker.com/2016/09/docker-microsoft-partnership/)，[Windows版的Docker引擎](https://blog.docker.com/2016/09/build-your-first-docker-windows-server-container/)，当然也就会有自定义[基于 Windows Server Core的服务镜像](https://blog.docker.com/2016/09/dockerforws2016/)，甚至还有个[由Windows VHD 生成 Dockerfile 的工具](https://blog.docker.com/2016/09/image2docker-prototyping-windows-vm-conversions/)。好吧，这样体验很一致，但是让我仔细想想，这是图什么呢？
+* [微服务场景下的自动化测试](http://icodeit.org/2016/10/testing-in-microservice-context/)。
+* [2016阿里云121款产品和解决方案全向图（9月制）](https://yq.aliyun.com/articles/60985)。
+* [如何在半小时搭建一个简单的日志分析平台？](https://my.oschina.net/zjzhai/blog/751246) 基于ELK（Elasticsearch、Logstash、Kibana）做日志分析。另见，Elasticsearch 的[简介](http://www.biaodianfu.com/elasticsearch-intro.html)、[安装与配置](http://www.biaodianfu.com/centos-7-install-elasticsearch.html)、[Kafka和DistributedLog技术对比](http://www.infoq.com/cn/articles/technology-comparison-of-kafka-and-distributedlog)。
+* [微软的未来赌注：可再编程计算机芯片](http://36kr.com/p/5053707.html)，另见 [FPGA 那些事儿之异构计算](https://yq.aliyun.com/articles/61013)。
+* [使用Python自动提取内容摘要](http://www.biaodianfu.com/automatic-text-summarizer.html)，“抽取式摘要成为现阶段主流，它也能在很大程度上满足人们对摘要的需求”。
+* [SegmentFault问答排序算法](http://www.biaodianfu.com/segmentfault-rank.html)。
+* [堡垒跳板机实现——整体架构](https://segmentfault.com/a/1190000007044728)，[架构实现](https://segmentfault.com/a/1190000007051947)。
+* 扫盲 HTTPS 和 SSL/TLS 协议，[3.密钥交换（密钥协商）算法及其原理](https://program-think.blogspot.com/2016/09/https-ssl-tls-3.html)。
+* [第二届区块链峰会随记](http://yeasy.blogspot.jp/2016/09/blog-post.html)，“目前区块链领域从技术实现上已经逐渐划分为三大阵营：以太坊（Ethereum）、超级账本（HyperLedger）和其它”。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [BadURLScheme in iOS](http://blog.knownsec.com/2016/09/badurlscheme-in-ios/)。
+* [一份iOS面试题难道90%iOS程序员](http://mrpeak.cn/blog/ios_interview2/)，不明觉厉。
+* [OVH 遭遇创纪录的 1Tbps DDoS 攻击](http://www.solidot.org/story?sid=49851)，“DDoS 攻击组合了超过15万台物联网设备，其中包括联网探头和数字记录仪”，不确定这个判断怎么来的；但是，“后续又有超过6857个新摄像头参与DDoS，并持续了48小时”，哈哈，这状况可比“肉鸡”生动多了。
+* [SolidRun推出x86架构微型MicroSoM开发套件](http://www.cnbeta.com/articles/542373.htm)，Atom x5 或 N3710 的核心板 + SolidPC 外设端口扩展板，贵啊。
+
+市场、产品、项目
+----
+* [真的要和你的用户讲道理吗？](http://lukefan.com/?p=896)
+* [为什么你觉得只开发微信号是不行的？](https://kenengba.com/post/3517.html) “本质是，创业就是做生意，做生意就是为了挣钱；做生意就要顺应变化，寻找利益最大化的路径”。
+* [有哪些令人惊叹的心理和思维技巧？](http://blog.jobbole.com/105981/)
+
+团队建设、安全
+----
+* 鸡汤，[技术的正宗与野路子](http://zhangtielei.com/posts/blog-programmer-learn.html)，Toturial -> Spec
+ -> API Reference -> Source Code，书和博客做启发；“要把知识梳理成系统的结构，要让头脑中的知识层次清楚，为此，我们需要阅读恰当的东西，需要不断地练习，需要克服种种困难”。
+* [1 个 Bug， 45 分钟损失 4 亿多美元](http://blog.jobbole.com/106242/)，看看自动化部署的重要性。
+* [你需要了解深度学习和神经网络这项技术吗？](http://zhangtielei.com/posts/blog-neural-nets.html) 为什么不呢？从这篇开始。
+* [如何做技术设计](http://blog.jobbole.com/106141/)，从一开始就要考虑上线和回滚。
+
+
+

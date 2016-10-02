@@ -21,7 +21,7 @@ tags: Weekly Skill
 * [配置文件的构成和管理](https://segmentfault.com/a/1190000005751982)。
 * [Cache应用中的服务过载案例研究](http://tech.meituan.com/avalanche-study.html)，目前没那么大压力，思路可以借鉴。
 * [配置一台服务器的前5分钟](https://plusbryan.com/my-first-5-minutes-on-a-server-or-essential-security-for-linux-servers)，到现在也没习惯用Key访问SSH，是懒还是没被坑过。
-* [DNS 原理入门](http://www.ruanyifeng.com/blog/2016/06/dns.html)，基础知识补课。
+* [DNS 原理入门](http://www.ruanyifeng.com/blog/2016/06/dns.html)，基础知识补课。*Update 10.2*，[DNS补遗](http://colobu.com/2016/09/29/more-about-dns/)。
 * [BadTunnel：跨网段劫持广播协议](http://drops.wooyun.org/papers/16925)，
 
 市场、产品、项目
