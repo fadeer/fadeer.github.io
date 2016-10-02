@@ -13,27 +13,16 @@
 }
 
 .site-title {
-    font-size: $title-font-size;
+    font-size: 150%;
+    margin:0 15px;
     line-height: 44px;
     padding-top: 4px;
     /*letter-spacing: -1px;*/
     float: left;
-    margin: 0 15px;
-    
-    @include media-query($on-laptop) {
-        font-size: $title-font-size;
-    }
-    @include media-query($on-palm) {
-        font-size: $title-font-size * 0.8333;
-        margin: 0 10px;
-    }
-    @include media-query(450px) {
-        font-size: $title-font-size * 0.6667;
-        margin: 0 5px;
-    }
-    @include media-query(350px) {
-        font-size: $title-font-size * 0.5833;
-        margin: 0 5px;
+
+    @media (min-width: $min-screen) and (max-width: $max-screen) {
+        font-size: calc(20px + 4 * ((100vw - 400px) / (800 - 400)));
+        margin: 0 calc(5px + 10 * ((100vw - 400px) / (800 - 400)));
     }
 
     &,
@@ -204,16 +193,9 @@
 }
 
 .post-meta {
-    font-size: $small-font-size;
+    font-size: 87.5%;
     color: $meta-color;
     margin-top: 5px;
-    
-    @include media-query($on-laptop) {
-        font-size: $small-font-size;
-    }
-    @include media-query($on-palm) {
-        font-size: $small-font-size * 0.875;
-    }
 }
 
 .meta-item {
@@ -222,26 +204,14 @@
 
 .post-link {
     display: block;
-    font-size: $title-font-size;
     //line-height: $base-line-height;
-    
-    @include media-query($on-laptop) {
-        font-size: $title-font-size;
-    }
-    @include media-query($on-palm) {
-        font-size: $title-font-size * 0.875;
-    }
 }
 
 .post-title2 {
-    font-size: $normal-font-size;
+    font-size: 70%;
     color: $grey-color-dark;
-    
-    @include media-query($on-laptop) {
-        font-size: $normal-font-size;
-    }
+
     @include media-query($on-palm) {
-        font-size: $normal-font-size * 0.875;
         display: none;
     }
 }
@@ -255,84 +225,44 @@
 }
 
 .post-title {
-    font-size: $title-font-size;
+    font-size: 140%;
     //letter-spacing: -1px;
     //line-height: 1;
     margin-top: 5px;
-
-    @include media-query($on-laptop) {
-        font-size: $title-font-size;
-    }
-    @include media-query($on-palm) {
-        font-size: $title-font-size * 0.875;
-    }
 }
 
 .post-content {
     margin-top: $spacing-unit *2 /3;
     margin-bottom: $spacing-unit;
     
-	@include media-query($on-laptop) {
-        font-size: $normal-font-size;
-    }
-    @include media-query($on-palm) {
-        font-size: $normal-font-size * 0.875;
-    }
-    
     h2 {
-        font-size: $hh-font-size;
-        //font-weight: 600;
-
-        @include media-query($on-laptop) {
-            font-size: $hh-font-size;
-        }
-        @include media-query($on-palm) {
-            font-size: $hh-font-size * 0.875;
-        }
+        font-size: 120%;
+        font-weight: 500;
     }
 
     h3, h4{
-        font-size: $hhh-font-size;
-
-        @include media-query($on-laptop) {
-            font-size: $hhh-font-size;
-        }
-        @include media-query($on-palm) {
-            font-size: $hhh-font-size * 0.875;
-        }
+        font-size: 110%;
     }
 }
 
 .archive {
     margin-left: 0;
-    
-    @include media-query($on-laptop) {
-        font-size: $normal-font-size;
-    }
-    @include media-query($on-palm) {
-        font-size: $normal-font-size * 0.875;
-    }
 
     .apost-title {
         list-style-type: none;
     }
 
     .apost-title2 {
-        font-size: $small-font-size;
+        font-size: 87.5%;
         color: $grey-color-dark;
         
-        @include media-query($on-laptop) {
-            font-size: $normal-font-size;
-        }
         @include media-query($on-palm) {
-            font-size: $normal-font-size * 0.875;
             display: none;
         }
 	}
 
     .apost-date {
         //float: right;
-        font-size: $small-font-size;
         color: $grey-color;
         min-width: 100px;
         display: inline-block;
@@ -372,9 +302,11 @@
 }
 
 .highlight {
-    width: -webkit-calc(100% + (#{$spacing-lr} *3));
-    width:         calc(100% + (#{$spacing-lr} *3));
+    //width: -webkit-calc(100% + (#{$spacing-lr} *3));
+    //width:         calc(100% + (#{$spacing-lr} *3));
+    width: 100%;
     margin-left: -($spacing-lr *3 /2);
+    border-radius: 0;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
 }
 

@@ -21,6 +21,8 @@ $h-font-size: 22px; //$base-font-size * 1.375;
 $hh-font-size: 20px; //$base-font-size * 1.25;
 $hhh-font-size: 18px; //$base-font-size * 1.125;
 
+
+
 $base-line-height: 1.6;
 
 $spacing-unit:     30px;
@@ -53,22 +55,11 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
     }
 }
-
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

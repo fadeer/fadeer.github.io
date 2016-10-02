@@ -8,19 +8,31 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
+$min-font-size: 14px;
+$max-font-size: 16px;
+$min-screen: 400px;
+$max-screen: 800px;
 
 /**
  * Basic styling
  */
 body {
     font-family: $font-default;
-    font-size: $normal-font-size;
     line-height: $base-line-height;
     font-weight: 400;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+
+    font-size: $min-font-size;
+
+    @media (min-width: $min-screen) and (max-width: $max-screen) {
+        font-size: calc(14px + 2 * ((100vw - 400px) / (800 - 400)));
+    }
+
+    @media (min-width: $max-screen) {
+        font-size: $max-font-size;
+    }
 }
 
 html {
@@ -177,19 +189,11 @@ blockquote {
 pre,
 code {
     font-family: $font-mono;
-    font-size: $code-font-size;
     padding: 1px 4px;
     margin: 0 2px;
     border-radius: 3px;
     color: $code-color-l;
     background-color: $code-color-bgl;
-    
-    @include media-query($on-laptop) {
-        font-size: $small-font-size;
-    }
-    @include media-query($on-palm) {
-        font-size: $small-font-size * 0.75;
-    }
 }
 
 .lineno {
@@ -207,7 +211,7 @@ pre {
 
     > code {
         font-family: $font-mono;
-        font-size: $code-font-size;
+        font-size: 87.5%;
         color: $code-color;
     	background-color: $code-color-bg;
         border: 0;
