@@ -29,38 +29,44 @@ OSX下遇到问题
 清理现存ruby和gems
 ----
 首先，查看并删除brew安装的所有gems
-{% highlight bash %}
+
+~~~bash
 gem info —local
 gem uninstall —all
-{% endhighlight %}
+~~~
 
 会有几个默认的gem不能删除，接下来删除通过`brew`安装新版ruby：
-{% highlight bash %}
+
+~~~bash
 brew uninstall ruby
-{% endhighlight %}
+~~~
 
 然后，对于系统自带的ruby，也先把不用的gem都移掉，但是老版的gem不支持all参数，使用如下脚本：
-{% highlight bash %}
+
+~~~bash
 for i in `gem list --no-versions`; do gem uninstall -aIx $i; done
-{% endhighlight %}
+~~~
 
 使用rbenv安装新版ruby和gems
 ----
 通过`brew`安装rbenv、ruby-build，并且初始化。
-{% highlight bash %}
+
+~~~bash
 brew install rbenv ruby-build
 rbenv init
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
-{% endhighlight %}
+~~~
 
 查看并安装新版ruby，也是2.2.2的。这里`rbenv install`命令是ruby-build包里的。
-{% highlight bash %}
+
+~~~bash
 rbenv install -l
 rbenv install 2.2.2
-{% endhighlight %}
+~~~
 
 选择使用ruby 2.2.2，全局就可以。
-{% highlight bash %}
+
+~~~bash
 rbenv versions
 * system (set by /Users/7Days/.rbenv/version)
   2.2.2
@@ -68,10 +74,11 @@ rbenv global 2.2.2
 rbenv versions
   system (set by /Users/7Days/.rbenv/version)
 * 2.2.2
-{% endhighlight %}
+~~~
 
 来，接下来依次安装bundle和jekyll依赖的组件，`#bash`是新开终端窗口，用于确认使用的命令已更新。
-{% highlight bash %}
+
+~~~bash
 #bash
 which ruby
 which gem
@@ -81,7 +88,7 @@ which bundle
 bundle install
 #bash
 which jekyll
-{% endhighlight %}
+~~~
 
 这样，jekyll又可以愉快的跑起来了。
 

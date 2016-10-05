@@ -56,7 +56,8 @@ QC厂区的情况
 这跟咱的情况很像，使用的网卡HP Ethernet 1Gb 4-port 331FLR Adapter也在这范围内，但是为什么总是Host01出问题呢？几台Host硬件、驱动、网络配置都是一样的，那看看VMQ是不是有区别。
 
 先是Host01的，Team网卡只挂了OA1，这两个VMQ都是开着的。
-{% highlight powershell %}
+
+~~~powershell
 PS C:\Users\admin> Get-NetAdapterVmq
 Name                           InterfaceDescription              Enabled BaseVmqProcessor MaxProcessors NumberOfReceiveQueues
 ----                           --------------------              ------- ---------------- ------------- ---------------------
@@ -65,10 +66,11 @@ HST-Backup01                   HP Ethernet 1Gb 4-port 331FL...#3 False   0:0    
 HST-OA01                       HP Ethernet 1Gb 4-port 331FL...#2 True    0:0              16            16
 HST-OA03                       HP Ethernet 1Gb 4-port 331FLR ... False   0:0              16            16
 Team-OA                        Microsoft Network Adapter Mult... True    0:0                            16
-{% endhighlight %}
+~~~
 
 然后是Host03，所有网卡VMQ都关了。
-{% highlight powershell %}
+
+~~~powershell
 PS C:\Users\admin> Get-NetAdapterVmq
 Name                           InterfaceDescription              Enabled BaseVmqProcessor MaxProcessors NumberOfReceiveQueues
 ----                           --------------------              ------- ---------------- ------------- ---------------------
@@ -77,10 +79,11 @@ HST-Backup01                   HP Ethernet 1Gb 4-port 331FL...#2 False   0:0    
 HST-OA01                       HP Ethernet 1Gb 4-port 331FL...#4 False   0:0              16            16
 HST-OA03                       HP Ethernet 1Gb 4-port 331FL...#3 False   0:0              16            16
 Team-OA                        Microsoft Network Adapter Mult... False   0:0                            32
-{% endhighlight %}
+~~~
 
 看来有关系，用PowerShell把Host01网卡的VMQ都关了，同时恢复OA01+OA02双链路，看看还会不会有VM网络中断的现象。
-{% highlight powershell %}
+
+~~~powershell
 #关闭所有网卡的VMQ，包括Teaming的
 PS C:\Users\admin> Get-NetAdapterVmq | % { if ($_.Enabled -eq 'True') {Set-NetAdapterVmq $_.Name -Enabled $false} }
 #看看效果
@@ -92,7 +95,7 @@ HST-Backup01                   HP Ethernet 1Gb 4-port 331FL...#3 False   0:0    
 HST-OA01                       HP Ethernet 1Gb 4-port 331FL...#2 False   0:0              16            16
 HST-OA03                       HP Ethernet 1Gb 4-port 331FLR ... False   0:0              16            16
 Team-OA                        Microsoft Network Adapter Mult... False   0:0                            32
-{% endhighlight %}
+~~~
 
 有解决方案么？
 ----

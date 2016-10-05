@@ -29,52 +29,52 @@ qemu-user-static依赖binfmt-support，这里包含**binfmt_misc**。这是Linux
 
 系统如何识别异构执行档和选择虚拟机？binfmt_misc是被mount到proc下的：
 
-{% highlight bash %}
+~~~bash
 binfmt_misc on /proc/sys/fs/binfmt_misc type binfmt_misc (rw,noexec,nosuid,nodev)
-{% endhighlight %}
+~~~
 
 /proc/sys/fs/binfmt_misc下的内容是:
 
-{% highlight bash %}
+~~~bash
 python2.7     qemu-alpha  qemu-cris        qemu-mips    qemu-ppc64       qemu-sh4    qemu-sparc32plus  status
 python3.4     qemu-arm    qemu-m68k        qemu-mipsel  qemu-ppc64abi32  qemu-sh4eb  qemu-sparc64
 qemu-aarch64  qemu-armeb  qemu-microblaze  qemu-ppc     qemu-s390x       qemu-sparc  register
-{% endhighlight %}
+~~~
 
 看到吧，这么老多，这里还有python，我们关注的主要是arm，先来看qemu-arm的内容:
 
-{% highlight bash %}
+~~~bash
 enabled
 interpreter /usr/bin/qemu-arm-static
 flags: OC
 offset 0
 magic 7f454c4601010100000000000000000002002800
 mask ffffffffffffff00fffffffffffffffffeffffff
-{% endhighlight %}
+~~~
 
 系统就是靠magic等信息识别执行档，然后通过interpreter来解释执行的。在外部的X86-Linux上，我们也可以直接运行ARM执行档，这两个命令是等效的：
 
-{% highlight bash %}
+~~~bash
 ~$ ubuntu-core-armhf-rootfs/bin/ls
 /lib/ld-linux-armhf.so.3: No such file or directory
 ~$ /usr/bin/qemu-arm-static ubuntu-core-armhf-rootfs/bin/ls
 /lib/ld-linux-armhf.so.3: No such file or directory
-{% endhighlight %}
+~~~
 
 出错是arm的库在外部linux下没有。而chroot到arm-rootfs下也没干什么高级的事儿，由于mount的binfmt_misc没有变化，所以还是依赖于chroot后路径的`/usr/bin/qemu-arm-static`。chroot后执行sleep 10，外部Linux可以看到：
 
-{% highlight bash %}
+~~~bash
 root      1410  0.0  0.0  68140  2472 pts/1    S    09:32   0:00 sudo chroot ubuntu-core-armhf-rootfs/
 root      1411  0.7  0.2 4137480 9160 pts/1    S    09:32   0:00 /usr/bin/qemu-arm-static /bin/bash -i
 root      1415  0.6  0.0 4137480 3320 pts/1    S+   09:32   0:00 /usr/bin/qemu-arm-static /bin/sleep 10
-{% endhighlight %}
+~~~
 
 所以，看起来我们在arm-rootfs下执行的每一个arm执行档，只不过都是通过qemu-arm-static即时解释执行的。另外，看看内外部uname的信息：
 
-{% highlight bash %}
+~~~bash
 Linux ubt1404-tico.itc.inventec 3.13.0-43-generic #72-Ubuntu SMP Mon Dec 8 19:35:06 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
 Linux ubt1404-tico.itc.inventec 3.13.0-43-generic #72-Ubuntu SMP Mon Dec 8 19:35:06 UTC 2014 armv7l armv7l armv7l GNU/Linux
-{% endhighlight %}
+~~~
 
 arm-rootfs里显然没有内核，但是指令集的信息已经变成了armv7l了。
 

@@ -9,7 +9,7 @@ tags: Node
 
 最近做了些Node的开发，其中一个服务打包后，在生产环境中运行出错，所有的请求都报这个错误：
 
-{% highlight js %}
+~~~javascript
 ...
 } has no method 'send'
    at C:\a_very_deep_folder\helpers\express4\express4.js:1:1945
@@ -17,11 +17,11 @@ tags: Node
    at trim_prefix (C:\a_very_deep_folder\node_modules\express4\lib\router\index.js:312:13)
    at C:\a_very_deep_folder\node_modules\express4\lib\router\index.js:280:7
 ...
-{% endhighlight %}
+~~~
 
 找到出错的位置:
 
-{% highlight js %}
+~~~javascript
 app.use(function (error, req, res, next) {
 	if (!error){
 		res.send(404);
@@ -33,13 +33,13 @@ app.use(function (error, req, res, next) {
 app.all('*', function (req, res, next){
 	//business
 }
-{% endhighlight %}
+~~~
 
 一看这是send无效啊，正好最近express升级到v4，可能跟这个有关，看看其他正常处理函数都是3个，这前面怎么还有个error，一定有问题，去掉！这样改，程序不出错了，能正常返回404。但是实际运行时express还会会有个警告：
 
-{% highlight js %}
+~~~javascript
 express deprecated res.send(status): Use res.sendStatus(status) instead helpers\express4\express4.js:105:9 
-{% endhighlight %}
+~~~
 
 看来还是Express4有更新，改用sendStatus吧。
 
@@ -51,18 +51,18 @@ express deprecated res.send(status): Use res.sendStatus(status) instead helpers\
 
 嗯，express有猫腻，来看看代码，router/index.js是它添加注册函数的地方：
 
-{% highlight js %}
+~~~javascript
 //express4/lib/router/index.js
 var layer = new Layer(path, {
       sensitive: this.caseSensitive,
       strict: false,
       end: false
 }, fn);
-{% endhighlight %}
+~~~
 
 每个函数会实例化成为一个Layer，大概处理函数层次的意思。这里path就是注册响应的url路径，比如“/api/user”之类的，如果不传就是“/”，全部匹配了，因此前面的app.use就拦截了所有请求，都404了。再看看Layer的逻辑：
 
-{% highlight js %}
+~~~javascript
 //express4/lib/router/layer.js
 Layer.prototype.handle_error = function handle_error(error, req, res, next) {
   var fn = this.handle;
@@ -89,17 +89,17 @@ if (err) {
 } else {
   layer.handle_request(req, res, next);
 }
-{% endhighlight %}
+~~~
 
 这里有两个处理函数，正巧是我怀疑的3、4个参数的判断，是通过function.length属性（这个不错啊，又学到了，从哪个版本开始支持的？）来判断的。实际上3参数是注册的正常处理函数；4参数是注册的错误处理函数。那这个明白了，原来代码的逻辑没什么问题，app.use完成的是最后错误兜底的工作。
 
 可是，那还有什么区别呢？这又是**在我机器上就没事儿**的经典状况。正常Release打包，我们都会用混淆工具UglifyJS2来缩减一下代码体积，那跟这个有关系么？来看看处理后的app.use函数：
 
-{% highlight js %}
+~~~javascript
 ...
 n.use(function(e,r,s){e?(console.error(e.stack),s.send(500)):s.send(404)})
 ...
-{% endhighlight %}
+~~~
 
 这又是什么情况，原来的4个参数变成了3个参数；就是说**把本来的错误处理函数被改成了正常处理函数**，所以会出现最开始的错误。但是UglifyJS2为什么这么干，难道就因为第四个参数没用上么，这不地道啊？
 

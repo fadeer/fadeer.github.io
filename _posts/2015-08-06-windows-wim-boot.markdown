@@ -54,10 +54,10 @@ WIMBoot是Windows比较新的功能，**从2014年4月的Windows 8.1 更新版**
 <!--preview-end-->
 我们使用**Windows 8.1 With Update安装盘ISO**来进行操作，ISO里自带的install.wim是不支持WIM启动的，所以我们首先要改造一下:
 
-{% highlight bat %}
+~~~powershell
 dism /export-image /wimboot /sourceimagefile:c:\wincd\sources\install.wim /sourceindex:1 /destinationimagefile:c:\wincd\sources\wimboot.wim
 makewinpemedia /iso c:\wincd c:\windows8.1update_wimboot.iso
-{% endhighlight %}
+~~~
 
 这里c:\wincd是ISO解开的内容，新生成wimboot.wim有3.9G，原来的install.wim是3.2G，嫌大可以把原来的install.wim删除。然后我们修改过的内容再打成ISO就行，用到的makewinpemedia来自于[Windows ADK][wadk81u]。
 
@@ -65,7 +65,7 @@ makewinpemedia /iso c:\wincd c:\windows8.1update_wimboot.iso
 
 还是在安装界面时按`Shift-F10`，打开命令行窗口：
 
-{% highlight bat %}
+~~~powershell
 diskpart
 
 ::当然是GPT磁盘
@@ -92,11 +92,11 @@ set id="de94bba4-06d1-4d40-a16a-bfd50179d6ac" ::这个是恢复分区类型的GU
 gpt attributes=0x8000000000000001 ::设定GPT分区属性，GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER & GPT_ATTRIBUTE_PLATFORM_REQUIRED
 
 exit
-{% endhighlight %}
+~~~
 
 然后是安装WIMBoot，不能靠Windows自己的安装程序了，用DISM自己来：
 
-{% highlight bat %}
+~~~powershell
 ::拷贝WIM文件
 md m:\winImages
 copy d:\sources\wimboot.wim m:\winImages\wimboot.wim
@@ -107,22 +107,22 @@ DISM /Apply-Image /ImageFile:m:\winImages\wimboot.wim /ApplyDir:C: /Index:1 /WIM
 
 ::安装启动
 c:\windows\system32\bcdboot c:\windows /l "Windows 8.1 Update (WIMBoot)"
-{% endhighlight %}
+~~~
 
 重启，等完成Windows的初始化工作，就可以正常使用了，没感觉出什么区别嘛。这时的系统分区占用才1.5G（不算内存文件），可以啊。这时，你可以从磁盘管理器里看系统分区有个“WIMBoot”的标识符，另外也可以通过下面的命令查看系统分区指向的WIM文件位置：
 
-{% highlight bat %}
+~~~powershell
 C:\windows\system32>fsutil wim enumwims c:
    0 {A197A691-2023-44D3-8F2F-FC8BC7EEE6DE} 00000001 \\?\Volume{a5759ad6-b03e-4bb3-b6e7-28f0786d66e0}\winImages\wimboot.wim:1
 
 Objects enumerated: 1
-{% endhighlight %}
+~~~
 
 正式生产时的考虑
 ----
 前面我们以Windows 8.1 Update做了一个最快速但是粗糙的WIMBoot例子，在正式生产中，还是要考虑wim内容能干净优化一些，通常有这些操作：
 
-{% highlight bat %}
+~~~powershell
 copy c:\wincd\install.wim c:\wmiboot.wim
 
 ::移除没必要的winre.wim
@@ -132,7 +132,7 @@ move c:\mount\windows\system32\recovery\winre.wim c:\wincd\winre.wim
 ::优化镜像，增加WIMBoot支持
 dism /optimize-image /image:c:\mount /wimboot
 dism /unmount-image /mountdir:c:\mount /commit
-{% endhighlight %}
+~~~
 
 如果你想在基础镜像里补充一些驱动、更新一些补丁，让这个镜像更适合生产的PC，那还得有一个正常部署、更新、Sysprep一般化、再抓取（加`/wimboot`参数）的过程，详细见[参考文章][create]。
 
@@ -142,9 +142,9 @@ dism /unmount-image /mountdir:c:\mount /commit
 * 然后进审核模式完成最终定制化，驱动、补丁、预安装软件什么的，Sysprep一般化。
 * 重启以WinPE来启动，抓取定制化部分
 
-{% highlight bat %}
+~~~powershell
 DISM /Capture-CustomImage /CaptureDir:C: /ScratchDir:C:\Recycler\Scratch
-{% endhighlight %}
+~~~
 
 DISM把指针文件之外的用户文件作为新增部分，抓取为custom.wim，显然这个差分部分是要配合对应install.wim同时使用的。在部署时DISM `/Apply-Image`时使用custom.wim就可以了。
 
@@ -161,11 +161,11 @@ DISM把指针文件之外的用户文件作为新增部分，抓取为custom.wim
 
 在WIMBoot安装完成后，把恢复镜像也拷贝过去，注册一下就可以了：
 
-{% highlight bat %}
+~~~powershell
 md m:\recoveryImages
 copy d:\sources\winre.wim m:\recoveryImages\winre.wim 
 c:\windows\system32\reagentc /setreimage /path m:\recoveryImages /target c:\windows
-{% endhighlight %}
+~~~
 
 另外，Windows 8.1 Update是作为一个补丁出现的（类似于SP1），那么基于Windows 8.1原始版的ISO做WIMBoot启动时，你需要把WinPE环境从5.0升级为5.1，DISM也会升级才能支持WIMBoot相关参数，见[参考文章][winpe501]。
 

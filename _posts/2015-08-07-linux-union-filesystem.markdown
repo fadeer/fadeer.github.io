@@ -32,7 +32,8 @@ SquashFS、Link对比WIMBoot
 * 而更理想的选择还是一个只读的、根据内容动态增减的、支持压缩的文件系统，最常见到的就是**SquashFS**。SquashFS最早出现在在Linux 2.6.29，初始的压缩格式是gzip，随着Linux内核的更新，又增加支持了LZMA、LZMA2、LZ4等，为了获得更高的压缩率。SquashFS最常见的用途是支持Linux的LiveCD，这个后面再讨论。
 
 接下来，我们利用一个SquashFS文件，创造一个叠加的可写系统目录：
-{% highlight bash %}
+
+~~~bash
 #只读方式挂载squashfs文件，只读是强制的，不加-r会多个警告而已
 mkdir ubuntu-core
 sudo mount -t squashfs -r -o loop ubuntu-core.squashfs /tmp/fadeer/ubuntu-core/
@@ -58,18 +59,19 @@ lrwxrwxrwx  1 ys ys   32 Aug  6 17:04 znew -> /tmp/fadeer/ubuntu-core/bin/znew*
 63M     ubuntu-core.squashfs
 /tmp/fadeer$ du -h system-rw | tail -1
 30M     system-rw
-{% endhighlight %}
+~~~
 
 于是，我们利用SquashFS，把一个目标系统目录（182MB）打包为压缩文件（63MB），然后创建了一个可写系统分区（system-rw），建立了一堆链接（30MB）作为系统分区的文件，然后就可以`chroot`到system-rw里玩耍了，新建的所有文件都会存放在这个目录下。哎，这跟[install.wim和WIMBoot][wimboot]是一样一样的啊。
 
 而SquashFS文件的制作是这样的：
-{% highlight bash %}
+
+~~~bash
 #安装必要的工具
 apt-get install squashfs-tools
 
 #把目录打包为squashfs文件
 mksquashfs ubuntu-core ubuntu-core.squashfs
-{% endhighlight %}
+~~~
 
 Union FileSystem对比Custom.img
 ----
@@ -87,7 +89,8 @@ UnionFS 常见的实现有：
 * **OverlayFS**，近几年的Ubuntu发行版就使用的这个实现。OverlayFS的最大优势是在Linux 3.18时合并到内核，成为了Linux内建支持的文件系统了。
 
 我们以AuFS为例，看看使用的效果：
-{% highlight bash %}
+
+~~~bash
 #安装工具
 /tmp/fadeer$ sudo apt-get install aufs-tools
 
@@ -105,12 +108,13 @@ bin  etc  home  lib  lib64  new-file  opt  sbin  sys  usr  var
 bin  etc  home  lib  lib64  opt  sbin  sys  usr  var #ubuntu-core是只读的
 /tmp/aufs$ ls /tmp/fadeer/system-rw/
 new-file #新文件实际保存在system-rw里
-{% endhighlight %}
+~~~
 
 OverlayFS也差不多：
-{% highlight bash %}
+
+~~~bash
 sudo mount -t overlayfs -o rw,upperdir=/tmp/fadeer/system-rw,lowerdir=/tmp/fadeer/ubuntu-core overlayfs /tmp/overlayfs
-{% endhighlight %}
+~~~
 
 进一步折腾
 ----
