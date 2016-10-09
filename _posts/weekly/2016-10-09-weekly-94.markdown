@@ -1,0 +1,48 @@
+---
+layout: post
+title:  每周技术文章 No.94
+date: 2016-10-09 22:00:00 +0800
+title2: 2016.10.3-9
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* DOM 事件深入浅出[（一）](https://segmentfault.com/a/1190000007082623)。
+* [React源码解析](http://zhenhua-lee.github.io/react/react.html)。
+* 前端涉及的所有知识体系[教程合集](https://idoras.com/2512/)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [Dive into Microsoft Azure Stack Architecture](http://www.hyper-v.nu/archives/hvredevoort/2016/09/microsoft-ignite-2016-day-3-dive-into-microsoft-azure-stack-architecture/)，看看来自DELL、HPE、Lenovo三家的半高小机柜，这让我想起了之前2012R2的CIB那一波儿。[第二部分](http://www.hyper-v.nu/archives/hvredevoort/2016/09/microsoft-ignite-2016-day-3-dive-into-microsoft-azure-stack-architecture-part-2/)就可以看到Azure Stack支持的VM规格；其他网络、存储部分一并了解一下。
+* [Redis 内存使用优化与存储](http://www.linkedkeeper.com/detail/blog.action?bid=121)。
+* [基于Lambda架构的股票市场事件处理引擎实践](http://www.infoq.com/cn/articles/stock-market-event-processing-engine-based-on-Lambda)，了解一下Lambda/Kappa架构理念，对比一下行业的实践。
+* [JVM 知识体系漫谈](http://liuzhengyang.top/2016/10/05/gossip-jvm/)。
+* [Linux 内核社区补丁对比](https://linuxtoy.org/archives/benchmark-linux-kernel-community-patches.html)。
+* [位换记号、排列测试与状态图：杂耍中的数学](http://www.matrix67.com/blog/archives/6896)。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+* [探究 iPhone 的后台刷新](https://medium.com/@scomper/%E6%8E%A2%E7%A9%B6-iphone-%E7%9A%84%E5%90%8E%E5%8F%B0%E5%88%B7%E6%96%B0-a7a96cb426d4#.pbxwaaihg)，第一次看到 Medium 上有中文内容。
+* 开源IoT平台domoticz与百搭wifi模块esp8266，[篇一：车库卷门遥控](http://post.smzdm.com/p/114536/)，[篇二：domoticz与broadlink的联接](http://post.smzdm.com/p/495392/)。这两篇居然来自**什么值得买**，呵呵。
+* [Pine64 评测](https://linuxtoy.org/archives/pine64-review.html)，“经过半年多的发展，PINE64 的生态圈得到长足进展，无论是作用媒体娱乐的 Android 系统还是用作服务器的 Linux 系统都有不少亮点，其国内分销渠道的改善，使得其成为 RPi3 之外一个不错的 ARM64 SBC 选择”， 值得试试啊。
+
+市场、产品、项目
+----
+* 打造数据科学作品集：[（一）用数据讲故事](https://segmentfault.com/a/1190000007093751)，**数据科学的本质是沟通。你通过数据得到了一些洞察，然后采用有效的方式将其传播给他人，并向其推销你的解决方案**。另见[原文](https://www.dataquest.io/blog/data-science-portfolio-project/)。
+* [做海外年轻人社交要提防“老龄化”](http://36kr.com/p/5053863.html)，“背后的逻辑基本是这样的：发达-->有钱+有闲—>选择很多-->分配到虚拟社交媒体上的时间比例并不高；反而像印度、中国、泰国、墨西哥这些发展中国家，人均收入低、缺少更好的选择，大家宁愿泡在虚拟社交空间里”。另外，看看[国外年轻人如何点评各大社交网络](http://www.tmtpost.com/2495181.html)。
+* 为什么深度学习会突然改变你的生活？[（上）](http://36kr.com/p/5054041.html)和[（下）](http://36kr.com/p/5054042.html)，另见[原文](http://fortune.com/ai-artificial-intelligence-deep-machine-learning/)。
+
+团队建设、安全
+----
+* 又是一个关于刻意练习的鸡汤，[如何成为一位牛逼的高手](http://www.cnblogs.com/zhengyun_ustc/p/how_to_be_great.html)。
+* [Reflections of an "Old" Programmer](http://www.bennorthrop.com/Essays/2016/reflections-of-an-old-programmer.php)，一个40岁“老程序员”在参加一个React Native课程时的思考，哈哈。歪果仁的评论也很丰富啊。
+
+图书
+----
+* [《谷物大脑》](http://www.duokan.com/shop/wdj/book/90972)，知乎上[讨论](https://www.zhihu.com/question/31786843)也很热烈。靠谱么？“**选0到1之间的某个概率去相信，然后根据新出现的事实，不断调整相信的程度（置信度）**；但是涉及医学、尤其是营养学的观点都别信”。
+
+
+
