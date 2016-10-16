@@ -20,9 +20,9 @@
     /*letter-spacing: -1px;*/
     float: left;
 
-    @media (min-width: $min-screen) and (max-width: $max-screen) {
-        font-size: calc(20px + 4 * ((100vw - 400px) / (800 - 400)));
-        margin: 0 calc(5px + 10 * ((100vw - 400px) / (800 - 400)));
+    @media (min-width: 320px) and (max-width: $max-screen) {
+        font-size: calc(16px + 8 * ((100vw - 320px) / (800 - 320)));
+        margin: 0 calc(5px + 10 * ((100vw - 320px) / (800 - 320)));
     }
 
     &,
