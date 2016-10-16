@@ -10,7 +10,7 @@ tags: Weekly Skill
 
 前端技术，界面、交互、安全
 ----
-* DOM 事件深入浅出[（一）](https://segmentfault.com/a/1190000007082623)。
+* DOM 事件深入浅出[（一）](https://segmentfault.com/a/1190000007082623)。*Update 10.16*， [(二)](https://segmentfault.com/a/1190000007147895)。
 * [React源码解析](http://zhenhua-lee.github.io/react/react.html)。
 * 前端涉及的所有知识体系[教程合集](https://idoras.com/2512/)。
 

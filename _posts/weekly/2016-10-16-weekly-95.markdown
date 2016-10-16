@@ -1,0 +1,52 @@
+---
+layout: post
+title:  每周技术文章 No.95
+date: 2016-10-16 22:00:00 +0800
+title2: 2016.10.10-16
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [信息面板背后的心理学](http://www.woshipm.com/user-research/424301.html)，信息的层次是要不断思考、磨合的一个事儿。
+* [你真的知道怎么设计一个按钮么？](http://uxren.cn/?p=45608)
+* [构建可靠的前端异常监控服务-采集篇](http://jdc.jd.com/archives/2175)，追个错容易么。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [关于SQL SERVER运维](http://www.cnblogs.com/double-K/p/5940291.html)，这个程序员风格的广告还行吧。
+* [Workaround to Enable-ClusterS2D with some Storage Controllers](https://hyper-v.nu/archives/hvredevoort/2016/10/workaround-to-enable-clusters2d-with-some-storage-controllers/)，目前看来，Windows下第一位的管理配置方式已经是PowerShell了，而不是以前习惯的GUI了，这挺好。
+* [npm scripts 使用指南](http://www.ruanyifeng.com/blog/2016/10/npm_scripts.html)，但是，再来看看Facebook的[yarn](https://code.facebook.com/posts/1840075619545360/yarn-a-new-package-manager-for-javascript/)，这里有[翻译版](https://github.com/xitu/gold-miner/blob/master/TODO/Yarn-A-new-package-manager-for-JavaScript.md)。另外，[感觉值得引进一下国外造轮子的套路](https://segmentfault.com/a/1190000007142098)。
+* Open vSwitch 2.5 on Hyper-V [Part 2 OVS VXLAN](https://cloudbase.it/open-vswitch-2-5-hyper-v-vxlan-part-2/)，[Part 3 OVS GRE](https://cloudbase.it/open-vswitch-2-5-hyper-v-gre-part-3/)。
+* 立足Docker运行MySQL：[多主机网络下Docker Swarm模式的容器管理](https://segmentfault.com/a/1190000007110619)，另见，[Docker 1.12 swarm模式下遇到的各种问题](http://tonybai.com/2016/10/11/some-problems-under-swarm-mode-in-docker-1-12/)。
+* [Docker存储方式选型建议](https://segmentfault.com/a/1190000007168476)。
+* [Docker和rkt快别争了，k8s才是容器生态的中心](https://segmentfault.com/a/1190000007157374)，**编排才是容器生态的中心，而“引擎”就我们所知，只是一个开发工具**，另见[原文](http://thenewstack.io/cri-o-make-kubernetes-center-container-ecosystem/)。想起了《山田君》，“你们不要争了，以后这房子是我的”。
+* [RabbitMQ AMQP 消息模型攻略](https://segmentfault.com/a/1190000007123977)。
+* [大公司是怎么发布静态资源的](https://segmentfault.com/a/1190000007122250)。
+* [Go文件操作大全](http://colobu.com/2016/10/12/go-file-operations/)，何时上手？
+* [如何设计稳定性横跨全球的Cron服务](https://segmentfault.com/a/1190000007146045)。
+* [MTProto协议第一部分: 云聊天](https://segmentfault.com/a/1190000007182110)，先补课一个[Telegram 之 MTProtoKit 架构分析](http://blog.makeex.com/2015/06/13/the-architecture-of-telegram-mtprotokit/)。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [iOS应用架构现状分析](http://mrpeak.cn/blog/ios-arch/)。
+
+市场、产品、项目
+----
+* 产品手记，[一些基础概念](http://www.ikent.me/blog/5132)，“有用户价值不等于有商业价值”。
+
+团队建设、安全
+----
+* [The Problem with Tech Leads 从管理技术到领导人](https://medium.com/@Bar_Code/the-problem-with-tech-leads-a840af1f511c)，一上来的对比很神似啊。**“If you want to go quickly, go alone. If you want to go far, go together.”**
+* [GitHub & Bitbucket & GitLab & Coding 的对比分析](https://segmentfault.com/a/1190000007156638)，何时会架设git的私有仓库？
+* [一个让脑子快速进入编程状态的小Tip](http://mrpeak.cn/blog/daily-practice/)，**先写一小段代码解决一个小问题**，哈哈，管用。
+* [关于运维这个角色 The Ops Identity Crisis](http://www.susanjfowler.com/blog/2016/10/13/the-ops-identity-crisis?utm_source=wanqu.co&utm_campaign=Wanqu+Daily&utm_medium=website)，结论是，不需要存在了。“**开发人员一定要自己部署代码、自己做监控、自己 oncall，只有在半夜三点被自己写的 bug 吵醒了，你才有动力去写高质量代码：）**”
+
+图书
+----
+* [《正念的奇迹》](https://book.douban.com/subject/4726852/)，别打岔，让我专心的扯个蛋。
+
+
