@@ -94,6 +94,17 @@ arm-rootfs里显然没有内核，但是指令集的信息已经变成了armv7l�
 
 综合看来，qemu-user-static+chroot的方法确实比较好。
 
+经验更新
+----
+**2016.10.21**， 尝试在Ubuntu 14.04 64位下打包树莓派系统时，发现chroot后执行命令异常。原因是so preload的影响：
+
+~~~bash
+$cat /mnt/etc/ld.so.preload
+/usr/lib/arm-linux-gnueabihf/libarmmem.so
+~~~
+
+所以，chroot前先注掉这个文件，最后记得恢复就行。
+
 参考文章
 ----
 * [Emulating ARM on Debian/Ubuntu](https://gist.github.com/bdsatish/7476239) 
@@ -102,4 +113,5 @@ arm-rootfs里显然没有内核，但是指令集的信息已经变成了armv7l�
 * [WIKI binfmt_misc](http://en.wikipedia.org/wiki/Binfmt_misc) 
 * [What is the difference between arm-linux-gcc and arm-none-linux-gnueabi](http://stackoverflow.com/questions/13797693/what-is-the-difference-between-arm-linux-gcc-and-arm-none-linux-gnueabi) 
 * [Ubuntu Core 14.04 LTS Images](http://cdimage.ubuntu.com/ubuntu-core/releases/14.04/release/) 
+* [RaspberryPi qemu-user-static](https://wiki.debian.org/RaspberryPi/qemu-user-static)
 
