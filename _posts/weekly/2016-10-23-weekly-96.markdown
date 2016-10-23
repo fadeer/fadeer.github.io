@@ -1,0 +1,47 @@
+---
+layout: post
+title:  每周技术文章 No.96
+date: 2016-10-23 22:00:00 +0800
+title2: 2016.10.17-23
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [移动前端不得不了解的HTML5 head 头标签](http://www.css88.com/archives/6410)，有建议使用和不推荐使用的，预加载相关的几个用的上。
+* [如何读懂并写出装逼的函数式代码](http://coolshell.cn/articles/17524.html)，“你懂就懂了，不懂就怎么也不懂”。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [全栈必备 负载均衡](http://blog.jobbole.com/106851/)，典型负载均衡模式。
+* [代码世界中的Lambda](http://blog.jobbole.com/106823/)，这几个例子对比的不错。
+* [Unix目录结构的来历](http://www.ruanyifeng.com/blog/2012/02/a_history_of_unix_directory_structure.html)，这就形象了。另见[Linux系统启动过程分析](http://blog.chinaunix.net/uid-23069658-id-3142047.html)。
+* [SQL Style Guide](http://www.sqlstyle.guide/)，值得尝试。
+* Datadog上关于监控Windows Server 2012的几篇文章，[1.基本指标](https://www.datadoghq.com/blog/monitoring-windows-server-2012/)，WMI来源、日志、服务等；[2.收集工具](https://www.datadoghq.com/blog/collect-windows-server-2012-metrics/)，PowerShell、WMI、资源监视器等；[3.聚合显示](https://www.datadoghq.com/blog/monitoring-windows-server-2012-datadog/)，看Datadog如何把这些信息，可配置的聚合在一起。
+* [产品级微服务的八大原则](http://colobu.com/2016/10/16/microservices-in-production-notes/)，这是免费书[《产品级微服务的八大原则》]()的读书笔记，服务化的基础知识。
+* [替换 MongoDB 存储引擎的那几个不眠夜](https://blog.clevertap.com/sleepless-nights-with-mongodb-wiredtiger-and-our-return-to-mmapv1/?utm_source=wanqu.co&utm_campaign=Wanqu+Daily&utm_medium=website)，真是“这是**边开飞机边换引擎**的失败案例”，另见这个[评论](https://charity.wtf/2016/10/02/the-accidental-dba/)，“不要数据库当做无状态服务”。
+* [一篇文章带你了解Kubernetes安装](http://tonybai.com/2016/10/18/learn-how-to-install-kubernetes-on-ubuntu/)。
+* [深入Go UDP编程](http://colobu.com/2016/10/19/Go-UDP-Programming/)。
+* [Quora在自然语言处理上的所做的工作](http://www.biaodianfu.com/quora-nlp.html)。
+* [让安全实践在敏捷团队落地](http://www.infoq.com/cn/articles/let-safe-practices-land-in-the-agile-team)，重要的话题，第一个安全需求是“尝试思考和编写安全需求”，呵呵。
+* [CVE-2016-5195脏牛漏洞：Linux内核通杀提权漏洞](http://bobao.360.cn/learning/detail/3123.html)，从2007年2.6.22就开始有了，今年10.18修复的，看看[)带给内核社区的反思](http://www.solidot.org/story?sid=50096)；关注的CoreOS也推送[更新](https://coreos.com/blog/CVE-2016-5195.html)了。另外，这年头儿出个漏洞还得给做个Logo这是什么习惯，漏洞也得有品牌意识啊？
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [致龙芯15周年 胡伟武披露龙芯3号开发历程](http://www.cnbeta.com/articles/550657.htm)，关于安全。
+* [为什么美国断网？](http://www.leiphone.com/news/201610/tT5zFhOcDww3yGkK.html)，一方面储备自己的经验，另一方面输出低价智能设备搞坏他们网络，哈哈这个可以的。“唯一可行的办法就是：加强智能硬件的安全性”，这是本分啊。
+
+市场、产品、项目
+----
+* [高盛79页重磅报告详解区块链](http://zhidx.com/p/62674.html)，场景很多；以后每个人都有一个账本，体现你的**真实价值**，关键是，所有人都知道。
+
+团队建设、安全
+----
+* [谈一谈我在阿里的成长](http://www.barretlee.com/blog/2016/10/21/my-growth-at-alibaba/)，**在工作中提升自己**，确实这样效率更好，但是也要相辅相成、共同成长，哈哈。
+* [10 Modern Software Over-Engineering Mistakes](https://medium.com/@rdsubhas/10-modern-software-engineering-mistakes-bc67fbef4fc8#.dloupykrq)，很多就是**过犹不及**的意思，重复也比不恰当的抽象要好，另外功能增量时重构的图示也挺有趣。
+
+
+
