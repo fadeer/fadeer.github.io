@@ -19,7 +19,7 @@ tags: Weekly Skill
 * [关于SQL SERVER运维](http://www.cnblogs.com/double-K/p/5940291.html)，这个程序员风格的广告还行吧。
 * [Workaround to Enable-ClusterS2D with some Storage Controllers](https://hyper-v.nu/archives/hvredevoort/2016/10/workaround-to-enable-clusters2d-with-some-storage-controllers/)，目前看来，Windows下第一位的管理配置方式已经是PowerShell了，而不是以前习惯的GUI了，这挺好。
 * [npm scripts 使用指南](http://www.ruanyifeng.com/blog/2016/10/npm_scripts.html)，但是，再来看看Facebook的[yarn](https://code.facebook.com/posts/1840075619545360/yarn-a-new-package-manager-for-javascript/)，这里有[翻译版](https://github.com/xitu/gold-miner/blob/master/TODO/Yarn-A-new-package-manager-for-JavaScript.md)。另外，[感觉值得引进一下国外造轮子的套路](https://segmentfault.com/a/1190000007142098)。
-* Open vSwitch 2.5 on Hyper-V [Part 2 OVS VXLAN](https://cloudbase.it/open-vswitch-2-5-hyper-v-vxlan-part-2/)，[Part 3 OVS GRE](https://cloudbase.it/open-vswitch-2-5-hyper-v-gre-part-3/)。
+* Open vSwitch 2.5 on Hyper-V [Part 2 OVS VXLAN](https://cloudbase.it/open-vswitch-2-5-hyper-v-vxlan-part-2/)，[Part 3 OVS GRE](https://cloudbase.it/open-vswitch-2-5-hyper-v-gre-part-3/)，[Part 4 OVS STT](https://cloudbase.it/open-vswitch-2-5-hyper-v-stt-part-3/)。
 * 立足Docker运行MySQL：[多主机网络下Docker Swarm模式的容器管理](https://segmentfault.com/a/1190000007110619)，另见，[Docker 1.12 swarm模式下遇到的各种问题](http://tonybai.com/2016/10/11/some-problems-under-swarm-mode-in-docker-1-12/)。
 * [Docker存储方式选型建议](https://segmentfault.com/a/1190000007168476)。
 * [Docker和rkt快别争了，k8s才是容器生态的中心](https://segmentfault.com/a/1190000007157374)，**编排才是容器生态的中心，而“引擎”就我们所知，只是一个开发工具**，另见[原文](http://thenewstack.io/cri-o-make-kubernetes-center-container-ecosystem/)。想起了《山田君》，“你们不要争了，以后这房子是我的”。
