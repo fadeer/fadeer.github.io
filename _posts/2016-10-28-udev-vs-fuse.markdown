@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  通过 udev 自动 mount U盘失败
-date:   2016-10-28 20:00:00
+date:   2016-10-28 20:00:00 +0800
 author: fadeer
 categories: 工作
 tags: Linux fuse udev cgroups
