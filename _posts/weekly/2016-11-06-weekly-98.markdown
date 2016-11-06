@@ -1,0 +1,51 @@
+---
+layout: post
+title:  每周技术文章 No.98
+date: 2016-11-06 23:00:00 +0800
+title2: 2016.10.31-11.6
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [流动的数据——使用 RxJS 构造复杂单页应用的数据逻辑](https://zhuanlan.zhihu.com/p/23305264)，来自Teambition的实践。
+* [IntersectionObserver API 使用教程](http://www.ruanyifeng.com/blog/2016/11/intersectionobserver_api.html)，
+* [聊天机器人设计终极指南](http://colachan.com/post/3528)，“要提前让用户知道他们是在和机器对话、你的机器人总会在某些状况下出错，做好准备”。
+* [漫谈Nuclear Web组件化入门篇](http://www.alloyteam.com/2016/11/talk-about-nuclear-web-component-threshold/)，另见，[Github](https://github.com/AlloyTeam/Nuclear)。
+* [无限滚屏、分页亦或加载更多，到底怎么选？](http://uxren.cn/?p=46101) 业务场景、技术、交互成熟度都对选择有影响。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [微软宣布开源下一代云硬件项目](http://techcrunch.cn/2016/11/01/microsoft-open-sources-its-next-gen-cloud-hardware-design)，“通过让开源社区提前获得 [Project Olympus](https://github.com/opencomputeproject/Project_Olympus) 云硬件项目设计，微软希望可以缩短推广新产品服务的时间，减低投资成本”。另见，[Microsoft reimagines open source cloud hardware](https://azure.microsoft.com/en-us/blog/microsoft-reimagines-open-source-cloud-hardware/)。
+* [容器集群管理平台的比较](https://my.oschina.net/taogang/blog/778136)。
+* [容器化开发环境](http://aikin.me/2016/07/20/dockerize-dev-env/)，Docker改善生活系列，哈哈。[如何断点调试容器中的应用](http://aikin.me/2016/08/28/how-to-debug-app-in-dockerize-dev-env/)，[数据库连接和迁移](http://aikin.me/2016/09/17/dockerize-database/)，[应用和数据库隔离](http://aikin.me/2016/09/24/dockerize-db-isolation/)。
+* [蚂蚁金服Docker网络技术实践](https://yq.aliyun.com/articles/62628)。
+* [SQL Server监控全解析](http://ultrasql.blog.51cto.com/9591438/1869312)，另见[性能计数器与profiler的组合性能诊断](http://www.cnblogs.com/double-K/p/6028257.html)。[MySQL性能调优](http://blog.jobbole.com/107264/)。
+* [Getting beyond MVP](https://blog.acolyer.org/2016/11/01/getting-beyond-mvp)，从MVP（[Minimum Viable Product](https://en.wikipedia.org/wiki/Minimum_viable_product)，[最简可行产品](https://zh.wikipedia.org/wiki/%E6%9C%80%E7%B0%A1%E5%8F%AF%E8%A1%8C%E7%94%A2%E5%93%81)）到产品级服务，作者建议利用持续集成的方式，逐步迭代各个组件。
+* 验证码的前世今生，[（前世篇）](http://jaq.alibaba.com/community/art/show?spm=a313e.7916642.220000NaN1.2.SxRQgP&articleid=548)，[（今生篇）](http://jaq.alibaba.com/community/art/show?spm=a313e.7916642.220000NaN1.1.SxRQgP&articleid=582)。“无知识型验证码最大特点即无需人类思考，从而不会打断用户操作，进而提供更好的用户体验”；希望12306尽快过渡过来。
+* [开源搜索引擎Elasticsearch 5.0版本正式发布](http://www.infoq.com/cn/news/2016/11/Elasticsearch-5-0-publish)，关注一下。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [彻底理解 Android Binder 通信架构](http://www.diycode.cc/topics/384)。
+* [基于树莓派和Tensowflow的物体识别](http://blog.just4fun.site/raspberrypi-tensowflow-robot.html)，这大概只是用于识别过程，训练还得另找环境。
+* [深圳 Maker Faire 2016 & Microsoft Booth](http://www.cnblogs.com/dearsj001/p/MakerFaireShenzhenMicrosoftBooth.html)，还有无人机格斗大赛呢。
+
+市场、产品、项目
+----
+* [Growth Interview Questions from Atlassian, SurveyMonkey, Gusto and Hubspot](http://andrewchen.co/growth-interview-questions-atlassian-surveymonkey-gusto-hubspot)。
+* [Weex 近 4 个月的开源之路](https://github.com/weexteam/article/issues/73)，这也是一个项目推广的例子。
+* [微信小程序的想象力与不可想象域](https://kenengba.com/post/3525.html)。
+
+团队建设、安全
+----
+* [为什么你完全不会画画，我们仍然建议你养成手绘的习惯？](http://www.uisdc.com/why-you-need-sketch) 这也是熟能生巧。
+
+图书
+----
+* [《中国居民膳食指南（2016）》](https://book.douban.com/subject/26795949/)，嫌多？先看看[《（科普版）》](https://book.douban.com/subject/26809778/)。
+
+
