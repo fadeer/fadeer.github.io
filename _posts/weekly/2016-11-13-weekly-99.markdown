@@ -1,0 +1,58 @@
+---
+layout: post
+title:  每周技术文章 No.99
+date: 2016-11-13 23:00:00 +0800
+title2: 2016.11.7-13
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [超小Web手势库AlloyFinger原理](http://www.alloyteam.com/2016/11/11568/)。
+* [The super tiny vue.js](https://github.com/xiaofuzi/deep-in-vue/blob/master/src/the-super-tiny-vue.js)，“一个迷你vue库，虽然小但功能全面，可以作为想了解vue背后思想以及想学习vue源码而又不知如何入手的入门学习资料”。
+* [CSS unicode-range特定字符使用font-face自定义字体](http://www.zhangxinxu.com/wordpress/2016/11/css-unicode-range-character-font-face/)，这个有趣。
+* [全站HTTPs的那些坑](http://www.luanxiang.org/blog/archives/2257.html)。
+* [大话接口隐私与安全](http://blog.thankbabe.com/2016/06/05/donot-touch-my-url)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [使用Ceph RBD为Kubernetes集群提供存储卷](http://tonybai.com/2016/11/07/integrate-kubernetes-with-ceph-rbd)，这个实践估计能用上。另见，[使用go-ceph管理Ceph RBD映像](http://tonybai.com/2016/11/09/operate-ceph-rbd-images-with-go-ceph)。
+* 看Datadog如何监控Kubernetes集群，[Kubernetes基础](https://www.datadoghq.com/blog/monitoring-kubernetes-era/)，[需要监控的计数器](https://www.datadoghq.com/blog/monitoring-kubernetes-performance-metrics/)，[如何收集与图形化](https://www.datadoghq.com/blog/how-to-collect-and-graph-kubernetes-metrics/)，[通过Datadog监控](https://www.datadoghq.com/blog/monitoring-kubernetes-with-datadog/)如何省事儿，哈哈，落脚点是最后一个。现在的服务供应商，充分地分享技术细节和难点，再推广自己的服务，已经成为套路了。厉害的客户当然可以自己来；但是大多数还是会找专业的服务商，而且懒惰是可以培养的（自动挡、自动驾驶也是这原理），呵呵。
+* [有云存储团队公布Ceph中最严重数据不一致BUG!（附修复方案）](https://www.ustack.com/blog/%E9%98%B2%E7%81%AB%E9%98%B2%E7%9B%97%E9%98%B2bug-%E6%9C%89%E4%BA%91%E5%AD%98%E5%82%A8%E5%9B%A2%E9%98%9F%E5%85%AC%E5%B8%83ceph%E4%B8%AD%E6%9C%80%E4%B8%A5%E9%87%8D%E6%95%B0%E6%8D%AE%E4%B8%8D%E4%B8%80/)。
+* [DOCKERIZING MYSQL AT UBER ENGINEERING](https://eng.uber.com/dockerizing-mysql)。
+* [三代AWS](http://www.infoq.com/cn/articles/three-generations-aws)，“EC2、ECS和Lambda函数代表了过去十年中AWS所提供的三代服务”；亚马逊在基础架构抽象上一直很领先，整理Docker分享时就想提及AWS的Lambda机制，但是没有实际用过所以难免含糊，这篇从应用的角度有比较实际的分析，值得看看。
+* [分布式计算 MapReduce与yarn工作机制](http://ixdba.blog.51cto.com/2895551/1870189)，另见[ELK 在 Spark 集群的应用](http://www.ibm.com/developerworks/cn/analytics/library/ba-cn-elk-spark/index.html)。
+* 在 production 使用 docker 的失败史，[Docker in Production: A History of Failure](https://thehftguy.wordpress.com/2016/11/01/docker-in-production-an-history-of-failure/?utm_source=wanqu.co&utm_campaign=Wanqu+Daily&utm_medium=website)，得空细读。
+* [微信是如何用libco支撑8亿用户的](http://dev.qq.com/topic/58203cfcd149ba305c5ccf85)，另见[Github](https://github.com/tencent/libco)。
+* [Linux上性能异常定位以及性能监控](http://berniem2m.blog.51cto.com/9203249/1870124)。
+* [服务容错模式](http://tech.meituan.com/service-fault-tolerant-pattern.html)。
+* [分库分表的几种常见形式以及可能遇到的难](http://www.infoq.com/cn/articles/key-steps-and-likely-problems-of-split-table)，
+* [数据库备份那点事儿](http://www.cnblogs.com/double-K/p/6046805.html)，另外这个[SQL Server误区30日谈](http://www.cnblogs.com/CareySon/category/421169.html)系列，很给力啊。
+* [Windows Server2016 Hyper-v Cluster部署](http://gaowenlong.blog.51cto.com/451336/1870814)。
+* [Windows Subsystem for Linux: Networking Overview](https://channel9.msdn.com/Blogs/Seth-Juarez/Windows-Subsystem-for-Linux-Networking-Overview)。
+* [幽默讲解linux的Socket IO模型](http://blog.chinaunix.net/uid-26000296-id-4100620.html)。
+* [基于express+multer的文件上传](http://www.cnblogs.com/chyingp/p/express-multer-file-upload.html)。
+* [我在阅读NodeJS文档中读出的19个套路](https://segmentfault.com/a/1190000007435273)，有用。另见[原文](https://hackernoon.com/19-things-i-learnt-reading-the-nodejs-docs-8a2dcc7f307f#.bndtafp0y)。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [任天堂復古主機 NES Classic 被拆解](http://www.techbang.com/posts/47340-retro-version-of-the-popular-nintendo-nes-nes-classic-is-actually-an-implementation-of-linux-computer)，全志R16，四核Cortex A7，Mali400MP2 GPU，256内存。原来7月份就有人[拿树莓派改造NES Classic](http://imgur.com/a/OkHGP)了，主机、卡带、手柄俱全，而且体积还更小。然后就等挖出官方模拟器了。另见[原文](http://www.daftmike.com/2016/07/NESPi.html)。
+* [SUSE Linux Enterprise Server 支持树莓派了，蓝牙和 WiFi 都能用哦](https://linuxstory.org/suse-linux-enterprise-server-out-for-raspberry-3-support-bluetooth-and-wifi/)，桌面是IceWM、默认文集系统是Btrfs；更重要的是官方文档[快速开始](https://www.suse.com/documentation/suse-best-practices/sles-rpi-quick/data/sles-rpi-quick.html)里，SLES是树莓派3上第一支持 AArch64 instruction set的发行版，这有点儿意思了。就是目前这桌面的模样，还是少了[Raspbian PIXEL](https://www.raspberrypi.org/blog/introducing-pixel/)的细致。
+* [iOS端数据库解决方案分析](http://mrpeak.cn/blog/ios-database/)，有一种坑叫CoreData；另见，[realm之于iOS](http://mrpeak.cn/blog/realm/)。
+
+市场、产品、项目
+----
+* [上海交大OpenStack教育云平台项目](https://www.ustack.com/news/%E3%80%90unitedstack%E6%A1%88%E4%BE%8B%E5%88%86%E4%BA%AB%E3%80%91%E4%B8%8A%E6%B5%B7%E4%BA%A4%E5%A4%A7openstack%E6%95%99%E8%82%B2%E4%BA%91%E5%B9%B3%E5%8F%B0%E9%A1%B9%E7%9B%AE/)。
+* [谈阿里系创业者的三大致命伤](http://www.woshipm.com/chuangye/444156.html)。
+
+团队建设、安全
+----
+* [初学者如何从零学习人工智能？看完你就懂了](http://www.oschina.net/news/78629/beginners-how-to-learn-from-zero-artificial-intelligence)，评论有亮点。
+* [机器学习中的模型和数据](https://segmentfault.com/a/1190000007423515)。
+* [数据仓库架构的变迁](https://segmentfault.com/a/1190000007419222)。
+
+
+
