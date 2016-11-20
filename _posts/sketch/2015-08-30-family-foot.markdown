@@ -9,17 +9,14 @@ tags: Sketch
 
 哄久久时，搬起小脚丫看看，一溜儿小豆豆，于是就有了这几张：
 
-![](http://7xkxri.com1.z0.glb.clouddn.com/2015-08-30%20145808.jpg)
-
+{% include image.html name="paint-foot-1" %}
 iPad mini2, Paper, AluPen
 {: .source}
 
-![](http://7xkxri.com1.z0.glb.clouddn.com/2015-08-30%20145814.jpg)
-
+{% include image.html name="paint-foot-2" %}
 iPad mini2, Paper, AluPen
 {: .source}
 
-![](http://7xkxri.com1.z0.glb.clouddn.com/2015-08-30%20145820.jpg)
-
+{% include image.html name="paint-foot-3" %}
 iPad mini2, Paper, AluPen
 {: .source}

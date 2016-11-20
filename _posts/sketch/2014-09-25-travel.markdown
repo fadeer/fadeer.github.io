@@ -7,12 +7,10 @@ categories: 生活
 tags: Sketch
 ---
 
-![](http://7xkxri.com1.z0.glb.clouddn.com/2014-09-25%20230957.jpg)
-
+{% include image.html name="paint-wls-1" %}
 iPad mini 2, Procreate, Intuos Creative Stylus
 {: .source}
 
-![](http://7xkxri.com1.z0.glb.clouddn.com/2014-09-24%20230903.jpg)
-
+{% include image.html name="paint-wls-2" %}
 iPad mini 2, Procreate, Intuos Creative Stylus
 {: .source}

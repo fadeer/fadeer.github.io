@@ -7,7 +7,6 @@ categories: 生活
 tags: Sketch
 ---
 
-![](http://7xkxri.com1.z0.glb.clouddn.com/2011-08-15%20164814.jpg)
-
+{% include image.html name="paint-wife-outdoor" %}
 iPad 2, SketchBook Pro, AluPen
 {: .source}

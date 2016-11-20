@@ -7,7 +7,6 @@ categories: 生活
 tags: Sketch
 ---
 
-![](http://7xkxri.com1.z0.glb.clouddn.com/2013-04-19%20170719.jpg)
-
+{% include image.html name="paint-three" %}
 iPad 2, Paper, AluPen
 {: .source}
