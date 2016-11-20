@@ -1,0 +1,10 @@
+{% assign base = "http://7xkxri.com1.z0.glb.clouddn.com/" %}
+{% assign name = {{include.name}} %}
+{% assign type = "jpg" %}
+<picture>
+<img src="{{base}}{{name}}.{{type}}" alt="{{name}}"
+	srcset="
+		{{base}}{{name}}-s.{{type}} 400w,
+		{{base}}{{name}}-m.{{type}} 800w,
+		{{base}}{{name}}-l.{{type}} 900w,">
+</picture>
