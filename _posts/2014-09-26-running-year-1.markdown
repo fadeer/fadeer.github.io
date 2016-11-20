@@ -35,8 +35,7 @@ tags: Running
 
 另外就是一些讨论跑步的网站，比如[爱燃烧](http://iranshao.com/)，[豆瓣.喜欢跑步的人](http://site.douban.com/106644/room/10444/)。
 
-![](http://7xkxri.com1.z0.glb.clouddn.com/run-y1-3books.jpg)
-
+{% my_image run-y1-3books.jpg %}
 iPad mini 2, Procreate, Intuos Creative Stylus
 {: .source}
 
