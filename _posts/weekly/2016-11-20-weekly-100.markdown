@@ -1,0 +1,56 @@
+---
+layout: post
+title:  每周技术文章 No.100
+date: 2016-11-20 23:00:00 +0800
+title2: 2016.11.14-20
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+
+前端技术，界面、交互、安全
+----
+* [基于CSS color属性的静态UI组件重构策略](http://www.zhangxinxu.com/wordpress/2016/11/development-ui-component-based-on-css-color/)，这个实践真不错。
+* [腾讯 AlloyTeam 移动 Web 裁剪组件 AlloyCrop 正式开源](https://segmentfault.com/a/1190000007510197)。
+* [Http文件上传进度为什么不准](http://mrpeak.cn/blog/http-upload-progress/)。
+* [Network visualization with R](http://kateto.net/network-visualization)，本来想从 TensorFlow 的视觉化组件[TensorBoard](https://www.tensorflow.org/versions/r0.11/how_tos/graph_viz/index.html)里看看网络图是怎么实现的，结果发现R语言这篇讨论的挺详细，Web展示用到的 visNetwork 是来自[vis.js](http://visjs.org/)的，看看还比较简洁，用起来。
+* [JavaScript 全栈工程师培训教程](http://www.ruanyifeng.com/blog/2016/11/javascript.html)，看一个技术博主的成长，哈哈。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [不要在 Storage Spaces Direct 里使用消费级 SSD 盘](https://blogs.technet.microsoft.com/filecab/2016/11/18/dont-do-it-consumer-ssd/)，哈哈，这是来自WS存储团队的博客。两个核心关注点，**非易失Cache和企业级耐久度**。
+* [Announcing SQL Server on Linux public preview](https://blogs.technet.microsoft.com/dataplatforminsider/2016/11/16/announcing-sql-server-on-linux-public-preview-first-preview-of-next-release-of-sql-server/)，在Windows直接跑起来Ubuntu，再运行一个Linux版的SQL Server是怎样一个感觉？
+* [Kubernetes集群中的Nginx配置热更新方案](http://tonybai.com/2016/11/17/nginx-config-hot-reloading-approach-for-kubernetes-cluster/)。
+* [Announcing the Stackanetes Technical Preview](https://coreos.com/blog/announcing-stackanetes-technical-preview.html)，这是 OpenStack 和 Kubernetes 也在一起了？介绍人是 CoreOS，哈哈。
+* [大众点评订单系统分库分表实践](http://tech.meituan.com/dianping_order_db_sharding.html)。
+* [xen 虚拟机挂了，宿主机假死的问题追终，全思路](http://arlen.blog.51cto.com/7175583/1872634)，“看看哪些文件是删除了还在使用的”。Xen好久不用了，怀念一下。
+* [跳过开机密码！修改 Windows 10 登陆密码 :-)](https://linuxstory.org/windows-10-hack-sticky/)，不时之需。
+* [高性能队列——Disruptor](http://tech.meituan.com/disruptor.html)。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [理解 iOS 应用程序的代码签名机制](https://github.com/xitu/gold-miner/blob/master/TODO/Understanding-code-signing-for-iOS-apps.md)。
+* [Microsoft IoT Starter Kit 开发初体验](http://www.cnblogs.com/dearsj001/p/MicrosoftIoTStarterKitStartup.html)，“Arduino、OpenWrt是对于SeeeduinoCloud而言的，多种Linux发行版是对于Orange Pi Lite而言的，Windows 10 IoT Core是对于开发套件B的树莓派而言的”，够杂啊。还是后面的数据可视化有点儿意思，Stream Analytics 和 PowerBI 都要用起来。
+
+市场、产品、项目
+----
+* [Daydream产品设计案例 - YouTube VR](http://beforweb.com/node/872)，一加3何时能更新 Android N ？
+* [Touch bar 设计指南](https://isux.tencent.com/touchbar_guideline.html)，貌似ESC虚拟化也不算事儿啊。另见[macOS Human Interface Guidelines文档](https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/OSXHIGuidelines/AbouttheTouchBar.html#//apple_ref/doc/uid/20000957-CH104-SW1)。
+* [游戏中的货币和通货膨胀](http://www.raychase.net/4071)，可以参考之前[Shop Heroes 的经济系统](http://blog.codingnow.com/2016/09/shop_heroes_ecosystem.html)的讨论。
+* [那些年苹果做错的设计](https://isux.tencent.com/mistakes-of-apple-design.html)，总要有试错嘛。
+* [字体丨聊聊国内设计师的中文字体版权困境（附解决方案）](http://www.uisdc.com/chinese-font-copyright-dilemma)，会好起来的，价值认知在逐渐提升。
+* [Chrome桌面版重设计——像素的价值](http://design.moe/design/155/Redesigning-Chrome-Desktop.html)，细致，讲究。另见[原文](https://medium.com/google-design/redesigning-chrome-desktop-769aeb5ab987)。 
+
+团队建设、安全
+----
+* [HOW I’M USING JEKYLL IN 2016](https://mademistakes.com/articles/using-jekyll-2016/)；我主要关心**响应式图片**的话题，所以也参考[[译] 剖析responsive image](https://github.com/riskers/blog/issues/5)及其推荐文章。
+* [八年数据库之路的感悟](http://www.cnblogs.com/double-K/p/6057182.html)。
+* [Vim 中正确使用 Alt映射](http://www.skywind.me/blog/archives/1846)，XShell4和SecureCRT关注，Putty默认即可。
+* [美国选举制度为啥是这样设计的？兼谈其历史演变](https://program-think.blogspot.com/2016/11/USA-Elections.html)。
+* [推荐一些Coursera上的产品/设计课](https://zhuanlan.zhihu.com/p/23626559)，有免费入口。
+* [微服务的反模式和陷阱](http://colobu.com/2016/11/11/microservices-anti-patterns-and-pitfalls/)，关于**如何正确地从单体程序重构到微服务架构，或者从头设计微服务架构**的话题，“**反模式**就像走到一条正确的路上，走了很久才发现路错了，而**陷阱**则是开始没多久你就会发现路是不对的。”。这是免费书[《Microservices AntiPatterns and Pitfalls》](http://www.oreilly.com/programming/free/microservices-antipatterns-and-pitfalls.csp)的读书笔记。
+
+
+
