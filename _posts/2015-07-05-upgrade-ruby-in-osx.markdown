@@ -92,11 +92,30 @@ which jekyll
 
 这样，jekyll又可以愉快的跑起来了。
 
+gem源
+----
+又是个翻墙更新的问题，还是切换到国内源省心。之前用淘宝的，现在切换到[Ruby China][rubyc]了。
+
+~~~bash
+# 更新gem到新版，建议2.6.x以上
+$ gem update --system
+
+# 官方源切换到 Ruby China
+$ gem sources --add https://gems.ruby-china.org/ --remove https://rubygems.org/
+$ gem sources -l
+https://gems.ruby-china.org
+
+# 如果以前用了淘宝的，建议删除，只保留一个合用的源
+$ gem sources --remove http://ruby.taobao.org/
+~~~
+
+
 参考文章
 ----
 * [Bundler](http://bundler.io/)
 * [rbenv](https://github.com/sstephenson/rbenv)
 * [jekyll][jekyll]
+* [RubyGems 镜像 - Ruby China][rubyc]
 
 
 <!-- 引用链接 -->
@@ -104,5 +123,6 @@ which jekyll
 [sof-11]: http://stackoverflow.com/questions/6482738/installing-ruby-gems-not-working-with-home-brew
 [bundler]: http://bundler.io/
 [rbenv]: https://github.com/sstephenson/rbenv
+[rubyc]: http://gems.ruby-china.org/
 
 
