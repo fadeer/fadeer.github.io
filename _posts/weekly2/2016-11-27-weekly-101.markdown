@@ -1,0 +1,51 @@
+---
+layout: post
+title:  每周技术文章 No.101
+date: 2016-11-27 23:00:00 +0800
+title2: 2016.11.21-27
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [图解 Cookie](http://www.bysocket.com/?p=362)。
+* [UI设计师急需掌握的平面设计基础](https://isux.tencent.com/graphic-design-basis-for-ui-designer.html)，确实，这已经都是基本做法了。
+* [乐观派UI:真实的谎言](http://colachan.com/post/3531)，常见的障眼法，后边对失败的讨论更值得关注。
+* [I totally forgot about print style sheets](https://uxdesign.cc/i-totally-forgot-about-print-style-sheets-f1e6604cfd6#.3gd46qtad)，优化网页打印时（特别是保存为PDF）时的风格，`<link media="print" href="print.css" />`；之前见人提过就觉得在完善的网页设计时应该考虑，这篇讨论的比较完整。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [The Storage Pool in Storage Spaces Direct](https://blogs.technet.microsoft.com/filecab/2016/11/21/deep-dive-pool-in-spaces-direct/)，解释的挺详细，动画做的不错，呵呵。
+* [In-Memory OLTP in Azure SQL Database](https://azure.microsoft.com/en-us/blog/in-memory-oltp-in-azure-sql-database/)，文中不少链接值得参考。
+* [Twitch是如何使用PostgreSQL的](http://www.infoq.com/cn/articles/how-twitch-use-postgresql)，“Twitch的生产环境使用了大约125个数据库承载OLTP工作负载，这些数据库通常都包含在集群中。其中有大约4%的数据库运行了MySQL，2%运行Amazon Aurora，其余全部运行了PostgreSQL。”
+* [Nodejs 线上服务稳定性保障体系](https://zhuanlan.zhihu.com/p/23778500)。
+* [Nginx 配置简述](http://www.barretlee.com/blog/2016/11/19/nginx-configuration-start/)，参考。
+* [Best practices for running RabbitMQ in OpenStack](https://www.mirantis.com/blog/best-practices-rabbitmq-openstack/)。
+* [Mongos 与集群均衡](https://www.qcloud.com/community/article/190)。
+* [Kubernetes集群的安全配置](http://tonybai.com/2016/11/25/the-security-settings-for-kubernetes-cluster/)，这个必须有。
+* [服务器端人工智能，FPGA和GPU到底谁更强？](http://www.jiqizhixin.com/article/1894) 这就是 “一巧破千斤” 和 “一力降十会” 的比较。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [子嘉带你去USA看QCon](https://yq.aliyun.com/topic/68)，这组不错，特别是[IoT未来已来，我们应该关注什么？](https://yq.aliyun.com/articles/64660)
+* [Wireshark抓包iOS入门教程](http://mrpeak.cn/blog/wireshark/)，最近用了下Wireshark，[使用 Wireshark 调试 HTTP/2 流量](https://imququ.com/post/http2-traffic-in-wireshark.html)很好用；还差点儿架代理抓Android的包，看看别人的实践参考下。另见，[和Charles同样强大的iOS免费抓包工具mitmproxy](http://mrpeak.cn/blog/mitmproxy/)。
+
+市场、产品、项目
+----
+* [Slack 创始人分享他们上线 Slack 的策略](http://firstround.com/review/From-0-to-1B-Slacks-Founder-Shares-Their-Epic-Launch-Strategy/)，这就是与用户互动的过程，别猜，只是实事求是。另见，[小米大树part3:产品进度之痛](http://2014.54chen.com/blog/2016/11/22/mi3/).
+* [闲话国内大数据发展简史&产业化落地](http://www.blogchong.com/post/147.html)，大数据领域的半个“老司机”的所想。
+* [中国教育最需要什么？](https://www.zhihu.com/question/20175736/answer/132343312) Facebook K12 项目从业者的思考。
+
+团队建设、安全
+----
+* [Stuart Russell：人工智能基础概念与34个误区](http://www.jiqizhixin.com/article/1858)，“我们不管做什么都无法改变未来，这些事都终将发生，...这是我们集体的选择”。
+* [CRM系统新思维](http://tech.meituan.com/new_concept_crm.html)，这是一个软件工程的案例。“本质上讲，整个互联网的发展历程就是传统业务的数字化的历史”。“本文探讨了‘数字化层次’以及构建CRM系统的完整RoadMap”。
+* [每周推荐 (2016/11/26)](http://limboy.me/weekly-recommendation/2016/11/26/weekly-recommendation.html)，关注的一个博主也开始了一个每周的汇总，内容多样，不错。
+* [SDCC2016中国软件开发者大会 PPT下载](http://download.csdn.net/meeting/meeting_detail/23)。
+* [谈谈主动工作](http://mp.weixin.qq.com/s/tlw7hm9No7WNnaDqozyB7w)，事在人为。
+
+
+
