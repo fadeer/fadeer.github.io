@@ -1,0 +1,51 @@
+---
+layout: post
+title:  每周技术文章 No.102
+date: 2016-12-04 21:00:00 +0800
+title2: 2016.11.28-12.04
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* [只在需要的时候 Polyfill 你的 JavaScript 代码](https://www.h5jun.com/post/polyfill-javascript-only-when-you-need-to.html)，“[Polyfill.io](https://polyfill.io/v2/docs/) 读取每个请求的 User-Agent(UA) 头，并生成适合于该浏览器的 polyfill ，基于你的应用所使用的特性发回必要的代码”。这策略不错，另见[原文](https://css-tricks.com/polyfill-javascript-need/)。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [Node 性能优化](https://segmentfault.com/a/1190000007621011)，基础知识，“没有 profile 谈优化都是耍流氓，性能优化的大前提是 profile ，**有数据才能找出程序慢在哪里了**”。[Chrome 开发者工具中文手册](https://github.com/CN-Chrome-DevTools/CN-Chrome-DevTools)值得关注。
+* [Restful API 中的错误处理](http://scarletsky.github.io/2016/11/30/error-handling-in-restful-api/)，值得参考。
+* [Electron 自动更新的完整教程（Windows 和 OSX）](https://segmentfault.com/a/1190000007616641)，当初项目里考虑自动更新还稍微研究了下Squirrel机制，后来感觉这个麻烦程度不太值得（Windows下）就放弃了，这里补个课。另见[原文](https://medium.com/@svilen/auto-updating-apps-for-windows-and-osx-using-electron-the-complete-guide-4aa7a50b904c#.w86x8npad)。
+* 关于SQL Server[一些内存使用错误理解](http://www.cnblogs.com/double-K/p/6104341.html)。
+* [手把手教你用Sar诊断问题](http://huoding.com/2016/12/02/561)，实时**监控 TCP 相关的错误事件**的例子不错。
+* 几个感兴趣的阿里技术话题，[女娲：阿里云分布式一致性协同服务架构详解](https://yq.aliyun.com/articles/65226)，[阿里开源消息中间件RocketMQ的前世今生](https://yq.aliyun.com/articles/65104)，[阿里巴巴数据中心创新实践](https://yq.aliyun.com/articles/65072)。
+* [Google公共NTP服务器将通过“降速”增加闰秒](http://www.solidot.org/story?sid=50596)，“不是额外增加一秒，而是闰秒引入前后的10小时内让时钟速度减慢0.0014%，此种做法将在二十小时内使得时钟增加1秒”。参考Wiki里[NTP - Leap Seconds](https://en.wikipedia.org/wiki/Network_Time_Protocol#Leap_seconds)和[Leap Second - Workarounds](https://en.wikipedia.org/wiki/Leap_second#Workarounds_for_leap_second_problems)的描述，AWS也有[类似的做法](https://aws.amazon.com/blogs/aws/look-before-you-leap-the-coming-leap-second-and-aws/)。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [NVMe设备的性能有多高?](http://alanwu.blog.51cto.com/3652632/1878680) 现在瓶颈已经不在存储设备上了，“NVMe SSD的系统性能一方面取决于服务器的设计架构；另一方面还决定于存储核心软件栈”。
+* iOS 持续集成系列，[开篇](https://shengpan.net/ios-ci-index/)，[自动化 Code Review](https://shengpan.net/auto-code-review/)，看iOS项目工程化的考虑。
+* [A SECURITY UPDATE FOR RASPBIAN PIXEL](https://www.raspberrypi.org/blog/a-security-update-for-raspbian-pixel/)，Raspbian的更新还是很靠谱的，这个版本目前已经用上了，默认关闭SSH。
+* [Android 相机预览方向及其适配探索](http://dev.qq.com/topic/583ba1df25d735cd2797004d)。
+* [HPE成功研发革命性服务器The Machine](http://www.expreview.com/51024.html)，这能行么。
+
+市场、产品、项目
+----
+* [非黑即白的技术人，创业时别做看上去美好的决定](http://www.infoq.com/cn/articles/startbussiness-technology-hooli-bigdata)，感觉说的比较实在，“客户至上——一切以客户为先，之后再开展工作”。
+* [针对桌面云终端做专用的高性价比CPU，吉湾微电子获首轮融资](http://36kr.com/p/5057719.html)，看看[产品](http://www.jearwon.com.cn/product1.html)，RemoteFX 最大 26Mpps，RDP 最大 7M Bytes，1080p。
+
+团队建设、安全
+----
+* 纯银V的[强悍的小团队](http://weibo.com/ttarticle/p/show?id=2309404048929342813219)，基本态度是人多嘴杂，话糙理不糙，呵呵。“任何产品都有一半的需求对成败毫无影响，但遗憾的是，每个人都坚信自己提出的需求奠定了成功的基础”。
+* [We don't need a Tech Lead](http://vvgomes.com/we-dont-need-tech-leads)，另见[Building and Motivating Engineering Teams](https://medium.com/swlh/building-and-motivating-engineering-teams-24fd56910039#.kqth05wh8)。
+* [轻松看懂机器学习十大常用算法](http://www.jianshu.com/p/55a67c12d3e9)，不明觉厉。
+* [文档那些事儿](http://www.raychase.net/4083)，“只有代码永不过时”。
+* [基于价值对等的沟通](http://36kr.com/p/5057759.html)，值得看看，不要被费罗伊德干扰了。“每次的沟通本质上就是一次协商的过程，必须遵循价值对等原则”，“扫除偏见、价值感知在前；信息完整，一次说完；要求反馈”。
+
+图书
+----
+* [《巨婴国》](https://book.douban.com/subject/26910673)，先看看作者的[自序](http://blog.sina.com.cn/s/blog_547645590102x0fr.html)。也许改变自己是最值得投入的一件事儿了。
+
+
