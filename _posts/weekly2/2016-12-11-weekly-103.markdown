@@ -1,0 +1,48 @@
+---
+layout: post
+title:  每周技术文章 No.103
+date: 2016-12-11 21:00:00 +0800
+title2: 2016.12.05-11
+author: fadeer
+categories: 工作
+tags: Weekly Skill
+---
+
+前端技术，界面、交互、安全
+----
+* 看[JavaScript如何处理emoji表情的Unicode](http://www.alloyteam.com/2016/12/javascript-has-a-unicode-sinkhole/)，值得了解。
+* [一键爬知乎各种爆照](http://mrpeak.cn/blog/zhihu-attack/)，关键是用到了中间人攻击手段和请求重放攻击，而且目前可行，呵呵。
+
+后端技术，操作系统、虚拟化、存储、网络、桌面、安全
+----
+* [实战ElasticStack](http://huoding.com/2016/12/11/566)，另见[Elastic Stack 5.1.1 Released](https://www.elastic.co/blog/elastic-stack-5-1-1-released)。
+* [开始使用 VeryNginx](https://imququ.com/post/use-verynginx.html)，不错。
+* [SQL Server + Node.js](https://blogs.technet.microsoft.com/dataplatforminsider/2016/12/08/sql-server-node-js-whats-new/)，用到的组件是[Tedious](https://github.com/tediousjs/tedious)，跟 SQL Server 的协议是[Tabular Data Stream (TDS) protocol](https://msdn.microsoft.com/en-us/library/dd304523.aspx)，可以关注。
+* [阿里云、Amazon、Google 云数据库方案架构与技术分析](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650994980&idx=1&sn=40e59ad8840bfbb55663c1224d2b79fe)，科普的不错；“Google 作为大数据的祖宗一样的存在，**对于云真是错过了一波又一波**”，哈哈，Google这一节真是精彩。
+* [Data Wrangling at Slack](https://slack.engineering/data-wrangling-at-slack-f2e0ff633b69#.gmct1iisw)，来看看Slack的**数据聚合与分析**的经验。
+* [Linux 线上系统调优备忘](http://www.skywind.me/blog/archives/1893)，“从买物理机开始到 IDC部署，服务器调优，虚拟机管理，全部都是自己来，才发现，安装一台 Linux机器自己玩很简单，但是要达到线上服务器的标准，还有若干调优工作需要做”。这里很大一部分都是网络相关的，备忘。
+* Nexenta发布了一个**面向容器环境**的开源软件定义存储（OpenSDS）产品[NexentaEdge DevOps Edition](https://nexenta.com/products/nexentaedge)，最大3节点、16T数据，当然，服务镜像见 [Docker Hub](https://hub.docker.com/r/nexenta/nedge/)。
+* [微信小程序云端解决方案探索之路](https://github.com/tencentyun/blog/issues/1)。
+
+硬件设备，ARM、终端、移动、智能设备、安全
+----
+<!--preview-end-->
+* [混合现实、游戏与移动 PC 为更多设备带来全新的创新机遇](http://blog.sina.com.cn/s/blog_6b8988220102wwsw.html)，Windows 10 + 高通 + 5G + eSIM，我有点儿乱，先看看[完整视频](http://v.youku.com/v_show/id_XMTg1NDM4MzQyNA==.html)。ARM 版的 Windows，用[X86 模拟](http://www.tomshardware.com/news/qualcomm-x86-emulation-windows-10,33152.html)兼容传统 Win32 程序；ChromeOS 兼容运行 Android 程序，甚至还有后来的 Andromeda；那么，macOS 和强大的A系，得赶紧了。
+* [性能高涨且大势所趋的F2FS文件系统](http://www.expreview.com/51188.html)，好了，我准备重置系统了。
+
+市场、产品、项目
+----
+* 如何科学的上传100 PB数据，来看[AWS Snowmobile](https://aws.amazon.com/cn/snowmobile/)，这是信鸽+U盘的土豪升级版啊。
+* [物联网公司 IFTTT 商业模式转型之路](http://36kr.com/p/5058264.html)，关注的服务，希望它能迭代好。副标题选的不错，“**IFTTT 的发展之路说明好点子与好生意的距离有多远**”。
+* [超融合的的征途在哪里？](http://www.williamlong.info/archives/4813.html)
+
+团队建设、安全
+----
+* [如何看待民工叔因为 Teambition 是 React 技术栈而离职？](https://www.zhihu.com/question/53022579) 关于**产品迭代、技术选型落地**的话题；讨论很立体，角度很丰富，值得一看。
+* [Windows 10 的连接应用轻松演示移动设备内容](http://goxia.maytide.net/read.php/1815.htm)，试了下，还挺方便，要求Windows 10 1607以上。
+* [微服务横行的今天, 你的文档跟上节奏了么?](https://segmentfault.com/a/1190000007720639)
+* [How to Pay Programmers Less](http://www.yegor256.com/2016/12/06/how-to-pay-programmers-less.html)，“薪资保密，随机涨薪，禁止外部交流，舒服的椅子和运动器材，搞得公司像家一样，伟大的愿景，紧张的项目期限，响亮的头衔，跟员工像朋友般亲密”，于是程序员就可以投入地工作，不会总想工资的事儿了，听起来很管用嘿。
+* Velocity China 2016：构建弹性系统，[发言及PPT](http://velocity.oreilly.com.cn/2016/index.php?func=slidesvideos)。
+* [《腾讯云安全白皮书》](http://whitepaper-10010986.cos.myqcloud.com/%E8%85%BE%E8%AE%AF%E4%BA%91%E5%AE%89%E5%85%A8%E7%99%BD%E7%9A%AE%E4%B9%A62016.pdf)
+
+
