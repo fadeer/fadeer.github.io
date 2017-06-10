@@ -19,6 +19,7 @@ layout: default
         <span class="apost-date">{{ post.date | date: "%Y %b %-d"}}</span>
 	<a class="
 	   {% for cate in post.categories %}{% if cate == "生活" %} apost-life{% endif %}{% endfor %}
+       {% for cate in post.categories %}{% if cate == "life" %} apost-life{% endif %}{% endfor %}
        {% for tag in post.tags %}{% if tag == "Weekly" %} apost-week{% endif %}{% endfor %}
        "
         href="{{ post.url }}">{{ post.title }}
