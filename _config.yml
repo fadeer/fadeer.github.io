@@ -23,5 +23,5 @@ markdown: kramdown
 port:    4000
 host:    0.0.0.0
 
-gems:
+plugins:
   - jekyll-sitemap
