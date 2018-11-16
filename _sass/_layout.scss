@@ -14,7 +14,7 @@
 
 .site-title {
     font-size: 150%;
-    margin:0 15px;
+    margin: 0 15px;
     line-height: 44px;
     padding-top: 4px;
     /*letter-spacing: -1px;*/
@@ -71,7 +71,7 @@
             padding-top: 10px;
             text-align: center;
 
-            > svg {
+            >svg {
                 width: 18px;
                 height: 15px;
 
@@ -136,29 +136,30 @@
 
 .footer-col-1 {
     width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: calc(35% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
     width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: calc(20% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: calc(45% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
+
     .footer-col-1,
     .footer-col-2 {
         width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
+        width: calc(50% - (#{$spacing-unit} / 2));
     }
 
     .footer-col-3 {
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: calc(100% - (#{$spacing-unit} / 2));
     }
 }
 
@@ -166,7 +167,7 @@
     .footer-col {
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: calc(100% - (#{$spacing-unit} / 2));
     }
 }
 
@@ -187,7 +188,7 @@
     margin-left: 0;
     list-style: none;
 
-    > li {
+    >li {
         margin-bottom: $spacing-unit;
     }
 }
@@ -234,13 +235,14 @@
 .post-content {
     margin-top: $spacing-unit *2 /3;
     margin-bottom: $spacing-unit;
-    
+
     h2 {
         font-size: 120%;
         font-weight: 500;
     }
 
-    h3, h4{
+    h3,
+    h4 {
         font-size: 110%;
     }
 }
@@ -255,11 +257,11 @@
     .apost-title2 {
         font-size: 87.5%;
         color: $grey-color-dark;
-        
+
         @include media-query($on-palm) {
             display: none;
         }
-	}
+    }
 
     .apost-date {
         //float: right;
@@ -269,11 +271,11 @@
     }
 
     .apost-life {
-	color: $life-color;
+        color: $life-color;
     }
 
     .apost-week {
-    color: $week-color;
+        color: $week-color;
     }
 
     .apost-icon {
@@ -284,41 +286,39 @@
 
 
 .mNav {
-	background-color: rgba(30,30,30,0.9);
-	box-shadow: 0 2px 20px rgba(0,0,0,0.5);
- 	margin-top: 10px;
+    background-color: rgba(30, 30, 30, 0.9);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
 }
 
 .area {
-	background-color: #fefefe;
-	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
-	padding: $spacing-lr $spacing-lr;
-	margin-bottom: 20px;
+    background-color: #fefefe;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    padding: $spacing-lr $spacing-lr;
+    margin-bottom: 20px;
 }
 
 .person {
-	height:48px;
-	width:48px;
-	display:inline-block;
-	float: left;
-	background: url("../resource/logo.png");
-	background-size: 48px 48px;
+    height: 48px;
+    width: 48px;
+    display: inline-block;
+    float: left;
+    background: url("../resource/logo.png");
+    background-size: 48px 48px;
 }
 
 .highlight {
     //width: -webkit-calc(100% + (#{$spacing-lr} *3));
     //width:         calc(100% + (#{$spacing-lr} *3));
     width: 100%;
-    margin-left: -($spacing-lr *3 /2);
+    margin-left: -($spacing-lr *3 /4);
     border-radius: 0;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 .anchor {
-    display: block; 
+    display: block;
     visibility: hidden;
-    position: relative; 
-    top: -100px; 
+    position: relative;
+    top: -100px;
 }
-
-

@@ -7,6 +7,6 @@ categories: 生活
 tags: Sketch
 ---
 
-{% include image.html name="paint-9sleep" %}
+![](/images/paint-9sleep.jpg)
 iPad mini 2, Paper, 手指
 {: .source}

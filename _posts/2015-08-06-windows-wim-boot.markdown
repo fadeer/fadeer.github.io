@@ -15,7 +15,7 @@ WIMBoot全称是Windows Image File Boot、Windows映像文件启动，就是Wind
 
 默认的Windows 8.1分区布局是这样的：
 
-![][pic1]
+![](/images/wimboot-1.png)
 
 图片来源: [Windows Image File Boot (WIMBoot) Overview][source12]
 {: .source}
@@ -27,7 +27,7 @@ WIMBoot全称是Windows Image File Boot、Windows映像文件启动，就是Wind
 
 而使用WIMBoot时，是这样的：
 
-![][pic2]
+![](/images/wimboot-2.png)
 
 图片来源: [Windows Image File Boot (WIMBoot) Overview][source12]
 {: .source}
@@ -150,7 +150,7 @@ DISM把指针文件之外的用户文件作为新增部分，抓取为custom.wim
 
 值得注意的是，放置install.wim和custom.wim文件的这个**镜像分区是不能动态扩大的**，难道是修改分区会造成WIM文件的位置变化，因而造成指针文件失效？因此要保持镜像分区够用即可。可是定制化部分弹性很大，不确定怎么办？见参考文章，这里主要的逻辑是借着系统分区倒腾一下，等custom.wim确定下来，再完成最后的部署工作，过程如下图：
 
-![][pic3]
+![](/images/wimboot-3.png)
 
 图片来源: [Deploy WIMBoot Images][source3]
 {: .source}
@@ -186,7 +186,3 @@ c:\windows\system32\reagentc /setreimage /path m:\recoveryImages /target c:\wind
 
 [source12]: https://technet.microsoft.com/en-us/library/dn594399.aspx
 [source3]: https://technet.microsoft.com/en-us/library/dn594395.aspx
-
-[pic1]: http://7xkxri.com1.z0.glb.clouddn.com/wimboot-1.png
-[pic2]: http://7xkxri.com1.z0.glb.clouddn.com/wimboot-2.png
-[pic3]: http://7xkxri.com1.z0.glb.clouddn.com/wimboot-3.png

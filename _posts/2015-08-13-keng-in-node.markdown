@@ -154,7 +154,7 @@ n.use(function(e,r,s){e?(console.error(e.stack),s.send(500)):s.send(404)})
 ----
 然后咱回过来看看整个事件分析处理的过程，我一开始也在很粗糙的以为根据字面的错误提示，改改代码就过去了，但是引发了更严重的问题。就像这漫画的效果赛的：
 
-![](http://7xkxri.com1.z0.glb.clouddn.com/fix_bug.png)
+![](/images/fix_bug.jpg)
 
 图片来源: [Sina App Engine官方微博](http://www.weibo.com/saet)
 {: .source}

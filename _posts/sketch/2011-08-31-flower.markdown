@@ -7,6 +7,6 @@ categories: 生活
 tags: Sketch
 ---
 
-{% include image.html name="paint-flower" %}
+![](/images/paint-flower.jpg)
 iPad 2, SketchBook Pro, AluPen
 {: .source}

@@ -7,7 +7,7 @@ categories: 生活
 tags: Sketch
 ---
 
-{% include image.html name="paint-9back" %}
+![](/images/paint-9back.jpg)
 iPad mini 2, Procreate, 手指
 {: .source}
 

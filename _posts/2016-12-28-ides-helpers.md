@@ -9,7 +9,7 @@ tags: Project Linux
 
 iDES是这几年一直在参与的桌面云产品，鉴于目前已经告一段落了，来回顾一下都借助哪些现成的技术和开源项目，也许有不少在未来的项目中还能用上。这是一个基于微软虚拟化方案的桌面云产品，目前首页是这样子的：
 
-{% include image.html name="ides-portal" %}
+![](/images/ides-portal.jpg)
 
 桌面服务
 ----

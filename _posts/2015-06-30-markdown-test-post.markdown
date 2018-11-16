@@ -103,14 +103,14 @@ document.addEventListener("mouseup",function(){
 ----
 引用一张图片，是这样的：
 
-![][pic1]
+![](/images/test-1.jpg)
 
 图片来源: https://iso.500px.com/
 {: .source}
 
 原始很大的图片，在高分辨率屏下效果应该不错；如果图片宽度不够，也要填满宽度，虽然会显得模糊：
 
-![](http://7xkxri.com1.z0.glb.clouddn.com/fix_bug.png)
+![](/images/fix_bug.jpg)
 
 图片来源: [Sina App Engine官方微博](http://www.weibo.com/saet)
 {: .source}
@@ -130,7 +130,5 @@ document.addEventListener("mouseup",function(){
 [链接2]:	http://www.google.com
 [链接3]:	http://www.google.com
 
-[pic1]: http://7xkxri.com1.z0.glb.clouddn.com/test-1.jpg
-[pic2]: http://7xkxri.com1.z0.glb.clouddn.com/test-2.jpg
 
 

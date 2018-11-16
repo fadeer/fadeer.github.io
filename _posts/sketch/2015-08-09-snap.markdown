@@ -7,16 +7,16 @@ categories: 生活
 tags: Sketch
 ---
 
-{% include image.html name="paint-9snap-1" %}
+![](/images/paint-9snap-1.jpg)
 iPad mini 2, Procreate, Intuos Creative Stylus
 {: .source}
 
-{% include image.html name="paint-9snap-2" %}
+![](/images/paint-9snap-2.jpg)
 iPad mini 2, Procreate, Intuos Creative Stylus
 {: .source}
 
 先“PS”个白萝卜的，抹个胡萝卜版的也是分分钟的事儿。
 
-{% include image.html name="paint-9snap-3" %}
+![](/images/paint-9snap-3.jpg)
 iPad mini 2, Procreate, Intuos Creative Stylus
 {: .source}
